@@ -65,7 +65,7 @@
 - **DM Policy:** `allowlist`
 - **Approved User:** `685668909`
 - **Inline buttons:** enabled (для реакций на новости)
-- **Команды:** `/restart`, `/reset`, `/new`, `/compact`, `/digest`
+- **Команды:** `/restart`, `/reset`, `/new`, `/compact`, `/digest`, `/git`
 
 ### 4. Mac Node
 - **Name:** `mac-files`
@@ -120,6 +120,26 @@
 - **Exec-approvals** — allowlist команд (ls, rm, mv, cp, find, du, cat, file...)
 - **Подтверждение** — всегда спрашивает перед удалением
 
+### Git Sync (`/git`)
+- **Репозиторий:** `~/Clowdbot` на сервере (клон github.com/margulans/Clowdbot)
+- **Команда:** `/git` — автоматический commit и push в GitHub
+- **Workflow:**
+  1. `git pull origin main` — получить последние изменения
+  2. `git status` — проверить состояние
+  3. `git add -A` — добавить все изменения
+  4. `git commit -m "<auto>"` — коммит с автогенерацией сообщения
+  5. `git push origin main` — push в GitHub
+- **Синхронизация:** Telegram → GitHub ← Mac (Cursor)
+- **Skill файл:** `~/.openclaw/skills/git-sync/SKILL.md`
+
+```
+┌─────────────────┐     ┌─────────────┐     ┌─────────────┐
+│  Telegram бот   │────▶│   GitHub    │◀────│ Mac/Cursor  │
+│  (сервер)       │     │  (облако)   │     │  git pull   │
+│  /git → push    │     │             │     │             │
+└─────────────────┘     └─────────────┘     └─────────────┘
+```
+
 ---
 
 ## Восстановление
@@ -133,6 +153,7 @@
 | `/new` | Начать новую сессию |
 | `/compact` | Сжать контекст (набрать текстом) |
 | `/digest` | Внеочередной дайджест новостей |
+| `/git` | Commit и push изменений в GitHub |
 
 ### Автоматическая защита
 - **Systemd Restart=always** — перезапуск при падении
@@ -206,6 +227,38 @@ ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH &
     ├── *.js                     # Код агрегатора и рейтинга
     └── *.md                     # Документация систем
 ```
+
+---
+
+---
+
+## Skills (пользовательские команды)
+
+### `/git` — Git Sync
+Автоматический commit и push изменений в репозиторий Clowdbot.
+
+**Расположение:** `~/.openclaw/skills/git-sync/SKILL.md` (на сервере)
+
+**Содержимое:**
+```yaml
+---
+name: git-sync
+description: Коммит и пуш в Clowdbot
+user-invocable: true
+---
+
+При /git:
+1. cd ~/Clowdbot
+2. git pull origin main
+3. git status --short
+4. git add -A
+5. git commit -m "<тип>: <описание>"
+6. git push origin main
+```
+
+**Использование:**
+- После изменений кода через Telegram — отправить `/git`
+- На Mac выполнить `git pull` чтобы получить изменения
 
 ---
 
