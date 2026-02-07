@@ -65,7 +65,7 @@
 - **Username:** `@neironassistant_bot`
 - **DM Policy:** `allowlist`
 - **Approved User:** `685668909`
-- **Inline buttons:** enabled (для реакций на новости)
+- **Реакции:** нативные Telegram emoji (🔥👍👎💩 → рейтинг источников)
 - **Команды:** `/restart`, `/reset`, `/new`, `/compact`, `/digest`, `/git`
 
 ### 4. Mac Node
