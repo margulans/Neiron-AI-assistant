@@ -369,10 +369,16 @@ export const registerTelegramHandlers = ({
         return;
       }
 
+      // Include the original message's chatId and messageId in the callback text
+      // so the agent can use editMessage to update buttons (e.g., highlight selected).
+      const originChatId = callbackMessage.chat.id;
+      const originMsgId = callbackMessage.message_id;
+      const callbackText = `${data} [callback_origin chat_id=${originChatId} message_id=${originMsgId}]`;
+
       const syntheticMessage: TelegramMessage = {
         ...callbackMessage,
         from: callback.from,
-        text: data,
+        text: callbackText,
         caption: undefined,
         caption_entities: undefined,
         entities: undefined,

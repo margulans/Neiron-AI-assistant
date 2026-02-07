@@ -389,6 +389,8 @@ describe("createTelegramBot", () => {
     expect(replySpy).toHaveBeenCalledTimes(1);
     const payload = replySpy.mock.calls[0][0];
     expect(payload.Body).toContain("cmd:option_a");
+    // Callback origin metadata is appended so the agent can editMessage the original
+    expect(payload.Body).toContain("[callback_origin chat_id=1234 message_id=10]");
     expect(answerCallbackQuerySpy).toHaveBeenCalledWith("cbq-1");
   });
 
