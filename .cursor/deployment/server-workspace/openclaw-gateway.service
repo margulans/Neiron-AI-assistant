@@ -1,0 +1,21 @@
+[Unit]
+Description=OpenClaw Gateway
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/home/openclaw/.npm-global/bin/openclaw gateway --port 18789 --bind lan
+Restart=always
+RestartSec=10s
+Environment=ANTHROPIC_API_KEY=<ANTHROPIC_API_KEY>
+WorkingDirectory=/home/openclaw/.openclaw
+StandardOutput=journal
+StandardError=journal
+
+# Увеличим лимиты
+TimeoutStartSec=120
+TimeoutStopSec=30
+MemoryMax=2G
+
+[Install]
+WantedBy=default.target

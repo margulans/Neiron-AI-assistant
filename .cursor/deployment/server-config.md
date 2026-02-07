@@ -1,4 +1,4 @@
-# 🖥️ Конфигурация сервера Hetzner
+# Конфигурация сервера Hetzner
 
 ## Параметры VPS
 
@@ -9,7 +9,7 @@
 | vCPU | 4 |
 | RAM | 8 GB |
 | Диск | 160 GB NVMe |
-| Цена | ~€5/мес |
+| Цена | ~5 евро/мес |
 | IP | `46.224.221.0` |
 | Tailscale IP | `100.73.176.127` |
 | Hostname | `openclaw-server` |
@@ -39,67 +39,28 @@ To                         Action      From
 
 ## OpenClaw конфигурация
 
-### Путь: `~/.openclaw/openclaw.json`
+Актуальный конфиг: `server-workspace/openclaw.json` (секреты заменены плейсхолдерами).
 
-```json
-{
-  "meta": {
-    "lastTouchedVersion": "2026.2.2-3"
-  },
-  "agents": {
-    "defaults": {
-      "model": {
-        "primary": "anthropic/claude-sonnet-4-20250514"
-      },
-      "maxConcurrent": 4,
-      "subagents": {
-        "maxConcurrent": 8
-      }
-    }
-  },
-  "channels": {
-    "telegram": {
-      "enabled": true,
-      "dmPolicy": "pairing",
-      "botToken": "<TELEGRAM_BOT_TOKEN>",
-      "groupPolicy": "allowlist",
-      "streamMode": "partial"
-    }
-  },
-  "gateway": {
-    "port": 18789,
-    "mode": "local",
-    "bind": "lan",
-    "auth": {
-      "mode": "token",
-      "token": "<GATEWAY_TOKEN>"
-    }
-  }
-}
-```
+### Ключевые настройки:
+
+| Настройка | Значение | Описание |
+|-----------|----------|----------|
+| Модель | `anthropic/claude-sonnet-4-20250514` | Основная AI модель |
+| Context pruning | `cache-ttl` | Автоочистка контекста |
+| Memory flush | `enabled` | Автосохранение памяти |
+| Session memory | `enabled` | Поиск по сессиям |
+| Memory search | OpenAI `text-embedding-3-small` | Семантический поиск |
+| LanceDB | `enabled` | Auto-recall/capture |
+| Brave Search | `enabled` | Веб-поиск для новостей |
+| Groq Whisper | `whisper-large-v3` | Транскрипция голосовых |
+| Inline buttons | `all` | Реакции в Telegram |
+| DM Policy | `allowlist` | Только ID 685668909 |
+| Commands | restart, text, native, nativeSkills | Telegram команды |
+| Max concurrent | 4 agents, 8 subagents | Параллелизм |
 
 ## Systemd сервис
 
-### Путь: `~/.config/systemd/user/openclaw-gateway.service`
-
-```ini
-[Unit]
-Description=OpenClaw Gateway
-After=network-online.target
-Wants=network-online.target
-
-[Service]
-ExecStart=/home/openclaw/.npm-global/bin/openclaw gateway --port 18789 --bind lan
-Restart=always
-RestartSec=5s
-Environment=ANTHROPIC_API_KEY=<ANTHROPIC_API_KEY>
-WorkingDirectory=/home/openclaw/.openclaw
-StandardOutput=journal
-StandardError=journal
-
-[Install]
-WantedBy=default.target
-```
+Актуальный unit: `server-workspace/openclaw-gateway.service`
 
 ### Управление
 
@@ -113,44 +74,27 @@ journalctl --user -u openclaw-gateway -f
 # Перезапуск
 systemctl --user restart openclaw-gateway
 
-# Остановка
+# Остановка / Запуск
 systemctl --user stop openclaw-gateway
-
-# Запуск
 systemctl --user start openclaw-gateway
 ```
 
-## Paired Devices
+## API ключи (в systemd env + openclaw.json)
 
-### Путь: `~/.openclaw/devices/paired.json`
-
-```json
-{
-  "5da5ec985d8a963a04a6723fd325bf1dd5c563cde23f852f207df1fdc19cd723": {
-    "deviceId": "5da5ec985d8a963a04a6723fd325bf1dd5c563cde23f852f207df1fdc19cd723",
-    "publicKey": "JvuluI10CpNgTI7eQDhQqz0XBDmJiokMyzIgdA3dRAk",
-    "displayName": "mac-files",
-    "platform": "darwin",
-    "role": "node",
-    "roles": ["node"]
-  },
-  "8dcdc037aa7c54ab8d290916627dc8495b9a9cf7f4f2e20f8f91b5e506affd2c": {
-    "deviceId": "8dcdc037aa7c54ab8d290916627dc8495b9a9cf7f4f2e20f8f91b5e506affd2c",
-    "publicKey": "lds9z18rQoviOtT3GgYBfzZNdfU4ZDFASWcLdsSyIFA",
-    "displayName": "Local CLI",
-    "platform": "linux",
-    "role": "operator",
-    "roles": ["operator"],
-    "scopes": ["operator.admin", "operator.approvals", "operator.pairing"]
-  }
-}
-```
+| Ключ | Где хранится | Назначение |
+|------|-------------|------------|
+| `ANTHROPIC_API_KEY` | systemd env | Claude API |
+| `TELEGRAM_BOT_TOKEN` | openclaw.json | Telegram Bot API |
+| `GATEWAY_AUTH_TOKEN` | openclaw.json | WebSocket аутентификация |
+| `BRAVE_API_KEY` | openclaw.json | Brave Search для новостей |
+| `GROQ_API_KEY` | env (не в systemd) | Whisper транскрипция |
+| `OPENAI_API_KEY` | openclaw.json + LanceDB config | Embeddings для памяти |
 
 ## Telegram Pairing
 
-### Путь: `~/.openclaw/credentials/telegram-allowFrom.json`
-
-Approved Telegram User ID: `685668909`
+- **DM Policy:** `allowlist`
+- **Allowed User ID:** `685668909`
+- **Telegram Bot:** `@neironassistant_bot`
 
 ## Полезные команды
 
@@ -169,8 +113,11 @@ openclaw devices list
 
 # Логи в реальном времени
 openclaw logs --follow
+
+# Очистить сессию
+openclaw sessions clear --all
 ```
 
 ---
 
-*Последнее обновление: 2026-02-05*
+*Последнее обновление: 2026-02-07*

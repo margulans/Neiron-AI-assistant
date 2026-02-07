@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.2-3",
+    "lastTouchedAt": "2026-02-06T03:40:22.950Z"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-20250514"
+      },
+      "memorySearch": {
+        "sources": [
+          "memory",
+          "sessions"
+        ],
+        "extraPaths": [
+          "bank",
+          "bank/entities"
+        ],
+        "experimental": {
+          "sessionMemory": true
+        },
+        "provider": "openai",
+        "remote": {
+          "apiKey": "<OPENAI_API_KEY>"
+        },
+        "model": "text-embedding-3-small",
+        "query": {
+          "hybrid": {
+            "enabled": true,
+            "vectorWeight": 0.7,
+            "textWeight": 0.3
+          }
+        },
+        "cache": {
+          "enabled": true,
+          "maxEntries": 50000
+        }
+      },
+      "contextPruning": {
+        "mode": "cache-ttl"
+      },
+      "compaction": {
+        "memoryFlush": {
+          "enabled": true
+        }
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "apiKey": "<BRAVE_API_KEY>",
+        "maxResults": 10
+      }
+    },
+    "media": {
+      "audio": {
+        "enabled": true,
+        "models": [
+          {
+            "provider": "groq",
+            "model": "whisper-large-v3"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": true,
+    "nativeSkills": true,
+    "text": true,
+    "restart": true
+  },
+  "channels": {
+    "telegram": {
+      "capabilities": {
+        "inlineButtons": "all"
+      },
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "<TELEGRAM_BOT_TOKEN>",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial",
+      "reactionNotifications": "all",
+      "reactionLevel": "minimal",
+      "allowFrom": [
+        "685668909"
+      ]
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "<GATEWAY_AUTH_TOKEN>"
+    }
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb"
+    },
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "memory-lancedb": {
+        "enabled": true,
+        "config": {
+          "embedding": {
+            "apiKey": "<OPENAI_API_KEY>",
+            "model": "text-embedding-3-small"
+          }
+        }
+      }
+    }
+  }
+}
