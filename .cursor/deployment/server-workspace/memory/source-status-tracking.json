@@ -47,15 +47,55 @@
         "user_reactions": ["user_recommended"],
         "notes": "Recommended by user - Russian tech articles, high quality AI/startup content"
       }
+    ],
+    "2026-02-08": [
+      {
+        "name": "Inspenet",
+        "url": "https://inspenet.com/en/noticias/", 
+        "category": "AI/Energy",
+        "status": "candidate",
+        "discovered_date": "2026-02-08",
+        "quality_score": null,
+        "user_reactions": [],
+        "notes": "AI and energy industry news, good analysis"
+      },
+      {
+        "name": "OilPrice.com",
+        "url": "https://oilprice.com/Energy/",
+        "category": "Energy/Tech", 
+        "status": "candidate",
+        "discovered_date": "2026-02-08",
+        "quality_score": null,
+        "user_reactions": [],
+        "notes": "Energy and tech intersection, robotics market analysis"
+      },
+      {
+        "name": "TechEBlog",
+        "url": "https://www.techeblog.com/",
+        "category": "Tech/eVTOL",
+        "status": "candidate", 
+        "discovered_date": "2026-02-08",
+        "quality_score": null,
+        "user_reactions": [],
+        "notes": "Tech gadgets and innovations, good eVTOL coverage"
+      }
     ]
   },
   "exploration_metrics": {
-    "total_sources_discovered_feb": 5,
-    "promotion_candidates": ["AeroTime.aero"],
-    "exploration_ratio_recent_digests": 0.40,
-    "user_satisfaction_signals": ["positive_reaction_to_matrix_evtol_news"],
+    "total_sources_discovered_feb": 8,
+    "promotion_candidates": ["AeroTime.aero", "TechXplore", "TechCrunch"],
+    "exploration_ratio_recent_digests": 0.48,
+    "user_satisfaction_signals": ["positive_reaction_to_matrix_evtol_news", "system_reliability_improvements"],
     "last_digest_stats": {
-      "date": "2026-02-06",
+      "date": "2026-02-08", 
+      "type": "compensatory_day",
+      "news_count": 7,
+      "sources_used": ["TechXplore", "Inspenet", "OilPrice", "CGTN", "TipRanks", "TechEBlog", "TechCrunch"],
+      "new_sources_ratio": 0.57,
+      "notes": "Compensatory digest after system fixes, high ratio of fresh sources"
+    },
+    "previous_digest_stats": {
+      "date": "2026-02-06", 
       "type": "day",
       "news_count": 14,
       "sources_used": ["ScienceDaily", "Mezha.net", "ABC News", "GlobeNewswire", "AeroTime", "ZDNET", "New Atlas", "Auto Connected Car News", "Morocco World News", "AI News"],

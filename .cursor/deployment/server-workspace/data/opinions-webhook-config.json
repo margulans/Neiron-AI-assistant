@@ -1,0 +1,44 @@
+{
+  "webhook": {
+    "url": "https://api.telegram.org/bot<TOKEN>/setWebhook",
+    "targetChannel": "@opnioneiron",
+    "channelId": "-1003796068938",
+    "reactions": {
+      "enabled": true,
+      "tracking": ["message_reaction", "message_reaction_count"],
+      "mapping": {
+        "🔥": {
+          "value": 10,
+          "description": "Отлично"
+        },
+        "👍": {
+          "value": 5, 
+          "description": "Нравится"
+        },
+        "👎": {
+          "value": -3,
+          "description": "Не нравится"
+        },
+        "💩": {
+          "value": -5,
+          "description": "Мусор"
+        }
+      }
+    },
+    "ratingSystem": {
+      "userId": 685668909,
+      "updateSourceRatings": true,
+      "multiArmedBandit": {
+        "exploration": 0.3,
+        "exploitation": 0.7
+      }
+    },
+    "autoResponse": {
+      "enabled": true,
+      "silentMode": true,
+      "responseMessage": "[SILENT]"
+    }
+  },
+  "status": "configured",
+  "lastUpdated": "2026-02-08T06:23:00Z"
+}

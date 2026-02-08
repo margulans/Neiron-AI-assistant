@@ -121,6 +121,111 @@
       "digest": "morning",
       "date": "2026-02-08",
       "category": "Technology"
+    },
+    {
+      "url": "https://finance.yahoo.com/video/ai-chips-amds-product-pipeline-130041711.html",
+      "title": "AI chips: How AMD's product pipeline stacks up with competitors",
+      "digest": "opinions_morning",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.earth.com/news/optical-breakthrough-helps-quantum-computers-read-data-faster/",
+      "title": "Optical breakthrough helps quantum computers read data faster",
+      "digest": "opinions_morning",
+      "date": "2026-02-08",
+      "category": "Technology"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/02/07/why-excited-cautious-tesla-stock-2026/",
+      "title": "Why I'm Excited (and Cautious) for Tesla Stock in 2026",
+      "digest": "opinions_morning",
+      "date": "2026-02-08",
+      "category": "Investment"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/02/07/technology/elon-musk-spacex-xai.html",
+      "title": "SpaceX официально приобрел xAI в сделке на акции",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://techiexpert.com/perplexity-launches-model-council-get-answers-from-gpt-claude-and-gemini-at-the-same-time/",
+      "title": "Perplexity запустил Model Council для одновременной работы с GPT, Claude и Gemini",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.macrumors.com/",
+      "title": "Apple кардинально меняет подход к ИИ, увольняет руководителя проекта Siri",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.technobezz.com/news/amazon-plans-to-spend-200-billion-on-ai-infrastructure-in-2026",
+      "title": "Amazon планирует рекордные $200 млрд инвестиций в ИИ-инфраструктуру в 2026 году",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Investment"
+    },
+    {
+      "url": "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/",
+      "title": "Alphabet планирует капиталовложения $175-185 млрд в ИИ-инфраструктуру в 2026 году",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Investment"
+    },
+    {
+      "url": "https://www.ainvest.com/news/microsoft-meta-assessing-ai-moats-long-term-creation-2602/",
+      "title": "Meta инвестирует $115-135 млрд в персональный сверхинтеллект в 2026 году",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.fool.com/investing/stock-market/types-of-stocks/ipo-stocks/",
+      "title": "Anthropic близка к привлечению $20 млрд в новом раунде финансирования",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Investment"
+    },
+    {
+      "url": "https://www.notebookcheck.net/Boston-Dynamics-new-Atlas-humanoid-robot-pulls-off-backflip-with-cartwheel.1222157.0.html",
+      "title": "Boston Dynamics представил новый Atlas: гуманоидный робот выполняет сальто с кульбитом",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Robotics"
+    },
+    {
+      "url": "https://oilprice.com/Energy/Energy-General/The-Rapid-Rise-of-Humanoid-Robots.html",
+      "title": "Илон Маск: Tesla планирует продавать роботов Optimus публике к концу 2027 года",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Robotics"
+    },
+    {
+      "url": "https://www.sciencedaily.com/",
+      "title": "Квантовый прорыв: операции с непрерывным исправлением ошибок без паузы защиты",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Technology"
+    },
+    {
+      "url": "https://www.macrumors.com/",
+      "title": "Apple открыл приём заявок на Swift Student Challenge 2026",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Technology"
+    },
+    {
+      "url": "https://www.analyticsinsight.net/news/spacex-delays-2026-mars-mission-shifts-starship-focus-to-nasa-moon-landing",
+      "title": "SpaceX откладывает миссию на Марс 2026 года, фокусируется на лунной программе NASA",
+      "digest": "day",
+      "date": "2026-02-08",
+      "category": "Technology"
     }
   ]
 }
