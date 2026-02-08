@@ -2,5 +2,83 @@
   "version": "1.0",
   "description": "Трекинг отправленных новостей для дедупликации",
   "maxAge": "7d",
-  "entries": []
+  "entries": [
+    {
+      "url": "https://www.indiatvnews.com/technology/news/moltbook-ai-only-social-network-sparking-excitement-skepticism-and-security-fears-2026-02-07-1029257",
+      "title": "Moltbook: AI-only social network sparking excitement, skepticism, and security fears",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.reuters.com/business/media-telecom/anthropic-buys-super-bowl-ads-slap-openai-selling-ads-chatgpt-2026-02-07/",
+      "title": "Anthropic buys Super Bowl ads to slap OpenAI for selling ads in ChatGPT",
+      "digest": "morning", 
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://futurism.com/artificial-intelligence/anthropic-agents-automation",
+      "title": "Anthropic Insiders Afraid They've Crossed a Line",
+      "digest": "morning",
+      "date": "2026-02-08", 
+      "category": "AI"
+    },
+    {
+      "url": "https://hackernoon.com/why-the-$70-million-aicom-domain-could-become-the-front-door-to-agi",
+      "title": "Why the $70 Million ai.com Domain Could Become the Front Door to AGI",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.thehansindia.com/technology/tech-news/ai-could-replace-coding-jobs-within-a-year-warns-anthropic-ceo-zohos-sridhar-vembu-urges-caution-1046374",
+      "title": "AI Could Replace Coding Jobs Within a Year, Warns Anthropic CEO",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/explained-what-is-anthropics-ai-tool-that-wiped-285-billion-off-software-stocks-in-a-single-day/articleshow/127892310.cms",
+      "title": "What is Anthropic's AI tool that wiped $285 billion off software stocks in a single day",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "AI"
+    },
+    {
+      "url": "https://roboticsandautomationnews.com/2026/02/07/the-state-of-humanoid-robotics-from-research-labs-to-real-world-potential/98732/",
+      "title": "The state of humanoid robotics: assessing the capabilities, limitations, and commercial potential",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "Robotics"
+    },
+    {
+      "url": "https://www.techeblog.com/autoflight-matrix-first-5-ton-evtol/",
+      "title": "AutoFlight Matrix Touted as World's First 5-Ton Class Heavy Lift eVTOL Drone",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "eVTOL"
+    },
+    {
+      "url": "https://english.news.cn/20260207/d1442464295b4d538282a502e9b6275c/c.html",
+      "title": "World's first 5-ton eVTOL takes flight",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "eVTOL"
+    },
+    {
+      "url": "https://www.sciencedaily.com/",
+      "title": "Light-based breakthrough could help quantum computers finally scale up",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "Technology"
+    },
+    {
+      "url": "https://borncity.com/news/windows-11-microsoft-startet-2026-mit-massivem-ki-update/",
+      "title": "Windows 11: Microsoft startet 2026 mit massivem KI-Update",
+      "digest": "morning",
+      "date": "2026-02-08",
+      "category": "Technology"
+    }
+  ]
 }
