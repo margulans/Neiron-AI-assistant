@@ -54,7 +54,7 @@
       ],
       "confidence": 0.5,
       "lastUsed": 1770374414354,
-      "status": "candidate"
+      "status": "proven"
     },
     "Habr.com": {
       "name": "Habr.com",
@@ -85,7 +85,7 @@
       ],
       "confidence": 0.5,
       "lastUsed": 1770374414354,
-      "status": "candidate"
+      "status": "proven"
     },
     "ScienceDaily AI": {
       "name": "ScienceDaily AI",

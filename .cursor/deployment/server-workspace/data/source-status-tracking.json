@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-02-07T10:02:00.000Z",
+  "lastUpdated": "2026-02-08T06:36:00.000Z",
   "monthlyGoals": {
     "february2026": {
       "targetDiscoveries": 4,
       "targetPromotions": 2,
       "currentDiscoveries": 15,
-      "currentPromotions": 3
+      "currentPromotions": 5
     }
   },
   "recentPromotions": [
@@ -22,16 +22,34 @@
       "fromStatus": "candidate",
       "toStatus": "proven",
       "reason": "20 points, consistent positive feedback"
+    },
+    {
+      "source": "Anthropic",
+      "promotedAt": "2026-02-08T06:36:00.000Z",
+      "fromStatus": "candidate",
+      "toStatus": "proven",
+      "reason": "20 points, maintained high quality in recent digests"
+    },
+    {
+      "source": "Habr.com", 
+      "promotedAt": "2026-02-08T06:36:00.000Z",
+      "fromStatus": "candidate",
+      "toStatus": "proven",
+      "reason": "20 points, strong user engagement"
     }
   ],
   "watchlist": {
     "lowPerformers": [
-      "TechCrunch AI (-8 points)",
-      "VC News Daily (-3 points)"
+      "TechCrunch AI (-8 points, 💩 reaction)",
+      "VC News Daily (-3 points, 👎 reaction)"
     ],
     "needMoreData": [
-      "TechStartups (0 interactions)",
-      "IEEE Spectrum Robotics (no user reactions)"
+      "TechStartups (0 interactions, never selected)",
+      "IEEE Spectrum Robotics (no user reactions, 0 score)"
+    ],
+    "risingStars": [
+      "Cursor Blog (10 points, 🔥 reaction)",
+      "ScienceDaily AI (5 points, growing engagement)"
     ]
   },
   "discoveryPipeline": [
