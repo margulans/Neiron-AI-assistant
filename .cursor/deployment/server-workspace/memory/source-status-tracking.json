@@ -83,7 +83,7 @@
   },
   "exploration_metrics": {
     "total_sources_discovered_feb": 8,
-    "promotion_candidates": ["AeroTime.aero", "TechXplore", "TechCrunch"],
+    "promotion_candidates": ["AeroTime.aero", "TechXplore", "TechCrunch", "TipRanks"],
     "exploration_ratio_recent_digests": 0.48,
     "user_satisfaction_signals": ["positive_reaction_to_matrix_evtol_news", "system_reliability_improvements"],
     "last_digest_stats": {
