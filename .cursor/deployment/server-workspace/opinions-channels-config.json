@@ -114,6 +114,14 @@
         "description": "философия ИИ, безопасность технологий, будущее человечества",
         "focus": "ai_safety_future_humanity_ethical_ai",
         "sources": ["Anthropic blog", "interviews", "research papers commentary", "Twitter"]
+      },
+      {
+        "name": "Sam Altman",
+        "category": "AI Leadership",
+        "priority": 9,
+        "description": "стратегия развития ИИ, AGI, предпринимательство, будущее технологий",
+        "focus": "ai_strategy_agi_entrepreneurship_tech_future",
+        "sources": ["OpenAI blog", "Twitter", "interviews", "essays", "Y Combinator insights"]
       }
     ],
     "evtol_transport": [
