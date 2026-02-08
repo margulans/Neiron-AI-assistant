@@ -97,24 +97,32 @@ systemctl --user start openclaw-gateway
 - **Allowed User ID:** `685668909`
 - **Telegram Bot:** `@neironassistant_bot`
 
-## Репозиторий Clowdbot
+## Репозиторий Clowdbot + Workspace (симлинк)
 
-На сервере клонирован репозиторий для работы через Telegram:
+Workspace бота = Git-репо через симлинк (одна папка, без копирования):
 
 | Параметр | Значение |
 |----------|----------|
-| Путь | `~/Clowdbot` |
+| Git-репо | `~/Clowdbot` |
+| Workspace бота | `~/.openclaw/workspace` → симлинк на `~/Clowdbot/.cursor/deployment/server-workspace` |
 | Remote | `https://github.com/margulans/Clowdbot` |
 | Branch | `main` |
 
 ### Синхронизация
 
 ```bash
-# На сервере (через Telegram или SSH)
-cd ~/Clowdbot && git pull origin main
+# Через Telegram (бот)
+/git  # автоматически делает pull + add + commit + push
 
-# Или через skill /git (автоматически делает pull + commit + push)
+# Через SSH
+cd ~/Clowdbot && git pull origin main
 ```
+
+### Как это работает
+- Бот читает/пишет файлы в `~/.openclaw/workspace/`
+- Это симлинк → файлы физически в Git-репо
+- `/git` коммитит все изменения бота + пушит в GitHub
+- На Mac `git pull` стягивает всё обратно
 
 ## Skills (пользовательские команды)
 

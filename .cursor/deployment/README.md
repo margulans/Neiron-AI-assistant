@@ -122,23 +122,38 @@
 - **Подтверждение** — всегда спрашивает перед удалением
 
 ### Git Sync (`/git`)
-- **Репозиторий:** `~/Clowdbot` на сервере (клон github.com/margulans/Clowdbot)
+- **Архитектура:** workspace бота = Git-репо через симлинк
+  - `~/.openclaw/workspace` → `~/Clowdbot/.cursor/deployment/server-workspace`
+- **Одна папка:** бот читает/пишет напрямую в Git-репо, без копирования
 - **Команда:** `/git` — автоматический commit и push в GitHub
 - **Workflow:**
   1. `git pull origin main` — получить последние изменения
   2. `git status` — проверить состояние
-  3. `git add -A` — добавить все изменения
-  4. `git commit -m "<auto>"` — коммит с автогенерацией сообщения
-  5. `git push origin main` — push в GitHub
-- **Синхронизация:** Telegram → GitHub ← Mac (Cursor)
+  3. `git add -A && git commit && git push` — коммит и push
+- **Синхронизация:** Telegram ↔ GitHub ↔ Mac (Cursor)
 - **Skill файл:** `~/.openclaw/skills/git-sync/SKILL.md`
 
 ```
-┌─────────────────┐     ┌─────────────┐     ┌─────────────┐
-│  Telegram бот   │────▶│   GitHub    │◀────│ Mac/Cursor  │
-│  (сервер)       │     │  (облако)   │     │  git pull   │
-│  /git → push    │     │             │     │             │
-└─────────────────┘     └─────────────┘     └─────────────┘
+┌──────────────────────────────────────────────┐
+│  Hetzner VPS                                  │
+│  ~/.openclaw/workspace (симлинк)              │
+│       ↓                                       │
+│  ~/Clowdbot/.cursor/deployment/server-workspace │
+│       ↓                                       │
+│  /git → git add + commit + push              │
+└──────────────────┬───────────────────────────┘
+                   │
+                   ▼
+          ┌─────────────┐
+          │   GitHub    │
+          │  (облако)   │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │ Mac/Cursor  │
+          │  git pull   │
+          └─────────────┘
 ```
 
 ---
