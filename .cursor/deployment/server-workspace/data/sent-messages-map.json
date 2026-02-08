@@ -1,0 +1,74 @@
+{
+  "sentMessages": {
+    "174": {
+      "messageId": "174",
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "OpenAI представила GPT-5.3-Codex — ИИ, который помог создать сам себя",
+        "description": "Революционная модель программирования от OpenAI стала первой в истории, которая участвовала в собственной разработке. GPT-5.3-Codex работает на 25% быстрее предшественника и достигла \"высокого\" уровня по внутренней шкале кибербезопасности компании.",
+        "source": "OpenAI Blog",
+        "category": "AI",
+        "url": "https://www.nbcnews.com/tech/innovation/openai-says-new-codex-coding-model-helped-build-rcna257521"
+      },
+      "callbacks": [],
+      "timestamp": 1770440427000,
+      "registered": "2026-02-07T10:07:07.000Z"
+    },
+    "175": {
+      "messageId": "175", 
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "Boston Dynamics Atlas перешел от вирусных трюков к заводскому труду",
+        "description": "Электрический Atlas официально представлен на CES 2026 в коммерческой версии для промышленности. Робот отказался от гидравлики в пользу усовершенствованных моделей обучения с подкреплением.",
+        "source": "Boston Dynamics / Hyundai", 
+        "category": "Robotics",
+        "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-2-6-from-viral-acrobatics-to-autonomous-labor-boston-dynamics-electric-atlas-hits-the-factory-floor"
+      },
+      "callbacks": [],
+      "timestamp": 1770440427500,
+      "registered": "2026-02-07T10:07:07.500Z"
+    },
+    "176": {
+      "messageId": "176",
+      "chatId": "-1003723471488", 
+      "newsData": {
+        "title": "Первый в мире 5-тонный eVTOL совершил полный переход с дальностью 932 мили",
+        "description": "AutoFlight успешно провела публичную демонстрацию Matrix — революционного воздушного такси весом 5 тонн. Аппарат выполнил полный цикл: вертикальный взлет, переход к горизонтальному полету и вертикальную посадку.",
+        "source": "Interesting Engineering",
+        "category": "eVTOL", 
+        "url": "https://interestingengineering.com/transportation/worlds-first-five-ton-evtol-flight"
+      },
+      "callbacks": [],
+      "timestamp": 1770440428000,
+      "registered": "2026-02-07T10:07:08.000Z"
+    },
+    "177": {
+      "messageId": "177",
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "Eve Air Mobility получила заказ на 50 eVTOL для Японии",
+        "description": "Бразильский производитель воздушных такси Eve Air Mobility подписал соглашение с японским оператором AirX на поставку до 50 eVTOL аппаратов. Первые два воздушных такси ожидаются в 2029 году для урбанистических сервисов в Токио и Осаке.",
+        "source": "Travolution / Eve Air Mobility",
+        "category": "eVTOL",
+        "url": "https://www.travolution.com/news/eve-air-mobility-wins-evtol-order-from-airx-in-japan/"
+      },
+      "callbacks": [],
+      "timestamp": 1770440428500, 
+      "registered": "2026-02-07T10:07:08.500Z"
+    },
+    "178": {
+      "messageId": "178",
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "Big Tech планирует потратить $650 миллиардов на ИИ в 2026 году", 
+        "description": "Microsoft, Alphabet, Amazon и Meta объявили о рекордных капитальных расходах на искусственный интеллект в текущем году. Инвестиции направлены на строительство новых дата-центров и закупку оборудования для ИИ-инфраструктуры.",
+        "source": "Axios / Yahoo Finance",
+        "category": "Investment",
+        "url": "https://www.axios.com/2026/02/06/amazon-microsoft-meta-ai-investment"
+      },
+      "callbacks": [],
+      "timestamp": 1770440429000,
+      "registered": "2026-02-07T10:07:09.000Z"
+    }
+  }
+}

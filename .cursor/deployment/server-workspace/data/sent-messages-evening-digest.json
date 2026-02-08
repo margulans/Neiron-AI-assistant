@@ -1,0 +1,54 @@
+{
+  "digestInfo": {
+    "date": "2026-02-07",
+    "time": "evening",
+    "totalNews": 9,
+    "categories": {
+      "AI": 2,
+      "Robotics": 5, 
+      "eVTOL": 1,
+      "Technology": 2
+    }
+  },
+  "sentMessages": {
+    "195": {
+      "messageId": "195",
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "Yann LeCun покидает Meta и критикует путь к AGI",
+        "description": "Легендарный ИИ-исследователь и отец глубокого обучения Yann LeCun объявил об уходе из Meta после более чем десятилетия работы.",
+        "source": "Times of India / Yahoo Finance",
+        "category": "AI",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/metas-most-popular-former-employee-yann-lecun-tells-openai-vp-there-is-no-way-your-company-is-achieving-what-it-keeps-on-saying-is-its-goal/articleshow/127942883.cms"
+      },
+      "timestamp": 1770472979000,
+      "registered": "2026-02-07T14:02:59.000Z"
+    },
+    "196": {
+      "messageId": "196",
+      "chatId": "-1003723471488", 
+      "newsData": {
+        "title": "Tesla прекращает производство Model S и X ради роботов Optimus",
+        "description": "Илон Маск объявил об исторически важном решении: Tesla официально прекращает производство флагманских электромобилей Model S и Model X.",
+        "source": "The Robot Report / Electrek",
+        "category": "Robotics",
+        "url": "https://www.therobotreport.com/bills-introduced-strengthen-u-s-robotics-competitiveness-humanoid-security/"
+      },
+      "timestamp": 1770472980000,
+      "registered": "2026-02-07T14:03:00.000Z"
+    },
+    "197": {
+      "messageId": "197",
+      "chatId": "-1003723471488",
+      "newsData": {
+        "title": "Китайский стартуп представил \"самого быстрого в мире\" гуманоидного робота",
+        "description": "MirrorMe Technology из Китая анонсировала революционного гуманоидного робота Bolt.",
+        "source": "Unilad Tech / Xinhua", 
+        "category": "Robotics",
+        "url": "https://www.uniladtech.com/news/tech-news/china-releases-world-fastest-humanoid-robot-285404-20260206"
+      },
+      "timestamp": 1770472981000,
+      "registered": "2026-02-07T14:03:01.000Z"
+    }
+  }
+}

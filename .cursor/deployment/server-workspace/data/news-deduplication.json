@@ -1,0 +1,136 @@
+{
+  "sentNewsHashes": [
+    "72f271e6773bcb42",
+    "cd2198082b02e4c9",
+    "976c3c53fd563966",
+    "78c048c28b35e4fc",
+    "a61ab719ba4ea006",
+    "e375525ce5c560b1",
+    "cc46b295c52700c7",
+    "435d5c5033263b23",
+    "3cdfc3210f8a2daf",
+    "173a02f23337360b",
+    "89a34430f62cf12a",
+    "ffec8e94b4456e02",
+    "a7e6b382ca4f1569",
+    "2457b5fd0601c6c2",
+    "437d343002393425",
+    "9faaeeb37398eded",
+    "ed0100cf2da1cf85",
+    "12133c201d0536d9",
+    "39d2fbbb81a3b4c6",
+    "72f130ab9edd6d9b",
+    "d291314f194ad3ac",
+    "c64912d83d4f3db7",
+    "c46e63a101a8d0ce",
+    "b2d891f9ea8c3cf9",
+    "3cfdba3c1c9f925e"
+  ],
+  "sentNewsDetails": {
+    "72f271e6773bcb42": {
+      "title": "Anthropic подрывает рынок корпоративного ПО с новым ИИ-инструментом",
+      "description": "Новость про влияние ИИ от Anthropic на рынок софтвера",
+      "url": "https://abcnews.go.com/Business/new-ai-tool-hammered-software-stocks-week/story?id=129845251",
+      "source": "ABC News",
+      "category": "AI",
+      "timestamp": 1770439810160,
+      "sentAt": "2026-02-07T04:50:10.160Z"
+    },
+    "cd2198082b02e4c9": {
+      "title": "Amazon инвестирует 200 млрд долларов в ИИ-инфраструктуру",
+      "description": "Amazon объявила о планах потратить 200 миллиардов долларов в 2026 году на дата-центры, чипы и другое оборудование для ИИ. Инвесторы обеспокоены масштабами ставки компании на искусственный интеллект.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-05/amazon-boosts-spending-far-ahead-of-estimates-on-ai-build-out",
+      "source": "Bloomberg",
+      "category": "AI",
+      "timestamp": 1770439565261,
+      "sentAt": "2026-02-07T04:46:05.261Z"
+    },
+    "976c3c53fd563966": {
+      "title": "Big Tech планирует потратить 600 млрд долларов на ИИ в 2026 году",
+      "description": "Планируемые расходы технологических гигантов в размере 600 миллиардов долларов на искусственный интеллект в 2026 году вызывают беспокойство инвесторов относительно рентабельности и потенциальных угроз для софтверных компаний.",
+      "url": "https://www.reuters.com/business/global-software-data-firms-slide-ai-disruption-fears-compound-jitters-over-600-2026-02-06/",
+      "source": "Reuters",
+      "category": "AI",
+      "timestamp": 1770439565762,
+      "sentAt": "2026-02-07T04:46:05.762Z"
+    },
+    "78c048c28b35e4fc": {
+      "title": "Humanoid представляет KinetIQ — ИИ-фреймворк для управления флотами гуманоидных роботов",
+      "description": "Компания Humanoid разработала KinetIQ, ИИ-фреймворк для комплексной оркестрации флотов гуманоидных роботов от начала до конца. Решение направлено на координацию работы множественных роботов в складских комплексах.",
+      "url": "https://spectrum.ieee.org/autonomous-warehouse-robots",
+      "source": "IEEE Spectrum",
+      "category": "robotics",
+      "timestamp": 1770439566264,
+      "sentAt": "2026-02-07T04:46:06.264Z"
+    },
+    "a61ab719ba4ea006": {
+      "title": "Richtech Robotics и Microsoft запускают партнерство по улучшению роботов ADAM",
+      "description": "Объявлено о крупном сотрудничестве между Richtech Robotics и Microsoft для улучшения роботов ADAM с использованием Azure AI. Интеграция включает продвинутые возможности зрения, голоса и автономного мышления.",
+      "url": "https://stockstotrade.com/news/richtech-robotics-inc-rr-news-2026_02_06/",
+      "source": "StocksToTrade",
+      "category": "robotics",
+      "timestamp": 1770439566766,
+      "sentAt": "2026-02-07T04:46:06.766Z"
+    },
+    "e375525ce5c560b1": {
+      "title": "AutoFlight представляет Matrix — первый 5-тонный eVTOL с дальностью 932 мили",
+      "description": "AutoFlight завершила публичный полет полного перехода 5-тонного электрического вертикального взлетно-посадочного летательного аппарата Matrix с дальностью полета 932 мили. Это знаменует переход к платформам большей грузоподъемности.",
+      "url": "https://interestingengineering.com/transportation/worlds-first-five-ton-evtol-flight",
+      "source": "Interesting Engineering",
+      "category": "eVTOL",
+      "timestamp": 1770439567268,
+      "sentAt": "2026-02-07T04:46:07.268Z"
+    },
+    "cc46b295c52700c7": {
+      "title": "Velocitor X-1 eVTOL обещает победить пробки уже через год",
+      "description": "Компания представила персональный eVTOL Velocitor X-1, который обещает решить проблему городских пробок с помощью электрического вертикального взлета и посадки. Запуск планируется уже в следующем году.",
+      "url": "https://newatlas.com/aircraft/velocitor-x-1-evtol",
+      "source": "New Atlas",
+      "category": "eVTOL",
+      "timestamp": 1770439567769,
+      "sentAt": "2026-02-07T04:46:07.769Z"
+    },
+    "435d5c5033263b23": {
+      "title": "Cerebras Systems привлекла 1 миллиард долларов в серии H",
+      "description": "Стартап по производству ИИ-чипов Cerebras Systems успешно закрыл раунд финансирования серии H на сумму 1 миллиард долларов. Средства будут направлены на расширение производства специализированных процессоров для больших языковых моделей.",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-waymo-cerebras/",
+      "source": "Crunchbase News",
+      "category": "investments",
+      "timestamp": 1770439568270,
+      "sentAt": "2026-02-07T04:46:08.270Z"
+    },
+    "3cdfc3210f8a2daf": {
+      "title": "Новая уникальная новость",
+      "description": "Это совершенно новая новость, которой не было раньше",
+      "url": "https://example.com/unique-news",
+      "source": "Test Source",
+      "category": "tech",
+      "timestamp": 1770439886364,
+      "sentAt": "2026-02-07T04:51:26.364Z"
+    },
+    "173a02f23337360b": {
+      "title": "Apple Vision Pro получает поддержку ИИ-ассистентов",
+      "description": "Apple объявила о добавлении поддержки сторонних ИИ-ассистентов в Vision Pro, включая ChatGPT и Claude. Новые возможности будут доступны в обновлении visionOS 2.1.",
+      "url": "https://example.com/apple-vision-pro-ai-1770440124488",
+      "source": "Apple Insider",
+      "category": "AI",
+      "timestamp": 1770440126017,
+      "sentAt": "2026-02-07T04:55:26.017Z"
+    },
+    "89a34430f62cf12a": {
+      "title": "Boston Dynamics представила коммерческого робота для дома",
+      "description": "Компания Boston Dynamics анонсировала Atlas Home — первого гуманоидного робота для домашнего использования стоимостью 0,000. Робот может выполнять базовые домашние задачи.",
+      "url": "https://example.com/boston-dynamics-home-1770440124488",
+      "source": "IEEE Spectrum",
+      "category": "robotics",
+      "timestamp": 1770440128020,
+      "sentAt": "2026-02-07T04:55:28.020Z"
+    }
+  },
+  "config": {
+    "similarityThreshold": 0.85,
+    "titleSimilarityThreshold": 0.9,
+    "maxAge": 2592000000
+  },
+  "exportedAt": 1770440129023
+}
