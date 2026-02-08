@@ -90,6 +90,16 @@
         "focus": "investment_philosophy"
       }
     ],
+    "philosophy_experts": [
+      {
+        "name": "Nassim Taleb",
+        "category": "Philosophy",
+        "priority": 10,
+        "description": "философия неопределённости, антихрупкость, черные лебеди",
+        "focus": "original_philosophical_insights",
+        "sources": ["@nntaleb", "Medium/@nntaleb", "personal blog"]
+      }
+    ],
     "evtol_transport": [
       {
         "name": "@evtol_news",
@@ -123,13 +133,16 @@
     "timeZone": "UTC+4",
     "targetChannel": "@opnioneiron",
     "format": {
-      "header": "💬 **{author} + {topic}**",
+      "header": "💭 **{author} + {thought_topic}**",
       "tags": "{category_tags}",
-      "content": "{opinion_summary} + {key_quote}",
-      "footer": "🐦 @{author} — {url}"
+      "content": "{original_insight} + {key_quote}",
+      "footer": "📝 {source_type} — {url}"
     },
     "rules": {
       "count_per_digest": "8-10",
+      "content_type": "original_thoughts_NOT_news_commentary",
+      "focus": "quality_of_thought_and_expert_authority",
+      "sources": "substack_essays_twitter_threads_linkedin_articles_personal_blogs_medium",
       "deduplication": true,
       "reaction_tracking": true,
       "multilingual_sources": true,
