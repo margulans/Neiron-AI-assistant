@@ -33,6 +33,40 @@ openclaw cron add --job '{
   "enabled": true
 }'
 
+# === ДАЙДЖЕСТ МНЕНИЙ ===
+
+# Утренние мнения (09:00 Dubai time)
+echo "💬 Добавляю утренние мнения..."
+openclaw cron add --job '{
+  "name": "Утренний дайджест мнений",
+  "schedule": { "kind": "cron", "expr": "0 9 * * *", "tz": "Asia/Dubai" },
+  "payload": { "kind": "systemEvent", "text": "createScheduledOpinionsDigest(\"morning\")" },
+  "sessionTarget": "main",
+  "enabled": true
+}'
+
+# Дневные мнения (13:30 Dubai time)
+echo "💬 Добавляю дневные мнения..."
+openclaw cron add --job '{
+  "name": "Дневной дайджест мнений",
+  "schedule": { "kind": "cron", "expr": "30 13 * * *", "tz": "Asia/Dubai" },
+  "payload": { "kind": "systemEvent", "text": "createScheduledOpinionsDigest(\"afternoon\")" },
+  "sessionTarget": "main",
+  "enabled": true
+}'
+
+# Вечерние мнения (18:30 Dubai time)
+echo "💬 Добавляю вечерние мнения..."
+openclaw cron add --job '{
+  "name": "Вечерний дайджест мнений",
+  "schedule": { "kind": "cron", "expr": "30 18 * * *", "tz": "Asia/Dubai" },
+  "payload": { "kind": "systemEvent", "text": "createScheduledOpinionsDigest(\"evening\")" },
+  "sessionTarget": "main",
+  "enabled": true
+}'
+
+# === ПРОЧИЕ ЗАДАЧИ ===
+
 # Утренний брифинг (06:00 Dubai time)
 echo "🌅 Добавляю утренний брифинг..."
 openclaw cron add --job '{
