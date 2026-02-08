@@ -98,6 +98,14 @@
         "description": "философия неопределённости, антихрупкость, черные лебеди",
         "focus": "original_philosophical_insights",
         "sources": ["@nntaleb", "Medium/@nntaleb", "personal blog"]
+      },
+      {
+        "name": "Ray Dalio",
+        "category": "Business Philosophy",
+        "priority": 9,
+        "description": "принципы управления, экономическая философия, принципы жизни",
+        "focus": "management_philosophy_life_principles",
+        "sources": ["LinkedIn", "Medium", "Principles book insights", "personal essays"]
       }
     ],
     "evtol_transport": [
