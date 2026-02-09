@@ -226,6 +226,69 @@
       "digest": "day",
       "date": "2026-02-08",
       "category": "Technology"
+    },
+    {
+      "url": "https://www.sciencedaily.com/",
+      "title": "NASA Mars Rover использует ИИ для автономного движения",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.insidermonkey.com/blog/nvidia-nvda-eyes-more-efficient-weather-forecasting-with-the-launch-of-three-open-source-artificial-intelligence-models-1691453/",
+      "title": "NVIDIA запустила 3 open-source ИИ-модели для прогноза погоды",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/feb/08/ai-washing-job-losses-artificial-intelligence",
+      "title": "Salesforce сократил 4000 сотрудников благодаря ИИ-агентам",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.news18.com/amp/business/ipo/fractal-analytics-ipo-opens-today-should-you-subscribe-price-gmp-recommendations-ws-l-9889113.html",
+      "title": "Fractal Analytics проводит IPO как глобальная ИИ-компания",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
+    },
+    {
+      "url": "https://www.filmogaz.com/140038",
+      "title": "Super Bowl 2026 показал тренд интеграции ИИ в маркетинг",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
+    },
+    {
+      "url": "https://learn.ryzlabs.com/ai-coding-assistants/cursor-vs-github-copilot-which-ai-coding-assistant-fits-your-needs-best",
+      "title": "67% разработчиков повысили продуктивность с ИИ-инструментами",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "Coding"
+    },
+    {
+      "url": "https://www.latestly.com/business/stocks-to-buy-or-sell-today-february-9-2026-hal-tata-motors-bharat-forge-among-shares-likely-to-remain-in-spotlight-on-monday-7306542.html",
+      "title": "HAL, Tata Motors в центре внимания индийского рынка",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "Business"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg/funding-and-investors",
+      "title": "OpenAI привлек $57.9 млрд за 9 раундов финансирования",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "Investment"
+    },
+    {
+      "url": "https://collider.com/ai-artificial-intelligence-steven-spielberg-most-debated-sci-fi-film-free-streaming-success-tubi-february-2026/",
+      "title": "Фильм Спилберга A.I. возвращается в стрим-чарты",
+      "digest": "day",
+      "date": "2026-02-09",
+      "category": "AI"
     }
   ]
 }
