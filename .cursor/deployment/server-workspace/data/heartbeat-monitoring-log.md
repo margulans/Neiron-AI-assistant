@@ -42,7 +42,14 @@
 - Product Hunt: No recent activity found
 - Need to continue exploring alternative discovery channels
 
-## 2026-02-09 10:43 Dubai Time (06:43 UTC) - eVTOL & Source Discovery Check
+## 2026-02-09 18:45 Dubai Time (14:45 UTC) - eVTOL Development Check
+
+### eVTOL Developments Found:
+1. **eVTOL Commercial Launch Timeline** - 2026 may be the breakthrough year for urban air mobility after pandemic delays (Future Transport News)
+2. **Saudi Arabia eVTOL Firefighting** - Chinese Ehang eVTOL adapted for urban firefighting at World Defense Show 2026 (Aviation Week)
+3. **NYC Electric Air Taxis** - Valo company planning 7-minute airport flights, highest safety standard certification (Newsweek)
+
+## Previous Check: 2026-02-09 10:43 Dubai Time (06:43 UTC)
 
 ### eVTOL Developments:
 - No significant eVTOL news found in last 24 hours
