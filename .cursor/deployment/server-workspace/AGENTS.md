@@ -240,9 +240,10 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 Use the right model for the right task. Don't burn expensive tokens on routine work.
 
-### Tier 1 — Automated / Structured Tasks (cheap/free)
+### Tier 1 — Automated / Structured Tasks (free)
 
-Target model: `moonshot/kimi-k2.5` (free) or `openrouter/meta-llama/llama-3.3-70b:free`
+Target model: `openrouter/meta-llama/llama-3.3-70b:free`
+Fallback: `google/gemini-3-flash-preview` (paid, if OpenRouter unavailable)
 
 Tasks:
 
@@ -251,7 +252,7 @@ Tasks:
 - Morning briefing (06:00)
 
 These tasks are: web search → filter → format → send. No deep reasoning needed.
-Use `thinking: low` always. If a free model API key is configured, prefer it.
+Use `thinking: low` always.
 
 ### Tier 2 — Interactive & Analytical (sonnet)
 
@@ -276,23 +277,21 @@ Revert to sonnet after the task is complete.
 ### Switching Models (Interactive)
 
 ```
-/model moonshot/kimi-k2.5   # switch to Kimi for this session
-/model sonnet               # back to default
-/model opus                 # heavy task mode
+/model openrouter/meta-llama/llama-3.3-70b:free   # free tier
+/model sonnet                                      # back to default
+/model opus                                        # heavy task mode
 ```
 
-### Configured Free Model API Keys
+### Activating Free Model for Digest Jobs
 
-When a free model API key is added to the systemd service, update the digest cron jobs:
+When `OPENROUTER_API_KEY` is added to the systemd service:
 
-- Convert systemEvent jobs to agentTurn type (to support per-job model override)
-- Add `--model moonshot/kimi-k2.5 --thinking low` to all 10 digest/briefing jobs
+1. Add key: `systemctl --user set-environment OPENROUTER_API_KEY=sk-or-...`
+2. Restart: `systemctl --user restart openclaw-gateway`
+3. Convert digest jobs to agentTurn type (to support per-job model override)
+4. Update all 10 digest/briefing jobs: `openclaw cron edit <id> --model openrouter/meta-llama/llama-3.3-70b:free --thinking low --message "<existing message>"`
 
-Free model API key setup (one-time, do when instructed):
-
-1. `MOONSHOT_API_KEY` → Moonshot (platform.moonshot.cn) — free tier available
-2. `OPENROUTER_API_KEY` → OpenRouter (openrouter.ai) — free models available
-3. `GOOGLE_API_KEY` → Google AI Studio — Gemini Flash free tier (1M tokens/day)
+Get free API key at: https://openrouter.ai (free account, no card required for free models)
 
 ---
 
