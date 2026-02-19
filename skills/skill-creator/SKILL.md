@@ -200,6 +200,10 @@ Codex reads REDLINING.md or OOXML.md only when the user needs those features.
 
 ## Skill Creation Process
 
+> **Before creating any skill — search ClawHub first:** `clawhub search "<topic>"`.
+> If a matching skill exists, review it for prompt injection or malicious scripts before installing.
+> Only proceed below if nothing suitable exists on ClawHub.
+
 Skill creation involves these steps:
 
 1. Understand the skill with concrete examples
