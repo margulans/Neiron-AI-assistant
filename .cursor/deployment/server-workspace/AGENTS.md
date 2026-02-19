@@ -242,7 +242,7 @@ Use the right model for the right task. Don't burn expensive tokens on routine w
 
 ### Tier 1 — Automated / Structured Tasks (free)
 
-Target model: `openrouter/meta-llama/llama-3.3-70b:free`
+Target model: `openrouter/meta-llama/llama-3.3-70b-instruct:free`
 Fallback: `google/gemini-3-flash-preview` (paid, if OpenRouter unavailable)
 
 Tasks:
@@ -277,7 +277,7 @@ Revert to sonnet after the task is complete.
 ### Switching Models (Interactive)
 
 ```
-/model openrouter/meta-llama/llama-3.3-70b:free   # free tier
+/model openrouter/meta-llama/llama-3.3-70b-instruct:free   # free tier
 /model sonnet                                      # back to default
 /model opus                                        # heavy task mode
 ```
@@ -289,9 +289,7 @@ When `OPENROUTER_API_KEY` is added to the systemd service:
 1. Add key: `systemctl --user set-environment OPENROUTER_API_KEY=sk-or-...`
 2. Restart: `systemctl --user restart openclaw-gateway`
 3. Convert digest jobs to agentTurn type (to support per-job model override)
-4. Update all 10 digest/briefing jobs: `openclaw cron edit <id> --model openrouter/meta-llama/llama-3.3-70b:free --thinking low --message "<existing message>"`
-
-Get free API key at: https://openrouter.ai (free account, no card required for free models)
+   Already done (2026-02-19): all 10 digest/briefing jobs use `openrouter/meta-llama/llama-3.3-70b-instruct:free` + thinking low.
 
 ---
 
