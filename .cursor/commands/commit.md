@@ -1,0 +1,1 @@
+запускай воркфлоу workflow-commit

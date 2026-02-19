@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NotebookLM — копировать контекст</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 48rem;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #1a1a1a;
+    }
+    h1 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+    p.hint { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+    button {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    button:hover { background: #1d4ed8; }
+    button:active { transform: scale(0.98); }
+    .status {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      min-height: 1.5em;
+    }
+    .status.success { color: #059669; }
+    .status.err { color: #dc2626; }
+  </style>
+</head>
+<body>
+  <h1>Контекст для NotebookLM</h1>
+  <p class="hint">Нажми кнопку — весь блок скопируется в буфер обмена. Вставь в NotebookLM.</p>
+  <button type="button" id="copyBtn">Скопировать блок</button>
+  <div class="status" id="status" aria-live="polite"></div>
+
+  <textarea id="block" readonly style="display:none" aria-hidden="true"># Контекст проекта для NotebookLM
+
+## 1. Назначение проекта
+
+**OpenClaw** (в твоём воркспейсе — клон/форк под именем Neiron-AI-assistant) — это **персональный AI-ассистент**, который пользователь запускает у себя. Отвечает в привычных каналах: WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, WebChat и др. Есть голос (Voice Wake, Talk Mode), Live Canvas, компаньон-приложения под macOS/iOS/Android. Gateway — единая плоскость управления; продукт — сам ассистент. Поверх OpenClaw развёрнута кастомизация под **новостные дайджесты**, дайджесты мнений, heartbeat, память и таймзоны.
+
+## 2. Что сделано
+
+- **Ядро OpenClaw:** Gateway (WebSocket), CLI (`openclaw`), Pi-агент (RPC), сессии, мульти-каналы, маршрутизация, медиа-пайплайн, браузер, Canvas/A2UI, cron, skills, doctor, onboarding.
+- **Каналы:** WhatsApp (Baileys), Telegram (grammY), Slack, Discord, Google Chat, Signal, iMessage, BlueBubbles, Teams, Matrix, Zalo, WebChat.
+- **Приложения:** macOS (менюбар, Voice Wake, WebChat), iOS/Android ноды (Canvas, голос, камера).
+- **Кастомизация (Neiron):** в `.cursor/deployment/server-workspace` — утренний/дневной/вечерний новостной дайджест по расписанию (cron), дайджест мнений, внеочередной дайджест по команде (skill `digest`), оценка через нативные реакции Telegram, дедупликация (`data/sent-digests.json`), heartbeat, память (`memory/`, `MEMORY.md`), автоадаптация часового пояса, AGENTS.md/SOUL.md/USER.md.
+- **Текущее состояние:** ветка `main`, последний коммит — критическое исправление утренних задач (wakeMode `now`, экстренные дайджесты). Версия пакета в `package.json`: 2026.1.29.
+
+## 3. Стек и структура
+
+- **Язык:** TypeScript (ESM), Node ≥22, строгая типизация.
+- **Сборка/зависимости:** pnpm (основной), опционально Bun; lockfile — pnpm.
+- **Линт/формат:** oxlint, oxfmt.
+- **Тесты:** Vitest, пороги покрытия 70%; e2e, live, Docker-сценарии.
+- **Ключевые папки:** `src/` (cli, commands, gateway, channels, telegram, discord, slack, signal, imessage, web, media, infra, routing, sessions, providers), `docs/` (Mintlify), `extensions/`, `apps/` (macos, ios, android), `skills/`. Кастомизация агента: `.cursor/deployment/server-workspace/` (AGENTS.md, memory, data, skills/digest, конфиги дайджестов, heartbeat).
+
+## 4. Уровень вайбкодинга
+
+**Продвинутый.** Признаки: детальные правила в `CLAUDE.md` и `AGENTS.md` (структура репо, PR/merge, коммиты, релизы, мульти-агент, безопасность); отдельный `AGENTS.md` в workspace с сессионной памятью, heartbeat, форматами дайджестов; скиллы (digest, skill-creator, summarize, tmux, voice-call и др.) с frontmatter и инструкциями; пользовательские глобальные правила в Cursor (триггеры «старт», «план», «финиш», «статус», «коммит», навигация INDEX/ARCHITECTURE/SNAPSHOT, workflow-скиллы); коммиты с осмысленными сообщениями; MCP (browser, fetch, context7).
+
+## 5. Инструменты и техники
+
+- **Правила:** `CLAUDE.md`, `AGENTS.md` (корень и workspace), пользовательские Cursor rules (русский язык, REUSE FIRST, минимальные изменения, границы автономии).
+- **Скиллы:** workflow-feature, workflow-bugfix, workflow-plan, workflow-done, workflow-commit, workflow-misc, workflow-review, workflow-study, notebooklm-context, architecture-new-project, create-rule, create-skill; в репо — digest, skill-creator, summarize, tmux, voice-call и др.
+- **Триггеры (из user rules):** старт → SNAPSHOT; план → BACKLOG; финиш → обновить SNAPSHOT + коммит; статус → краткая сводка; коммит → workflow-commit.
+- **Навигация:** INDEX.md → первым; ARCHITECTURE.md для архитектуры; SNAPSHOT по «старт».
+- **Workspace-агент:** SOUL.md, USER.md, memory/YYYY-MM-DD.md, MEMORY.md (только main session), HEARTBEAT.md, форматы дайджестов (digest-format-final.md), дедупликация, cron для дайджестов.
+- **Инфра:** pnpm build/lint/format/test, prek install, scripts/committer для коммитов, Vitest, Docker для e2e/live.
+
+## 6. Чего не хватает
+
+- В корне репо **нет** `INDEX.md`, `SNAPSHOT.md`, `BACKLOG.md` — навигация по ним заложена в user rules, но файлы не созданы.
+- Кастомизация живёт в `.cursor/deployment/server-workspace` — неочевидно для нового агента без явного указания «читать workspace».
+- Риск расхождения: upstream OpenClaw обновляется; кастом (дайджесты, память, heartbeat) нужно аккуратно мержить/адаптировать.
+- Документация по «Neiron-слою» (расписание дайджестов, реакции, таймзоны) размазана по AGENTS.md и файлам в server-workspace — единого гайда нет.
+- Часть логики дайджестов/новостей в JS-скриптах (news-aggregator, digest и т.д.) — тесты и явная спецификация форматов могли бы снизить регрессии.
+
+## 7. Рекомендации для NotebookLM
+
+1. **Обучи/помоги:** навигации по большому OpenClaw-репо (src/, channels, gateway, extensions). Зачем: быстрее находить места для правок и не дублировать логику.
+2. **Обучи/помоги:** форматам и правилам дайджестов (digest-format-final, дедупликация, реакции Telegram, дайджест мнений). Зачем: стабильные дайджесты и меньше ошибок при смене промптов/скриптов.
+3. **Обучи/помоги:** когда использовать heartbeat vs cron, как вести memory/ и MEMORY.md. Зачем: согласованное поведение агента и предсказуемое обновление памяти.
+4. **Обучи/помоги:** workflow-скиллам и триггерам (старт/план/финиш/коммит) и когда какой применять. Зачем: единообразная работа с задачами и коммитами в Cursor.
+5. **Обучи/помоги:** безопасному мержу upstream OpenClaw с локальной кастомизацией (конфликты в AGENTS.md, путях, cron). Зачем: не терять кастом при обновлении ядра.
+
+---
+**Конец саммари. Скопируй весь блок выше в NotebookLM.**</textarea>
+
+  <script>
+    const blockEl = document.getElementById('block');
+    const btn = document.getElementById('copyBtn');
+    const status = document.getElementById('status');
+
+    btn.addEventListener('click', async () => {
+      status.textContent = '';
+      status.className = 'status';
+      try {
+        await navigator.clipboard.writeText(blockEl.value);
+        status.textContent = 'Скопировано. Вставь в NotebookLM (Cmd+V).';
+        status.className = 'status success';
+      } catch (e) {
+        status.textContent = 'Ошибка: ' + (e.message || 'не удалось скопировать');
+        status.className = 'status err';
+      }
+    });
+  </script>
+</body>
+</html>
