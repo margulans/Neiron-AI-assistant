@@ -6,7 +6,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "anthropic/claude-sonnet-4-6",
+        "primary": "openai/gpt-5.2",
         "fallbacks": ["google/gemini-3-flash-preview"]
       },
       "memorySearch": {
@@ -33,7 +33,7 @@
         }
       },
       "contextPruning": {
-        "mode": "cache-ttl"
+        "mode": "safeguard"
       },
       "compaction": {
         "memoryFlush": {

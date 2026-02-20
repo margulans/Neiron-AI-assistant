@@ -320,9 +320,9 @@ Tasks:
 These tasks are: web search → filter → format → send. No deep reasoning needed.
 Use `thinking: low` always.
 
-### Tier 2 — Interactive & Analytical (sonnet)
+### Tier 2 — Interactive & Analytical (gpt-5.2)
 
-Target model: `anthropic/claude-sonnet-4-6` (default)
+Target model: `openai/gpt-5.2` (default)
 
 Tasks:
 
@@ -344,7 +344,7 @@ Revert to sonnet after the task is complete.
 
 ```
 /model openrouter/meta-llama/llama-3.3-70b-instruct:free   # free tier
-/model sonnet                                      # back to default
+/model gpt                                         # back to default
 /model opus                                        # heavy task mode
 ```
 

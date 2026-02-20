@@ -27,7 +27,7 @@
 │  HETZNER VPS (46.224.221.0)                                     │
 │  ├── OpenClaw Gateway (systemd)                                 │
 │  ├── Telegram Bot (@neironassistant_bot)                        │
-│  ├── Claude Sonnet 4.6 (Anthropic API)                          │
+│  ├── GPT-5.2 (OpenAI API)                                       │
 │  ├── Новостной агрегатор (cron + web search)                    │
 │  ├── Система рейтинга (multi-armed bandit)                      │
 │  ├── Долгосрочная память (bank + LanceDB + OpenAI embeddings)   │
@@ -58,7 +58,7 @@
 - **Порт:** `18789`
 - **Bind:** `loopback`
 - **Auth:** token-based
-- **Модель:** `anthropic/claude-sonnet-4-6`
+- **Модель:** `openai/gpt-5.2`
 - **Context pruning:** `cache-ttl`
 - **Memory flush:** enabled
 - **Session memory:** enabled
@@ -81,7 +81,7 @@
 
 ### 5. Интеграции (API ключи)
 
-- **Anthropic** — Claude Sonnet 4.6 (основная модель)
+- **OpenAI** — GPT-5.2 (основная модель)
 - **Brave Search** — веб-поиск для новостей
 - **Groq** — Whisper Large V3 (транскрипция голосовых)
 - **OpenAI** — text-embedding-3-small (семантический поиск по памяти)
