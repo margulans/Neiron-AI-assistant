@@ -233,6 +233,96 @@
       "averageScore": 0,
       "status": "candidate",
       "lastReaction": null
+    },
+    "Anthropic Research": {
+      "name": "Anthropic Research",
+      "url": "https://anthropic.com/research",
+      "category": "AI",
+      "totalScore": 10,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "score": 10,
+          "userId": 685668909,
+          "timestamp": 1771566463783
+        }
+      ],
+      "averageScore": 10.0,
+      "status": "proven",
+      "lastReaction": 1771566463783
+    },
+    "Hindustan Times": {
+      "name": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026",
+      "category": "AI",
+      "totalScore": 10,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "score": 10,
+          "userId": 685668909,
+          "timestamp": 1771566740628
+        }
+      ],
+      "averageScore": 10.0,
+      "status": "proven",
+      "lastReaction": 1771566740628
+    },
+    "Al Jazeera": {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending",
+      "category": "Инвестиции",
+      "totalScore": -5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "💩",
+          "score": -5,
+          "userId": 685668909,
+          "timestamp": 1771566740628
+        }
+      ],
+      "averageScore": -5.0,
+      "status": "rejected",
+      "lastReaction": 1771566740628
+    },
+    "ScienceDaily": {
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "category": "AI",
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771566740628
+        }
+      ],
+      "averageScore": -3.0,
+      "status": "rejected",
+      "lastReaction": 1771566740628
+    },
+    "Times of India": {
+      "name": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/india-ai-impact-summit-2026",
+      "category": "Бизнес",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771566740628
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771566740628
     }
   },
   "categoryRatings": {
@@ -273,16 +363,22 @@
     },
     "Бизнес": {
       "name": "Бизнес",
-      "totalScore": 0,
-      "reactionsCount": 0,
-      "averageScore": 0,
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "averageScore": 5.0,
       "status": "candidate"
     },
     "Инвестиции": {
       "name": "Инвестиции",
-      "totalScore": 0,
-      "reactionsCount": 0,
-      "averageScore": 0,
+      "totalScore": -5,
+      "reactionsCount": 1,
+      "averageScore": -5.0,
+      "status": "rejected"
+    },
+    "AI": {
+      "totalScore": 17,
+      "reactionsCount": 3,
+      "averageScore": 5.666666666666667,
       "status": "candidate"
     }
   },
@@ -434,84 +530,120 @@
   "messageHistory": {
     "msg_309": {
       "chatId": "@newsneiron",
-      "source": { "name": "VentureBeat", "url": "https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning" },
+      "source": {
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning"
+      },
       "category": "ИИ",
       "title": "Google выпустил Gemini 3.1 Pro: удвоенный рейтинг в задачах рассуждения",
       "timestamp": 1771556600000
     },
     "msg_310": {
       "chatId": "@newsneiron",
-      "source": { "name": "VnExpress", "url": "https://e.vnexpress.net/news/tech/tech-news/china-s-lunar-new-year-humanoid-robot-dance-goes-viral-with-23-billion-views-5042349.html" },
+      "source": {
+        "name": "VnExpress",
+        "url": "https://e.vnexpress.net/news/tech/tech-news/china-s-lunar-new-year-humanoid-robot-dance-goes-viral-with-23-billion-views-5042349.html"
+      },
       "category": "Робототехника",
       "title": "Танец роботов Unitree набрал 23 млрд просмотров",
       "timestamp": 1771556620000
     },
     "msg_311": {
       "chatId": "@newsneiron",
-      "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/toyota-strengthens-ties-joby-aviation-194220886.html" },
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/toyota-strengthens-ties-joby-aviation-194220886.html"
+      },
       "category": "eVTOL",
       "title": "Toyota удвоила ставки на Joby Aviation: защита $1 млрд инвестиции",
       "timestamp": 1771556640000
     },
     "msg_312": {
       "chatId": "@newsneiron",
-      "source": { "name": "Business Insider", "url": "https://www.businessinsider.com/amazon-tech-lead-vibe-coding-daily-resist-anni-chen-2026-2" },
+      "source": {
+        "name": "Business Insider",
+        "url": "https://www.businessinsider.com/amazon-tech-lead-vibe-coding-daily-resist-anni-chen-2026-2"
+      },
       "category": "Вайбкодинг",
       "title": "Техлид Amazon: вайбкодинг ежедневно использую, но в продакшн — никогда",
       "timestamp": 1771556660000
     },
     "msg_313": {
       "chatId": "@newsneiron",
-      "source": { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/chip-startup-taalas-raises-169-million-help-build-ai-chips-take-nvidia-2026-02-19/" },
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/chip-startup-taalas-raises-169-million-help-build-ai-chips-take-nvidia-2026-02-19/"
+      },
       "category": "Технологии",
       "title": "Taalas привлёк $169 млн на чипы для ИИ, специфичные под модели",
       "timestamp": 1771556680000
     },
     "msg_314": {
       "chatId": "@newsneiron",
-      "source": { "name": "UN News", "url": "https://news.un.org/en/story/2026/02/1166996" },
+      "source": {
+        "name": "UN News",
+        "url": "https://news.un.org/en/story/2026/02/1166996"
+      },
       "category": "ИИ",
       "title": "ООН на India AI Summit: будущее ИИ нельзя отдать паре миллиардеров",
       "timestamp": 1771556700000
     },
     "msg_315": {
       "chatId": "@newsneiron",
-      "source": { "name": "The Next Web", "url": "https://thenextweb.com/news/david-silver-is-chasing-superhuman-intelligence-with-a-1bn-seed" },
+      "source": {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/david-silver-is-chasing-superhuman-intelligence-with-a-1bn-seed"
+      },
       "category": "ИИ",
       "title": "Отец AlphaGo собирает $1 млрд seed-раунд: суперинтеллект без LLM",
       "timestamp": 1771556720000
     },
     "msg_316": {
       "chatId": "@newsneiron",
-      "source": { "name": "The Hindu", "url": "https://www.thehindu.com/news/international/inside-the-rise-of-robotics-firm-unitree-glimpse-into-chinas-tech-ambitions/article70651457.ece" },
+      "source": {
+        "name": "The Hindu",
+        "url": "https://www.thehindu.com/news/international/inside-the-rise-of-robotics-firm-unitree-glimpse-into-chinas-tech-ambitions/article70651457.ece"
+      },
       "category": "Робототехника",
       "title": "Unitree: что стоит за кунг-фу роботами — взгляд изнутри компании",
       "timestamp": 1771556740000
     },
     "msg_317": {
       "chatId": "@newsneiron",
-      "source": { "name": "Tech Startups", "url": "https://techstartups.com/2026/02/19/frist-cressey-ventures-raises-425m-for-fund-iv-pushes-total-assets-toward-1b-to-fuel-ai-healthcare-startups/" },
+      "source": {
+        "name": "Tech Startups",
+        "url": "https://techstartups.com/2026/02/19/frist-cressey-ventures-raises-425m-for-fund-iv-pushes-total-assets-toward-1b-to-fuel-ai-healthcare-startups/"
+      },
       "category": "Инвестиции",
       "title": "Frist Cressey Ventures закрыл $425 млн фонд на ИИ в здравоохранении",
       "timestamp": 1771556760000
     },
     "msg_318": {
       "chatId": "@newsneiron",
-      "source": { "name": "The Guardian", "url": "https://www.theguardian.com/technology/ng-interactive/2026/feb/19/ai-work-future" },
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/feb/19/ai-work-future"
+      },
       "category": "Бизнес",
       "title": "«ИИ-дисфункция замещения»: новый диагноз для работников, боящихся автоматизации",
       "timestamp": 1771556780000
     },
     "msg_319": {
       "chatId": "@newsneiron",
-      "source": { "name": "DEV Community", "url": "https://dev.to/sashido/artificial-intelligence-coding-is-turning-into-vibe-working-what-still-breaks-1fj1" },
+      "source": {
+        "name": "DEV Community",
+        "url": "https://dev.to/sashido/artificial-intelligence-coding-is-turning-into-vibe-working-what-still-breaks-1fj1"
+      },
       "category": "Вайбкодинг",
       "title": "ИИ в разработке: когда «vibe working» ломается на production",
       "timestamp": 1771556800000
     },
     "msg_320": {
       "chatId": "@newsneiron",
-      "source": { "name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/02/19/3240827/28124/en/Electric-vertical-take-off-and-landing-eVTOL-and-Advanced-Air-Mobility-AAM-Research-Report-2026-A-90-Billion-Opportunity-by-2050-with-a-Projected-160-000-Passenger-Drones-to-be-in-.html" },
+      "source": {
+        "name": "GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/02/19/3240827/28124/en/Electric-vertical-take-off-and-landing-eVTOL-and-Advanced-Air-Mobility-AAM-Research-Report-2026-A-90-Billion-Opportunity-by-2050-with-a-Projected-160-000-Passenger-Drones-to-be-in-.html"
+      },
       "category": "eVTOL",
       "title": "Первый коммерческий eVTOL: когда и кто взлетит — прогноз рынка",
       "timestamp": 1771556820000
@@ -723,6 +855,51 @@
         "opinion": "Интересное развитие в данной области."
       },
       "timestamp": 1770399757524
+    },
+    "msg_321": {
+      "source": {
+        "name": "Anthropic Research",
+        "url": "https://anthropic.com/research"
+      },
+      "category": "AI",
+      "title": "Claude 3.7 Sonnet решает задачи уровня PhD с точностью 78%",
+      "timestamp": 1771566463783
+    },
+    "msg_322": {
+      "source": {
+        "name": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026"
+      },
+      "category": "AI",
+      "title": "ИИ изменит природу софтверной индустрии — Сэм Альтман",
+      "timestamp": 1771566523806
+    },
+    "msg_323": {
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending"
+      },
+      "category": "Инвестиции",
+      "title": "Расходы на ИИ достигнут $2.5 триллиона в 2026 году",
+      "timestamp": 1771566534161
+    },
+    "msg_324": {
+      "source": {
+        "name": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+      },
+      "category": "AI",
+      "title": "ИИ читает МРТ мозга за секунды точнее врача",
+      "timestamp": 1771566545286
+    },
+    "msg_325": {
+      "source": {
+        "name": "Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/india-ai-impact-summit-2026"
+      },
+      "category": "Бизнес",
+      "title": "Макрон: ИИ должен быть инклюзивным — против цифровой фрагментации",
+      "timestamp": 1771566555400
     }
   },
   "config": {

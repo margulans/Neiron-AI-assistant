@@ -1,15 +1,25 @@
 {
-  "_comment": "Снапшот cron-задач OpenClaw Gateway. Обновляй после каждого изменения через /git.",
-  "_updated": "2026-02-20",
-  "_note": "Справочный файл. Реальные задачи в БД OpenClaw. Для восстановления — пересоздавать через cron tool.",
+  "updated": "2026-02-20T07:01:00Z",
   "jobs": [
+    {
+      "id": "ce006db5-350b-44be-baef-8b216ed687e4",
+      "name": "Auto-commit: Git sync",
+      "schedule": "0 */4 * * * (Asia/Almaty)",
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Git status check every 4h; if changes exist → update cron snapshot, commit, push"
+    },
     {
       "id": "4cc76b40-8c26-4d88-aa2d-967f432e9cee",
       "name": "Утренний брифинг",
       "schedule": "0 6 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "now",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Morning briefing: check calendar, yesterday reflection tasks, send daily plan to Маргулан"
     },
     {
       "id": "1c292387-c997-46f1-b8a1-e5fd40059713",
@@ -18,15 +28,18 @@
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-      "prompt_summary": "Отправляет 10-15 новостей КАЖДУЮ ОТДЕЛЬНЫМ сообщением в @newsneiron"
+      "thinking": "low",
+      "summary": "Morning news digest to @newsneiron: AI→Robotics→eVTOL→VibeCoding→Tech→Business→Investment, 10-15 items, dedup"
     },
     {
       "id": "11c0bfdf-f175-4bc1-aa59-62710160c307",
-      "name": "BACKUP: Утренний дайджест",
+      "name": "🚨 BACKUP: Утренний дайджест",
       "schedule": "5 8 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "now",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Backup: only runs if main 08:00 digest was skipped"
     },
     {
       "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
@@ -35,8 +48,8 @@
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-      "prompt_summary": "КАЖДОЕ мнение = ОТДЕЛЬНЫЙ вызов message() в @opnioneiron. НЕ объединять в одно сообщение. Ссылка обязательна.",
-      "last_fixed": "2026-02-20"
+      "thinking": "low",
+      "summary": "Morning opinions digest to @opnioneiron: 8-10 expert opinions, each as separate message, mandatory experts list"
     },
     {
       "id": "a0ed4696-8c15-4ab2-b21d-e3e2e9a0b6b6",
@@ -44,15 +57,19 @@
       "schedule": "0 13 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "now",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Afternoon news digest to @newsneiron: same priority hierarchy, 10-15 items, dedup"
     },
     {
       "id": "829c063d-10f5-4748-9248-12cf80f3aeed",
-      "name": "BACKUP: Дневной дайджест",
+      "name": "🚨 BACKUP: Дневной дайджест",
       "schedule": "5 13 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "next-heartbeat",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Backup: only runs if main 13:00 digest was skipped"
     },
     {
       "id": "ba31c42d-be5d-486e-9897-6fb4fa6ae2ed",
@@ -61,8 +78,8 @@
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-      "prompt_summary": "КАЖДОЕ мнение = ОТДЕЛЬНЫЙ вызов message() в @opnioneiron. НЕ объединять в одно сообщение. Ссылка обязательна.",
-      "last_fixed": "2026-02-20"
+      "thinking": "low",
+      "summary": "Afternoon opinions digest to @opnioneiron: 8-10 expert opinions, each separate message"
     },
     {
       "id": "582cc3f0-9941-4e74-ae77-0afac52c6258",
@@ -70,15 +87,19 @@
       "schedule": "0 18 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "next-heartbeat",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Evening news digest to @newsneiron: same priority hierarchy, 10-15 items, dedup"
     },
     {
       "id": "a68c8df0-ef6b-4f55-86a6-29f1acb5c439",
-      "name": "BACKUP: Вечерний дайджест",
+      "name": "🚨 BACKUP: Вечерний дайджест",
       "schedule": "5 18 * * * (Asia/Almaty)",
       "sessionTarget": "isolated",
       "wakeMode": "next-heartbeat",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+      "thinking": "low",
+      "summary": "Backup: only runs if main 18:00 digest was skipped"
     },
     {
       "id": "2fe731f2-6254-4a2e-ba80-4c326a3a1fe8",
@@ -87,8 +108,8 @@
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-      "prompt_summary": "КАЖДОЕ мнение = ОТДЕЛЬНЫЙ вызов message() в @opnioneiron. НЕ объединять в одно сообщение. Ссылка обязательна.",
-      "last_fixed": "2026-02-20"
+      "thinking": "low",
+      "summary": "Evening opinions digest to @opnioneiron: 8-10 expert opinions, each separate message"
     },
     {
       "id": "9d558661-b1bd-4636-afba-72ec30bb3190",
@@ -96,22 +117,26 @@
       "schedule": "30 20 * * * (Asia/Almaty)",
       "sessionTarget": "main",
       "wakeMode": "next-heartbeat",
-      "payload_kind": "systemEvent"
+      "model": null,
+      "summary": "Daily reflection systemEvent at 20:30"
     },
     {
       "id": "14e9b571-ee59-46b5-bd2c-37590d108a09",
-      "name": "Chat Cleanup — конец дня",
+      "name": "🧹 Chat Cleanup — конец дня",
       "schedule": "0 21 * * * (Asia/Almaty)",
       "sessionTarget": "main",
       "wakeMode": "now",
-      "payload_kind": "systemEvent"
+      "model": null,
+      "summary": "End-of-day chat cleanup: save session to memory, update MEMORY.md, offer to clear chat"
     },
     {
       "id": "7e21383e-9595-4cae-ac86-498615a41c05",
-      "name": "Еженедельный анализ источников",
+      "name": "Еженедельный анализ источников exploration",
       "schedule": "0 10 * * 0 (Asia/Almaty)",
       "sessionTarget": "isolated",
-      "wakeMode": "next-heartbeat"
+      "wakeMode": "next-heartbeat",
+      "model": null,
+      "summary": "Weekly source exploration analysis: run script, check 33% rule, send report with new source recommendations"
     },
     {
       "id": "f09cd8a5-2b4a-4bea-aa57-f2da041dd9a8",
@@ -119,17 +144,8 @@
       "schedule": "0 8 28 * * (Asia/Almaty)",
       "sessionTarget": "main",
       "wakeMode": "now",
-      "payload_kind": "systemEvent"
-    },
-    {
-      "id": "ce006db5-350b-44be-baef-8b216ed687e4",
-      "name": "Auto-commit: Git sync",
-      "schedule": "0 */4 * * * (Asia/Almaty)",
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-      "prompt_summary": "git status → если есть изменения: обнови cron-снапшот, git add -A, commit, push. Тихо.",
-      "added": "2026-02-20"
+      "model": null,
+      "summary": "Monthly weight check reminder: ask Маргулан for current weight, record in profile.md. Target: 82kg, current: 86kg"
     }
   ]
 }
