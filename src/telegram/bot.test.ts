@@ -1159,4 +1159,102 @@ describe("createTelegramBot", () => {
     const sessionKey = eventOptions.sessionKey ?? "";
     expect(sessionKey).not.toContain(":topic:");
   });
+
+  it("enqueues system event for channel reaction_count", async () => {
+    onSpy.mockReset();
+    enqueueSystemEventSpy.mockReset();
+
+    loadConfig.mockReturnValue({
+      channels: {
+        telegram: {
+          dmPolicy: "open",
+          reactionNotifications: "all",
+          allowFrom: ["685668909"],
+        },
+      },
+    });
+
+    createTelegramBot({ token: "tok" });
+    const handler = getOnHandler("message_reaction_count") as (
+      ctx: Record<string, unknown>,
+    ) => Promise<void>;
+
+    await handler({
+      update: { update_id: 600 },
+      messageReactionCount: {
+        chat: { id: -1001234567890, type: "channel" },
+        message_id: 309,
+        date: 1736380800,
+        reactions: [{ type: { type: "emoji", emoji: "🔥" }, total_count: 1 }],
+      },
+    });
+
+    expect(enqueueSystemEventSpy).toHaveBeenCalledTimes(1);
+    expect(enqueueSystemEventSpy).toHaveBeenCalledWith(
+      "Telegram reaction added: 🔥 by channel subscriber on msg 309",
+      expect.objectContaining({
+        contextKey: expect.stringContaining("telegram:reaction_count:-1001234567890:309:🔥"),
+      }),
+    );
+  });
+
+  it("skips channel reaction_count when reactionNotifications is off", async () => {
+    onSpy.mockReset();
+    enqueueSystemEventSpy.mockReset();
+
+    loadConfig.mockReturnValue({
+      channels: {
+        telegram: {
+          dmPolicy: "open",
+          reactionNotifications: "off",
+          allowFrom: ["685668909"],
+        },
+      },
+    });
+
+    createTelegramBot({ token: "tok" });
+    const handler = getOnHandler("message_reaction_count") as (
+      ctx: Record<string, unknown>,
+    ) => Promise<void>;
+
+    await handler({
+      update: { update_id: 601 },
+      messageReactionCount: {
+        chat: { id: -1001234567890, type: "channel" },
+        message_id: 310,
+        date: 1736380800,
+        reactions: [{ type: { type: "emoji", emoji: "👍" }, total_count: 1 }],
+      },
+    });
+
+    expect(enqueueSystemEventSpy).not.toHaveBeenCalled();
+  });
+
+  it("skips channel reaction_count when no allowFrom configured", async () => {
+    onSpy.mockReset();
+    enqueueSystemEventSpy.mockReset();
+
+    loadConfig.mockReturnValue({
+      channels: {
+        telegram: { dmPolicy: "open", reactionNotifications: "all" },
+      },
+    });
+
+    createTelegramBot({ token: "tok" });
+    const handler = getOnHandler("message_reaction_count") as (
+      ctx: Record<string, unknown>,
+    ) => Promise<void>;
+
+    await handler({
+      update: { update_id: 602 },
+      messageReactionCount: {
+        chat: { id: -1001234567890, type: "channel" },
+        message_id: 311,
+        date: 1736380800,
+        reactions: [{ type: { type: "emoji", emoji: "👎" }, total_count: 1 }],
+      },
+    });
+
+    expect(enqueueSystemEventSpy).not.toHaveBeenCalled();
+  });
 });

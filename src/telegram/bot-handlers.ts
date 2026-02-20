@@ -522,6 +522,63 @@ export const registerTelegramHandlers = ({
       runtime.error?.(danger(`telegram reaction handler failed: ${String(err)}`));
     }
   });
+
+  // Обрабатывает агрегированные счётчики реакций в каналах.
+  // Каналы шлют message_reaction_count (без userId), а не message_reaction.
+  // Маршрутизируем к сессии первого пользователя из allowFrom (владелец бота).
+  bot.on("message_reaction_count", async (ctx) => {
+    try {
+      const reactionCount = ctx.messageReactionCount;
+      if (!reactionCount) {
+        return;
+      }
+      if (shouldSkipUpdate(ctx)) {
+        return;
+      }
+
+      const reactionMode = telegramCfg.reactionNotifications ?? "own";
+      if (reactionMode === "off") {
+        return;
+      }
+
+      const messageId = reactionCount.message_id;
+      const chatId = reactionCount.chat.id;
+
+      // Находим сессию владельца бота (канал не входит в allowFrom —
+      // события реакций из канала направляем в его личный чат).
+      const ownerId = telegramCfg.allowFrom?.[0];
+      if (!ownerId) {
+        return;
+      }
+
+      const route = resolveAgentRoute({
+        cfg: loadConfig(),
+        channel: "telegram",
+        accountId,
+        peer: { kind: "direct", id: String(ownerId) },
+        parentPeer: undefined,
+      });
+      const sessionKey = route.sessionKey;
+
+      // Генерируем событие в том же формате, что message_reaction,
+      // чтобы инструкции агента из digest-format-final.md работали без изменений.
+      for (const r of reactionCount.reactions) {
+        if (r.type.type !== "emoji") {
+          continue;
+        }
+        const emoji = r.type.emoji;
+        const text = `Telegram reaction added: ${emoji} by channel subscriber on msg ${messageId}`;
+        enqueueSystemEvent(text, {
+          sessionKey,
+          contextKey: `telegram:reaction_count:${chatId}:${messageId}:${emoji}`,
+        });
+        logVerbose(`telegram: reaction_count event enqueued: ${text}`);
+      }
+    } catch (err) {
+      runtime.error?.(danger(`telegram reaction_count handler failed: ${String(err)}`));
+    }
+  });
+
   const processInboundMessage = async (params: {
     ctx: TelegramContext;
     msg: Message;

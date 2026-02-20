@@ -10,5 +10,11 @@ export function resolveTelegramAllowedUpdates(): ReadonlyArray<TelegramUpdateTyp
   if (!updates.includes("channel_post")) {
     updates.push("channel_post");
   }
+  // Нужен для получения реакций в каналах (анонимные агрегированные реакции).
+  // message_reaction приходит только в группах/личных чатах (с userId),
+  // в каналах Telegram шлёт только message_reaction_count.
+  if (!updates.includes("message_reaction_count")) {
+    updates.push("message_reaction_count");
+  }
   return updates;
 }
