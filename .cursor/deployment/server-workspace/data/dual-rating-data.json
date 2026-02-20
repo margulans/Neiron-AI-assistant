@@ -900,6 +900,123 @@
       "category": "Бизнес",
       "title": "Макрон: ИИ должен быть инклюзивным — против цифровой фрагментации",
       "timestamp": 1771566555400
+    },
+    "msg_327": {
+      "source": {
+        "name": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/india-news/india-ai-summit-2026-live-updates-day-5-pm-modi-us-gpai-council-meetings-delhi-declaration-bharat-mandapam-latest-news-101771550878374.html"
+      },
+      "category": "AI",
+      "title": "Индия AI Summit День 5: лидеры стран принимают совместную декларацию по ИИ",
+      "timestamp": 1771574680000
+    },
+    "msg_328": {
+      "source": {
+        "name": "Silicon Republic",
+        "url": "https://www.siliconrepublic.com/start-ups/fei-fei-li-world-labs-raises-1bn-to-spatial-intelligence-ai-world-models-marble"
+      },
+      "category": "AI",
+      "title": "World Labs Фей-Фей Ли привлекла $1 млрд от NVIDIA, AMD и Autodesk на пространственный ИИ",
+      "timestamp": 1771574700000
+    },
+    "msg_329": {
+      "source": {
+        "name": "Korea JoongAng Daily",
+        "url": "https://koreajoongangdaily.joins.com/news/2026-02-20/business/industry/Actuators-become-new-battleground-in-humanoid-robot-race-/2525672"
+      },
+      "category": "Robotics",
+      "title": "Актуаторы — новое поле битвы в гонке гуманоидных роботов",
+      "timestamp": 1771574720000
+    },
+    "msg_330": {
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/shocking-futuristic-reason-why-elon-153740760.html"
+      },
+      "category": "Robotics",
+      "title": "Tesla останавливает выпуск Model S и Model X — заводы переводятся на производство робота Optimus",
+      "timestamp": 1771574740000
+    },
+    "msg_331": {
+      "source": {
+        "name": "Aviation Week",
+        "url": "https://aviationweek.com/aerospace/advanced-air-mobility/wisk-moves-simulation-live-airspace-integration"
+      },
+      "category": "eVTOL",
+      "title": "Wisk Aero выходит в реальное воздушное пространство: автономное eVTOL интегрируется в живые маршруты",
+      "timestamp": 1771574760000
+    },
+    "msg_332": {
+      "source": {
+        "name": "New York Times",
+        "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html"
+      },
+      "category": "Coding",
+      "title": "NYT: ИИ-революция уже здесь — вайбкодинг меняет кто может создавать ПО",
+      "timestamp": 1771574780000
+    },
+    "msg_333": {
+      "source": {
+        "name": "Data Center Knowledge",
+        "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscalers-in-2026-what-s-next-for-the-world-s-largest-data-center-operators-"
+      },
+      "category": "Technology",
+      "title": "Гиперскейлеры в 2026: гонка ИИ-датацентров врезается в энергетический потолок",
+      "timestamp": 1771574800000
+    },
+    "msg_334": {
+      "source": {
+        "name": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/02/19/agentic-finance-automation-startup-stacks-raises-23m-funding/"
+      },
+      "category": "Business",
+      "title": "Stacks привлёк $23 млн Series A: агентная ИИ-автоматизация корпоративных финансов",
+      "timestamp": 1771574820000
+    },
+    "msg_335": {
+      "source": {
+        "name": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/funding/llmops-startup-portkey-raises-15-million-in-round-led-by-elevation-capital/articleshow/128566160.cms"
+      },
+      "category": "Investment",
+      "title": "Portkey поднял $15 млн Series A: контрольная панель для управления расходами на ИИ",
+      "timestamp": 1771574840000
+    },
+    "msg_336": {
+      "source": {
+        "name": "BusinessKorea",
+        "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=263483"
+      },
+      "category": "Robotics",
+      "title": "Автопроизводители делают ставку на рынок гуманоидов в $5 трлн",
+      "timestamp": 1771574860000
+    },
+    "msg_337": {
+      "source": {
+        "name": "The Conversation",
+        "url": "https://theconversation.com/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them-270370"
+      },
+      "category": "Robotics",
+      "title": "Гуманоиды для быта уже в продаже за $20 000, но рынок не готов",
+      "timestamp": 1771574880000
+    },
+    "msg_338": {
+      "source": {
+        "name": "HackerNoon",
+        "url": "https://hackernoon.com/ai-vibe-coding-speeds-developers-up-but-at-what-cost"
+      },
+      "category": "Coding",
+      "title": "Вайбкодинг ускоряет разработку — но какой ценой для качества кода?",
+      "timestamp": 1771574900000
+    },
+    "msg_339": {
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending-how-does-it-compare-with-historys-mega-projects"
+      },
+      "category": "Investment",
+      "title": "Расходы на ИИ в 2026 — $2,5 трлн: сравнение с величайшими мегапроектами в истории",
+      "timestamp": 1771574920000
     }
   },
   "config": {

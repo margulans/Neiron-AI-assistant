@@ -336,6 +336,110 @@
       "digest": "evening",
       "date": "2026-02-19",
       "category": "AI"
+    },
+    {
+      "url": "https://www.hindustantimes.com/india-news/india-ai-summit-2026-live-updates-day-5-pm-modi-us-gpai-council-meetings-delhi-declaration-bharat-mandapam-latest-news-101771550878374.html",
+      "title": "Индия AI Summit День 5: лидеры стран принимают совместную декларацию по ИИ",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "AI",
+      "keywords": ["india", "ai summit", "gpai", "declaration", "governance", "день 5"]
+    },
+    {
+      "url": "https://www.siliconrepublic.com/start-ups/fei-fei-li-world-labs-raises-1bn-to-spatial-intelligence-ai-world-models-marble",
+      "title": "World Labs Фей-Фей Ли привлекла $1 млрд от NVIDIA, AMD и Autodesk на пространственный ИИ",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "AI",
+      "keywords": ["world labs", "fei-fei li", "$1 billion", "spatial intelligence", "nvidia", "amd"]
+    },
+    {
+      "url": "https://koreajoongangdaily.joins.com/news/2026-02-20/business/industry/Actuators-become-new-battleground-in-humanoid-robot-race-/2525672",
+      "title": "Актуаторы — новое поле битвы в гонке гуманоидных роботов: LG, Samsung, Hyundai",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Robotics",
+      "keywords": ["actuators", "humanoid", "lg", "samsung", "korea", "battleground"]
+    },
+    {
+      "url": "https://finance.yahoo.com/news/shocking-futuristic-reason-why-elon-153740760.html",
+      "title": "Tesla останавливает выпуск Model S и Model X — заводы переводятся на производство Optimus",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Robotics",
+      "keywords": ["tesla", "model s", "model x", "optimus", "humanoid", "fremont"]
+    },
+    {
+      "url": "https://aviationweek.com/aerospace/advanced-air-mobility/wisk-moves-simulation-live-airspace-integration",
+      "title": "Wisk Aero выходит в реальное воздушное пространство: автономное eVTOL",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "eVTOL",
+      "keywords": ["wisk aero", "eipp", "airspace", "autonomous", "certification", "urban air mobility"]
+    },
+    {
+      "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html",
+      "title": "NYT: ИИ-революция уже здесь — вайбкодинг меняет кто может создавать ПО",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Coding",
+      "keywords": ["vibe coding", "nyt", "democratize", "software", "ai revolution"]
+    },
+    {
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscalers-in-2026-what-s-next-for-the-world-s-largest-data-center-operators-",
+      "title": "Гиперскейлеры в 2026: гонка ИИ-датацентров врезается в энергетический потолок",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Technology",
+      "keywords": ["hyperscalers", "datacenter", "power", "bottleneck", "ai buildout", "2026"]
+    },
+    {
+      "url": "https://siliconangle.com/2026/02/19/agentic-finance-automation-startup-stacks-raises-23m-funding/",
+      "title": "Stacks привлёк $23 млн Series A: агентная ИИ-автоматизация корпоративных финансов",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Business",
+      "keywords": ["stacks", "$23 million", "agentic", "finance automation", "series a", "lightspeed"]
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/tech/funding/llmops-startup-portkey-raises-15-million-in-round-led-by-elevation-capital/articleshow/128566160.cms",
+      "title": "Portkey поднял $15 млн Series A: управление расходами на ИИ для 24 000 организаций",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Investment",
+      "keywords": ["portkey", "$15 million", "llmops", "elevation capital", "ai spending", "series a"]
+    },
+    {
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=263483",
+      "title": "Автопроизводители делают ставку на рынок гуманоидов в $5 трлн",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Robotics",
+      "keywords": ["automakers", "humanoid", "$5 trillion", "hyundai", "boston dynamics", "physical ai"]
+    },
+    {
+      "url": "https://theconversation.com/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them-270370",
+      "title": "Гуманоиды для быта уже в продаже за $20 000, но рынок не готов",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Robotics",
+      "keywords": ["home robot", "neo bot", "$20000", "1x", "humanoid", "household"]
+    },
+    {
+      "url": "https://hackernoon.com/ai-vibe-coding-speeds-developers-up-but-at-what-cost",
+      "title": "Вайбкодинг ускоряет разработку — но какой ценой для качества кода?",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Coding",
+      "keywords": ["vibe coding", "code quality", "technical debt", "hackernoon", "ai tools"]
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending-how-does-it-compare-with-historys-mega-projects",
+      "title": "Расходы на ИИ в 2026 — $2,5 трлн: сравнение с величайшими мегапроектами в истории",
+      "digest": "day",
+      "date": "2026-02-20",
+      "category": "Investment",
+      "keywords": ["ai spending", "$2.5 trillion", "gartner", "datacenter", "mega projects", "al jazeera"]
     }
   ]
 }
