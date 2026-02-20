@@ -50,7 +50,7 @@
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
       "summary": "Morning opinions digest to @opnioneiron: 8-10 expert opinions, each as separate message, mandatory experts list",
-      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "prompt_summary": "Жёсткий атомарный цикл: send→сохранить msg_{id} в messageHistory→перечитать и проверить; иначе стоп+алерт. Заголовок с моделью.",
       "last_fixed": "2026-02-20"
     },
     {
@@ -82,7 +82,7 @@
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
       "summary": "Afternoon opinions digest to @opnioneiron: 8-10 expert opinions, each separate message",
-      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "prompt_summary": "Жёсткий атомарный цикл: send→сохранить msg_{id} в messageHistory→перечитать и проверить; иначе стоп+алерт. Заголовок с моделью.",
       "last_fixed": "2026-02-20"
     },
     {
@@ -114,7 +114,7 @@
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
       "summary": "Evening opinions digest to @opnioneiron: 8-10 expert opinions, each separate message",
-      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "prompt_summary": "Жёсткий атомарный цикл: send→сохранить msg_{id} в messageHistory→перечитать и проверить; иначе стоп+алерт. Заголовок с моделью.",
       "last_fixed": "2026-02-20"
     },
     {
