@@ -256,37 +256,49 @@
       "name": "Hindustan Times",
       "url": "https://www.hindustantimes.com/india-news/ai-impact-summit-delhi-2026",
       "category": "AI",
-      "totalScore": 10,
-      "reactionsCount": 1,
+      "totalScore": 15,
+      "reactionsCount": 2,
       "reactions": [
         {
           "reaction": "🔥",
           "score": 10,
           "userId": 685668909,
           "timestamp": 1771566740628
+        },
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
         }
       ],
-      "averageScore": 10.0,
+      "averageScore": 7.5,
       "status": "proven",
-      "lastReaction": 1771566740628
+      "lastReaction": 1771577309535
     },
     "Al Jazeera": {
       "name": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending",
       "category": "Инвестиции",
-      "totalScore": -5,
-      "reactionsCount": 1,
+      "totalScore": -8,
+      "reactionsCount": 2,
       "reactions": [
         {
           "reaction": "💩",
           "score": -5,
           "userId": 685668909,
           "timestamp": 1771566740628
+        },
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771577309535
         }
       ],
-      "averageScore": -5.0,
+      "averageScore": -4.0,
       "status": "rejected",
-      "lastReaction": 1771566740628
+      "lastReaction": 1771577309535
     },
     "ScienceDaily": {
       "name": "ScienceDaily",
@@ -323,6 +335,204 @@
       "averageScore": 5.0,
       "status": "candidate",
       "lastReaction": 1771566740628
+    },
+    "Silicon Republic": {
+      "name": "Silicon Republic",
+      "url": "https://www.siliconrepublic.com/start-ups/fei-fei-li-world-labs-raises-1bn-to-spatial-intelligence-ai-world-models-marble",
+      "category": "AI",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "Korea JoongAng Daily": {
+      "name": "Korea JoongAng Daily",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-02-20/business/industry/Actuators-become-new-battleground-in-humanoid-robot-race-/2525672",
+      "category": "Robotics",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "Yahoo Finance": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/shocking-futuristic-reason-why-elon-153740760.html",
+      "category": "Robotics",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "Aviation Week": {
+      "name": "Aviation Week",
+      "url": "https://aviationweek.com/aerospace/advanced-air-mobility/wisk-moves-simulation-live-airspace-integration",
+      "category": "eVTOL",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "New York Times": {
+      "name": "New York Times",
+      "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html",
+      "category": "Coding",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "Data Center Knowledge": {
+      "name": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscalers-in-2026-what-s-next-for-the-world-s-largest-data-center-operators-",
+      "category": "Technology",
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": -3.0,
+      "status": "rejected",
+      "lastReaction": 1771577309535
+    },
+    "SiliconANGLE": {
+      "name": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/02/19/agentic-finance-automation-startup-stacks-raises-23m-funding/",
+      "category": "Business",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "Economic Times": {
+      "name": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/funding/llmops-startup-portkey-raises-15-million-in-round-led-by-elevation-capital/articleshow/128566160.cms",
+      "category": "Investment",
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": -3.0,
+      "status": "rejected",
+      "lastReaction": 1771577309535
+    },
+    "BusinessKorea": {
+      "name": "BusinessKorea",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=263483",
+      "category": "Robotics",
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": -3.0,
+      "status": "rejected",
+      "lastReaction": 1771577309535
+    },
+    "The Conversation": {
+      "name": "The Conversation",
+      "url": "https://theconversation.com/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them-270370",
+      "category": "Robotics",
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👍",
+          "score": 5,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": 5.0,
+      "status": "candidate",
+      "lastReaction": 1771577309535
+    },
+    "HackerNoon": {
+      "name": "HackerNoon",
+      "url": "https://hackernoon.com/ai-vibe-coding-speeds-developers-up-but-at-what-cost",
+      "category": "Coding",
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "reaction": "👎",
+          "score": -3,
+          "userId": 685668909,
+          "timestamp": 1771577309535
+        }
+      ],
+      "averageScore": -3.0,
+      "status": "rejected",
+      "lastReaction": 1771577309535
     }
   },
   "categoryRatings": {
@@ -349,9 +559,9 @@
     },
     "eVTOL": {
       "name": "eVTOL",
-      "totalScore": 0,
-      "reactionsCount": 0,
-      "averageScore": 0,
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "averageScore": 5.0,
       "status": "candidate"
     },
     "Технологии": {
@@ -376,10 +586,40 @@
       "status": "rejected"
     },
     "AI": {
-      "totalScore": 17,
-      "reactionsCount": 3,
-      "averageScore": 5.666666666666667,
+      "totalScore": 27,
+      "reactionsCount": 5,
+      "averageScore": 5.4,
       "status": "candidate"
+    },
+    "Robotics": {
+      "totalScore": 12,
+      "reactionsCount": 4,
+      "averageScore": 3.0,
+      "status": "candidate"
+    },
+    "Coding": {
+      "totalScore": 2,
+      "reactionsCount": 2,
+      "averageScore": 1.0,
+      "status": "candidate"
+    },
+    "Technology": {
+      "totalScore": -3,
+      "reactionsCount": 1,
+      "averageScore": -3.0,
+      "status": "rejected"
+    },
+    "Business": {
+      "totalScore": 5,
+      "reactionsCount": 1,
+      "averageScore": 5.0,
+      "status": "candidate"
+    },
+    "Investment": {
+      "totalScore": -6,
+      "reactionsCount": 2,
+      "averageScore": -3.0,
+      "status": "rejected"
     }
   },
   "expertRatings": {

@@ -49,7 +49,9 @@
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
-      "summary": "Morning opinions digest to @opnioneiron: 8-10 expert opinions, each as separate message, mandatory experts list"
+      "summary": "Morning opinions digest to @opnioneiron: 8-10 expert opinions, each as separate message, mandatory experts list",
+      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "last_fixed": "2026-02-20"
     },
     {
       "id": "a0ed4696-8c15-4ab2-b21d-e3e2e9a0b6b6",
@@ -79,7 +81,9 @@
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
-      "summary": "Afternoon opinions digest to @opnioneiron: 8-10 expert opinions, each separate message"
+      "summary": "Afternoon opinions digest to @opnioneiron: 8-10 expert opinions, each separate message",
+      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "last_fixed": "2026-02-20"
     },
     {
       "id": "582cc3f0-9941-4e74-ae77-0afac52c6258",
@@ -109,7 +113,9 @@
       "wakeMode": "now",
       "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
       "thinking": "low",
-      "summary": "Evening opinions digest to @opnioneiron: 8-10 expert opinions, each separate message"
+      "summary": "Evening opinions digest to @opnioneiron: 8-10 expert opinions, each separate message",
+      "prompt_summary": "Заголовок с моделью → каждое мнение ОТДЕЛЬНЫМ msg → сохранять messageHistory. Ссылка обязательна.",
+      "last_fixed": "2026-02-20"
     },
     {
       "id": "9d558661-b1bd-4636-afba-72ec30bb3190",
@@ -147,5 +153,6 @@
       "model": null,
       "summary": "Monthly weight check reminder: ask Маргулан for current weight, record in profile.md. Target: 82kg, current: 86kg"
     }
-  ]
+  ],
+  "_updated": "2026-02-20"
 }
