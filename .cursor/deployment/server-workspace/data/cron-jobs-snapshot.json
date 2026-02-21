@@ -216,7 +216,7 @@
       "name": "Вечерний дайджест @newsneiron",
       "enabled": true,
       "schedule": "0 18 * * * (Asia/Almaty)",
-      "wakeMode": "next-heartbeat",
+      "wakeMode": "now",
       "sessionTarget": "isolated",
       "payload": {
         "kind": "agentTurn",
