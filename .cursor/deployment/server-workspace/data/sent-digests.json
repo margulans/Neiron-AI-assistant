@@ -4,442 +4,84 @@
   "maxAge": "7d",
   "entries": [
     {
-      "url": "https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning",
-      "title": "Google выпустил Gemini 3.1 Pro: удвоенный рейтинг в задачах рассуждения",
-      "digest": "morning",
-      "date": "2026-02-20",
+      "url": "https://www.businesstoday.in/india/story/india-ai-impact-summit-declaration-endorsed-by-us-79-other-countries-document-likely-to-be-out-today-517388-2026-02-21",
+      "title": "Delhi Declaration: 80 стран подписали соглашение о будущем ИИ",
+      "digest": "day",
+      "date": "2026-02-21",
       "category": "AI",
-      "keywords": ["google", "gemini", "3.1", "pro", "reasoning", "модель"]
+      "keywords": ["delhi declaration", "india ai summit", "80 countries", "governance"]
     },
     {
-      "url": "https://e.vnexpress.net/news/tech/tech-news/china-s-lunar-new-year-humanoid-robot-dance-goes-viral-with-23-billion-views-5042349.html",
-      "title": "Танец роботов Unitree набрал 23 млрд просмотров",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["unitree", "robot", "viral", "23 billion", "кунг-фу", "просмотры"]
-    },
-    {
-      "url": "https://finance.yahoo.com/news/toyota-strengthens-ties-joby-aviation-194220886.html",
-      "title": "Toyota удвоила ставки на Joby Aviation: защита $1 млрд инвестиции",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "eVTOL",
-      "keywords": ["toyota", "joby", "aviation", "evtol", "$1 млрд", "инвестиция"]
-    },
-    {
-      "url": "https://www.businessinsider.com/amazon-tech-lead-vibe-coding-daily-resist-anni-chen-2026-2",
-      "title": "Техлид Amazon: вайбкодинг ежедневно использую, но в продакшн — никогда",
-      "digest": "morning",
-      "date": "2026-02-20",
+      "url": "https://siliconangle.com/2026/02/20/ai-code-translation-startup-code-metal-reels-125m-1-25b-valuation/",
+      "title": "Code Metal привлёк $125 млн на инфраструктуру для вайбкодинга",
+      "digest": "day",
+      "date": "2026-02-21",
       "category": "Coding",
-      "keywords": ["amazon", "vibe coding", "production", "техлид", "anni chen"]
+      "keywords": ["code metal", "series b", "$125 million", "vibe coding"]
     },
     {
-      "url": "https://www.reuters.com/world/asia-pacific/chip-startup-taalas-raises-169-million-help-build-ai-chips-take-nvidia-2026-02-19/",
-      "title": "Taalas привлёк $169 млн на чипы для ИИ, специфичные под модели",
-      "digest": "morning",
-      "date": "2026-02-20",
+      "url": "https://www.cnbc.com/2026/02/20/china-humanoid-robots-spring-festival-gala-unitree-tesla-ai-race.html",
+      "title": "Unitree нацелена на поставку 20 000 гуманоидных роботов в 2026 году",
+      "digest": "day",
+      "date": "2026-02-21",
+      "category": "Robotics",
+      "keywords": ["unitree", "humanoid", "20000 units", "g1"]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/02/20/3242158/0/en/Under-the-Direction-of-Brian-Ferdinand-EverForward-Trading-Reinforces-Qualification-Model-for-2026.html",
+      "title": "Archer и Joby: FAA финализирует требования к инфраструктуре вертипортов",
+      "digest": "day",
+      "date": "2026-02-21",
+      "category": "eVTOL",
+      "keywords": ["faa", "vertiport", "archer", "joby", "infrastructure"]
+    },
+    {
+      "url": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/",
+      "title": "Nvidia планирует инвестировать $30 млрд в мега-раунд OpenAI",
+      "digest": "day",
+      "date": "2026-02-21",
+      "category": "Investment",
+      "keywords": ["nvidia", "openai", "$30 billion", "funding round"]
+    },
+    {
+      "url": "https://www.news9live.com/technology/artificial-intelligence/qualcomm-ceo-6g-big-part-is-ai-india-ai-impact-summit-2026-2933721",
+      "title": "Qualcomm: 6G станет сетью, рожденной для искусственного интеллекта",
+      "digest": "day",
+      "date": "2026-02-21",
       "category": "Technology",
-      "keywords": ["taalas", "chip", "$169 million", "nvidia", "ai chip", "inference"]
+      "keywords": ["qualcomm", "6g", "edge ai", "connectivity"]
     },
     {
-      "url": "https://news.un.org/en/story/2026/02/1166996",
-      "title": "ООН на India AI Summit: будущее ИИ нельзя отдать паре миллиардеров",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "AI",
-      "keywords": ["ООН", "guterres", "india ai summit", "$3 billion", "фонд"]
-    },
-    {
-      "url": "https://thenextweb.com/news/david-silver-is-chasing-superhuman-intelligence-with-a-1bn-seed",
-      "title": "Отец AlphaGo собирает $1 млрд seed-раунд: суперинтеллект без LLM",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "AI",
-      "keywords": ["david silver", "ineffable intelligence", "alphago", "$1 billion", "superintelligence", "seed"]
-    },
-    {
-      "url": "https://www.thehindu.com/news/international/inside-the-rise-of-robotics-firm-unitree-glimpse-into-chinas-tech-ambitions/article70651457.ece",
-      "title": "Unitree: что стоит за кунг-фу роботами — взгляд изнутри компании",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["unitree", "robotics", "china", "humanoid", "ambitions", "inside"]
-    },
-    {
-      "url": "https://techstartups.com/2026/02/19/frist-cressey-ventures-raises-425m-for-fund-iv-pushes-total-assets-toward-1b-to-fuel-ai-healthcare-startups/",
-      "title": "Frist Cressey Ventures закрыл $425 млн фонд на ИИ в здравоохранении",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "Investment",
-      "keywords": ["frist cressey", "$425 million", "healthcare", "ai", "fund iv"]
-    },
-    {
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/feb/19/ai-work-future",
-      "title": "«ИИ-дисфункция замещения»: новый диагноз для работников, боящихся автоматизации",
-      "digest": "morning",
-      "date": "2026-02-20",
+      "url": "https://www.stocktitan.net/news/ai.html",
+      "title": "VCI Global запускает ROBODAX: автоматизация ИИ в реальной инфраструктуре",
+      "digest": "day",
+      "date": "2026-02-21",
       "category": "Business",
-      "keywords": ["ai replacement dysfunction", "workers", "anxiety", "automation", "jobs", "guardian"]
+      "keywords": ["vci global", "robodax", "robotics", "automation", "infrastructure"]
     },
     {
-      "url": "https://dev.to/sashido/artificial-intelligence-coding-is-turning-into-vibe-working-what-still-breaks-1fj1",
-      "title": "ИИ в разработке: когда «vibe working» ломается на production",
-      "digest": "morning",
-      "date": "2026-02-20",
+      "url": "https://www.youtube.com/watch?v=jeb38jicWOE",
+      "title": "Академия Optimus: Илон Маск ускоряет обучение роботов через симуляции",
+      "digest": "day",
+      "date": "2026-02-21",
+      "category": "Robotics",
+      "keywords": ["tesla", "optimus academy", "self-play", "simulation"]
+    },
+    {
+      "url": "https://techcrunch.com/2026/02/19/all-the-important-news-from-the-ongoing-india-ai-summit/",
+      "title": "Vibe-coding стартап Emergent достиг $100 млн ARR за 8 месяцев",
+      "digest": "day",
+      "date": "2026-02-21",
       "category": "Coding",
-      "keywords": ["vibe working", "production", "breaks", "devops", "backend", "coding"]
+      "keywords": ["emergent", "arr", "$100 million", "vibe coding"]
     },
     {
-      "url": "https://www.globenewswire.com/news-release/2026/02/19/3240827/28124/en/Electric-vertical-take-off-and-landing-eVTOL-and-Advanced-Air-Mobility-AAM-Research-Report-2026-A-90-Billion-Opportunity-by-2050-with-a-Projected-160-000-Passenger-Drones-to-be-in-.html",
-      "title": "Первый коммерческий eVTOL: когда и кто взлетит — прогноз рынка",
-      "digest": "morning",
-      "date": "2026-02-20",
-      "category": "eVTOL",
-      "keywords": ["evtol", "commercial", "$90 billion", "2050", "air taxi", "прогноз"]
-    },
-    {
-      "url": "https://www.hindustantimes.com/india-news/ai-summit-artificial-generative-intelligence-may-be-on-horizon-in-5-10-years-google-deepmind-ceo-demis-hassabis-101771456676227.html",
-      "title": "Demis Hassabis: AGI появится через 5-10 лет",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://venturebeat.com/orchestration/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost",
-      "title": "Claude Sonnet 4.6: производительность флагмана за 1/5 цены",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.thehindubusinessline.com/info-tech/india-ai-impact-summit-2026-pm-modi-new-delhi-live-updates/article70646444.ece",
-      "title": "India AI Summit 2026: Индия объявила суверенный ИИ",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "title": "Нейроморфные компьютеры решают физические симуляции вместо суперкомпьютеров",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/02/18/podcasts/the-daily/ai-vibecoding-claude-code.html",
-      "title": "NYT: Вайбкодинг вышел в мейнстрим",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Coding"
-    },
-    {
-      "url": "https://www.techradar.com/pro/best-vibe-coding-tools",
-      "title": "TechRadar: Топ-10 инструментов вайбкодинга 2026",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Coding"
-    },
-    {
-      "url": "https://interestingengineering.com/ai-robotics/unitree-targets-20000-humanoid-robots",
-      "title": "Unitree планирует выпустить 20,000 гуманоидных роботов",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://www.cnn.com/2026/02/18/china/china-humanoid-robots-new-year-gala-intl-hnk",
-      "title": "Китайские роботы показали кунг-фу на главном ТВ-шоу страны",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://www.cbsnews.com/news/automation-robotics-jobs-most-vulnerable/",
-      "title": "20% рабочих мест в США уязвимы к роботизации",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://www.globenewswire.com/news-release/2026/02/16/3238866/0/en/EHang-Lights-Up-China-s-Spring-Festival-Gala-with-16-EH216-S-and-22-580-GD4.0-Drones-in-Aerial-Tech-Spectacle.html",
-      "title": "EHang украсил Праздник весны 16 eVTOL и 22,580 дронами",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.openpr.com/news/4389498/urban-air-mobility-market-to-reach-usd-54-03-billion-by-2032",
-      "title": "FAA одобрила программу обучения пилотов Joby Aviation",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.prnewswire.com/news-releases/evtol-aircraft-market-to-reach-us-8-079-7-billion-by-2033-as-urban-air-mobility-and-innovation-drive-demand--pmr-302691606.html",
-      "title": "Рынок eVTOL достигнет $8,079 млрд к 2033 году",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.business-standard.com/technology/tech-news/tech-wrap-feb-18-google-i-o-2026-date-announced-apple-ai-devices-antheopic-claude-sonnet-4-6-google-pixel-10a-ios-26-4-public-beta-126021800987_1.html",
-      "title": "Google I/O 2026 назначен на 19-20 мая",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Technology"
-    },
-    {
-      "url": "https://www.reuters.com/business/autos-transportation/uber-invest-over-100-million-autonomous-vehicle-charging-amid-robotaxi-push-2026-02-18/",
-      "title": "Uber инвестирует $100 млн в зарядные хабы для роботакси",
-      "digest": "morning",
-      "date": "2026-02-19",
-      "category": "Business"
-    },
-    {
-      "url": "https://www.deccanherald.com/india/ai-impact-summit-2026-india-live-updates-delhi-artificial-intelligence-prime-minister-narendra-modi-congress-bjp-bill-gates-emmanuel-macron-galgotias-university-robodog-3903895",
-      "title": "Modi и Макрон выступили на India AI Summit 2026",
+      "url": "https://www.ndtv.com/delhi-news/pm-narendra-modi-united-nations-secretary-general-antonio-guterres-meet-focuses-on-democratising-ai-reforming-un-system-ai-impact-summit-2026-11116510",
+      "title": "UN Secretary-General: ИИ должен служить всему человечеству, а не только миллиардерам",
       "digest": "day",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.cnet.com/science/space/nasa-perseverance-ai-driving-anthropic-claude/",
-      "title": "NASA Perseverance: первый AI-маршрут на Марсе",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
-      "title": "Google Responsible AI Progress Report 2026",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.theguardian.com/world/2026/feb/18/china-dancing-humanoid-robots-festival-show",
-      "title": "Guardian: синхронизация сотен роботов — главный сигнал прогресса Китая",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://www.indiatvnews.com/technology/news/addverb-technologies-showcases-made-in-india-humanoid-robot-elixis-w-at-ai-impact-summit-2026-2026-02-18-1030802",
-      "title": "Индия представила гуманоида ELIXIS-W на AI Summit",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://www.reuters.com/business/media-telecom/chinas-humanoid-robots-ready-lunar-new-year-showtime-2026-02-16/",
-      "title": "Reuters: 4 китайских стартапа роботики вышли на мировую сцену",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "Robotics"
-    },
-    {
-      "url": "https://gulfnews.com/business/aviation/evtol-aircraft-aka-air-taxis-face-delays-in-the-us-heres-why-1.500446994",
-      "title": "eVTOL в США: ни одна компания не сертифицируется в 2026",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://cyclopspacetech.substack.com/p/space-investment-trends-in-2026-where",
-      "title": "Куда идут деньги в космических технологиях 2026",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "Technology"
-    },
-    {
-      "url": "https://techstartups.com/2026/02/17/top-startup-and-tech-funding-news-february-17-2025/",
-      "title": "Стартап-финансирование февраля 2026: капитал в ИИ-инфраструктуре",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "Business"
-    },
-    {
-      "url": "https://www.semafor.com/article/02/16/2026/nasa-trials-ai-powered-driving-of-mars-rover",
-      "title": "Semafor: ИИ-дроны-рои на Марсе — следующий шаг",
-      "digest": "day",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://startupnews.fyi/2026/02/19/openai-ceo-superintelligence-within/",
-      "title": "Сэм Альтман: суперинтеллект появится в ближайшие годы",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.ndtv.com/india-news/sam-altman-dario-amodei-india-ai-impact-summit-pm-modi-ai-cold-war-on-stage-openai-anthropic-ceos-awkward-moment-at-delhi-summit-11058324",
-      "title": "Альтман vs Амодеи: «холодная война» ИИ на одной сцене",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.thehindu.com/sci-tech/technology/india-ai-impact-summit-2026-day-4-pm-modi-artificial-intelligence-news-delhi-updates/article70650278.ece",
-      "title": "Индия представила «MANAV Vision» — человекоцентричный ИИ",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.businesstoday.in/technology/news/story/metas-alexandr-wang-unveils-vision-of-personal-superintelligence-bets-on-ai-as-daily-life-partner-517005-2026-02-19",
-      "title": "Meta: «персональный суперинтеллект» станет ежедневным партнёром",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://startupnews.fyi/2026/02/19/beyond-vibe-coding-the-case-for-spec-driven-ai-development/",
-      "title": "Spec-driven разработка: альтернатива вайбкодингу",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "Coding"
-    },
-    {
-      "url": "https://dev.to/deep_ghinaiya/vibe-coding-in-2026-why-the-best-developers-are-becoming-ai-orchestrators-omc",
-      "title": "Вайбкодинг 2026: лучшие разработчики становятся AI-оркестраторами",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "Coding"
-    },
-    {
-      "url": "https://startupnews.fyi/2026/02/19/eplane-nvidia-omniverse-digital-twin/",
-      "title": "ePlane строит цифрового двойника eVTOL с NVIDIA Omniverse",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.globenewswire.com/news-release/2026/02/19/3240827/28124/en/Electric-vertical-take-off-and-landing-eVTOL-and-Advanced-Air-Mobility-AAM-Research-Report-2026-A-90-Billion-Opportunity-by-2050-with-a-Projected-160-000-Passenger-Drones-to-be-in-.html",
-      "title": "eVTOL рынок: $90 млрд к 2050 году, 160,000 пассажирских дронов",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.autoevolution.com/news/new-zealand-ready-for-electric-flights-thanks-to-betas-alia-ectol-265863.html",
-      "title": "Beta Alia eCTOL: 100+ полётов в Новой Зеландии",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "eVTOL"
-    },
-    {
-      "url": "https://www.coindesk.com/tech/2026/02/18/sam-altman-s-openai-unveils-evmbench-to-test-whether-ai-can-keep-crypto-s-smart-contracts-safe",
-      "title": "OpenAI запустил EVMbench: ИИ для защиты смарт-контрактов",
-      "digest": "evening",
-      "date": "2026-02-19",
-      "category": "AI"
-    },
-    {
-      "url": "https://www.hindustantimes.com/india-news/india-ai-summit-2026-live-updates-day-5-pm-modi-us-gpai-council-meetings-delhi-declaration-bharat-mandapam-latest-news-101771550878374.html",
-      "title": "Индия AI Summit День 5: лидеры стран принимают совместную декларацию по ИИ",
-      "digest": "day",
-      "date": "2026-02-20",
+      "date": "2026-02-21",
       "category": "AI",
-      "keywords": ["india", "ai summit", "gpai", "declaration", "governance", "день 5"]
-    },
-    {
-      "url": "https://www.siliconrepublic.com/start-ups/fei-fei-li-world-labs-raises-1bn-to-spatial-intelligence-ai-world-models-marble",
-      "title": "World Labs Фей-Фей Ли привлекла $1 млрд от NVIDIA, AMD и Autodesk на пространственный ИИ",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "AI",
-      "keywords": ["world labs", "fei-fei li", "$1 billion", "spatial intelligence", "nvidia", "amd"]
-    },
-    {
-      "url": "https://koreajoongangdaily.joins.com/news/2026-02-20/business/industry/Actuators-become-new-battleground-in-humanoid-robot-race-/2525672",
-      "title": "Актуаторы — новое поле битвы в гонке гуманоидных роботов: LG, Samsung, Hyundai",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["actuators", "humanoid", "lg", "samsung", "korea", "battleground"]
-    },
-    {
-      "url": "https://finance.yahoo.com/news/shocking-futuristic-reason-why-elon-153740760.html",
-      "title": "Tesla останавливает выпуск Model S и Model X — заводы переводятся на производство Optimus",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["tesla", "model s", "model x", "optimus", "humanoid", "fremont"]
-    },
-    {
-      "url": "https://aviationweek.com/aerospace/advanced-air-mobility/wisk-moves-simulation-live-airspace-integration",
-      "title": "Wisk Aero выходит в реальное воздушное пространство: автономное eVTOL",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "eVTOL",
-      "keywords": ["wisk aero", "eipp", "airspace", "autonomous", "certification", "urban air mobility"]
-    },
-    {
-      "url": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html",
-      "title": "NYT: ИИ-революция уже здесь — вайбкодинг меняет кто может создавать ПО",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Coding",
-      "keywords": ["vibe coding", "nyt", "democratize", "software", "ai revolution"]
-    },
-    {
-      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscalers-in-2026-what-s-next-for-the-world-s-largest-data-center-operators-",
-      "title": "Гиперскейлеры в 2026: гонка ИИ-датацентров врезается в энергетический потолок",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Technology",
-      "keywords": ["hyperscalers", "datacenter", "power", "bottleneck", "ai buildout", "2026"]
-    },
-    {
-      "url": "https://siliconangle.com/2026/02/19/agentic-finance-automation-startup-stacks-raises-23m-funding/",
-      "title": "Stacks привлёк $23 млн Series A: агентная ИИ-автоматизация корпоративных финансов",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Business",
-      "keywords": ["stacks", "$23 million", "agentic", "finance automation", "series a", "lightspeed"]
-    },
-    {
-      "url": "https://economictimes.indiatimes.com/tech/funding/llmops-startup-portkey-raises-15-million-in-round-led-by-elevation-capital/articleshow/128566160.cms",
-      "title": "Portkey поднял $15 млн Series A: управление расходами на ИИ для 24 000 организаций",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Investment",
-      "keywords": ["portkey", "$15 million", "llmops", "elevation capital", "ai spending", "series a"]
-    },
-    {
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=263483",
-      "title": "Автопроизводители делают ставку на рынок гуманоидов в $5 трлн",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["automakers", "humanoid", "$5 trillion", "hyundai", "boston dynamics", "physical ai"]
-    },
-    {
-      "url": "https://theconversation.com/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them-270370",
-      "title": "Гуманоиды для быта уже в продаже за $20 000, но рынок не готов",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Robotics",
-      "keywords": ["home robot", "neo bot", "$20000", "1x", "humanoid", "household"]
-    },
-    {
-      "url": "https://hackernoon.com/ai-vibe-coding-speeds-developers-up-but-at-what-cost",
-      "title": "Вайбкодинг ускоряет разработку — но какой ценой для качества кода?",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Coding",
-      "keywords": ["vibe coding", "code quality", "technical debt", "hackernoon", "ai tools"]
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending-how-does-it-compare-with-historys-mega-projects",
-      "title": "Расходы на ИИ в 2026 — $2,5 трлн: сравнение с величайшими мегапроектами в истории",
-      "digest": "day",
-      "date": "2026-02-20",
-      "category": "Investment",
-      "keywords": ["ai spending", "$2.5 trillion", "gartner", "datacenter", "mega projects", "al jazeera"]
+      "keywords": ["un", "guterres", "democratization", "governance"]
     }
   ]
 }

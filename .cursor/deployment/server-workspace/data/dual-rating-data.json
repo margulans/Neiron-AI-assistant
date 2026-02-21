@@ -767,6 +767,96 @@
       "lastReaction": null
     }
   },
+    "msg_351": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "GlobalNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/02/20/3242158/0/en/Under-the-Direction-of-Brian-Ferdinand-EverForward-Trading-Reinforces-Qualification-Model-for-2026.html"
+      },
+      "category": "eVTOL",
+      "title": "Archer и Joby: FAA финализирует требования к инфраструктуре вертипортов",
+      "timestamp": 1740124850000
+    },
+    "msg_350": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "NDTV",
+        "url": "https://www.ndtv.com/delhi-news/pm-narendra-modi-united-nations-secretary-general-antonio-guterres-meet-focuses-on-democratising-ai-reforming-un-system-ai-impact-summit-2026-11116510"
+      },
+      "category": "ИИ",
+      "title": "UN Secretary-General: ИИ должен служить всему человечеству, а не только миллиардерам",
+      "timestamp": 1740124845000
+    },
+    "msg_349": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/02/19/all-the-important-news-from-the-ongoing-india-ai-summit/"
+      },
+      "category": "Вайбкодинг",
+      "title": "Vibe-coding стартап Emergent достиг $100 млн ARR за 8 месяцев",
+      "timestamp": 1740124840000
+    },
+    "msg_348": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Tesla AI News",
+        "url": "https://www.youtube.com/watch?v=jeb38jicWOE"
+      },
+      "category": "Робототехника",
+      "title": "Академия Optimus: Илон Маск ускоряет обучение роботов через симуляции",
+      "timestamp": 1740124835000
+    },
+    "msg_347": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net/news/ai.html"
+      },
+      "category": "Бизнес",
+      "title": "VCI Global запускает ROBODAX: автоматизация ИИ в реальной инфраструктуре",
+      "timestamp": 1740124830000
+    },
+    "msg_346": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "News9live",
+        "url": "https://www.news9live.com/technology/artificial-intelligence/qualcomm-ceo-6g-big-part-is-ai-india-ai-impact-summit-2026-2933721"
+      },
+      "category": "Технологии",
+      "title": "Qualcomm: 6G станет сетью, рожденной для искусственного интеллекта",
+      "timestamp": 1740124825000
+    },
+    "msg_345": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/"
+      },
+      "category": "Инвестиции",
+      "title": "Nvidia планирует инвестировать $30 млрд в мега-раунд OpenAI",
+      "timestamp": 1740124820000
+    },
+    "msg_344": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "GlobalNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/02/20/3242158/0/en/Under-the-Direction-of-Brian-Ferdinand-EverForward-Trading-Reinforces-Qualification-Model-for-2026.html"
+      },
+      "category": "eVTOL",
+      "title": "Archer и Joby: FAA финализирует требования к инфраструктуре вертипортов",
+      "timestamp": 1740124815000
+    },
+    "msg_343": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/02/20/china-humanoid-robots-spring-festival-gala-unitree-tesla-ai-race.html"
+      },
+      "category": "Робототехника",
+      "title": "Unitree нацелена на поставку 20 000 гуманоидных роботов в 2026 году",
+      "timestamp": 1740124810000
+    },
     "msg_342": {
       "chatId": "@newsneiron",
       "source": {
