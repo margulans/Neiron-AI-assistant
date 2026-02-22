@@ -1,0 +1,15 @@
+{
+  "_comment": "Текущий агрегат затрат. Обновляется Экономистом ежедневно. Читается для мгновенных ответов.",
+  "last_updated": null,
+  "last_session_scan_at": null,
+  "period": {
+    "day": { "date": null, "cost_usd": 0, "tokens_input": 0, "tokens_output": 0 },
+    "week": { "start": null, "cost_usd": 0, "tokens_input": 0, "tokens_output": 0 },
+    "month": { "start": null, "cost_usd": 0, "tokens_input": 0, "tokens_output": 0 }
+  },
+  "by_model": {},
+  "external_fixed": {
+    "hetzner_vps": 5.5
+  },
+  "processed_session_ids": []
+}

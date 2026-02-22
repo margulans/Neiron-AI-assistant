@@ -1,11 +1,18 @@
 {
   "updatedAt": "2026-02-22",
-  "note": "Primary: llama:free. Backup: gemini-3-flash-preview. Monitoring: Участковый→Чекист→Механик (isolated).",
+  "note": "Primary: llama:free. Backup: gemini-3-flash-preview. Monitoring: Участковый→Чекист→Механик (isolated). Economics: Экономист (сбор+отчёт, isolated).",
   "monitoring": {
     "uchastkovy": "305e53a4",
     "chekist": "b72fece5",
     "mekhanik": "bef4ddfa",
     "journal": ".cursor/deployment/server-workspace/data/incidents.jsonl"
+  },
+  "economics": {
+    "economist_daily": "22efd91b",
+    "economist_weekly": "b1314adb",
+    "cost_log": ".cursor/deployment/server-workspace/data/economist-log.jsonl",
+    "cost_summary": ".cursor/deployment/server-workspace/data/cost-summary.json",
+    "pricing": ".cursor/deployment/server-workspace/data/model-pricing.json"
   },
   "jobs": [
     {
@@ -31,6 +38,22 @@
       "model": "llama:free",
       "session": "isolated",
       "note": "авто-ремонт нерешённых critical инцидентов из incidents.jsonl"
+    },
+    {
+      "id": "22efd91b",
+      "name": "💰 Экономист (сбор)",
+      "schedule": "30 17 * * * (Asia/Almaty = 23:30)",
+      "model": "llama:free",
+      "session": "isolated",
+      "note": "ежедневный сбор токенов сессий → economist-log.jsonl + cost-summary.json"
+    },
+    {
+      "id": "b1314adb",
+      "name": "📊 Экономист (отчёт)",
+      "schedule": "0 3 * * 0 (Asia/Almaty = вс 09:00)",
+      "model": "llama:free",
+      "session": "isolated",
+      "note": "еженедельный отчёт с рекомендациями → отправляет Маргулану"
     },
     {
       "id": "4cc76b40",
