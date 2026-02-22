@@ -4,6 +4,86 @@
   "maxAge": "7d",
   "entries": [
     {
+      "url": "https://www.wingerdaily.com/2026/02/21/four-dragons-announces-partnership-with-servicenow-to-accelerate-enterprise-adoption-of-now-assist-and-ai-agents/",
+      "title": "ServiceNow и Four Dragons: Глобальный альянс по внедрению ИИ-агентов",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "AI",
+      "keywords": ["servicenow", "ai agents", "enterprise"]
+    },
+    {
+      "url": "https://eladelantado.com/en/elon-musk-humanoid-robots-tesla/",
+      "title": "Tesla Optimus Gen 3: Массовое производство официально запущено",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Robotics",
+      "keywords": ["tesla", "optimus", "mass production"]
+    },
+    {
+      "url": "https://www.esgnews.earth/latest-news/sustainable-skies-ahead-evtol-market-to-hit-us-8b-by-2033/17673.html",
+      "title": "Рынок eVTOL: Archer и Hyundai фиксируют заказы на $2.5 млрд",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "eVTOL",
+      "keywords": ["archer", "hyundai", "orders"]
+    },
+    {
+      "url": "https://digicrusader.com/vibe-coding-guide/",
+      "title": "Вайбкодинг 2026: Полный гид по созданию приложений силами ИИ",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Coding",
+      "keywords": ["vibe coding", "tools", "2026 guide"]
+    },
+    {
+      "url": "https://www.latestly.com/business/livspace-layoffs-ai-push-triggers-1000-job-cuts-as-bengaluru-startup-shifts-to-ai-native-model-7323468.html",
+      "title": "Livspace: 1000 сотрудников под сокращение из-за перехода на ИИ-модель",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Business",
+      "keywords": ["livspace", "layoffs", "ai native"]
+    },
+    {
+      "url": "https://indianexpress.com/article/lifestyle/ai-boom-prenups-relationships-10544257/",
+      "title": "Инвестиционный бум: Кремниевая долина собирает миллиарды на ИИ-стартапы",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Investment",
+      "keywords": ["venture capital", "silicon valley", "ai startups"]
+    },
+    {
+      "url": "https://www.newsx.com/tech-and-auto/sarvam-launches-indus-ai-can-indias-homegrown-chat-app-challenge-chatgpt-gemini-and-drive-atmanirbhar-bharat-key-features-explained-170737/",
+      "title": "Sarvam AI запускает 'Indus AI': Конкурент ChatGPT для Индии",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Technology",
+      "keywords": ["sarvam ai", "indus ai", "india"]
+    },
+    {
+      "url": "https://ua.news/en/technologies/shtuchnii-intelekt-staie-nevidiemnoiu-chastinoiu-biznesu-61-kompanii-vzhe-vikoristovuiut-neiromerezhi",
+      "title": "61% компаний уже интегрировали нейросети в бизнес-процессы",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Business",
+      "keywords": ["adoption", "neural networks", "stats"]
+    },
+    {
+      "url": "https://zeenews.india.com/technology/ai-agents-will-reshape-saas-business-models-but-not-render-them-obsolete-overnight-industry-3019336.html",
+      "title": "ИИ-агенты меняют модель SaaS, но не убивают её",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "AI",
+      "keywords": ["saas", "ai agents", "disruption"]
+    },
+    {
+      "url": "https://www.investing.com/analysis/2-ai-stocks-soaring-over-400-that-could-be-the-next-nvidia-200675277",
+      "title": "Micron: Рекордные прогнозы выручки на фоне спроса на ИИ-память",
+      "digest": "morning_backup",
+      "date": "2026-02-22",
+      "category": "Technology",
+      "keywords": ["micron", "hbm", "revenue"]
+    },
+    {
       "url": "https://www.businesstoday.in/india/story/india-ai-impact-summit-declaration-endorsed-by-us-79-other-countries-document-likely-to-be-out-today-517388-2026-02-21",
       "title": "Delhi Declaration: 80 стран подписали соглашение о будущем ИИ",
       "digest": "day",

@@ -767,6 +767,112 @@
       "lastReaction": null
     }
   },
+    "msg_367": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/analysis/2-ai-stocks-soaring-over-400-that-could-be-the-next-nvidia-200675277"
+      },
+      "category": "Технологии",
+      "title": "Micron: Рекордные прогнозы выручки на фоне спроса на ИИ-память",
+      "timestamp": 1740202900000
+    },
+    "msg_366": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Zee News",
+        "url": "https://zeenews.india.com/technology/ai-agents-will-reshape-saas-business-models-but-not-render-them-obsolete-overnight-industry-3019336.html"
+      },
+      "category": "ИИ",
+      "title": "ИИ-агенты меняют модель SaaS, но не убивают её",
+      "timestamp": 1740202800000
+    },
+    "msg_365": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "UA.NEWS",
+        "url": "https://ua.news/en/technologies/shtuchnii-intelekt-staie-nevidiemnoiu-chastinoiu-biznesu-61-kompanii-vzhe-vikoristovuiut-neiromerezhi"
+      },
+      "category": "Бизнес",
+      "title": "61% компаний уже интегрировали нейросети в бизнес-процессы",
+      "timestamp": 1740202700000
+    },
+    "msg_364": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "NewsX",
+        "url": "https://www.newsx.com/tech-and-auto/sarvam-launches-indus-ai-can-indias-homegrown-chat-app-challenge-chatgpt-gemini-and-drive-atmanirbhar-bharat-key-features-explained-170737/"
+      },
+      "category": "Технологии",
+      "title": "Sarvam AI запускает 'Indus AI': Конкурент ChatGPT для Индии",
+      "timestamp": 1740202600000
+    },
+    "msg_363": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Indian Express",
+        "url": "https://indianexpress.com/article/lifestyle/ai-boom-prenups-relationships-10544257/"
+      },
+      "category": "Инвестиции",
+      "title": "Инвестиционный бум: Кремниевая долина собирает миллиарды на ИИ-стартапы",
+      "timestamp": 1740202500000
+    },
+    "msg_362": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "LatestLY",
+        "url": "https://www.latestly.com/business/livspace-layoffs-ai-push-triggers-1000-job-cuts-as-bengaluru-startup-shifts-to-ai-native-model-7323468.html"
+      },
+      "category": "Бизнес",
+      "title": "Livspace: 1000 сотрудников под сокращение из-за перехода на ИИ-модель",
+      "timestamp": 1740202400000
+    },
+    "msg_361": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "DigiCrusader",
+        "url": "https://digicrusader.com/vibe-coding-guide/"
+      },
+      "category": "Вайбкодинг",
+      "title": "Вайбкодинг 2026: Полный гид по созданию приложений силами ИИ",
+      "timestamp": 1740202300000
+    },
+    "msg_360": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "ESG News",
+        "url": "https://www.esgnews.earth/latest-news/sustainable-skies-ahead-evtol-market-to-hit-us-8b-by-2033/17673.html"
+      },
+      "category": "eVTOL",
+      "title": "Рынок eVTOL: Archer и Hyundai фиксируют заказы на $2.5 млрд",
+      "timestamp": 1740202200000
+    },
+    "msg_359": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "El Adelantado",
+        "url": "https://eladelantado.com/en/elon-musk-humanoid-robots-tesla/"
+      },
+      "category": "Робототехника",
+      "title": "Tesla Optimus Gen 3: Массовое производство официально запущено",
+      "timestamp": 1740202100000
+    },
+    "msg_358": {
+      "chatId": "@newsneiron",
+      "source": {
+        "name": "Winger Daily",
+        "url": "https://www.wingerdaily.com/2026/02/21/four-dragons-announces-partnership-with-servicenow-to-accelerate-enterprise-adoption-of-now-assist-and-ai-agents/"
+      },
+      "category": "ИИ",
+      "title": "ServiceNow и Four Dragons: Глобальный альянс по внедрению ИИ-агентов",
+      "timestamp": 1740202000000
+    },
+    "msg_357": {
+      "chatId": "@newsneiron",
+      "category": "Digest",
+      "title": "УТРЕННИЙ ДАЙДЖЕСТ | 22.02.2026, 08:00",
+      "timestamp": 1740201900000
+    },
     "msg_353": {
       "chatId": "@newsneiron",
       "source": {

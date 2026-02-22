@@ -2,18 +2,18 @@
   "generatedAt": "auto",
   "jobs": [
     {
-      "id": "ce006db5-350b-44be-baef-8b216ed687e4",
-      "name": "Auto-commit: Git sync",
+      "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
+      "name": "Утренние мнения",
       "enabled": true,
-      "schedule": "0 */4 * * * (Asia/Almaty)",
+      "schedule": "30 8 * * * (Asia/Almaty)",
       "wakeMode": "now",
       "sessionTarget": "isolated",
       "payload": {
         "kind": "agentTurn",
         "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
         "thinking": "low",
-        "timeoutSeconds": 120,
-        "summary": "You are performing an automated git sync check."
+        "timeoutSeconds": 300,
+        "summary": "💭 **УТРЕННИЕ МНЕНИЯ 08:30** — Отправь дайджест мнений в @opnioneiron."
       }
     },
     {
@@ -29,81 +29,6 @@
         "thinking": "low",
         "timeoutSeconds": 120,
         "summary": "🚨 **BACKUP GIT SYNC (Gemini fallback)** — запускается только если основной auto-commit (каждые 4ч) пропущен!"
-      }
-    },
-    {
-      "id": "4cc76b40-8c26-4d88-aa2d-967f432e9cee",
-      "name": "Утренний брифинг",
-      "enabled": true,
-      "schedule": "0 6 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-        "thinking": "low",
-        "timeoutSeconds": 600,
-        "summary": "🤖 _Модель: Llama 3.3 70B Instruct (free via OpenRouter)_"
-      }
-    },
-    {
-      "id": "829eee9e-de87-4c35-82ed-a469ac67afc2",
-      "name": "🚨 BACKUP: Утренний брифинг (Gemini)",
-      "enabled": true,
-      "schedule": "5 6 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
-        "timeoutSeconds": 600,
-        "summary": "🚨 **BACKUP УТРЕННИЙ БРИФИНГ (Gemini fallback)** - запускается только если основной (06:00) пропущен!"
-      }
-    },
-    {
-      "id": "1c292387-c997-46f1-b8a1-e5fd40059713",
-      "name": "Утренний дайджест @newsneiron",
-      "enabled": true,
-      "schedule": "0 8 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-        "thinking": "low",
-        "timeoutSeconds": 600,
-        "summary": "🤖 _Модель: Llama 3.3 70B Instruct (free via OpenRouter)_"
-      }
-    },
-    {
-      "id": "c1c58593-accd-4cf7-a175-3603514b0275",
-      "name": "🚨 BACKUP: Утренний дайджест (Gemini)",
-      "enabled": true,
-      "schedule": "5 8 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
-        "timeoutSeconds": 600,
-        "summary": "🚨 **BACKUP УТРЕННИЙ ДАЙДЖЕСТ (Gemini fallback)** - запускается только если основной (08:00) пропущен!"
-      }
-    },
-    {
-      "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
-      "name": "Утренние мнения",
-      "enabled": true,
-      "schedule": "30 8 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
-        "thinking": "low",
-        "timeoutSeconds": 300,
-        "summary": "💭 **УТРЕННИЕ МНЕНИЯ 08:30** — Отправь дайджест мнений в @opnioneiron."
       }
     },
     {
@@ -129,11 +54,11 @@
       "wakeMode": "now",
       "sessionTarget": "main",
       "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
+        "kind": "systemEvent",
+        "model": null,
+        "thinking": null,
         "timeoutSeconds": null,
-        "summary": "⚕️ Напоминание: сегодня воскресенье — время принять Аводарт (дутастерид 0,5 мг). Не забудь запить достаточным количеством воды."
+        "summary": "⚕️ Напоминание: сегодня воскресенье — время принять Аводарт (дутастерид 0,5 мг)."
       }
     },
     {
@@ -141,7 +66,7 @@
       "name": "Еженедельный анализ источников exploration",
       "enabled": true,
       "schedule": "0 10 * * 0 (Asia/Almaty)",
-      "wakeMode": "next-heartbeat",
+      "wakeMode": "now",
       "sessionTarget": "main",
       "payload": {
         "kind": "systemEvent",
@@ -149,6 +74,21 @@
         "thinking": "low",
         "timeoutSeconds": 600,
         "summary": "📊 Еженедельный анализ системы exploration источников! Запусти скрипт анализа и отправь отчет Маргулану:\\n\\n1. Выполни: node weekly-explor…"
+      }
+    },
+    {
+      "id": "ce006db5-350b-44be-baef-8b216ed687e4",
+      "name": "Auto-commit: Git sync",
+      "enabled": true,
+      "schedule": "0 */4 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "summary": "You are performing an automated git sync check."
       }
     },
     {
@@ -317,6 +257,66 @@
       }
     },
     {
+      "id": "4cc76b40-8c26-4d88-aa2d-967f432e9cee",
+      "name": "Утренний брифинг",
+      "enabled": true,
+      "schedule": "0 6 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "thinking": "low",
+        "timeoutSeconds": 600,
+        "summary": "🤖 _Модель: Llama 3.3 70B Instruct (free via OpenRouter)_"
+      }
+    },
+    {
+      "id": "829eee9e-de87-4c35-82ed-a469ac67afc2",
+      "name": "🚨 BACKUP: Утренний брифинг (Gemini)",
+      "enabled": true,
+      "schedule": "5 6 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "google/gemini-3-flash-preview",
+        "thinking": "low",
+        "timeoutSeconds": 600,
+        "summary": "🚨 **BACKUP УТРЕННИЙ БРИФИНГ (Gemini fallback)** - запускается только если основной (06:00) пропущен!"
+      }
+    },
+    {
+      "id": "1c292387-c997-46f1-b8a1-e5fd40059713",
+      "name": "Утренний дайджест @newsneiron",
+      "enabled": true,
+      "schedule": "0 8 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "thinking": "low",
+        "timeoutSeconds": 600,
+        "summary": "🤖 _Модель: Llama 3.3 70B Instruct (free via OpenRouter)_"
+      }
+    },
+    {
+      "id": "c1c58593-accd-4cf7-a175-3603514b0275",
+      "name": "🚨 BACKUP: Утренний дайджест (Gemini)",
+      "enabled": true,
+      "schedule": "5 8 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "google/gemini-3-flash-preview",
+        "thinking": "low",
+        "timeoutSeconds": 600,
+        "summary": "🚨 **BACKUP УТРЕННИЙ ДАЙДЖЕСТ (Gemini fallback)** - запускается только если основной (08:00) пропущен!"
+      }
+    },
+    {
       "id": "912d1a14-d4a3-40e3-a760-e52a9e5ffe8a",
       "name": "Напоминание: корейское лекарство для Асика",
       "enabled": true,
@@ -324,9 +324,9 @@
       "wakeMode": "now",
       "sessionTarget": "main",
       "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
+        "kind": "systemEvent",
+        "model": null,
+        "thinking": null,
         "timeoutSeconds": null,
         "summary": "⏰ Напоминание: не забудь взять с собой корейское лекарство (Силодозин / Аводарт) для Асика!"
       }
@@ -339,11 +339,11 @@
       "wakeMode": "now",
       "sessionTarget": "main",
       "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
+        "kind": "systemEvent",
+        "model": null,
+        "thinking": null,
         "timeoutSeconds": null,
-        "summary": "⚕️ Напоминание Авиценна: конец месяца — спроси Маргулана о текущем весе и запиши в profile.md. Текущий целевой вес: 82 кг, сейчас: 86 кг."
+        "summary": "⚕️ Авиценна: конец месяца — спроси Маргулана о текущем весе и запиши в профиль (цель: 82 кг, сейчас: 86 кг)."
       }
     },
     {
