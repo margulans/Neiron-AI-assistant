@@ -20,6 +20,8 @@ description: Участковый — тихий мониторинг здоро
 2. systemctl --user is-active openclaw-gateway → статус gateway
 3. df -h / | tail -1                          → диск (% использования)
 4. git -C ~/Clowdbot status --short           → незакоммиченные файлы
+5. [только если воскресенье и 03:00–12:00 Алматы]
+   read_file("data/scout-discoveries.json")  → поле last_run
 ```
 
 ### Шаг 2. Анализ
@@ -42,6 +44,11 @@ description: Участковый — тихий мониторинг здоро
 Для git:
 
 - Есть незакоммиченные файлы >4h → тип `git_dirty`, severity `warn`
+
+Для Scout (только по воскресеньям, 03:00–12:00 Алматы):
+
+- `last_run` в `data/scout-discoveries.json` — null или дата не совпадает с текущим воскресеньем → тип `scout_stale`, severity `warn`, msg: `"Scout research не запустился этой ночью"`
+- Cron job Scout-ресёрч (id: `f3a7c901`): `lastStatus == "error"` или `"skipped"` → уже поймано общей проверкой выше; дополнительно сверь что `lastRunAtMs` — не старше 3 часов
 
 ### Шаг 3. Запись в журнал
 
