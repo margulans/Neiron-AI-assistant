@@ -23,3 +23,5 @@
 {"id":"5072b334","ts":"2026-02-22T07:00:07Z","type":"cron_error","source":"uchastkovy","job":"🔧 Механик (bef4ddfa-1fd8-4c64-9495-79d851f4f5f0)","severity":"critical","msg":"lastStatus=error; consecutiveErrors=1; lastError=not specified in json","resolved":false}
 {"ts":"2026-02-22T07:01:13.447Z","type":"audit","source":"chekist","severity":"info","msg":"hourly audit: 12 critical, 0 warn, 0 ok in last 60min"}
 {"id":"d73864fc","ts":"2026-02-22T07:10:18Z","type":"cron_error","source":"uchastkovy","job":"🔧 Механик (bef4ddfa-1fd8-4c64-9495-79d851f4f5f0)","severity":"critical","msg":"lastStatus=error; consecutiveErrors=1; lastDurationMs=13109","resolved":false}
+{"ts":"2026-02-22T07:20:18Z","type":"ok","source":"uchastkovy","severity":"info","msg":"system healthy"}
+{"ts":"2026-02-22T07:30:31Z","type":"ok","source":"uchastkovy","severity":"info","msg":"system healthy"}
