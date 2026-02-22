@@ -1,259 +1,126 @@
 {
-  "updatedAt": "2026-02-22",
-  "note": "Иерархия моделей: Primary=google/gemini-3-flash-preview, Backup=anthropic/claude-haiku-4-5. Мониторинг/Дайджесты/Мнения: gemini-3-flash-preview. claude-haiku-4-5 и claude-opus-4-6 добавлены в agents.defaults.models в openclaw.json. CHANGED 2026-02-22: Чекист — delivery.mode:announce→none. CHANGED 2026-02-22: все 12 дайджест/мнения задач стандартизированы — 3-шаговый формат: (1) заголовок с указанием основной/бэкап + модель, (2) каждая новость/мнение строго отдельным message(), (3) блок АУДИТ в конце.",
-  "monitoring": {
-    "uchastkovy": "305e53a4",
-    "chekist": "b72fece5",
-    "mekhanik": "bef4ddfa",
-    "journal": ".cursor/deployment/server-workspace/data/incidents.jsonl"
-  },
-  "economics": {
-    "economist_daily": "22efd91b",
-    "economist_weekly": "b1314adb",
-    "cost_log": ".cursor/deployment/server-workspace/data/economist-log.jsonl",
-    "cost_summary": ".cursor/deployment/server-workspace/data/cost-summary.json",
-    "pricing": ".cursor/deployment/server-workspace/data/model-pricing.json"
-  },
+  "generatedAt": "2026-02-22T12:49:00Z",
+  "source": "cron(action=list, includeDisabled=true)",
   "jobs": [
     {
-      "id": "305e53a4",
+      "id": "305e53a4-049c-4d2e-b248-0cdbea259d3f",
       "name": "👮‍♂️ Участковый",
-      "schedule": "*/10 * * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "*/10 * * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "timeout": "120s",
-      "session": "isolated",
-      "note": "мониторинг здоровья системы, пишет в data/incidents.jsonl"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "b72fece5",
+      "id": "b72fece5-c8f7-4b9b-842a-208b7efcecc2",
       "name": "🕵️ Чекист",
-      "schedule": "0 * * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "0 * * * *", "staggerMs": 300000},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "timeout": "90s",
-      "session": "isolated",
-      "note": "hourly аудит incidents.jsonl, алерт при critical вне тихих часов. FIXED 2026-02-22: llama:free→gemini-3-flash-preview. FIXED 2026-02-22: delivery.mode:announce→none (announce падал с gateway 1008: pairing required)"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "bef4ddfa",
+      "id": "bef4ddfa-1fd8-4c64-9495-79d851f4f5f0",
       "name": "🔧 Механик",
-      "schedule": "*/30 * * * *",
-      "model": "google/gemini-3-flash-preview",
-      "timeout": "120s",
-      "session": "isolated",
-      "note": "авто-ремонт нерешённых critical инцидентов из incidents.jsonl. FIXED 2026-02-22: llama:free→gemini-3-flash-preview"
+      "enabled": true,
+      "schedule": {"kind": "every", "everyMs": 1800000},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "model": "groq/llama-3.3-70b-versatile",
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "22efd91b",
+      "id": "22efd91b-5dbf-4cfe-a623-9cbe6a5b56bd",
       "name": "💰 Экономист (сбор)",
-      "schedule": "30 17 * * * (Asia/Almaty = 23:30)",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "30 17 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "session": "isolated",
-      "note": "ежедневный сбор токенов сессий → economist-log.jsonl + cost-summary.json. FIXED 2026-02-22: groq→gemini-3-flash-preview"
+      "delivery": {"mode": "announce"}
     },
     {
-      "id": "b1314adb",
-      "name": "📊 Экономист (отчёт)",
-      "schedule": "0 3 * * 0 (Asia/Almaty = вс 09:00)",
-      "model": "google/gemini-3-flash-preview",
-      "session": "isolated",
-      "note": "еженедельный отчёт с рекомендациями → отправляет Маргулану. FIXED 2026-02-22: groq→gemini-3-flash-preview"
-    },
-    {
-      "id": "4cc76b40",
-      "name": "Утренний брифинг",
-      "schedule": "0 6 * * *",
-      "model": "google/gemini-3-flash-preview",
-      "backup": "829eee9e @06:05"
-    },
-    {
-      "id": "829eee9e",
-      "name": "🚨 BACKUP: Утренний брифинг",
-      "schedule": "5 6 * * *",
-      "model": "anthropic/claude-haiku-4-5"
-    },
-    {
-      "id": "1c292387",
+      "id": "1c292387-c997-46f1-b8a1-e5fd40059713",
       "name": "Утренний дайджест @newsneiron",
-      "schedule": "0 8 * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "0 8 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "backup": "c1c58593 @08:05"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "c1c58593",
-      "name": "🚨 BACKUP: Утренний дайджест",
-      "schedule": "5 8 * * *",
-      "model": "anthropic/claude-haiku-4-5"
-    },
-    {
-      "id": "6d4944f0",
-      "name": "Утренние мнения",
-      "schedule": "30 8 * * *",
-      "model": "google/gemini-3-flash-preview",
-      "backup": "10e6c5ea @08:50"
-    },
-    {
-      "id": "10e6c5ea",
-      "name": "🚨 BACKUP: Утренние мнения",
-      "schedule": "50 8 * * *",
-      "model": "anthropic/claude-haiku-4-5",
-      "note": "FIXED 2026-02-22: добавлен заголовок с моделью, атомарный цикл, аудит"
-    },
-    {
-      "id": "a0ed4696",
+      "id": "a0ed4696-8c15-4ab2-b21d-e3e2e9a0b6b6",
       "name": "Дневной дайджест @newsneiron",
-      "schedule": "0 13 * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "0 13 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "backup": "62c89740 @13:05"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "62c89740",
-      "name": "🚨 BACKUP: Дневной дайджест",
-      "schedule": "5 13 * * *",
-      "model": "anthropic/claude-haiku-4-5"
-    },
-    {
-      "id": "ba31c42d",
-      "name": "Дневные мнения",
-      "schedule": "30 13 * * *",
-      "model": "google/gemini-3-flash-preview",
-      "backup": "d81fedff @13:50"
-    },
-    {
-      "id": "d81fedff",
-      "name": "🚨 BACKUP: Дневные мнения",
-      "schedule": "50 13 * * *",
-      "model": "anthropic/claude-haiku-4-5",
-      "note": "FIXED 2026-02-22: добавлен заголовок с моделью, атомарный цикл, аудит"
-    },
-    {
-      "id": "582cc3f0",
+      "id": "582cc3f0-9941-4e74-ae77-0afac52c6258",
       "name": "Вечерний дайджест @newsneiron",
-      "schedule": "0 18 * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "0 18 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "backup": "e758d243 @18:05"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "e758d243",
-      "name": "🚨 BACKUP: Вечерний дайджест",
-      "schedule": "5 18 * * *",
-      "model": "anthropic/claude-haiku-4-5"
+      "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
+      "name": "Утренние мнения",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "30 8 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "model": "google/gemini-3-flash-preview",
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "2fe731f2",
+      "id": "ba31c42d-be5d-486e-9897-6fb4fa6ae2ed",
+      "name": "Дневные мнения",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "30 13 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "model": "google/gemini-3-flash-preview",
+      "delivery": {"mode": "none"}
+    },
+    {
+      "id": "2fe731f2-6254-4a2e-ba80-4c326a3a1fe8",
       "name": "Вечерние мнения",
-      "schedule": "30 18 * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "30 18 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "backup": "8783bc2f @18:50"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "8783bc2f",
-      "name": "🚨 BACKUP: Вечерние мнения",
-      "schedule": "50 18 * * *",
-      "model": "anthropic/claude-haiku-4-5",
-      "note": "FIXED 2026-02-22: добавлен заголовок с моделью, атомарный цикл, аудит"
-    },
-    {
-      "id": "9e47cd1e",
-      "name": "📋 Саммари от Айганым",
-      "schedule": "30 19 * * *",
-      "model": "gemini-flash",
-      "note": "Только если были данные от 509646214 за день"
-    },
-    {
-      "id": "9d558661",
-      "name": "Ежедневная рефлексия",
-      "schedule": "30 20 * * *",
-      "model": "gemini-flash",
-      "backup": "76f581a1 @20:35",
-      "note": "FIXED 2026-02-22: agentTurn→systemEvent"
-    },
-    {
-      "id": "76f581a1",
-      "name": "🚨 BACKUP: Ежедневная рефлексия",
-      "schedule": "35 20 * * *",
-      "model": "claude-haiku-4-5",
-      "session": "main"
-    },
-    {
-      "id": "14e9b571",
-      "name": "🧹 Chat Cleanup",
-      "schedule": "0 21 * * *",
-      "model": "gemini-flash",
-      "backup": "28b9d12a @21:05",
-      "note": "FIXED 2026-02-22: agentTurn→systemEvent"
-    },
-    {
-      "id": "28b9d12a",
-      "name": "🚨 BACKUP: Chat Cleanup",
-      "schedule": "5 21 * * *",
-      "model": "claude-haiku-4-5",
-      "session": "main"
-    },
-    {
-      "id": "ce006db5",
+      "id": "ce006db5-350b-44be-baef-8b216ed687e4",
       "name": "Auto-commit: Git sync",
-      "schedule": "0 */4 * * *",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "0 */4 * * *", "tz": "Asia/Almaty", "staggerMs": 300000},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "backup": "b0c35166 @:30"
+      "delivery": {"mode": "none"}
     },
     {
-      "id": "b0c35166",
-      "name": "🚨 BACKUP: Git sync",
-      "schedule": "30 */4 * * *",
-      "model": "google/gemini-3-flash-preview"
-    },
-    {
-      "id": "f3a7c901",
-      "name": "🔭 Scout — ресёрч",
-      "schedule": "0 20 * * 6 (Asia/Almaty = вс 02:00)",
+      "id": "b0c35166-4062-479c-a777-652657b2fa71",
+      "name": "🚨 BACKUP: Git sync (Gemini)",
+      "enabled": true,
+      "schedule": {"kind": "cron", "expr": "30 */4 * * *", "tz": "Asia/Almaty"},
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
       "model": "google/gemini-3-flash-preview",
-      "timeout": "1800s",
-      "session": "isolated",
-      "backup": "e2d5b843 @20:20",
-      "note": "NEW 2026-02-22: еженедельный дип-ресёрч интернета/соцсетей/YouTube/Telegram. Режим research — сохраняет в data/scout-discoveries.json, уведомление НЕ отправляет"
-    },
-    {
-      "id": "e2d5b843",
-      "name": "🚨 BACKUP: Scout — ресёрч",
-      "schedule": "20 20 * * 6 (Asia/Almaty = вс 02:20)",
-      "model": "anthropic/claude-haiku-4-5",
-      "timeout": "1800s",
-      "session": "isolated",
-      "note": "BACKUP для Scout ресёрч"
-    },
-    {
-      "id": "c91f4d07",
-      "name": "🔭 Scout — отчёт",
-      "schedule": "0 6 * * 0 (Asia/Almaty = вс 12:00)",
-      "model": "google/gemini-3-flash-preview",
-      "timeout": "300s",
-      "session": "isolated",
-      "note": "NEW 2026-02-22: читает scout-discoveries.json → формирует и отправляет SCOUT REPORT в личку Маргулану (tg:685668909) → git commit"
-    },
-    { "id": "8f79e567", "name": "Аводарт — воскресное", "schedule": "0 9 * * 0", "model": "main" },
-    {
-      "id": "7e21383e",
-      "name": "Еженедельный анализ источников",
-      "schedule": "0 10 * * 0",
-      "model": "main"
-    },
-    {
-      "id": "a1de1ef4",
-      "name": "🧹 Ежемесячный аудит контекста (Optimizer)",
-      "schedule": "0 10 1 * *",
-      "model": "anthropic/claude-opus-4-6"
-    },
-    {
-      "id": "f09cd8a5",
-      "name": "Авиценна — ежемесячный вес",
-      "schedule": "0 8 28 * *",
-      "model": "main"
-    },
-    {
-      "id": "912d1a14",
-      "name": "Напоминание: корейский завтрак",
-      "schedule": "2026-02-26T10:00Z one-shot",
-      "model": "main"
+      "delivery": {"mode": "none"}
     }
   ]
 }
