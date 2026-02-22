@@ -135,7 +135,6 @@ ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH &
 
 ```bash
 # 1. Сменить модель на gemini-3-flash-preview (она в allowlist gateway, 1M TPM)
-# ВАЖНО: gemini-2.0-flash НЕ в allowlist gateway — вызовет "model not allowed"
 ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH && openclaw cron edit 305e53a4-049c-4d2e-b248-0cdbea259d3f --model google/gemini-3-flash-preview"
 
 # 2. Убедиться что другие groq-задачи не используют накапливающиеся сессии
@@ -150,7 +149,7 @@ ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH &
 
 **Симптомы:**
 
-- `error: model not allowed: google/gemini-2.0-flash` (или `anthropic/claude-haiku-4-5`)
+- `error: model not allowed: <модель>` (или `anthropic/claude-haiku-4-5`)
 - `cron announce delivery failed` + `gateway closed (1008): pairing required`
 - Задача падает за 3–27ms, не стартует
 

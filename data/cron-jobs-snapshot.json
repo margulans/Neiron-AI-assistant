@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-02-22",
-  "note": "Иерархия моделей: Primary=google/gemini-3-flash-preview, Backup=anthropic/claude-haiku-4-5. Monitoring/Digest/Opinions: gemini-3-flash-preview (ВАЖНО: gemini-2.0-flash НЕ в allowlist gateway — вызовет 'model not allowed'; после doctor-run 05:52 UTC 2026-02-22 все задачи переведены на gemini-3-flash-preview). claude-haiku-4-5 и claude-opus-4-6 добавлены в agents.defaults.models в openclaw.json — работают через ANTHROPIC_API_KEY в systemd. CHANGED 2026-02-22: Чекист — delivery.mode:announce→none (announce падает с 'pairing required', алерты идут через message() tool).",
+  "note": "Иерархия моделей: Primary=google/gemini-3-flash-preview, Backup=anthropic/claude-haiku-4-5. Мониторинг/Дайджесты/Мнения: gemini-3-flash-preview. claude-haiku-4-5 и claude-opus-4-6 добавлены в agents.defaults.models в openclaw.json. CHANGED 2026-02-22: Чекист — delivery.mode:announce→none (алерты через message() tool).",
   "monitoring": {
     "uchastkovy": "305e53a4",
     "chekist": "b72fece5",
@@ -22,7 +22,7 @@
       "model": "google/gemini-3-flash-preview",
       "timeout": "120s",
       "session": "isolated",
-      "note": "мониторинг здоровья системы, пишет в data/incidents.jsonl. FIXED 2026-02-22: groq→gemini-3-flash-preview (groq 12K TPM limit вызывал зависание шлюза; gemini-2.0-flash не в allowlist gateway)"
+      "note": "мониторинг здоровья системы, пишет в data/incidents.jsonl"
     },
     {
       "id": "b72fece5",
@@ -63,8 +63,7 @@
       "name": "Утренний брифинг",
       "schedule": "0 6 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "829eee9e @06:05",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "829eee9e @06:05"
     },
     {
       "id": "829eee9e",
@@ -77,8 +76,7 @@
       "name": "Утренний дайджест @newsneiron",
       "schedule": "0 8 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "c1c58593 @08:05",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "c1c58593 @08:05"
     },
     {
       "id": "c1c58593",
@@ -91,8 +89,7 @@
       "name": "Утренние мнения",
       "schedule": "30 8 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "10e6c5ea @08:50",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "10e6c5ea @08:50"
     },
     {
       "id": "10e6c5ea",
@@ -106,23 +103,20 @@
       "name": "Дневной дайджест @newsneiron",
       "schedule": "0 13 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "62c89740 @13:05",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "62c89740 @13:05"
     },
     {
       "id": "62c89740",
       "name": "🚨 BACKUP: Дневной дайджест",
       "schedule": "5 13 * * *",
-      "model": "google/gemini-3-flash-preview",
-      "note": "FIXED 2026-02-22: claude-haiku-4-5→gemini-3-flash-preview (not in allowlist)"
+      "model": "anthropic/claude-haiku-4-5"
     },
     {
       "id": "ba31c42d",
       "name": "Дневные мнения",
       "schedule": "30 13 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "d81fedff @13:50",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "d81fedff @13:50"
     },
     {
       "id": "d81fedff",
@@ -136,8 +130,7 @@
       "name": "Вечерний дайджест @newsneiron",
       "schedule": "0 18 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "e758d243 @18:05",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "e758d243 @18:05"
     },
     {
       "id": "e758d243",
@@ -150,8 +143,7 @@
       "name": "Вечерние мнения",
       "schedule": "30 18 * * *",
       "model": "google/gemini-3-flash-preview",
-      "backup": "8783bc2f @18:50",
-      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
+      "backup": "8783bc2f @18:50"
     },
     {
       "id": "8783bc2f",
@@ -196,13 +188,6 @@
       "schedule": "5 21 * * *",
       "model": "claude-haiku-4-5",
       "session": "main"
-    },
-    {
-      "id": "b72fece5",
-      "name": "🔍 Incident Scanner",
-      "schedule": "0 * * * *",
-      "model": "gemini-flash",
-      "note": "NEW 2026-02-22: hourly system health scan → data/incidents.jsonl"
     },
     {
       "id": "ce006db5",
