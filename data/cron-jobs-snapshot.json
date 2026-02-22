@@ -5,7 +5,7 @@
     "uchastkovy": "305e53a4",
     "chekist": "b72fece5",
     "mekhanik": "bef4ddfa",
-    "journal": "data/incidents.jsonl"
+    "journal": ".cursor/deployment/server-workspace/data/incidents.jsonl"
   },
   "jobs": [
     {
