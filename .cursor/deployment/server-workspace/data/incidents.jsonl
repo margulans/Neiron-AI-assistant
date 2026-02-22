@@ -104,3 +104,5 @@
 {"id":"4f11f719","type":"gateway_down","source":"uchastkovy","job":"openclaw-gateway","severity":"critical","msg":"status=","resolved":false}
 {"ts":"2026-02-22T13:19:22Z","type":"model_replaced","source":"mekhanik","job":"🔧 Механик (bef4ddfa-1fd8-4c64-9495-79d851f4f5f0)","severity":"warn","msg":"модель заменена: google/gemini-3-flash-preview → groq/llama-3.3-70b-versatile (частые сбои/лимиты)","resolved":true}
 {"id":"4f11f719","type":"gateway_down","source":"uchastkovy","job":"openclaw-gateway","severity":"critical","msg":"status=","resolved":false}
+{"id":"4f11f719","type":"gateway_down","source":"uchastkovy","job":"openclaw-gateway","severity":"critical","msg":"status=","resolved":false}
+{"id":"4f11f719","type":"gateway_down","source":"uchastkovy","job":"openclaw-gateway","severity":"critical","msg":"status=","resolved":false}
