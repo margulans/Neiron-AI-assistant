@@ -22,3 +22,4 @@
 {"id":"9dfbe9ee","ts":"2026-02-22T07:00:07Z","type":"cron_error","source":"uchastkovy","job":"👮♂️ Участковый (305e53a4-049c-4d2e-b248-0cdbea259d3f)","severity":"critical","msg":"lastStatus=error; consecutiveErrors=1; lastDurationMs=146","resolved":false}
 {"id":"5072b334","ts":"2026-02-22T07:00:07Z","type":"cron_error","source":"uchastkovy","job":"🔧 Механик (bef4ddfa-1fd8-4c64-9495-79d851f4f5f0)","severity":"critical","msg":"lastStatus=error; consecutiveErrors=1; lastError=not specified in json","resolved":false}
 {"ts":"2026-02-22T07:01:13.447Z","type":"audit","source":"chekist","severity":"info","msg":"hourly audit: 12 critical, 0 warn, 0 ok in last 60min"}
+{"id":"d73864fc","ts":"2026-02-22T07:10:18Z","type":"cron_error","source":"uchastkovy","job":"🔧 Механик (bef4ddfa-1fd8-4c64-9495-79d851f4f5f0)","severity":"critical","msg":"lastStatus=error; consecutiveErrors=1; lastDurationMs=13109","resolved":false}
