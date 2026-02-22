@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-02-22",
-  "note": "Иерархия моделей: Primary=google/gemini-2.0-flash, Backup=anthropic/claude-haiku-4-5. Monitoring: gemini-2.0-flash (НЕ groq — у groq лимит 12K TPM, при сессии 200K+ токенов вызывает cascade failure). рефлексия/cleanup: gemini→haiku. CHANGED 2026-02-22: Участковый переведён с groq на gemini-2.0-flash после зависания шлюза.",
+  "note": "Иерархия моделей: Primary=google/gemini-3-flash-preview, Backup=anthropic/claude-haiku-4-5. Monitoring/Digest/Opinions: gemini-3-flash-preview (ВАЖНО: gemini-2.0-flash НЕ в allowlist gateway — вызовет 'model not allowed'; после doctor-run 05:52 UTC 2026-02-22 все задачи переведены на gemini-3-flash-preview). claude-haiku-4-5 и claude-opus-4-6 добавлены в agents.defaults.models в openclaw.json — работают через ANTHROPIC_API_KEY в systemd. CHANGED 2026-02-22: Чекист — delivery.mode:announce→none (announce падает с 'pairing required', алерты идут через message() tool).",
   "monitoring": {
     "uchastkovy": "305e53a4",
     "chekist": "b72fece5",
@@ -31,7 +31,7 @@
       "model": "google/gemini-3-flash-preview",
       "timeout": "90s",
       "session": "isolated",
-      "note": "hourly аудит incidents.jsonl, алерт при critical вне тихих часов. FIXED 2026-02-22: llama:free→gemini-3-flash-preview"
+      "note": "hourly аудит incidents.jsonl, алерт при critical вне тихих часов. FIXED 2026-02-22: llama:free→gemini-3-flash-preview. FIXED 2026-02-22: delivery.mode:announce→none (announce падал с gateway 1008: pairing required)"
     },
     {
       "id": "bef4ddfa",
@@ -62,8 +62,9 @@
       "id": "4cc76b40",
       "name": "Утренний брифинг",
       "schedule": "0 6 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "829eee9e @06:05"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "829eee9e @06:05",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "829eee9e",
@@ -75,8 +76,9 @@
       "id": "1c292387",
       "name": "Утренний дайджест @newsneiron",
       "schedule": "0 8 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "c1c58593 @08:05"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "c1c58593 @08:05",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "c1c58593",
@@ -88,8 +90,9 @@
       "id": "6d4944f0",
       "name": "Утренние мнения",
       "schedule": "30 8 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "10e6c5ea @08:50"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "10e6c5ea @08:50",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "10e6c5ea",
@@ -102,21 +105,24 @@
       "id": "a0ed4696",
       "name": "Дневной дайджест @newsneiron",
       "schedule": "0 13 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "62c89740 @13:05"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "62c89740 @13:05",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "62c89740",
       "name": "🚨 BACKUP: Дневной дайджест",
       "schedule": "5 13 * * *",
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "google/gemini-3-flash-preview",
+      "note": "FIXED 2026-02-22: claude-haiku-4-5→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "ba31c42d",
       "name": "Дневные мнения",
       "schedule": "30 13 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "d81fedff @13:50"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "d81fedff @13:50",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "d81fedff",
@@ -129,8 +135,9 @@
       "id": "582cc3f0",
       "name": "Вечерний дайджест @newsneiron",
       "schedule": "0 18 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "e758d243 @18:05"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "e758d243 @18:05",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "e758d243",
@@ -142,8 +149,9 @@
       "id": "2fe731f2",
       "name": "Вечерние мнения",
       "schedule": "30 18 * * *",
-      "model": "google/gemini-2.0-flash",
-      "backup": "8783bc2f @18:50"
+      "model": "google/gemini-3-flash-preview",
+      "backup": "8783bc2f @18:50",
+      "note": "FIXED 2026-02-22: gemini-2.0-flash→gemini-3-flash-preview (not in allowlist)"
     },
     {
       "id": "8783bc2f",

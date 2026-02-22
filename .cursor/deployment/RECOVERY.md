@@ -146,6 +146,59 @@ ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH &
 
 ---
 
+### 🔴 Cron: `model not allowed` / `cron announce delivery failed`
+
+**Симптомы:**
+
+- `error: model not allowed: google/gemini-2.0-flash` (или `anthropic/claude-haiku-4-5`)
+- `cron announce delivery failed` + `gateway closed (1008): pairing required`
+- Задача падает за 3–27ms, не стартует
+
+**Причина А (`model not allowed`):** После `openclaw doctor` или ручного редактирования `openclaw.json` список `agents.defaults.models` сбрасывается. Модели не в этом списке — запрещены. Разрешены: `google/gemini-3-flash-preview`, `openai/gpt-5.2`, `openai/gpt-4o`, `anthropic/claude-sonnet-4-6`, `anthropic/claude-haiku-4-5`, `anthropic/claude-opus-4-6`.
+
+**Причина Б (`announce delivery failed`):** `delivery.mode: announce` открывает новое WS-соединение к gateway, которое требует pairing. Алерты лучше доставлять через `message()` tool внутри задачи.
+
+**Диагностика:**
+
+```bash
+# Найти задачи с запрещёнными моделями
+ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH && openclaw cron list --json" | python3 -c "
+import json,sys; data=json.load(sys.stdin)
+for j in data.get('jobs',data):
+  m=j.get('payload',{}).get('model','')
+  s=j.get('state',{}).get('lastStatus','?')
+  if s=='error': print(j['id'][:8], j['name'][:30], '|', m, '|', s)
+"
+
+# Проверить allowlist моделей
+ssh openclaw@100.73.176.127 "python3 -c \"import json; c=json.load(open('/home/openclaw/.openclaw/openclaw.json')); print(list(c['agents']['defaults']['models'].keys()))\""
+```
+
+**Лечение:**
+
+```bash
+# Сменить модель задачи
+ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH && openclaw cron edit <JOB-ID> --model google/gemini-3-flash-preview"
+
+# Отключить announce delivery (если cron announce delivery failed)
+ssh openclaw@100.73.176.127 "export PATH=/home/openclaw/.npm-global/bin:\$PATH && openclaw cron edit <JOB-ID> --no-deliver"
+
+# Если нужно добавить модель в allowlist (например, claude-haiku-4-5 выпал):
+ssh openclaw@100.73.176.127 "python3 << 'EOF'
+import json
+with open('/home/openclaw/.openclaw/openclaw.json', 'r') as f: c=json.load(f)
+c['agents']['defaults']['models']['anthropic/claude-haiku-4-5'] = {}
+c['agents']['defaults']['models']['anthropic/claude-opus-4-6'] = {'params': {'context1m': True}}
+with open('/home/openclaw/.openclaw/openclaw.json', 'w') as f: json.dump(c, f, indent=2)
+print('Done')
+EOF"
+systemctl --user restart openclaw-gateway
+```
+
+**Правило:** Эталонная модель для cron-задач — `google/gemini-3-flash-preview` (1M контекст, в allowlist всегда). Backup-задачи могут использовать `anthropic/claude-haiku-4-5` при условии, что она в allowlist.
+
+---
+
 ## Полная переустановка сервера
 
 ### 1. Создать новый VPS на Hetzner
