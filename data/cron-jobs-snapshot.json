@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-02-22",
-  "note": "Primary: openai/gpt-5.2 → fallback gemini-3-flash-preview → openai/gpt-4o. Monitoring: Участковый→Чекист→Механик (groq/llama-3.3-70b-versatile, isolated). Economics: Экономист (сбор+отчёт, isolated).",
+  "note": "Иерархия моделей: Primary=groq/llama-3.3-70b-versatile, Backup≥Primary=google/gemini-3-flash-preview. Monitoring: groq→gemini. рефлексия/cleanup: gemini→haiku.",
   "monitoring": {
     "uchastkovy": "305e53a4",
     "chekist": "b72fece5",
@@ -46,7 +46,7 @@
       "id": "22efd91b",
       "name": "💰 Экономист (сбор)",
       "schedule": "30 17 * * * (Asia/Almaty = 23:30)",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "session": "isolated",
       "note": "ежедневный сбор токенов сессий → economist-log.jsonl + cost-summary.json"
     },
@@ -54,7 +54,7 @@
       "id": "b1314adb",
       "name": "📊 Экономист (отчёт)",
       "schedule": "0 3 * * 0 (Asia/Almaty = вс 09:00)",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "session": "isolated",
       "note": "еженедельный отчёт с рекомендациями → отправляет Маргулану"
     },
@@ -62,92 +62,92 @@
       "id": "4cc76b40",
       "name": "Утренний брифинг",
       "schedule": "0 6 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "829eee9e @06:05"
     },
     {
       "id": "829eee9e",
       "name": "🚨 BACKUP: Утренний брифинг",
       "schedule": "5 6 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "1c292387",
       "name": "Утренний дайджест @newsneiron",
       "schedule": "0 8 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "c1c58593 @08:05"
     },
     {
       "id": "c1c58593",
       "name": "🚨 BACKUP: Утренний дайджест",
       "schedule": "5 8 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "6d4944f0",
       "name": "Утренние мнения",
       "schedule": "30 8 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "10e6c5ea @08:50"
     },
     {
       "id": "10e6c5ea",
       "name": "🚨 BACKUP: Утренние мнения",
       "schedule": "50 8 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "a0ed4696",
       "name": "Дневной дайджест @newsneiron",
       "schedule": "0 13 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "62c89740 @13:05"
     },
     {
       "id": "62c89740",
       "name": "🚨 BACKUP: Дневной дайджест",
       "schedule": "5 13 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "ba31c42d",
       "name": "Дневные мнения",
       "schedule": "30 13 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "d81fedff @13:50"
     },
     {
       "id": "d81fedff",
       "name": "🚨 BACKUP: Дневные мнения",
       "schedule": "50 13 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "582cc3f0",
       "name": "Вечерний дайджест @newsneiron",
       "schedule": "0 18 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "e758d243 @18:05"
     },
     {
       "id": "e758d243",
       "name": "🚨 BACKUP: Вечерний дайджест",
       "schedule": "5 18 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "2fe731f2",
       "name": "Вечерние мнения",
       "schedule": "30 18 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "8783bc2f @18:50"
     },
     {
       "id": "8783bc2f",
       "name": "🚨 BACKUP: Вечерние мнения",
       "schedule": "50 18 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     {
       "id": "9e47cd1e",
@@ -197,14 +197,14 @@
       "id": "ce006db5",
       "name": "Auto-commit: Git sync",
       "schedule": "0 */4 * * *",
-      "model": "llama:free",
+      "model": "groq/llama-3.3-70b-versatile",
       "backup": "b0c35166 @:30"
     },
     {
       "id": "b0c35166",
       "name": "🚨 BACKUP: Git sync",
       "schedule": "30 */4 * * *",
-      "model": "gemini-flash"
+      "model": "google/gemini-3-flash-preview"
     },
     { "id": "8f79e567", "name": "Аводарт — воскресное", "schedule": "0 9 * * 0", "model": "main" },
     {
