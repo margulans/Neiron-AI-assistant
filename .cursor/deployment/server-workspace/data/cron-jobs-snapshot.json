@@ -2,10 +2,10 @@
   "generatedAt": "auto",
   "jobs": [
     {
-      "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
-      "name": "Утренние мнения",
+      "id": "305e53a4-049c-4d2e-b248-0cdbea259d3f",
+      "name": "🩺 Доктор: Автоматический Watcher (10 мин)",
       "enabled": true,
-      "schedule": "30 8 * * * (Asia/Almaty)",
+      "schedule": "*/10 * * * * (Asia/Almaty)",
       "wakeMode": "now",
       "sessionTarget": "isolated",
       "payload": {
@@ -13,22 +13,7 @@
         "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
         "thinking": "low",
         "timeoutSeconds": 300,
-        "summary": "💭 **УТРЕННИЕ МНЕНИЯ 08:30** — Отправь дайджест мнений в @opnioneiron."
-      }
-    },
-    {
-      "id": "b0c35166-4062-479c-a777-652657b2fa71",
-      "name": "🚨 BACKUP: Git sync (Gemini)",
-      "enabled": true,
-      "schedule": "30 */4 * * * (Asia/Almaty)",
-      "wakeMode": "now",
-      "sessionTarget": "isolated",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "google/gemini-3-flash-preview",
-        "thinking": "low",
-        "timeoutSeconds": 120,
-        "summary": "🚨 **BACKUP GIT SYNC (Gemini fallback)** — запускается только если основной auto-commit (каждые 4ч) пропущен!"
+        "summary": "Выполни цикл скилла Доктор:"
       }
     },
     {
@@ -89,6 +74,21 @@
         "thinking": "low",
         "timeoutSeconds": 120,
         "summary": "You are performing an automated git sync check."
+      }
+    },
+    {
+      "id": "b0c35166-4062-479c-a777-652657b2fa71",
+      "name": "🚨 BACKUP: Git sync (Gemini)",
+      "enabled": true,
+      "schedule": "30 */4 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "google/gemini-3-flash-preview",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "summary": "🚨 **BACKUP GIT SYNC (Gemini fallback)** — запускается только если основной auto-commit (каждые 4ч) пропущен!"
       }
     },
     {
@@ -314,6 +314,21 @@
         "thinking": "low",
         "timeoutSeconds": 600,
         "summary": "🚨 **BACKUP УТРЕННИЙ ДАЙДЖЕСТ (Gemini fallback)** - запускается только если основной (08:00) пропущен!"
+      }
+    },
+    {
+      "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
+      "name": "Утренние мнения",
+      "enabled": true,
+      "schedule": "30 8 * * * (Asia/Almaty)",
+      "wakeMode": "now",
+      "sessionTarget": "isolated",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+        "thinking": "low",
+        "timeoutSeconds": 300,
+        "summary": "💭 **УТРЕННИЕ МНЕНИЯ 08:30** — Отправь дайджест мнений в @opnioneiron."
       }
     },
     {
