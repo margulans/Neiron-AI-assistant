@@ -1050,7 +1050,7 @@
       "name": "🚨 BACKUP: Участковый",
       "enabled": true,
       "createdAtMs": 1771831793053,
-      "updatedAtMs": 1772432026947,
+      "updatedAtMs": 1772435589051,
       "schedule": {
         "kind": "cron",
         "expr": "12 6-21 * * *",
@@ -1070,10 +1070,10 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1772435520000,
-        "lastRunAtMs": 1772432016165,
+        "nextRunAtMs": 1772439120000,
+        "lastRunAtMs": 1772435574233,
         "lastStatus": "ok",
-        "lastDurationMs": 10782,
+        "lastDurationMs": 14818,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
@@ -1998,7 +1998,7 @@
       "name": "🦞 Lobster: Механик (plan-only, 24h soak)",
       "enabled": true,
       "createdAtMs": 1772091420100,
-      "updatedAtMs": 1772431773546,
+      "updatedAtMs": 1772435372539,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2017,11 +2017,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772433563820,
-        "lastRunAtMs": 1772431763820,
+        "nextRunAtMs": 1772437163968,
+        "lastRunAtMs": 1772435363968,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 9726,
+        "lastDurationMs": 8571,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
@@ -2034,7 +2034,7 @@
       "name": "🦞 Lobster: Git sync (plan-only soak)",
       "enabled": true,
       "createdAtMs": 1772093131200,
-      "updatedAtMs": 1772420764156,
+      "updatedAtMs": 1772435158160,
       "schedule": {
         "kind": "cron",
         "expr": "5 */4 * * *",
@@ -2053,11 +2053,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772435100000,
-        "lastRunAtMs": 1772420727280,
+        "nextRunAtMs": 1772449500000,
+        "lastRunAtMs": 1772435122588,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 36876,
+        "lastDurationMs": 35572,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -2106,7 +2106,7 @@
       "name": "🦞 Lobster: Wendy (plan-only soak)",
       "enabled": true,
       "createdAtMs": 1772095282193,
-      "updatedAtMs": 1772432015855,
+      "updatedAtMs": 1772435574063,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2125,11 +2125,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772433687184,
-        "lastRunAtMs": 1772431887184,
+        "nextRunAtMs": 1772437287264,
+        "lastRunAtMs": 1772435487264,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 128671,
+        "lastDurationMs": 86799,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -2142,7 +2142,7 @@
       "name": "🦞 Lobster: Marta (plan-only soak)",
       "enabled": true,
       "createdAtMs": 1772095397594,
-      "updatedAtMs": 1772431558965,
+      "updatedAtMs": 1772435122210,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2161,11 +2161,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772433295421,
-        "lastRunAtMs": 1772431495421,
+        "nextRunAtMs": 1772436895505,
+        "lastRunAtMs": 1772435095505,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 63544,
+        "lastDurationMs": 26705,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -2259,7 +2259,7 @@
       "name": "🦞 Lobster: Участковый (REAL controlled cutover)",
       "enabled": true,
       "createdAtMs": 1772186656870,
-      "updatedAtMs": 1772431793819,
+      "updatedAtMs": 1772435385672,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2278,11 +2278,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772435379370,
-        "lastRunAtMs": 1772431779370,
+        "nextRunAtMs": 1772438979404,
+        "lastRunAtMs": 1772435379404,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 14449,
+        "lastDurationMs": 6268,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
@@ -2295,7 +2295,7 @@
       "name": "🦞 Lobster: Чекист (REAL controlled cutover)",
       "enabled": true,
       "createdAtMs": 1772193862021,
-      "updatedAtMs": 1772428910214,
+      "updatedAtMs": 1772432501369,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2314,11 +2314,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772432483776,
-        "lastRunAtMs": 1772428883776,
+        "nextRunAtMs": 1772436083815,
+        "lastRunAtMs": 1772432483815,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 26438,
+        "lastDurationMs": 17554,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
@@ -2331,7 +2331,7 @@
       "name": "🦞 Lobster: Git sync (REAL controlled cutover)",
       "enabled": true,
       "createdAtMs": 1772201614692,
-      "updatedAtMs": 1772428550240,
+      "updatedAtMs": 1772432135079,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2350,15 +2350,15 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772428524015,
+        "lastRunAtMs": 1772432124083,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 26225,
+        "lastDurationMs": 10996,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "nextRunAtMs": 1772432124015,
-        "runningAtMs": 1772432124076
+        "nextRunAtMs": 1772435724083,
+        "runningAtMs": 1772435724137
       }
     },
     {
