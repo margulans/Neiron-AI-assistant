@@ -742,9 +742,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "Авиценна — ежемесячный вес",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771496596099,
-      "updatedAtMs": 1772247634612,
+      "updatedAtMs": 1772581830545,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 28 * *",
@@ -757,7 +757,6 @@
         "text": "⚕️ Авиценна: конец месяца — спроси Маргулана о текущем весе и запиши в профиль (цель: 82 кг, сейчас: 86 кг)."
       },
       "state": {
-        "nextRunAtMs": 1774666800000,
         "lastRunAtMs": 1772247619536,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -807,9 +806,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "Аводарт — воскресное напоминание",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771634658135,
-      "updatedAtMs": 1772337604579,
+      "updatedAtMs": 1772581830228,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 0",
@@ -822,7 +821,6 @@
         "text": "⚕️ Напоминание: сегодня воскресенье — время принять Аводарт (дутастерид 0,5 мг)."
       },
       "state": {
-        "nextRunAtMs": 1772942400000,
         "lastRunAtMs": 1772337600040,
         "lastStatus": "ok",
         "lastDurationMs": 4539,
@@ -835,9 +833,9 @@
       "id": "7e21383e-9595-4cae-ac86-498615a41c05",
       "agentId": "main",
       "name": "Еженедельный анализ источников exploration",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770278976216,
-      "updatedAtMs": 1772341454239,
+      "updatedAtMs": 1772581830358,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0",
@@ -852,7 +850,6 @@
         "text": "📊 Еженедельный анализ системы exploration источников! Запусти скрипт анализа и отправь отчет Маргулану:\\n\\n1. Выполни: node weekly-exploration-analysis.js\\n2. Проанализируй результаты по правилу 33%\\n3. Отправь отчет с рекомендациями по новым источникам\\n4. Обнови приоритеты источников в системе\\n\\nФокус на поиске качественных новых источников по ИИ, робототехнике, eVTOL, бизнесу и инвестициям для улучшения дайджестов."
       },
       "state": {
-        "nextRunAtMs": 1772946000000,
         "lastRunAtMs": 1772341200046,
         "lastStatus": "ok",
         "lastDurationMs": 254193,
@@ -866,9 +863,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🧹 Еженедельный куратор контекста (Optimizer)",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771691862697,
-      "updatedAtMs": 1772341492618,
+      "updatedAtMs": 1772581830428,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0",
@@ -886,7 +883,6 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1772946000000,
         "lastRunAtMs": 1772341454239,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -1215,9 +1211,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "Аналитик — еженедельный отчёт",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771834857133,
-      "updatedAtMs": 1772377212135,
+      "updatedAtMs": 1772581830496,
       "schedule": {
         "kind": "cron",
         "expr": "0 15 * * 0",
@@ -1230,7 +1226,6 @@
         "text": "weekly_reflection_analytics()"
       },
       "state": {
-        "nextRunAtMs": 1772982000000,
         "lastRunAtMs": 1772377200045,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -1244,9 +1239,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "Венди — пятничный инсайт",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771834857180,
-      "updatedAtMs": 1772193617048,
+      "updatedAtMs": 1772581830042,
       "schedule": {
         "kind": "cron",
         "expr": "0 12 * * 5",
@@ -1259,7 +1254,6 @@
         "text": "wendy(mode=weekly-insight)"
       },
       "state": {
-        "nextRunAtMs": 1772798400000,
         "lastRunAtMs": 1772193600044,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -1273,9 +1267,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "Венди — goal-check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771834857222,
-      "updatedAtMs": 1772337610222,
+      "updatedAtMs": 1772581830146,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * 0",
@@ -1288,7 +1282,6 @@
         "text": "wendy(mode=goal-check)"
       },
       "state": {
-        "nextRunAtMs": 1772942400000,
         "lastRunAtMs": 1772337604579,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
