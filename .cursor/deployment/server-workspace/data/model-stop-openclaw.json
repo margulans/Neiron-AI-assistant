@@ -1,0 +1,322 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "memoryFlush": {
+          "enabled": true
+        },
+        "mode": "safeguard"
+      },
+      "contextPruning": {
+        "mode": "cache-ttl"
+      },
+      "heartbeat": {
+        "directPolicy": "block",
+        "every": "2h"
+      },
+      "maxConcurrent": 4,
+      "memorySearch": {
+        "cache": {
+          "enabled": true,
+          "maxEntries": 50000
+        },
+        "experimental": {
+          "sessionMemory": true
+        },
+        "extraPaths": [
+          "bank",
+          "bank/entities"
+        ],
+        "model": "text-embedding-3-small",
+        "provider": "openai",
+        "query": {
+          "hybrid": {
+            "enabled": true,
+            "textWeight": 0.3,
+            "vectorWeight": 0.7
+          }
+        },
+        "remote": {
+          "apiKey": "<REDACTED>"
+        },
+        "sources": [
+          "memory",
+          "sessions"
+        ]
+      },
+      "model": {
+        "fallbacks": [
+          "anthropic/claude-sonnet-4-6"
+        ],
+        "primary": "openai/gpt-5.2"
+      },
+      "models": {
+        "anthropic/claude-haiku-4-5": {
+          "params": {
+            "cacheRetention": "short"
+          }
+        },
+        "anthropic/claude-opus-4-6": {
+          "params": {
+            "cacheRetention": "short",
+            "context1m": true
+          }
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "params": {
+            "cacheRetention": "short",
+            "context1m": true
+          }
+        },
+        "google/gemini-2.0-flash-lite": {
+          "alias": "Gemini Flash Lite"
+        },
+        "google/gemini-2.5-flash": {
+          "alias": "Gemini 2.5 Flash",
+          "params": {
+            "context1m": true
+          }
+        },
+        "google/gemini-3-flash-preview": {
+          "params": {
+            "context1m": true
+          }
+        },
+        "groq/llama-3.3-70b-versatile": {
+          "alias": "Groq Llama 3.3 70B"
+        },
+        "openai/gpt-4o": {},
+        "openai/gpt-4o-mini": {
+          "alias": "gpt-4o-mini"
+        },
+        "openai/gpt-5.2": {
+          "alias": "gpt"
+        },
+        "openrouter/auto": {
+          "alias": "OpenRouter"
+        },
+        "openrouter/meta-llama/llama-3.3-70b-instruct:free": {
+          "alias": "Llama 3.3 70B (free)"
+        }
+      },
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "workspace": "/home/openclaw/.openclaw/workspace"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "mode": "api_key",
+        "provider": "google"
+      },
+      "groq:default": {
+        "mode": "api_key",
+        "provider": "groq"
+      },
+      "openrouter:default": {
+        "mode": "api_key",
+        "provider": "openrouter"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "allowFrom": [
+        685668909,
+        509646214
+      ],
+      "botToken": "<REDACTED>",
+      "capabilities": {
+        "inlineButtons": "all"
+      },
+      "customCommands": [
+        {
+          "command": "warren",
+          "description": "⚖️ Уоррен — принять решение (сравнить варианты, риски)"
+        },
+        {
+          "command": "wendy",
+          "description": "🧭 Венди — советник (взгляд на неделю/дрейф от целей)"
+        },
+        {
+          "command": "scout",
+          "description": "🔭 Скаут — найти новых авторов/каналы по темам"
+        },
+        {
+          "command": "smart_digest",
+          "description": "📰 Smart Digest — саммари по URL"
+        },
+        {
+          "command": "economist",
+          "description": "💰 Экономист — затраты/эффективность"
+        },
+        {
+          "command": "analytics",
+          "description": "📊 Аналитик — тренды рефлексий"
+        },
+        {
+          "command": "git",
+          "description": "🔄 Git sync workspace"
+        }
+      ],
+      "dmPolicy": "allowlist",
+      "enabled": true,
+      "groupAllowFrom": [
+        685668909,
+        509646214
+      ],
+      "groupPolicy": "allowlist",
+      "reactionLevel": "ack",
+      "reactionNotifications": "all",
+      "streaming": "partial"
+    }
+  },
+  "commands": {
+    "native": true,
+    "nativeSkills": true,
+    "ownerDisplay": "raw",
+    "restart": true,
+    "text": true
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "<REDACTED>"
+    },
+    "bind": "loopback",
+    "controlUi": {
+      "root": "/home/openclaw/Clowdbot/dist/control-ui"
+    },
+    "mode": "local",
+    "port": 18789,
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "tools": {
+      "allow": []
+    }
+  },
+  "messages": {
+    "ackReactionScope": "all",
+    "removeAckAfterReply": true
+  },
+  "meta": {
+    "lastTouchedAt": "2026-02-25T08:13:07.111Z",
+    "lastTouchedVersion": "2026.2.24"
+  },
+  "plugins": {
+    "allow": [
+      "telegram",
+      "openclaw-mem0",
+      "memory-lancedb"
+    ],
+    "entries": {
+      "memory-core": {
+        "enabled": false
+      },
+      "openclaw-mem0": {
+        "config": {
+          "autoCapture": true,
+          "autoRecall": true,
+          "mode": "open-source",
+          "oss": {
+            "embedder": {
+              "config": {
+                "apiKey": "<REDACTED>",
+                "baseURL": "http://localhost:8888/v1",
+                "model": "text-embedding-3-small"
+              },
+              "provider": "openai"
+            },
+            "historyDbPath": "/home/openclaw/.openclaw/mem0/history.db",
+            "llm": {
+              "config": {
+                "apiKey": "<REDACTED>",
+                "baseURL": "http://localhost:8888/v1",
+                "model": "gpt-4o-mini"
+              },
+              "provider": "openai"
+            },
+            "vectorStore": {
+              "config": {
+                "collectionName": "openclaw-mem0",
+                "host": "localhost",
+                "port": 6333
+              },
+              "provider": "qdrant"
+            }
+          },
+          "searchThreshold": 0.42,
+          "topK": 8,
+          "userId": "margulan"
+        },
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-mem0": {
+        "installPath": "/home/openclaw/.openclaw/extensions/openclaw-mem0",
+        "installedAt": "2026-02-25T08:13:06.492Z",
+        "integrity": "sha512-Q+lwwKUqltMoO0occDdxnUK1xnA76qhT9oNhqpNzYKHEfB7uY4KA484mDSNPZ7KwJudS88bantKOprjhpU+BcA==",
+        "resolvedAt": "2026-02-25T08:12:40.762Z",
+        "resolvedName": "@mem0/openclaw-mem0",
+        "resolvedSpec": "@mem0/openclaw-mem0@0.1.2",
+        "resolvedVersion": "0.1.2",
+        "shasum": "41601f54f1ccfa9874b1e47066e9db5f6d7923ea",
+        "source": "npm",
+        "spec": "@mem0/openclaw-mem0@0.1.2",
+        "version": "0.1.2"
+      }
+    },
+    "slots": {
+      "memory": "openclaw-mem0"
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "media": {
+      "audio": {
+        "enabled": true,
+        "models": [
+          {
+            "model": "whisper-large-v3",
+            "provider": "groq"
+          }
+        ]
+      }
+    },
+    "web": {
+      "search": {
+        "apiKey": "<REDACTED>",
+        "cacheTtlMinutes": 30,
+        "enabled": true,
+        "maxResults": 10,
+        "perplexity": {
+          "apiKey": "<REDACTED>",
+          "model": "sonar"
+        },
+        "provider": "perplexity"
+      }
+    }
+  },
+  "update": {
+    "auto": {
+      "enabled": false
+    },
+    "checkOnStart": false
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-22T05:52:07.227Z",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.2.17"
+  }
+}
