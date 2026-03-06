@@ -1,0 +1,36 @@
+{
+  "mode": "MODEL_STOP",
+  "activated_at": "2026-03-06T07:05:01Z",
+  "activated_by": "margulan (via Cursor SSH)",
+  "reason": "All models rate-limited (openrouter/llama-3.3-70b + openai/gpt-5.2). Emergency stop to prevent further API charges and allow rate limit recovery.",
+  "state": {
+    "gateway": {
+      "status": "running",
+      "version": "2026.2.24",
+      "restarted_at": "2026-03-06T07:05:01Z",
+      "model_primary": "openai/gpt-5.2",
+      "model_fallback": "anthropic/claude-sonnet-4-6"
+    },
+    "cron_jobs": {
+      "total": 65,
+      "active": 1,
+      "disabled": 64,
+      "active_job": {
+        "id": "002cd768-3596-455e-94e2-f57feae590d2",
+        "name": "Lobster: Git sync REAL",
+        "schedule": "every 1h",
+        "note": "No LLM calls — pure git operations"
+      }
+    },
+    "disabled_categories": [
+      "monitoring: Участковый, Механик, Чекист + backups",
+      "digests: утро/день/вечер + мнения + backups",
+      "analytics: брифинг, экономист, рефлексия, саммари, Аналитик + backups",
+      "agents: Marta/Aiganym, Wendy, Scout, Albert + backups",
+      "maintenance: Chat Cleanup, Memory Weekly Review, monthly audit + backups",
+      "reminders: Аводарт, Авиценна",
+      "legacy: git sync v1, Lobster metric/cutover jobs"
+    ]
+  },
+  "resume_instructions": "See MODEL_RESUME.md in same directory"
+}
