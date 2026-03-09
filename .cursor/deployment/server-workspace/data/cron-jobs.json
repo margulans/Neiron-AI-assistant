@@ -8,7 +8,7 @@
       "name": "👮‍♂️ Участковый",
       "enabled": false,
       "createdAtMs": 1771731407619,
-      "updatedAtMs": 1772252345228,
+      "updatedAtMs": 1772778302086,
       "schedule": {
         "kind": "cron",
         "expr": "2 6-21 * * *",
@@ -42,7 +42,7 @@
       "name": "🕵️ Чекист",
       "enabled": false,
       "createdAtMs": 1771735167295,
-      "updatedAtMs": 1772200848705,
+      "updatedAtMs": 1772778373908,
       "schedule": {
         "kind": "cron",
         "expr": "26 6-21/3 * * *",
@@ -76,7 +76,7 @@
       "name": "🔧 Механик",
       "enabled": false,
       "createdAtMs": 1771735699824,
-      "updatedAtMs": 1772582178333,
+      "updatedAtMs": 1772778383389,
       "schedule": {
         "kind": "cron",
         "expr": "50 6-22/2 * * *",
@@ -111,7 +111,7 @@
       "name": "Auto-commit: Git sync",
       "enabled": false,
       "createdAtMs": 1771566031996,
-      "updatedAtMs": 1772258956733,
+      "updatedAtMs": 1772778389265,
       "schedule": {
         "kind": "cron",
         "expr": "0 */4 * * *",
@@ -147,7 +147,7 @@
       "name": "🚨 BACKUP: Git sync (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644988177,
-      "updatedAtMs": 1772258980083,
+      "updatedAtMs": 1772778369988,
       "schedule": {
         "kind": "cron",
         "expr": "30 */4 * * *",
@@ -181,7 +181,7 @@
       "name": "Дневной дайджест @newsneiron",
       "enabled": false,
       "createdAtMs": 1770543655002,
-      "updatedAtMs": 1772269331273,
+      "updatedAtMs": 1772778362264,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -216,7 +216,7 @@
       "name": "🚨 BACKUP: Дневной дайджест (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644839690,
-      "updatedAtMs": 1772269331341,
+      "updatedAtMs": 1772778326177,
       "schedule": {
         "kind": "cron",
         "expr": "5 13 * * *",
@@ -250,7 +250,7 @@
       "name": "Дневные мнения",
       "enabled": false,
       "createdAtMs": 1770522310056,
-      "updatedAtMs": 1772269331756,
+      "updatedAtMs": 1772778377919,
       "schedule": {
         "kind": "cron",
         "expr": "30 13 * * *",
@@ -285,7 +285,7 @@
       "name": "🚨 BACKUP: Дневные мнения (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644988124,
-      "updatedAtMs": 1772269331824,
+      "updatedAtMs": 1772778393225,
       "schedule": {
         "kind": "cron",
         "expr": "50 13 * * *",
@@ -320,7 +320,7 @@
       "name": "💰 Экономист (сбор)",
       "enabled": false,
       "createdAtMs": 1771737662468,
-      "updatedAtMs": 1772582178510,
+      "updatedAtMs": 1772778298259,
       "schedule": {
         "kind": "cron",
         "expr": "30 17 * * *",
@@ -355,7 +355,7 @@
       "name": "Вечерний дайджест @newsneiron",
       "enabled": false,
       "createdAtMs": 1770275698751,
-      "updatedAtMs": 1772269331431,
+      "updatedAtMs": 1772778318786,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -390,7 +390,7 @@
       "name": "🚨 BACKUP: Вечерний дайджест (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644839715,
-      "updatedAtMs": 1772269331498,
+      "updatedAtMs": 1772778399028,
       "schedule": {
         "kind": "cron",
         "expr": "5 18 * * *",
@@ -425,7 +425,7 @@
       "name": "🚨 BACKUP: Вечерние мнения (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644988152,
-      "updatedAtMs": 1772269332065,
+      "updatedAtMs": 1772778345142,
       "schedule": {
         "kind": "cron",
         "expr": "50 18 * * *",
@@ -460,7 +460,7 @@
       "name": "📋 Марта: Саммари от Айганым — вечерний отчёт",
       "enabled": false,
       "createdAtMs": 1771658827106,
-      "updatedAtMs": 1772581740345,
+      "updatedAtMs": 1772778356500,
       "schedule": {
         "kind": "cron",
         "expr": "40 19 * * *",
@@ -494,7 +494,7 @@
       "name": "Ежедневная рефлексия",
       "enabled": false,
       "createdAtMs": 1770399692088,
-      "updatedAtMs": 1772581603095,
+      "updatedAtMs": 1772778354651,
       "schedule": {
         "kind": "cron",
         "expr": "30 20 * * *",
@@ -530,7 +530,7 @@
       "name": "Утренний брифинг",
       "enabled": false,
       "createdAtMs": 1770358767605,
-      "updatedAtMs": 1772581584462,
+      "updatedAtMs": 1772778313112,
       "schedule": {
         "kind": "cron",
         "expr": "0 6 * * *",
@@ -565,7 +565,7 @@
       "name": "🚨 BACKUP: Утренний брифинг (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644839779,
-      "updatedAtMs": 1772581593954,
+      "updatedAtMs": 1772778343217,
       "schedule": {
         "kind": "cron",
         "expr": "5 6 * * *",
@@ -599,7 +599,7 @@
       "name": "Утренний дайджест @newsneiron",
       "enabled": false,
       "createdAtMs": 1770275670265,
-      "updatedAtMs": 1772269330901,
+      "updatedAtMs": 1772778294551,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -636,7 +636,7 @@
       "name": "🚨 BACKUP: Утренний дайджест (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644839665,
-      "updatedAtMs": 1772269331038,
+      "updatedAtMs": 1772778385244,
       "schedule": {
         "kind": "cron",
         "expr": "5 8 * * *",
@@ -672,7 +672,7 @@
       "name": "Утренние мнения",
       "enabled": false,
       "createdAtMs": 1770522295821,
-      "updatedAtMs": 1772269331593,
+      "updatedAtMs": 1772778331829,
       "schedule": {
         "kind": "cron",
         "expr": "30 8 * * *",
@@ -707,7 +707,7 @@
       "name": "BACKUP: Утренние мнения (Gemini)",
       "enabled": false,
       "createdAtMs": 1771644988095,
-      "updatedAtMs": 1772269331664,
+      "updatedAtMs": 1772778286929,
       "schedule": {
         "kind": "cron",
         "expr": "50 8 * * *",
@@ -768,7 +768,7 @@
       "name": "📊 Экономист (отчёт)",
       "enabled": false,
       "createdAtMs": 1771737664336,
-      "updatedAtMs": 1772581623535,
+      "updatedAtMs": 1772778371888,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * 0",
@@ -863,7 +863,7 @@
       "name": "🧹 Еженедельный куратор контекста (Optimizer)",
       "enabled": false,
       "createdAtMs": 1771691862697,
-      "updatedAtMs": 1772581830428,
+      "updatedAtMs": 1772778364243,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0",
@@ -895,7 +895,7 @@
       "name": "🚨 BACKUP: Ежедневная рефлексия",
       "enabled": false,
       "createdAtMs": 1771739756280,
-      "updatedAtMs": 1772581611932,
+      "updatedAtMs": 1772778337319,
       "schedule": {
         "kind": "cron",
         "expr": "35 20 * * *",
@@ -930,7 +930,7 @@
       "name": "🚨 BACKUP: Экономист (сбор)",
       "enabled": false,
       "createdAtMs": 1771826007243,
-      "updatedAtMs": 1772582178609,
+      "updatedAtMs": 1772778339242,
       "schedule": {
         "kind": "cron",
         "expr": "45 17 * * *",
@@ -965,7 +965,7 @@
       "name": "🚨 BACKUP: Саммари от Айганым",
       "enabled": false,
       "createdAtMs": 1771826007293,
-      "updatedAtMs": 1772581750076,
+      "updatedAtMs": 1772778329997,
       "schedule": {
         "kind": "cron",
         "expr": "45 19 * * *",
@@ -1000,7 +1000,7 @@
       "name": "🚨 BACKUP: Экономист (отчёт)",
       "enabled": false,
       "createdAtMs": 1771826007330,
-      "updatedAtMs": 1772581635260,
+      "updatedAtMs": 1772778387205,
       "schedule": {
         "kind": "cron",
         "expr": "20 3 * * 0",
@@ -1035,7 +1035,7 @@
       "name": "🚨 BACKUP: Участковый",
       "enabled": false,
       "createdAtMs": 1771831793053,
-      "updatedAtMs": 1772581644919,
+      "updatedAtMs": 1772778375854,
       "schedule": {
         "kind": "cron",
         "expr": "12 6-21 * * *",
@@ -1069,7 +1069,7 @@
       "name": "🚨 BACKUP: Механик",
       "enabled": false,
       "createdAtMs": 1771831803143,
-      "updatedAtMs": 1772581656961,
+      "updatedAtMs": 1772778366260,
       "schedule": {
         "kind": "cron",
         "expr": "55 6-22/2 * * *",
@@ -1103,7 +1103,7 @@
       "name": "🚨 BACKUP: Чекист",
       "enabled": false,
       "createdAtMs": 1771831811990,
-      "updatedAtMs": 1772581564890,
+      "updatedAtMs": 1772778335641,
       "schedule": {
         "kind": "cron",
         "expr": "56 6-21/3 * * *",
@@ -1138,7 +1138,7 @@
       "name": "🚨 BACKUP: Ежемесячный аудит (Optimizer)",
       "enabled": false,
       "createdAtMs": 1771832083558,
-      "updatedAtMs": 1772581789026,
+      "updatedAtMs": 1772778303853,
       "schedule": {
         "kind": "cron",
         "expr": "0 12 * * 0",
@@ -1173,7 +1173,7 @@
       "name": "🚨 BACKUP: Аналитик — еженедельный отчёт",
       "enabled": false,
       "createdAtMs": 1771834850456,
-      "updatedAtMs": 1772581796523,
+      "updatedAtMs": 1772778290649,
       "schedule": {
         "kind": "cron",
         "expr": "20 15 * * 0",
@@ -1294,7 +1294,7 @@
       "name": "Auto-push: Git sync (stage 2)",
       "enabled": false,
       "createdAtMs": 1771978047879,
-      "updatedAtMs": 1772258970532,
+      "updatedAtMs": 1772778395306,
       "schedule": {
         "kind": "cron",
         "expr": "15 */4 * * *",
@@ -1330,7 +1330,7 @@
       "name": "👮‍♂️ Участковый (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568502,
-      "updatedAtMs": 1772339367619,
+      "updatedAtMs": 1772778379679,
       "schedule": {
         "kind": "cron",
         "expr": "2 22,1,4 * * *",
@@ -1365,7 +1365,7 @@
       "name": "🚨 BACKUP: Участковый (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568598,
-      "updatedAtMs": 1772339369544,
+      "updatedAtMs": 1772778351154,
       "schedule": {
         "kind": "cron",
         "expr": "12 22,1,4 * * *",
@@ -1400,7 +1400,7 @@
       "name": "🕵️ Чекист (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568679,
-      "updatedAtMs": 1772581550873,
+      "updatedAtMs": 1772778347123,
       "schedule": {
         "kind": "cron",
         "expr": "30 3 * * *",
@@ -1435,7 +1435,7 @@
       "name": "🚨 BACKUP: Чекист (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568787,
-      "updatedAtMs": 1772581541952,
+      "updatedAtMs": 1772778397240,
       "schedule": {
         "kind": "cron",
         "expr": "50 4 * * *",
@@ -1470,7 +1470,7 @@
       "name": "🔧 Механик (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568876,
-      "updatedAtMs": 1772582178690,
+      "updatedAtMs": 1772778285156,
       "schedule": {
         "kind": "cron",
         "expr": "40 3 * * *",
@@ -1505,7 +1505,7 @@
       "name": "🚨 BACKUP: Механик (ночь)",
       "enabled": false,
       "createdAtMs": 1771994568930,
-      "updatedAtMs": 1772581669228,
+      "updatedAtMs": 1772778320808,
       "schedule": {
         "kind": "cron",
         "expr": "10 4 * * *",
@@ -1540,7 +1540,7 @@
       "name": "📈 Monitor daily summary (incidents only)",
       "enabled": false,
       "createdAtMs": 1771995221338,
-      "updatedAtMs": 1772582177778,
+      "updatedAtMs": 1772778402812,
       "schedule": {
         "kind": "cron",
         "expr": "5 5 * * *",
@@ -1575,7 +1575,7 @@
       "name": "Memory Weekly Review",
       "enabled": false,
       "createdAtMs": 1772009681450,
-      "updatedAtMs": 1772581759991,
+      "updatedAtMs": 1772778333735,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * 0",
@@ -1610,7 +1610,7 @@
       "name": "Вечерние мнения",
       "enabled": false,
       "createdAtMs": 1772026267738,
-      "updatedAtMs": 1772269331914,
+      "updatedAtMs": 1772778296351,
       "schedule": {
         "kind": "cron",
         "expr": "30 18 * * *",
@@ -1646,7 +1646,7 @@
       "name": "Digest Weekly Improvement",
       "enabled": false,
       "createdAtMs": 1772036532444,
-      "updatedAtMs": 1772581779802,
+      "updatedAtMs": 1772778288891,
       "schedule": {
         "kind": "cron",
         "expr": "30 4 * * 0",
@@ -1681,7 +1681,7 @@
       "name": "Marta → Aiganym (morning check-in)",
       "enabled": false,
       "createdAtMs": 1772037589803,
-      "updatedAtMs": 1772581677339,
+      "updatedAtMs": 1772778311186,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -1716,7 +1716,7 @@
       "name": "Marta → Aiganym (lunch check-in)",
       "enabled": false,
       "createdAtMs": 1772037599008,
-      "updatedAtMs": 1772581696263,
+      "updatedAtMs": 1772778328006,
       "schedule": {
         "kind": "cron",
         "expr": "30 12 * * *",
@@ -1751,7 +1751,7 @@
       "name": "Marta → Aiganym (evening check-in)",
       "enabled": false,
       "createdAtMs": 1772037599058,
-      "updatedAtMs": 1772581718890,
+      "updatedAtMs": 1772778300178,
       "schedule": {
         "kind": "cron",
         "expr": "30 19 * * *",
@@ -1786,7 +1786,7 @@
       "name": "🚨 BACKUP: Marta → Aiganym (morning check-in)",
       "enabled": false,
       "createdAtMs": 1772038036188,
-      "updatedAtMs": 1772581685626,
+      "updatedAtMs": 1772778391229,
       "schedule": {
         "kind": "cron",
         "expr": "7 8 * * *",
@@ -1856,7 +1856,7 @@
       "name": "🚨 BACKUP: Marta → Aiganym (evening check-in)",
       "enabled": false,
       "createdAtMs": 1772038036302,
-      "updatedAtMs": 1772581730989,
+      "updatedAtMs": 1772778283307,
       "schedule": {
         "kind": "cron",
         "expr": "33 19 * * *",
@@ -1891,7 +1891,7 @@
       "name": "🚨 BACKUP: Memory Weekly Review (Sonnet)",
       "enabled": false,
       "createdAtMs": 1772066667989,
-      "updatedAtMs": 1772581770528,
+      "updatedAtMs": 1772778309226,
       "schedule": {
         "kind": "cron",
         "expr": "5 4 * * 0",
@@ -1926,7 +1926,7 @@
       "name": "🧪 Soak: Mem0 monitoring probe (10m)",
       "enabled": false,
       "createdAtMs": 1772086827811,
-      "updatedAtMs": 1772346079583,
+      "updatedAtMs": 1772778360370,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1961,7 +1961,7 @@
       "name": "🦞 Lobster: Механик (plan-only, 24h soak)",
       "enabled": false,
       "createdAtMs": 1772091420100,
-      "updatedAtMs": 1772582177878,
+      "updatedAtMs": 1772778324563,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -1996,7 +1996,7 @@
       "name": "🦞 Lobster: Git sync (plan-only soak)",
       "enabled": false,
       "createdAtMs": 1772093131200,
-      "updatedAtMs": 1772582178430,
+      "updatedAtMs": 1772778315118,
       "schedule": {
         "kind": "cron",
         "expr": "5 */4 * * *",
@@ -2031,7 +2031,7 @@
       "name": "🦞 Lobster: Economist daily-collect (plan-only soak)",
       "enabled": false,
       "createdAtMs": 1772094058261,
-      "updatedAtMs": 1772582178240,
+      "updatedAtMs": 1772778322704,
       "schedule": {
         "kind": "every",
         "everyMs": 14400000,
@@ -2066,7 +2066,7 @@
       "name": "🦞 Lobster: Wendy (plan-only soak)",
       "enabled": false,
       "createdAtMs": 1772095282193,
-      "updatedAtMs": 1772582178059,
+      "updatedAtMs": 1772778316904,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2101,7 +2101,7 @@
       "name": "🦞 Lobster: Marta (plan-only soak)",
       "enabled": false,
       "createdAtMs": 1772095397594,
-      "updatedAtMs": 1772582177592,
+      "updatedAtMs": 1772778305545,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2137,7 +2137,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772185485695,
-      "updatedAtMs": 1772186737449,
+      "updatedAtMs": 1772778358350,
       "schedule": {
         "kind": "at",
         "at": "2026-02-27T11:44:30.000Z"
@@ -2164,7 +2164,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772185643769,
-      "updatedAtMs": 1772186737324,
+      "updatedAtMs": 1772778292599,
       "schedule": {
         "kind": "at",
         "at": "2026-02-27T10:44:30.000Z"
@@ -2191,7 +2191,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772186416848,
-      "updatedAtMs": 1772186666705,
+      "updatedAtMs": 1772778281351,
       "schedule": {
         "kind": "at",
         "at": "2026-02-27T22:05:00.000Z"
@@ -2217,7 +2217,7 @@
       "name": "🦞 Lobster: Участковый (REAL controlled cutover)",
       "enabled": false,
       "createdAtMs": 1772186656870,
-      "updatedAtMs": 1772582177959,
+      "updatedAtMs": 1772778349065,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2252,7 +2252,7 @@
       "name": "🦞 Lobster: Чекист (REAL controlled cutover)",
       "enabled": false,
       "createdAtMs": 1772193862021,
-      "updatedAtMs": 1772581557778,
+      "updatedAtMs": 1772778368070,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2285,9 +2285,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "🦞 Lobster: Git sync (REAL controlled cutover)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1772201614692,
-      "updatedAtMs": 1772582178140,
+      "updatedAtMs": 1773051234318,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2306,13 +2306,15 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772579725756,
+        "lastRunAtMs": 1773051218723,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 9373,
+        "lastDurationMs": 15595,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "nextRunAtMs": 1773054818723,
+        "runningAtMs": 1773054818776
       }
     },
     {
@@ -2323,7 +2325,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772252531001,
-      "updatedAtMs": 1772258450354,
+      "updatedAtMs": 1772778381544,
       "schedule": {
         "kind": "at",
         "at": "2026-02-28T06:22:00.000Z"
@@ -2350,7 +2352,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772258466901,
-      "updatedAtMs": 1772259074101,
+      "updatedAtMs": 1772778400953,
       "schedule": {
         "kind": "at",
         "at": "2026-02-28T07:00:00.000Z"
@@ -2377,7 +2379,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772258467414,
-      "updatedAtMs": 1772259074300,
+      "updatedAtMs": 1772778341138,
       "schedule": {
         "kind": "at",
         "at": "2026-02-28T08:00:00.000Z"
@@ -2404,7 +2406,7 @@
       "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1772259102233,
-      "updatedAtMs": 1772265981044,
+      "updatedAtMs": 1772778352961,
       "schedule": {
         "kind": "at",
         "at": "2026-02-28T08:06:00.000Z"
@@ -2440,7 +2442,7 @@
       "name": "🧾 CHEKIST GATE REPORT (Spec v1) — daily 09:35 Алматы",
       "enabled": false,
       "createdAtMs": 1772260454612,
-      "updatedAtMs": 1772581575325,
+      "updatedAtMs": 1772778307296,
       "schedule": {
         "kind": "cron",
         "expr": "35 9 * * *",
