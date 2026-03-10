@@ -2287,7 +2287,7 @@
       "name": "🦞 Lobster: Git sync (REAL controlled cutover)",
       "enabled": true,
       "createdAtMs": 1772201614692,
-      "updatedAtMs": 1773094430488,
+      "updatedAtMs": 1773098054058,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2306,15 +2306,15 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1773094419356,
+        "lastRunAtMs": 1773098019384,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 11132,
+        "lastDurationMs": 34674,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "nextRunAtMs": 1773098019356,
-        "runningAtMs": 1773098019380
+        "nextRunAtMs": 1773101619384,
+        "runningAtMs": 1773101619425
       }
     },
     {
