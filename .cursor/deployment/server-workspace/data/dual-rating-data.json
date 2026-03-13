@@ -1,1 +1,79 @@
-[{"messageId":"516"},{"messageId":"517"},{"messageId":"518"},{"messageId":"519"},{"messageId":"520"},{"messageId":"521"},{"messageId":"522"},{"messageId":"523"},{"messageId":"524"},{"messageId":"525"},{"messageId":"526"},{"messageId":"527"},{"messageId":"528"},{"messageId":"529"},{"messageId":"530"},{"messageId":"531"},{"messageId":"532"},{"messageId":"533"},{"messageId":"534"},{"messageId":"535"},{"messageId":"536"},{"messageId":"537"},{"messageId":"538"},{"messageId":"539"},{"messageId":"540"},{"messageId":"294"},{"messageId":"295"},{"messageId":"296"},{"messageId":"297"}]}
+[
+  {
+    "date": "2026-03-13",
+    "summary": "Evening Digest published with 7 news items regarding AI developments.",
+    "items": "Various AI breakthroughs and legislation caught in news headlines."
+  },
+  {
+    "messageId": "304",
+    "expert": "Рита Саллам",
+    "source": "Gartner / novostiitkanala.ru",
+    "category": "ИИ, Прогнозы",
+    "title": "Будущее ИИ и границ интеллектов",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "305",
+    "expert": "Аналитики",
+    "source": "tbank.ru",
+    "category": "ИИ, Прогнозы, Технологии",
+    "title": "Массовое внедрение ИИ",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "306",
+    "expert": "Бизнес-аналитики",
+    "source": "trends.rbc.ru",
+    "category": "ИИ, Бизнес, Инновации",
+    "title": "ИИ лидирует во внедрении в бизнесе",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "307",
+    "expert": "Маркетинговые команды",
+    "source": "cossa.ru",
+    "category": "ИИ, Маркетинг, Тренды",
+    "title": "ИИ в маркетинге: тренд на гиперперсонализацию",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "308",
+    "expert": "Исследования",
+    "source": "habr.com",
+    "category": "ИИ, Эффективность, Труд",
+    "title": "ИИ и интенсивность работы: новые вызовы",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "309",
+    "expert": "Специалисты (инфлюенсеры, организаторы)",
+    "source": "idel.top",
+    "category": "ИИ, Человеческий фактор, Коммуникации",
+    "title": "Почему некоторые эксперты избегают ИИ",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "310",
+    "expert": "Эксперты",
+    "source": "konkurent.ru",
+    "category": "ИИ, Безопасность, Риски",
+    "title": "Главная опасность ИИ: неумелое использование",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "311",
+    "expert": "Эксперты",
+    "source": "novostiitkanala.ru",
+    "category": "ИИ, Развитие, Образование",
+    "title": "Рекомендации экспертов по развитию ИИ",
+    "timestamp": 1773408609310
+  },
+  {
+    "messageId": "312",
+    "expert": "Прогноз",
+    "source": "cossa.ru",
+    "category": "ИИ, Россия, Образование",
+    "title": "Потенциал России в сфере ИИ",
+    "timestamp": 1773408609310
+  }
+]
