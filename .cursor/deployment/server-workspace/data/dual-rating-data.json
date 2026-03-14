@@ -75,5 +75,109 @@
     "category": "ИИ, Россия, Образование",
     "title": "Потенциал России в сфере ИИ",
     "timestamp": 1773408609310
+  },
+  {
+    "messageId": "543",
+    "expert": "N/A",
+    "source": "Fortune",
+    "category": "AI, Business",
+    "title": "Meta delays Avocado AI model",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "544",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Ethics",
+    "title": "OpenAI revises military AI deal",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "545",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Legal",
+    "title": "Anthropic sues Pentagon",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "546",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Development",
+    "title": "Claude Code advancements",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "547",
+    "expert": "N/A",
+    "source": "Fortune",
+    "category": "AI, Google, Maps",
+    "title": "Gemini powers Ask Maps",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "548",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Business",
+    "title": "Alibaba restructures Qwen",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "549",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Hardware",
+    "title": "Apple challenges Nvidia",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "550",
+    "expert": "N/A",
+    "source": "YouTube",
+    ""category": "AI, Talent",
+    "title": "xAI poaches Cursor leaders",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "551",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Investment",
+    "title": "AI infrastructure investments surge",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "552",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "OpenClaw, AI",
+    "title": "OpenClaw GitHub stars",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "553",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Tools",
+    "title": "New AI tools launched",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "554",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Hardware, Research",
+    "title": "Hardware progress in AI",
+    "timestamp": 1773457220966
+  },
+  {
+    "messageId": "555",
+    "expert": "N/A",
+    "source": "YouTube",
+    "category": "AI, Industry Trends",
+    "title": "Rise of AI agents",
+    "timestamp": 1773457220966
   }
 ]

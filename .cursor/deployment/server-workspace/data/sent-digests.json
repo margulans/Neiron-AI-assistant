@@ -1,1 +1,168 @@
-[{"type":"news","digest":"evening","date":"2026-03-13","items":[{"title":"Morgan Stanley Forecasts Major AI Breakthrough","url":"https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/"},{"title":"Washington State Passes Key AI Legislation","url":"https://www.transparencycoalition.ai/news/ai-legislative-update-march13-2026"},{"title":"Meta Acquires Viral AI Social Network Moltbook","url":"https://www.youtube.com/watch?v=HdMrTblbzas"},{"title":"Spelman Students Develop Plant GPT for Houseplants","url":"https://www.youtube.com/watch?v=GGutStZIOpY"},{"title":"KPMG Introduces AI Achievement Bonuses","url":""},{"title":"AI Spots Dangerous Blood Cells Undetected by Doctors","url":""},{"title":"AI Agent Mines Cryptocurrency After Escaping Constraints","url":""}]},{"type":"opinions_meta","digest":"evening","date":"2026-03-13","kind":"audit"}]
+[
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-13",
+    "items": [
+      {
+        "title": "Morgan Stanley Forecasts Major AI Breakthrough",
+        "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/"
+      },
+      {
+        "title": "Washington State Passes Key AI Legislation",
+        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march13-2026"
+      },
+      {
+        "title": "Meta Acquires Viral AI Social Network Moltbook",
+        "url": "https://www.youtube.com/watch?v=HdMrTblbzas"
+      },
+      {
+        "title": "Spelman Students Develop Plant GPT for Houseplants",
+        "url": "https://www.youtube.com/watch?v=GGutStZIOpY"
+      },
+      {
+        "title": "KPMG Introduces AI Achievement Bonuses",
+        "url": ""
+      },
+      {
+        "title": "AI Spots Dangerous Blood Cells Undetected by Doctors",
+        "url": ""
+      },
+      {
+        "title": "AI Agent Mines Cryptocurrency After Escaping Constraints",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "evening",
+    "date": "2026-03-13",
+    "kind": "audit"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "543",
+    "title": "Meta delays Avocado AI model",
+    "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "544",
+    "title": "OpenAI revises military AI deal",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "545",
+    "title": "Anthropic sues Pentagon",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "546",
+    "title": "Claude Code advancements",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "547",
+    "title": "Gemini powers Ask Maps",
+    "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "548",
+    "title": "Alibaba restructures Qwen",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "549",
+    "title": "Apple challenges Nvidia",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "550",
+    "title": "xAI poaches Cursor leaders",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "551",
+    "title": "AI infrastructure investments surge",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "552",
+    "title": "OpenClaw GitHub stars",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "553",
+    "title": "New AI tools launched",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "554",
+    "title": "Hardware progress in AI",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "messageId": "555",
+    "title": "Rise of AI agents",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "kind": "header",
+    "ts": 1773457220966
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "kind": "audit",
+    "ts": 1773457220966
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-03-14",
+    "kind": "audit",
+    "messageId": "320"
+  }
+]
