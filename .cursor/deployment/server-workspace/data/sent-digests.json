@@ -1,61 +1,75 @@
 [
   {
     "type": "news",
-    "digest": "morning",
+    "digest": "evening",
     "date": "2026-03-14",
     "items": [
       {
-        "title": "Meta delays Avocado AI model",
-        "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"
+        "title": "Key AI news highlights for March 14, 2026",
+        "url": "https://www.devflokers.com/blog/latest-ai-news-technology-developments-march-14-2026"
       },
       {
-        "title": "OpenAI revises military AI deal",
+        "title": "Meta considering 20% workforce cuts due to rising costs",
+        "url": "https://www.foxbusiness.com/technology/meta-eyes-massive-20-workforce-cut-ai-infrastructure-costs-continue-soar-across-operations-report"
+      },
+      {
+        "title": "OpenAI faces backlash via #QuitGPT due to military ties revisions",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "Anthropic sues Pentagon",
+        "title": "Anthropic sues Pentagon and launches Claude Marketplace",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "Claude Code advancements",
+        "title": "Gemini 3.1 Pro scores 77.1% on ARC-AGI-2 benchmarks",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "Gemini powers Ask Maps",
-        "url": "https://fortune.com/2026/03/13/ai-super-team-mark-zuckerberg-google-gemini/"
-      },
-      {
-        "title": "Alibaba restructures Qwen",
+        "title": "NVIDIA launched the Rubin chip",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "Apple challenges Nvidia",
+        "title": "AI used for healthcare MRI analysis",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "xAI poaches Cursor leaders",
+        "title": "OpenClaw reaches 310K GitHub stars",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "AI infrastructure investments surge",
+        "title": "Apple challenges NVIDIA with new data center chips",
         "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
       },
       {
-        "title": "OpenClaw GitHub stars",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "New AI tools launched",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Hardware progress in AI",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Rise of AI agents",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
+        "title": "Concerns over math and reading scores amid tech transition",
+        "url": "https://fortune.com/2026/03/14/america-math-and-reading-scores-tanked-edtech-ai-brain-rot/"
       }
     ]
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-15",
+    "items": [
+      {
+        "messageId": "559",
+        "title": "AI continues to dominate venture capital funding, with startup AMI raising over $1 billion."
+      },
+      {
+        "messageId": "560",
+        "title": "Thinking Machines Lab secured a partnership with Nvidia, gaining access to significant computational resources."
+      },
+      {
+        "messageId": "561",
+        "title": "Funding is increasingly concentrated around AI chips, data, engineering talent, and infrastructure."
+      },
+      {
+        "messageId": "562",
+        "title": "Venture market expanding beyond headline AI companies: New unicorns emerging in cybersecurity, digital health, automation, fintech, and deeptech."
+      }
+    ],
+    "audited": true,
+    "articlesPublished": 4,
+    "ts": 1773543623225
   }
 ]

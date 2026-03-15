@@ -73,7 +73,7 @@
     "expert": "Прогноз",
     "source": "cossa.ru",
     "category": "ИИ, Россия, Образование",
-    "title": "Потенциал России в сфере ИИ",
+    "title": "Потензиал России в сфере ИИ",
     "timestamp": 1773408609310
   },
   {
@@ -136,7 +136,7 @@
     "messageId": "550",
     "expert": "N/A",
     "source": "YouTube",
-    ""category": "AI, Talent",
+    "category": "AI, Talent",
     "title": "xAI poaches Cursor leaders",
     "timestamp": 1773457220966
   },
@@ -179,5 +179,69 @@
     "category": "AI, Industry Trends",
     "title": "Rise of AI agents",
     "timestamp": 1773457220966
+  },
+  {
+    "messageId": "323",
+    "expert": "Руслан Юсупов",
+    "source": "expert.ru",
+    "category": "ИИ, Футурология",
+    "title": "Усиление человека ИИ",
+    "timestamp": 1773495029471
+  },
+  {
+    "messageId": "324",
+    "expert": "Елена Штульман",
+    "source": "tsn24.ru",
+    "category": "ИИ, Угрозы",
+    "title": "Уязвимость ИИ",
+    "timestamp": 1773495051535
+  },
+  {
+    "messageId": "325",
+    "expert": "Анатолий Вассерман",
+    "source": "penzasmi.ru",
+    "category": "ИИ, Технологии",
+    "title": "Настоящий ИИ",
+    "timestamp": 1773495070919
+  },
+  {
+    "messageId": "326",
+    "expert": "Учёные из Университета Южной Калифорнии",
+    "source": "the-geek.ru",
+    "category": "ИИ, Психология",
+    "title": "Эффект сужения ИИ",
+    "timestamp": 1773495091987
+  },
+  {
+    "messageId": "559",
+    "expert": "N/A",
+    "source": "Web Search (Perplexity)",
+    "category": "AI, Funding",
+    "title": "AI continues to dominate venture capital funding, with startup AMI raising over $1 billion.",
+    "timestamp": 1773543623225
+  },
+  {
+    "messageId": "560",
+    "expert": "N/A",
+    "source": "Web Search (Perplexity)",
+    "category": "AI, Partnerships, Resources",
+    "title": "Thinking Machines Lab secured a partnership with Nvidia, gaining access to significant computational resources.",
+    "timestamp": 1773543623225
+  },
+  {
+    "messageId": "561",
+    "expert": "N/A",
+    "source": "Web Search (Perplexity)",
+    "category": "AI, Funding, Infrastructure",
+    "title": "Funding is increasingly concentrated around AI chips, data, engineering talent, and infrastructure.",
+    "timestamp": 1773543623225
+  },
+  {
+    "messageId": "562",
+    "expert": "N/A",
+    "source": "Web Search (Perplexity)",
+    "category": "AI, Venture Capital, Startups",
+    "title": "Venture market expanding beyond headline AI companies: New unicorns emerging in cybersecurity, digital health, automation, fintech, and deeptech.",
+    "timestamp": 1773543623225
   }
 ]
