@@ -1,295 +1,85 @@
-[
-  {
-    "date": "2026-03-13",
-    "summary": "Evening Digest published with 7 news items regarding AI developments.",
-    "items": "Various AI breakthroughs and legislation caught in news headlines."
-  },
-  {
-    "messageId": "304",
-    "expert": "Рита Саллам",
-    "source": "Gartner / novostiitkanala.ru",
-    "category": "ИИ, Прогнозы",
-    "title": "Будущее ИИ и границ интеллектов",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "305",
-    "expert": "Аналитики",
-    "source": "tbank.ru",
-    "category": "ИИ, Прогнозы, Технологии",
-    "title": "Массовое внедрение ИИ",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "306",
-    "expert": "Бизнес-аналитики",
-    "source": "trends.rbc.ru",
-    "category": "ИИ, Бизнес, Инновации",
-    "title": "ИИ лидирует во внедрении в бизнесе",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "307",
-    "expert": "Маркетинговые команды",
-    "source": "cossa.ru",
-    "category": "ИИ, Маркетинг, Тренды",
-    "title": "ИИ в маркетинге: тренд на гиперперсонализацию",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "308",
-    "expert": "Исследования",
-    "source": "habr.com",
-    "category": "ИИ, Эффективность, Труд",
-    "title": "ИИ и интенсивность работы: новые вызовы",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "309",
-    "expert": "Специалисты (инфлюенсеры, организаторы)",
-    "source": "idel.top",
-    "category": "ИИ, Человеческий фактор, Коммуникации",
-    "title": "Почему некоторые эксперты избегают ИИ",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "310",
-    "expert": "Эксперты",
-    "source": "konkurent.ru",
-    "category": "ИИ, Безопасность, Риски",
-    "title": "Главная опасность ИИ: неумелое использование",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "311",
-    "expert": "Эксперты",
-    "source": "novostiitkanala.ru",
-    "category": "ИИ, Развитие, Образование",
-    "title": "Рекомендации экспертов по развитию ИИ",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "312",
-    "expert": "Прогноз",
-    "source": "cossa.ru",
-    "category": "ИИ, Россия, Образование",
-    "title": "Потензиал России в сфере ИИ",
-    "timestamp": 1773408609310
-  },
-  {
-    "messageId": "543",
-    "expert": "N/A",
-    "source": "Fortune",
-    "category": "AI, Business",
-    "title": "Meta delays Avocado AI model",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "544",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Ethics",
-    "title": "OpenAI revises military AI deal",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "545",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Legal",
-    "title": "Anthropic sues Pentagon",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "546",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Development",
-    "title": "Claude Code advancements",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "547",
-    "expert": "N/A",
-    "source": "Fortune",
-    "category": "AI, Google, Maps",
-    "title": "Gemini powers Ask Maps",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "548",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Business",
-    "title": "Alibaba restructures Qwen",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "549",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Hardware",
-    "title": "Apple challenges Nvidia",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "550",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Talent",
-    "title": "xAI poaches Cursor leaders",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "551",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Investment",
-    "title": "AI infrastructure investments surge",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "552",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "OpenClaw, AI",
-    "title": "OpenClaw GitHub stars",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "553",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Tools",
-    "title": "New AI tools launched",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "554",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Hardware, Research",
-    "title": "Hardware progress in AI",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "555",
-    "expert": "N/A",
-    "source": "YouTube",
-    "category": "AI, Industry Trends",
-    "title": "Rise of AI agents",
-    "timestamp": 1773457220966
-  },
-  {
-    "messageId": "323",
-    "expert": "Руслан Юсупов",
-    "source": "expert.ru",
-    "category": "ИИ, Футурология",
-    "title": "Усиление человека ИИ",
-    "timestamp": 1773495029471
-  },
-  {
-    "messageId": "324",
-    "expert": "Елена Штульман",
-    "source": "tsn24.ru",
-    "category": "ИИ, Угрозы",
-    "title": "Уязвимость ИИ",
-    "timestamp": 1773495051535
-  },
-  {
-    "messageId": "325",
-    "expert": "Анатолий Вассерман",
-    "source": "penzasmi.ru",
-    "category": "ИИ, Технологии",
-    "title": "Настоящий ИИ",
-    "timestamp": 1773495070919
-  },
-  {
-    "messageId": "326",
-    "expert": "Учёные из Университета Южной Калифорнии",
-    "source": "the-geek.ru",
-    "category": "ИИ, Психология",
-    "title": "Эффект сужения ИИ",
-    "timestamp": 1773495091987
-  },
-  {
-    "messageId": "559",
-    "expert": "N/A",
-    "source": "Web Search (Perplexity)",
-    "category": "AI, Funding",
-    "title": "AI continues to dominate venture capital funding, with startup AMI raising over $1 billion.",
-    "timestamp": 1773543623225
-  },
-  {
-    "messageId": "560",
-    "expert": "N/A",
-    "source": "Web Search (Perplexity)",
-    "category": "AI, Partnerships, Resources",
-    "title": "Thinking Machines Lab secured a partnership with Nvidia, gaining access to significant computational resources.",
-    "timestamp": 1773543623225
-  },
-  {
-    "messageId": "561",
-    "expert": "N/A",
-    "source": "Web Search (Perplexity)",
-    "category": "AI, Funding, Infrastructure",
-    "title": "Funding is increasingly concentrated around AI chips, data, engineering talent, and infrastructure.",
-    "timestamp": 1773543623225
-  },
-  {
-    "messageId": "562",
-    "expert": "N/A",
-    "source": "Web Search (Perplexity)",
-    "category": "AI, Venture Capital, Startups",
-    "title": "Venture market expanding beyond headline AI companies: New unicorns emerging in cybersecurity, digital health, automation, fintech, and deeptech.",
-    "timestamp": 1773543623225
-  },
-  {
-    "messageId": "339",
-    "expert": "Кирилл Пшинник",
-    "source": "RBC",
-    "category": "ИИ-регулирование",
-    "title": "Прозрачность ИИ-контента",
-    "timestamp": 1773581407529
-  },
-  {
-    "messageId": "340",
-    "expert": "Виталий Бовт",
-    "source": "Rossiyskaya Gazeta",
-    "category": "ИИ, Рынок труда",
-    "title": "Влияние ИИ на рынок труда",
-    "timestamp": 1773581407529
-  },
-  {
-    "messageId": "341",
-    "expert": "Мэй Хабиб",
-    "source": "Minfin.com.ua / Axios",
-    "category": "ИИ, Экономика, Ценообразование",
-    "title": "Конец эры дешевого ИИ",
-    "timestamp": 1773581407529
-  },
-  {
-    "messageId": "342",
-    "expert": "Эксперты",
-    "source": "Sostav.ru",
-    "category": "ИИ, Инструменты, Агрегаторы",
-    "title": "Агрегаторы ИИ в России",
-    "timestamp": 1773581407529
-  },
-  {
-    "messageId": "343",
-    "expert": "Эксперты (Психологическая газета)",
-    "source": "Психологическая газета",
-    "category": "ИИ, Этика, Идентичность",
-    "title": "Влияние ИИ на идентичность и ответственность",
-    "timestamp": 1773581407529
-  },
-  {
-    "messageId": "344",
-    "expert": "Илон Маск",
-    "source": "News.ru",
-    "category": "ИИ, Прогнозы, Футурология",
-    "title": "Будущее ИИ и всеобщий доход",
-    "timestamp": 1773581407529
-  }
-]
+
+{
+  "messageHistory": [
+    {
+      "messageId": "351",
+      "expert": "Алексей Богомолов",
+      "source": "habr.com",
+      "category": "IT-рынок, ИИ",
+      "title": "Рост IT-рынка за счёт ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "352",
+      "expert": "Кирилл Панарин",
+      "source": "habr.com",
+      "category": "IT-рынок, Экономика, ИИ",
+      "title": "Перераспределение спроса в IT из-за ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "353",
+      "expert": "Пётр Сухоруких",
+      "source": "tsargrad.tv",
+      "category": "Образование, ИИ",
+      "title": "Незаменимость учителей для ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "354",
+      "expert": "Анатолий Гребенюк",
+      "source": "krym.aif.ru",
+      "category": "Психология, ИИ",
+      "title": "ИИ как инструмент без целей",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "355",
+      "expert": "Эксперты ВОЗ",
+      "source": "ru.euronews.com",
+      "category": "Медицина, ИИ, Этика",
+      "title": "ИИ в медицине: трансформация, а не замена",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "356",
+      "expert": "Опрос \«ФедералПресс\»",
+      "source": "fedpress.ru",
+      "category": "Общество, ИИ",
+      "title": "Доверие россиян к ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "357",
+      "expert": "Минцифры",
+      "source": "incrussia.ru",
+      "category": "Регулирование, ИИ",
+      "title": "Запрет на манипуляции нейросетями",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "358",
+      "expert": "Депутат Амир Хамитов",
+      "source": "krym.aif.ru",
+      "category": "Закон, ИИ",
+      "title": "Регулирование вредного контента от ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "359",
+      "expert": "Андрей Бархота",
+      "source": "tsargrad.tv",
+      "category": "Финансы, ИИ",
+      "title": "Кризис от переоценки ИИ",
+      "timestamp": 1773667808186
+    },
+    {
+      "messageId": "360",
+      "expert": "Эксперты",
+      "source": "habr.com",
+      "category": "Развитие ИИ, Эффективность",
+      "title": "Фокус ИИ на эффективных задачах",
+      "timestamp": 1773667808186
+    }
+  ]
+}
