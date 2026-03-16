@@ -243,5 +243,53 @@
     "category": "AI, Venture Capital, Startups",
     "title": "Venture market expanding beyond headline AI companies: New unicorns emerging in cybersecurity, digital health, automation, fintech, and deeptech.",
     "timestamp": 1773543623225
+  },
+  {
+    "messageId": "339",
+    "expert": "Кирилл Пшинник",
+    "source": "RBC",
+    "category": "ИИ-регулирование",
+    "title": "Прозрачность ИИ-контента",
+    "timestamp": 1773581407529
+  },
+  {
+    "messageId": "340",
+    "expert": "Виталий Бовт",
+    "source": "Rossiyskaya Gazeta",
+    "category": "ИИ, Рынок труда",
+    "title": "Влияние ИИ на рынок труда",
+    "timestamp": 1773581407529
+  },
+  {
+    "messageId": "341",
+    "expert": "Мэй Хабиб",
+    "source": "Minfin.com.ua / Axios",
+    "category": "ИИ, Экономика, Ценообразование",
+    "title": "Конец эры дешевого ИИ",
+    "timestamp": 1773581407529
+  },
+  {
+    "messageId": "342",
+    "expert": "Эксперты",
+    "source": "Sostav.ru",
+    "category": "ИИ, Инструменты, Агрегаторы",
+    "title": "Агрегаторы ИИ в России",
+    "timestamp": 1773581407529
+  },
+  {
+    "messageId": "343",
+    "expert": "Эксперты (Психологическая газета)",
+    "source": "Психологическая газета",
+    "category": "ИИ, Этика, Идентичность",
+    "title": "Влияние ИИ на идентичность и ответственность",
+    "timestamp": 1773581407529
+  },
+  {
+    "messageId": "344",
+    "expert": "Илон Маск",
+    "source": "News.ru",
+    "category": "ИИ, Прогнозы, Футурология",
+    "title": "Будущее ИИ и всеобщий доход",
+    "timestamp": 1773581407529
   }
 ]

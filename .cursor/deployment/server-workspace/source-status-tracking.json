@@ -489,14 +489,14 @@
     }
   },
   "exploration_stats": {
-    "total_sources": 18,
+    "total_sources": 21,
     "proven_sources": 1,
-    "exploration_sources": 17,
+    "exploration_sources": 20,
     "rejected_sources": 0,
     "last_discovery": "2026-02-05",
     "discovery_rate_month": 0,
     "quality_growth_rate": 0,
-    "last_analysis": "2026-02-22T05:05:18.226Z"
+    "last_analysis": "2026-03-15T05:00:07.392Z"
   },
   "discovery_targets": {
     "weekly_new_sources": 3,

@@ -1,75 +1,25 @@
-[
-  {
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-03-14",
-    "items": [
-      {
-        "title": "Key AI news highlights for March 14, 2026",
-        "url": "https://www.devflokers.com/blog/latest-ai-news-technology-developments-march-14-2026"
-      },
-      {
-        "title": "Meta considering 20% workforce cuts due to rising costs",
-        "url": "https://www.foxbusiness.com/technology/meta-eyes-massive-20-workforce-cut-ai-infrastructure-costs-continue-soar-across-operations-report"
-      },
-      {
-        "title": "OpenAI faces backlash via #QuitGPT due to military ties revisions",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Anthropic sues Pentagon and launches Claude Marketplace",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Gemini 3.1 Pro scores 77.1% on ARC-AGI-2 benchmarks",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "NVIDIA launched the Rubin chip",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "AI used for healthcare MRI analysis",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "OpenClaw reaches 310K GitHub stars",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Apple challenges NVIDIA with new data center chips",
-        "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50"
-      },
-      {
-        "title": "Concerns over math and reading scores amid tech transition",
-        "url": "https://fortune.com/2026/03/14/america-math-and-reading-scores-tanked-edtech-ai-brain-rot/"
-      }
-    ]
-  },
-  {
-    "type": "news",
-    "digest": "morning",
-    "date": "2026-03-15",
-    "items": [
-      {
-        "messageId": "559",
-        "title": "AI continues to dominate venture capital funding, with startup AMI raising over $1 billion."
-      },
-      {
-        "messageId": "560",
-        "title": "Thinking Machines Lab secured a partnership with Nvidia, gaining access to significant computational resources."
-      },
-      {
-        "messageId": "561",
-        "title": "Funding is increasingly concentrated around AI chips, data, engineering talent, and infrastructure."
-      },
-      {
-        "messageId": "562",
-        "title": "Venture market expanding beyond headline AI companies: New unicorns emerging in cybersecurity, digital health, automation, fintech, and deeptech."
-      }
-    ],
-    "audited": true,
-    "articlesPublished": 4,
-    "ts": 1773543623225
-  }
-]
+{
+  "type": "news",
+  "digest": "morning",
+  "date": "2026-03-16",
+  "items": [
+    {
+      "messageId": "001",
+      "title": "AI breaks new ground in problem-solving capabilities."
+    },
+    {
+      "messageId": "002",
+      "title": "Tech giants collaborate on ethical AI initiatives."
+    },
+    {
+      "messageId": "003",
+      "title": "New trends in AI-driving business strategies."
+    },
+    {
+      "messageId": "004",
+      "title": "Advancements in machine learning tools for developers."
+    }
+  ],
+  "audited": false,
+  "articlesPublished": 0
+}
