@@ -1,85 +1,76 @@
-
 {
-  "messageHistory": [
-    {
-      "messageId": "351",
-      "expert": "Алексей Богомолов",
-      "source": "habr.com",
-      "category": "IT-рынок, ИИ",
-      "title": "Рост IT-рынка за счёт ИИ",
-      "timestamp": 1773667808186
+  "mid": {
+    "entries": [
+      {
+        "type": "news",
+        "digest": "day",
+        "date": "2026-03-17"
+      }
+    ]
+  },
+  "messageHistory": {
+    "msg_365": {
+      "expert": "Сэм Альтман",
+      "source": "3dnews.ru",
+      "category": "экономика/монетизация",
+      "title": "ИИ по счётчику как коммунальная услуга",
+      "timestamp": 1773754381267
     },
-    {
-      "messageId": "352",
-      "expert": "Кирилл Панарин",
-      "source": "habr.com",
-      "category": "IT-рынок, Экономика, ИИ",
-      "title": "Перераспределение спроса в IT из-за ИИ",
-      "timestamp": 1773667808186
+    "msg_366": {
+      "expert": "Дарио Амодеи",
+      "source": "servernews.ru",
+      "category": "инфраструктура/безопасность",
+      "title": "Инфраструктура как база для агентного ИИ",
+      "timestamp": 1773754392184
     },
-    {
-      "messageId": "353",
-      "expert": "Пётр Сухоруких",
-      "source": "tsargrad.tv",
-      "category": "Образование, ИИ",
-      "title": "Незаменимость учителей для ИИ",
-      "timestamp": 1773667808186
+    "msg_367": {
+      "expert": "Андрей Карпати",
+      "source": "fortune.com",
+      "category": "агенты/исследования",
+      "title": "Autoresearch и «рой» агентов для R&D",
+      "timestamp": 1773754404140
     },
-    {
-      "messageId": "354",
-      "expert": "Анатолий Гребенюк",
-      "source": "krym.aif.ru",
-      "category": "Психология, ИИ",
-      "title": "ИИ как инструмент без целей",
-      "timestamp": 1773667808186
+    "msg_368": {
+      "expert": "Дженсен Хуанг",
+      "source": "3dnews.ru",
+      "category": "инфраструктура/рынок",
+      "title": "Прогноз выручки ИИ-железа $1 трлн до конца 2027",
+      "timestamp": 1773754414833
     },
-    {
-      "messageId": "355",
-      "expert": "Эксперты ВОЗ",
-      "source": "ru.euronews.com",
-      "category": "Медицина, ИИ, Этика",
-      "title": "ИИ в медицине: трансформация, а не замена",
-      "timestamp": 1773667808186
+    "msg_369": {
+      "expert": "Джеффри Хинтон",
+      "source": "youtube.com",
+      "category": "AI safety/сосуществование",
+      "title": "Living with Alien Beings (лекция 2026)",
+      "timestamp": 1773754430156
     },
-    {
-      "messageId": "356",
-      "expert": "Опрос \«ФедералПресс\»",
-      "source": "fedpress.ru",
-      "category": "Общество, ИИ",
-      "title": "Доверие россиян к ИИ",
-      "timestamp": 1773667808186
+    "msg_370": {
+      "expert": "Мустафа Сулейман",
+      "source": "gxpnews.net",
+      "category": "продукты/медицина",
+      "title": "Copilot Health и позиционирование «не вместо врача»",
+      "timestamp": 1773754449079
     },
-    {
-      "messageId": "357",
-      "expert": "Минцифры",
-      "source": "incrussia.ru",
-      "category": "Регулирование, ИИ",
-      "title": "Запрет на манипуляции нейросетями",
-      "timestamp": 1773667808186
+    "msg_371": {
+      "expert": "Сатья Наделла",
+      "source": "ixbt.com (сводка)",
+      "category": "инфраструктура/энергия",
+      "title": "Электроэнергия как узкое место ИИ-инфраструктуры",
+      "timestamp": 1773754460471
     },
-    {
-      "messageId": "358",
-      "expert": "Депутат Амир Хамитов",
-      "source": "krym.aif.ru",
-      "category": "Закон, ИИ",
-      "title": "Регулирование вредного контента от ИИ",
-      "timestamp": 1773667808186
+    "msg_372": {
+      "expert": "Сундар Пичаи",
+      "source": "economictimes.com",
+      "category": "общество/управление",
+      "title": "Позитивный исход ИИ не гарантирован",
+      "timestamp": 1773754471310
     },
-    {
-      "messageId": "359",
-      "expert": "Андрей Бархота",
-      "source": "tsargrad.tv",
-      "category": "Финансы, ИИ",
-      "title": "Кризис от переоценки ИИ",
-      "timestamp": 1773667808186
-    },
-    {
-      "messageId": "360",
-      "expert": "Эксперты",
-      "source": "habr.com",
-      "category": "Развитие ИИ, Эффективность",
-      "title": "Фокус ИИ на эффективных задачах",
-      "timestamp": 1773667808186
+    "msg_373": {
+      "expert": "Эндрю Ын",
+      "source": "youtube.com",
+      "category": "AGI/прогнозы",
+      "title": "AGI ещё на десятилетия впереди",
+      "timestamp": 1773754482505
     }
-  ]
+  }
 }
