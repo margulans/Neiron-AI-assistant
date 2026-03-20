@@ -1,1 +1,36 @@
-[{"type":"opinions_meta", "digest":"morning", "date":"2026-03-20", "kind":"audit", "ts":0, "messageId":"431"}]}
+[
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-20",
+    "text": "Sample Opinion 1"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-20",
+    "messageId": "630",
+    "text": "Новость 1: Пример новости дня."
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-20",
+    "messageId": "631",
+    "text": "Новость 2: Еще одна важная новость."
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-20",
+    "messageId": "632",
+    "text": "Новость 3: Последняя новость на сегодня."
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-20",
+    "messageId": "633",
+    "text": "BACKUP Дневной дайджест 20.03.2026 — 11 новостей: разведка США об ИИ, иски против Nvidia/Runway, контрабанда серверов, фреймворк Белого дома, Meta-модерация, законопроект РФ, Anthropic-опрос, SAIL, MIT, NVIDIA GTC, МТС Банк"
+  }
+]
