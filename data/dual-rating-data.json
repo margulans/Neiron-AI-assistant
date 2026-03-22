@@ -1,1 +1,11 @@
-[{"messageId":"mid_audit"},{"messageId":"480"}]
+[
+  {
+    "messageId": "mid_audit"
+  },
+  {
+    "messageId": "480"
+  },
+  {
+    "messageId": "680"
+  }
+]
