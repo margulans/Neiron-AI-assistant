@@ -1,91 +1,102 @@
 [
   {
-    "type": "opinions_meta",
-    "digest": "morning",
-    "date": "2026-03-21",
-    "kind": "audit",
-    "messageId": "mid_audit"
-  },
-  {
-    "type": "opinions",
-    "digest": "morning",
-    "date": "2026-03-21",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
     "category": "AI",
-    "title": "Трамп об искусственном интеллекте",
-    "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026",
-    "keywords": [
-      "AI",
-      "политика",
-      "инновации"
-    ],
-    "messageId": "mid_1"
-  },
-  {
-    "type": "opinions",
-    "digest": "morning",
-    "date": "2026-03-21",
-    "category": "AI",
-    "title": "Рекомендации по законодательству об AI",
-    "url": "https://www.sullcrom.com/insights/memo/2026/March/White-House-Releases-National-Policy-Framework-AI",
-    "keywords": [
-      "AI",
-      "инновации",
-      "нормативное_право"
-    ],
-    "messageId": "mid_2"
-  },
-  {
-    "type": "opinions",
-    "digest": "morning",
-    "date": "2026-03-21",
-    "category": "AI",
-    "title": "Государственное законодательство об AI",
-    "url": "https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
-    "keywords": [
-      "AI",
-      "государство",
-      "регулирование"
-    ],
-    "messageId": "mid_3"
-  },
-  {
-    "type": "opinions",
-    "digest": "morning",
-    "date": "2026-03-21",
-    "category": "AI",
-    "title": "Реакция на новую политику AI",
-    "url": "https://www.nelsonmullins.com/insights/blogs/ai-task-force/ai/the-white-house-releases-national-ai-legislative-framework",
-    "keywords": [
-      "AI",
-      "инновации",
-      "реакция"
-    ],
-    "messageId": "mid_4"
-  },
-  {
-    "type": "opinions",
-    "digest": "morning",
-    "date": "2026-03-21",
-    "category": "AI",
-    "title": "Прозрачность в области AI",
-    "url": "https://www.politico.com/news/2026/03/20/white-house-releases-ai-policy-blueprint-for-congress-00837354",
-    "keywords": [
-      "AI",
-      "прозрачность",
-      "журналистика"
-    ],
-    "messageId": "mid_5"
-  },
-  {
-    "messageId": "480"
+    "title": "Белый дом представил новую политику по ИИ",
+    "url": "https://ppc.land/white-house-ai-framework-targets-state-laws-child-safety-and-copyright/",
+    "keywords": ["AI", "policy", "US"],
+    "messageId": "3686"
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-03-22",
-    "kind": "audit",
-    "headerMessageId": "667",
-    "messageId": "680",
-    "count": 12
+    "category": "AI",
+    "title": "Марк Кьюбан предупреждает о «безумных» сбоях из-за ИИ",
+    "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/03/22/mark-cuban-warns-of-crazy-ai-disruption-calls-for-vendor-trust-system/",
+    "keywords": ["AI", "business", "disruption"],
+    "messageId": "3687"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Комплексная стратегия Трампа по ИИ",
+    "url": "https://moderndiplomacy.eu/2026/03/21/trumps-ai-strategy-exposes-europes-strategic-ambiguity/",
+    "keywords": ["AI", "policy", "US", "Europe"],
+    "messageId": "3688"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Экономические и трудовые последствия в Канзас-Сити",
+    "url": "https://www.kcur.org/housing-development-section/2026-03-22/kansas-citys-ai-data-center-building-boom-could-hurt-regional-job-market-in-the-long-term",
+    "keywords": ["AI", "economy", "jobs"],
+    "messageId": "3689"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Прорывы Китая в промышленном ИИ",
+    "url": "https://news.cgtn.com/news/2026-03-22/From-stage-to-factory-How-AI-is-moving-into-real-world-use-in-China-1LItkFkvC48/p.html",
+    "keywords": ["AI", "China", "industry", "robots"],
+    "messageId": "3690"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "OpenAI разрабатывает собственный чип для ИИ «Sovereign 1»",
+    "url": "https://www.youtube.com/watch?v=tnfG88nmbXU",
+    "keywords": ["AI", "OpenAI", "chip", "hardware"],
+    "messageId": "3691"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Microsoft и OpenAI планируют ядерный центр обработки данных",
+    "url": "https://www.youtube.com/watch?v=tnfG88nmbXU",
+    "keywords": ["AI", "Microsoft", "OpenAI", "data center", "nuclear energy"],
+    "messageId": "3692"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Проект Terafab Илона Маска",
+    "url": "https://www.ndtv.com/world-news/elon-musk-launches-terafab-project-to-make-chips-for-ai-robotics-data-centers-11249884",
+    "keywords": ["AI", "Elon Musk", "Terafab", "chips", "robotics"],
+    "messageId": "3693"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "Meta сокращает штат для инвестиций в ИИ",
+    "url": "https://vibecodingpeople.com/march-22-2026-ai-daily-recap/",
+    "keywords": ["AI", "Meta", "workforce", "investment"],
+    "messageId": "3694"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-22",
+    "category": "AI",
+    "title": "«Налог на ИИ» для брендов из-за контрафакта",
+    "url": "https://www.latimes.com/b2b/ai-technology/story/2026-03-22/ai-tax-brand-protection-revenue-loss",
+    "keywords": ["AI", "brands", "counterfeit", "tax"],
+    "messageId": "3695"
   }
 ]
