@@ -11,7 +11,7 @@
       "chatId": "tg:-1003723471488",
       "source": { "name": "IOL.co.za", "url": "https://iol.co.za/technology/partnered/honor-earns-global-recognition-at-mwc-2026-for-robot-phone-innovation-and-magic-v6-foldable-leadership/" },
       "category": "Робототехника",
-      "title": "HONOR представила инновации в области гуманоидных роботов и "робот-телефон" на MWC 2026",
+      "title": "HONOR представила инновации в области гуманоидных роботов и \"робот-телефон\" на MWC 2026",
       "timestamp": 1711180860000
     },
     "msg_697": {
@@ -160,6 +160,20 @@
       "category": "ИИ, КонтактЦентры, ГолосовыеАгенты, КлиентскийОпыт",
       "title": "Андрей Зименков (TargetAI) о проблемах голосовых ИИ-агентов в контакт-центрах",
       "timestamp": 1711201800000
+    },
+    "msg_3698": {
+      "chatId": "685668909",
+      "source": { "name": "qa-financial.com, americascreditunions.org, eenews.net", "url": "https://qa-financial.com/light-touch-white-house-ai-framework-shifts-testing-burden-onto-banks/" },
+      "category": "ИИ",
+      "title": "Белый дом представил новую Национальную политическую рамочную программу по ИИ, перекладывая ответственность за безопасность и тестирование ИИ на развертывающие организации. Рамка призывает к федеральному превосходству над законами штатов об ИИ и упрощению разрешений для инфраструктуры ИИ.",
+      "timestamp": 1774270806339
+    },
+    "msg_3699": {
+      "chatId": "685668909",
+      "source": { "name": "agilebrandguide.com", "url": "https://agilebrandguide.com/ai-adoption-is-accelerating-faster-than-strategy-and-organizational-readiness-martech-futurist-march-23-2026/" },
+      "category": "ИИ",
+      "title": "Отчеты Forrester и HBR показывают, что внедрение ИИ опережает стратегию в маркетинге, а разрыв в талантах между «суперпользователями ИИ» и средними пользователями увеличивается, что обусловлено навыками постановки проблем и итерации промптов.",
+      "timestamp": 1774270806339
     }
   },
   "sourceRatings": {},
