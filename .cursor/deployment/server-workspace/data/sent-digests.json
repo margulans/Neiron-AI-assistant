@@ -1,16 +1,1 @@
-{
-  "date": "2026-03-25",
-  "type": "news",
-  "digest": "morning",
-  "articles": [
-    {
-      "title": "AI news highlights for March 25, 2026",
-      "details": "Meta partners with Arm to co-design purpose-built CPUs..."
-    },
-    {
-      "title": "AI-HOPE framework powers studies at the ASCO GI Cancers Symposium",
-      "details": "using AI for biomarker discovery..."
-    }
-    // Add other articles as needed
-  ]
-}
+{"type":"opinions_meta","digest":"morning","date":"2026-03-25","kind":"audit","ts":1774409408,"messageId":"538"}
