@@ -16,6 +16,10 @@
             "text": "3. ВМС США заключили с Gecko Robotics сделку на $71 млн в области ИИ для ускорения ремонта кораблей с месяцев до дней, повышая боеготовность против угроз из Китая."
         },
         {
+            "messageId": "718",
+            "text": "3. ВМС США заключили с Gecko Robotics сделку на $71 млн в области ИИ для ускорения ремонта кораблей с месяцев до дней, повышая боеготовность против угроз из Китая."
+        },
+        {
             "messageId": "719",
             "text": "4. Трэй Стивенс из Anduril подчеркнул сдвиг парадигмы в сторону массового производства недорогих автономных дронов на базе ИИ."
         },
@@ -122,6 +126,36 @@
             "category": "Investments",
             "title": "VC Shift to Robotics & Physical AI",
             "timestamp": 1742892300000
+        },
+        {
+            "messageId": "740",
+            "text": "1. [US Judge Questions Pentagon's 'Supply Chain Risk' Label for Anthropic](https://www.aa.com.tr/en/americas/us-judge-questions-pentagon-move-against-ai-firm-anthropic/3878740): A US federal judge questioned the Pentagon's designation of AI firm Anthropic as a \"supply chain risk.\"",
+            "date": "2026-03-25",
+            "timestamp": 1774332000000
+        },
+        {
+            "messageId": "741",
+            "text": "2. [CFOs Expect 9x Surge in AI-Related Layoffs by 2026](https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/): A Duke University survey reveals CFOs anticipate AI-related layoffs to surge ninefold in 2026, driven by major firms cutting jobs.",
+            "date": "2026-03-25",
+            "timestamp": 1774332000000
+        },
+        {
+            "messageId": "743",
+            "text": "4. [Experts Warn Unregulated AI Could Lead to Dangerous Societal Outcomes](https://www.goodmorningamerica.com/amp/video/131386736): Experts on ABC News' Nightline warned that unregulated AI could lead to dangerous societal outcomes.",
+            "date": "2026-03-25",
+            "timestamp": 1774332000000
+        },
+        {
+            "messageId": "744",
+            "text": "5. [Mediahuis Suspends Editor Over 'Hallucinations' Incident](https://www.theguardian.com/technology/artificialintelligenceai): Mediahuis has suspended Peter Vandermeersch after an investigation where he says he \"fell into the trap of hallucinations.\"",
+            "date": "2026-03-25",
+            "timestamp": 1774332000000
+        },
+        {
+            "messageId": "745",
+            "text": "6. [Dispute Over AI Use in Military: Top Employees Seek More Than High Pay](https://www.livemint.com/ai): A dispute regarding AI's military application highlights that top employees are seeking more than just large pay packages.",
+            "date": "2026-03-25",
+            "timestamp": 1774332000000
         }
     ]
 }
