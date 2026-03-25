@@ -42,6 +42,86 @@
         {
             "messageId": "725",
             "text": "10. Anduril в партнерстве с ВМС США создает автоматизированный завод в Алабаме для массового производства компонентов."
+        },
+        {
+            "messageId": "541",
+            "expert": "Mike Cicco",
+            "source": "FANUC America Press Release",
+            "category": "Robotics",
+            "title": "FANUC America $90M expansion for Physical AI",
+            "timestamp": 1742891400000
+        },
+        {
+            "messageId": "542",
+            "expert": "Richard Horne",
+            "source": "Computer Weekly / NCSC",
+            "category": "VibeCoding",
+            "title": "Vibe Coding: Secure-by-design Shift",
+            "timestamp": 1742891500000
+        },
+        {
+            "messageId": "543",
+            "expert": "Brett Adcock",
+            "source": "TechBuzz / Hark Launch",
+            "category": "Technology",
+            "title": "Hark: Vertically Integrated AI Hardware",
+            "timestamp": 1742891600000
+        },
+        {
+            "messageId": "544",
+            "expert": "Jensen Huang",
+            "source": "Lex Fridman Podcast / GTC 2026",
+            "category": "AI",
+            "title": "NVIDIA CEO: AGI is here",
+            "timestamp": 1742891700000
+        },
+        {
+            "messageId": "545",
+            "expert": "Bill Gates",
+            "source": "GatesNotes / CNBC",
+            "category": "Energy",
+            "title": "Gates: 30% reduction in renewables downtime",
+            "timestamp": 1742891800000
+        },
+        {
+            "messageId": "546",
+            "expert": "Larry Fink",
+            "source": "BlackRock CEO Letter 2026",
+            "category": "Business",
+            "title": "BlackRock: AI Energy Shock",
+            "timestamp": 1742891900000
+        },
+        {
+            "messageId": "547",
+            "expert": "Vinod Khosla",
+            "source": "AInvest / TechNews180",
+            "category": "AI",
+            "title": "Khosla: AI for 80% of jobs",
+            "timestamp": 1742892000000
+        },
+        {
+            "messageId": "548",
+            "expert": "Sam Altman",
+            "source": "MIT Panel 2026 / UAM News",
+            "category": "eVTOL",
+            "title": "Altman: AI & eVTOL Synergy",
+            "timestamp": 1742892100000
+        },
+        {
+            "messageId": "549",
+            "expert": "Joe Pak",
+            "source": "FutureWatchLog / Joby Aviation",
+            "category": "eVTOL",
+            "title": "Joby Aviation 2026 rollout",
+            "timestamp": 1742892200000
+        },
+        {
+            "messageId": "550",
+            "expert": "Sergey Tereshkin",
+            "source": "Sergey Tereshkin Publication",
+            "category": "Investments",
+            "title": "VC Shift to Robotics & Physical AI",
+            "timestamp": 1742892300000
         }
     ]
 }
