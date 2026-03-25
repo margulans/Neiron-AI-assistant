@@ -1,182 +1,47 @@
 {
-  "messageHistory": {
-    "msg_695": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Dukakis.org", "url": "https://dukakis.org/shaping-futures/after-ai-agents-the-next-wave-is-robots/" },
-      "category": "ИИ, Робототехника",
-      "title": "NVIDIA на GTC 2026: Прорывы в физическом ИИ и робототехнике",
-      "timestamp": 1711180860000
-    },
-    "msg_696": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "IOL.co.za", "url": "https://iol.co.za/technology/partnered/honor-earns-global-recognition-at-mwc-2026-for-robot-phone-innovation-and-magic-v6-foldable-leadership/" },
-      "category": "Робототехника",
-      "title": "HONOR представила инновации в области гуманоидных роботов и \"робот-телефон\" на MWC 2026",
-      "timestamp": 1711180860000
-    },
-    "msg_697": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "People.cn", "url": "https://en.people.cn/n3/2026/0323/c90000-20438715.html" },
-      "category": "Робототехника, ИИ",
-      "title": "Робототехническая промышленность Чэнду стремительно развивается с внедрением ИИ-гуманоидов",
-      "timestamp": 1711180860000
-    },
-    "msg_698": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Futurewatchlog.com", "url": "https://futurewatchlog.com/2026/03/23/joby-aviation-daily-2026-03-23/" },
-      "category": "eVTOL",
-      "title": "Joby Aviation проводит испытательные полеты eVTOL над заливом Сан-Франциско",
-      "timestamp": 1711180860000
-    },
-    "msg_699": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Daryo.uz", "url": "https://daryo.uz/en/2026/03/23/kazakhstan-to-develop-air-taxi-network-within-23-years-with-alatau-pilot-project" },
-      "category": "eVTOL, Технологии",
-      "title": "Казахстан планирует развитие сети аэротакси на базе eVTOL в течение 2-3 лет",
-      "timestamp": 1711180860000
-    },
-    "msg_700": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Youtube.com", "url": "https://www.youtube.com/watch?v=aY1IYaby2WA" },
-      "category": "Технологии, Вайбкодинг",
-      "title": "Microsoft Project Helix: Гибридная консоль с NPU для Xbox и ПК игр",
-      "timestamp": 1711180860000
-    },
-    "msg_701": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Techmeme.com", "url": "https://techmeme.com" },
-      "category": "Технологии, ИИ, Вайбкодинг",
-      "title": "ClawBot от Tencent: ИИ-агент на базе OpenClaw интегрирован в WeChat для миллиарда пользователей",
-      "timestamp": 1711180860000
-    },
-    "msg_702": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Youtube.com", "url": "https://www.youtube.com/watch?v=RXZD82Cy_aA" },
-      "category": "Технологии, ИИ",
-      "title": "Google тестирует заголовки и названия, сгенерированные ИИ, в результатах поиска по всему миру",
-      "timestamp": 1711180860000
-    },
-    "msg_703": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Techmeme.com", "url": "https://techmeme.com" },
-      "category": "Бизнес, Инвестиции, ИИ, Робототехника",
-      "title": "Terafab Илона Маска в Остине займется производством чипов для ИИ, робототехники и космоса",
-      "timestamp": 1711180860000
-    },
-    "msg_704": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Techmeme.com", "url": "https://techmeme.com" },
-      "category": "Бизнес, Инвестиции, ИИ",
-      "title": "Фотонные чипы Yuanjie для ЦОД ИИ от Huawei демонстрируют взрывной рост акций",
-      "timestamp": 1711180860000
-    },
-    "msg_705": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Timesofindia.indiatimes.com", "url": "https://timesofindia.indiatimes.com/technology/tech-news/pentagon-has-made-a-big-change-to-the-way-it-uses-technology-and-what-this-means-for-american-technology-companies/articleshow/129744507.cms" },
-      "category": "Бизнес, Инвестиции, Технологии",
-      "title": "Пентагон заключает долгосрочные контракты со стартапами оборонных технологий: $20 млрд для Anduril",
-      "timestamp": 1711180860000
-    },
-    "msg_706": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Channel-impact.com", "url": "https://www.channel-impact.com/monday-morning-impact-march-23-3/" },
-      "category": "ИИ, Бизнес, Инвестиции",
-      "title": "Глобальные расходы на технологии вырастут до $5.6 трлн в 2026 году, ключевой драйвер – ИИ",
-      "timestamp": 1711180860000
-    },
-    "msg_707": {
-      "chatId": "tg:-1003723471488",
-      "source": { "name": "Aviationweek.com", "url": "https://aviationweek.com/aerospace/advanced-air-mobility/navi-deploys-ai-based-debriefing-platform-pilot-training" },
-      "category": "ИИ, eVTOL, Инвестиции",
-      "title": "Navi AI привлекает $6 млн для платформы обучения пилотов на базе ИИ, включая eVTOL",
-      "timestamp": 1711180860000
-    },
-    "msg_496": {
-      "chatId": "-1003796068938",
-      "source": { "name": "CNews.ru", "url": "https://corp.cnews.ru/articles/2026-03-19_vladimir_vorobev_ii_mozhet_stavit" },
-      "category": "ИИ, Медицина, Законодательство",
-      "title": "Владимир Воробьёв об ИИ в медицине",
-      "timestamp": 1711201800000
-    },
-    "msg_497": {
-      "chatId": "-1003796068938",
-      "source": { "name": "RBC.ru", "url": "https://amp.rbc.ru/rbcnews/technology_and_media/22/03/2026/69bfab309a7947e03bd8393f" },
-      "category": "ИИ, Опрос, Безопасность",
-      "title": "Саффрон Хуан (Anthropic) об опасениях пользователей ИИ",
-      "timestamp": 1711201800000
-    },
-    "msg_498": {
-      "chatId": "-1003796068938",
-      "source": { "name": "1prime.ru", "url": "https://1prime.ru/20260323/ekspert-868545721.html" },
-      "category": "Браузеры, ИИ, Технологии",
-      "title": "Илья Шибанов (Яндекс Браузер) о трансформации браузеров с ИИ",
-      "timestamp": 1711201800000
-    },
-    "msg_499": {
-      "chatId": "-1003796068938",
-      "source": { "name": "Expert.ru", "url": "https://expert.ru/mnenie/mashina-pravo-imeet/" },
-      "category": "ИИ, Авторские Права, Контент",
-      "title": "Эксперты по авторским правам об ИИ и контенте",
-      "timestamp": 1711201800000
-    },
-    "msg_501": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, Бизнес, Метрики, Эффективность",
-      "title": "Екатерина Торсукова («ДАР») об отсутствии метрик эффективности в ИИ-проектах",
-      "timestamp": 1711201800000
-    },
-    "msg_502": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, Бизнес, ПровалыПроектов, ОрганизационнаяЗрелость",
-      "title": "Василий Мухин («К2Тех») о причинах провала ИИ-пилотов в России",
-      "timestamp": 1711201800000
-    },
-    "msg_503": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, Бизнес, ПровалыПроектов, Управление",
-      "title": "Егор Ворогушин («Софтлайн Решения») о причинах провала ИИ-проектов",
-      "timestamp": 1711201800000
-    },
-    "msg_504": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, Бизнес, Алгоритмы, ЧатБоты",
-      "title": "Александр Киселев (UserGate) о нецелесообразности ИИ в простых сценариях",
-      "timestamp": 1711201800000
-    },
-    "msg_505": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, Бизнес, Россия, Внедрение",
-      "title": "Игорь Никитин (WMT AI) о неправильном использовании ИИ в российском бизнесе",
-      "timestamp": 1711201800000
-    },
-    "msg_506": {
-      "chatId": "-1003796068938",
-      "source": { "name": "TAdviser.ru", "url": "https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82_(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8)" },
-      "category": "ИИ, КонтактЦентры, ГолосовыеАгенты, КлиентскийОпыт",
-      "title": "Андрей Зименков (TargetAI) о проблемах голосовых ИИ-агентов в контакт-центрах",
-      "timestamp": 1711201800000
-    },
-    "msg_3698": {
-      "chatId": "685668909",
-      "source": { "name": "qa-financial.com, americascreditunions.org, eenews.net", "url": "https://qa-financial.com/light-touch-white-house-ai-framework-shifts-testing-burden-onto-banks/" },
-      "category": "ИИ",
-      "title": "Белый дом представил новую Национальную политическую рамочную программу по ИИ, перекладывая ответственность за безопасность и тестирование ИИ на развертывающие организации. Рамка призывает к федеральному превосходству над законами штатов об ИИ и упрощению разрешений для инфраструктуры ИИ.",
-      "timestamp": 1774270806339
-    },
-    "msg_3699": {
-      "chatId": "685668909",
-      "source": { "name": "agilebrandguide.com", "url": "https://agilebrandguide.com/ai-adoption-is-accelerating-faster-than-strategy-and-organizational-readiness-martech-futurist-march-23-2026/" },
-      "category": "ИИ",
-      "title": "Отчеты Forrester и HBR показывают, что внедрение ИИ опережает стратегию в маркетинге, а разрыв в талантах между «суперпользователями ИИ» и средними пользователями увеличивается, что обусловлено навыками постановки проблем и итерации промптов.",
-      "timestamp": 1774270806339
-    }
-  },
-  "sourceRatings": {},
-  "expertRatings": {},
-  "categoryRatings": {}
+    "mid": "unique_mid_identifier",
+    "date": "2026-03-25",
+    "entries": [],
+    "messageHistory": [
+        {
+            "messageId": "716",
+            "text": "1. Официальные лица США обсудили сохранение лидерства в области ИИ на форуме Hill and Valley, затронув экономические последствия и роль ИИ в конфликтах."
+        },
+        {
+            "messageId": "717",
+            "text": "2. Операционная система Lattice AI от Anduril обеспечивает обнаружение, отслеживание и анализ цепочек поражения для активов в боевых условиях."
+        },
+        {
+            "messageId": "718",
+            "text": "3. ВМС США заключили с Gecko Robotics сделку на $71 млн в области ИИ для ускорения ремонта кораблей с месяцев до дней, повышая боеготовность против угроз из Китая."
+        },
+        {
+            "messageId": "719",
+            "text": "4. Трэй Стивенс из Anduril подчеркнул сдвиг парадигмы в сторону массового производства недорогих автономных дронов на базе ИИ."
+        },
+        {
+            "messageId": "720",
+            "text": "5. Дебаты об ответственности ИИ в вопросах жизни и смерти в военных конфликтах набирают обороты, эксперты сомневаются в контроле на фоне военных контрактов."
+        },
+        {
+            "messageId": "721",
+            "text": "6. Tesla ускорила производство гуманоидных роботов Optimus: более 1000 единиц скоро будут развернуты на ее заводах."
+        },
+        {
+            "messageId": "722",
+            "text": "7. Полное самоуправление (FSD) Tesla преодолело 8,4 миллиарда миль, а Cyber Cab запущен раньше срока."
+        },
+        {
+            "messageId": "723",
+            "text": "8. Движок рассуждений Grok от xAI теперь интегрирован в автомобили Tesla."
+        },
+        {
+            "messageId": "724",
+            "text": "9. Илон Маск анонсировал Terrafab, мегафабрику по производству чипов, нацеленную на 1 тераватт вычислительной мощности ИИ ежегодно, для чипов AI5."
+        },
+        {
+            "messageId": "725",
+            "text": "10. Anduril в партнерстве с ВМС США создает автоматизированный завод в Алабаме для массового производства компонентов."
+        }
+    ]
 }
