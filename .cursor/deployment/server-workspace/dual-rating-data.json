@@ -1,1 +1,12 @@
-{"date":"2026-03-16","mid-evaluations":[]}
+[
+  {"date":"2026-03-16","mid-evaluations":[]},
+  {
+    "date": "2026-03-26",
+    "news_ratings": [
+      {"messageId": "747", "title": "U.S. Lawmakers Propose AI Data Center Moratorium"},
+      {"messageId": "748", "title": "Oracle Launches Agentic AI Database Innovations"},
+      {"messageId": "749", "title": "Samsung Extends Agentic AI to Browser on Windows"},
+      {"messageId": "750", "title": "AI in California Education Sparks Debate"}
+    ]
+  }
+]
