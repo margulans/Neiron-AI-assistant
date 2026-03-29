@@ -1,1 +1,224 @@
-{"messageHistory": [{"expert": "Несколько экспертов", "source": "T-Bank, Forbes, SLSoft (через Perplexity)", "category": "ИИ-агенты и суверенитет", "title": "Прогнозы по ИИ-агентам и контроль данных в 2026 году", "timestamp": "1774600227722", "messageId": "593"}, {"expert": "Александр Панов (AIRI, МФТИ)", "source": "hi-tech.mail.ru (через Perplexity)", "category": "ИИ в образовании", "title": "Необходимость внедрения ИИ в образовании", "timestamp": "1774600240877", "messageId": "594"}, {"expert": "Эксперты Lenta Tech, Hoff Tech", "source": "plusworld.ru (через Perplexity)", "category": "ИИ в ритейле", "title": "ИИ для эффективности в ритейле без массовых сокращений", "timestamp": "1774600255033", "messageId": "595"}, {"expert": "Несколько экспертов", "source": "vc.ru (через Perplexity)", "category": "ИИ в HR", "title": "Автоматизация скрининга кандидатов с помощью ИИ", "timestamp": "1774600271120", "messageId": "596"}, {"expert": "Несколько экспертов", "source": "slsoft.ru, habr.com (через Perplexity)", "category": "Барьеры внедрения ИИ", "title": "Компании не видят задач для ИИ, ключевые решения остаются за человеком", "timestamp": "1774600290668", "messageId": "597"}, {"expert": "Несколько экспертов", "source": "T-Bank, Inventorus (через Perplexity)", "category": "Общие выводы по ИИ", "title": "ИИ трансформирует рутину, но требует контроля, рескиллинга и реализма", "timestamp": "1774600310724", "messageId": "598"}, {"expert": "Несколько экспертов", "source": "T-Bank (через Perplexity)", "category": "Применение ИИ-агентов", "title": "Использование ИИ-агентов в Сбере, Ozon и X5", "timestamp": "1774600343575", "messageId": "599"}, {"expert": "Несколько экспертов", "source": "vc.ru (через Perplexity)", "category": "Мультимодальные ИИ-модели", "title": "Ограничения бесплатных мультимодальных ИИ-моделей", "timestamp": "1774600358522", "messageId": "600"}]}
+{
+  "messageHistory": [
+    "3717",
+    {
+      "messageId": "773",
+      "source": { "name": "Jamaica Gleaner", "url": "https://jamaica-gleaner.com/article/business/20260329/openai-shutting-down-sora" },
+      "category": "ИИ",
+      "title": "OpenAI закрывает приложение Sora",
+      "timestamp": 1774789589740
+    },
+    {
+      "messageId": "774",
+      "source": { "name": "The Daily Star", "url": "https://www.thedailystar.net/tech-startup/news/softbank-obtains-40-billion-loan-openai-investment-4138286" },
+      "category": "Инвестиции",
+      "title": "SoftBank взял кредит $40 млрд для инвестиций в OpenAI",
+      "timestamp": 1774789600000
+    },
+    {
+      "messageId": "775",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/" },
+      "category": "ИИ",
+      "title": "Anthropic дал Claude Code режим автономии Auto Mode",
+      "timestamp": 1774789620000
+    },
+    {
+      "messageId": "776",
+      "source": { "name": "Fortune", "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/" },
+      "category": "ИИ",
+      "title": "OpenAI строит суперапп: ChatGPT + Codex + браузер в одном",
+      "timestamp": 1774789630000
+    },
+    {
+      "messageId": "777",
+      "source": { "name": "Business Insider", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
+      "category": "Вайбкодинг",
+      "title": "Вайбкодинг захватывает стартапы: CEO прототипируют словами",
+      "timestamp": 1774789640000
+    },
+    {
+      "messageId": "778",
+      "source": { "name": "Business Insider", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
+      "category": "Вайбкодинг",
+      "title": "Cursor под угрозой: Claude Code и агенты наступают",
+      "timestamp": 1774789650000
+    },
+    {
+      "messageId": "779",
+      "source": { "name": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/auroras-x-plane-tech-to-go-commercial/" },
+      "category": "eVTOL",
+      "title": "Aurora Flight Sciences коммерциализирует технологию X-Plane",
+      "timestamp": 1774789660000
+    },
+    {
+      "messageId": "780",
+      "source": { "name": "AInvest", "url": "https://www.ainvest.com/news/elektros-5-minute-charging-breakthrough-catalyst-ev-curve-exponential-takeoff-2603/" },
+      "category": "eVTOL",
+      "title": "Elektros: 5-минутная зарядка для eVTOL — реальность",
+      "timestamp": 1774789670000
+    },
+    {
+      "messageId": "781",
+      "source": { "name": "Aviation Outlook", "url": "https://aviationoutlook.substack.com/p/anduril-company-analysis-outlook-report" },
+      "category": "Робототехника",
+      "title": "Anduril запускает серийное производство дрона-перехватчика Roadrunner",
+      "timestamp": 1774789680000
+    },
+    {
+      "messageId": "782",
+      "source": { "name": "Medical Xpress", "url": "https://medicalxpress.com/news/2026-03-rethinking-brain-artificial-intelligence-reveals.html" },
+      "category": "ИИ",
+      "title": "Учёные York University: нейросети имеют фундаментальные изъяны",
+      "timestamp": 1774789690000
+    },
+    {
+      "messageId": "783",
+      "source": { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/the-artificial-intelligence--industry-forum-2026-ai-facilitates-industrial-transformation-302728015.html" },
+      "category": "Бизнес",
+      "title": "Форум ИИ + Промышленность в Пекине: Китай ускоряет коммерциализацию",
+      "timestamp": 1774789700000
+    },
+    {
+      "messageId": "784",
+      "source": { "name": "Biz Journals", "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html" },
+      "category": "Инвестиции",
+      "title": "Air Street Capital собрал $232 млн для AI-стартапов на ранних стадиях",
+      "timestamp": 1774789710000
+    },
+    {
+      "messageId": "785",
+      "source": { "name": "Fortune", "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/" },
+      "category": "Инвестиции",
+      "title": "Пузырь ИИ-акций лопнул — но один сектор продолжает расти",
+      "timestamp": 1774789720000
+    },
+    {
+      "messageId": "618",
+      "expert": "AI experts",
+      "source": "etcjournal.com",
+      "category": "AI",
+      "title": "Эксперты об ИИ: сильные стороны и ограничения",
+      "timestamp": "2026-03-29T08:30:00Z"
+    },
+    {
+      "messageId": "619",
+      "expert": "Loeb AI Summit",
+      "source": "loeb.com",
+      "category": "Agentic AI, Security",
+      "title": "Agentic AI: Угрозы безопасности и управление",
+      "timestamp": "2026-03-29T08:31:00Z"
+    },
+    {
+      "messageId": "620",
+      "expert": "The Canadian College",
+      "source": "thecanadiancollege.ca",
+      "category": "AI, Data Science, Future of Work",
+      "title": "ИИ не заменит специалистов по данным, но изменит их роль",
+      "timestamp": "2026-03-29T08:32:00Z"
+    },
+    {
+      "messageId": "621",
+      "expert": "AI World Journal",
+      "source": "aiworldjournal.substack.com",
+      "category": "AI Agents, NVIDIA, GTC 2026",
+      "title": "NVIDIA: Прогресс в области ИИ-агентов на GTC 2026",
+      "timestamp": "2026-03-29T08:33:00Z"
+    },
+    {
+      "messageId": "622",
+      "expert": "Loeb AI Summit",
+      "source": "loeb.com",
+      "category": "AI, Data, Security, Privacy",
+      "title": "Важность качества, конфиденциальности и безопасности данных для ИИ",
+      "timestamp": "2026-03-29T08:34:00Z"
+    },
+    {
+      "messageId": "623",
+      "expert": "MarketBeat",
+      "source": "marketbeat.com",
+      "category": "Robotics, Investment, AI Market",
+      "title": "Рынок робототехники на подъеме благодаря ИИ",
+      "timestamp": "2026-03-29T08:35:00Z"
+    },
+    {
+      "messageId": "624",
+      "expert": "The Robot Report",
+      "source": "therobotreport.com",
+      "category": "Robotics, Humanoid Robots, Amazon",
+      "title": "Amazon выходит на рынок гуманоидных роботов с приобретением Fauna Robotics",
+      "timestamp": "2026-03-29T08:36:00Z"
+    },
+    {
+      "messageId": "625",
+      "expert": "The Robot Report",
+      "source": "therobotreport.com",
+      "category": "Autonomous Vehicles, NVIDIA, Uber, Robotics",
+      "title": "NVIDIA и Uber: масштабирование автономного автопарка",
+      "timestamp": "2026-03-29T08:37:00Z"
+    },
+    {
+      "messageId": "628",
+      "expert": "Дженсен Хуанг (Nvidia)",
+      "source": "blockchain-council.org",
+      "category": "AGI, NVIDIA, GTC 2026",
+      "title": "Хуанг: «AGI уже достигнут»",
+      "timestamp": "2026-03-29T08:52:00Z"
+    },
+    {
+      "messageId": "629",
+      "expert": "AI Researchers",
+      "source": "blockchain-council.org",
+      "category": "AGI, критика",
+      "title": "Исследователи: заявление Хуанга — переопределение, а не достижение",
+      "timestamp": "2026-03-29T08:52:00Z"
+    },
+    {
+      "messageId": "630",
+      "expert": "Мэтт Бриттон",
+      "source": "youtube.com",
+      "category": "AI, Future of Work",
+      "title": "ИИ уничтожает джуниор-позиции быстрее, чем кажется",
+      "timestamp": "2026-03-29T08:53:00Z"
+    },
+    {
+      "messageId": "631",
+      "expert": "Polymarket",
+      "source": "polymarket.com",
+      "category": "Anthropic, AI market",
+      "title": "Prediction markets: Anthropic опережает OpenAI и Google",
+      "timestamp": "2026-03-29T08:53:00Z"
+    },
+    {
+      "messageId": "632",
+      "expert": "Indagari / OpenRouter analysts",
+      "source": "theregister.com",
+      "category": "Anthropic, Chinese AI, competition",
+      "title": "Китайские модели отжимают долю у Anthropic",
+      "timestamp": "2026-03-29T08:54:00Z"
+    },
+    {
+      "messageId": "633",
+      "expert": "Тристан Харрис",
+      "source": "foxnews.com",
+      "category": "AI safety, AGI risks",
+      "title": "Пользу и вред от ИИ нельзя разделить",
+      "timestamp": "2026-03-29T08:54:00Z"
+    },
+    {
+      "messageId": "634",
+      "expert": "Гленн Гейб",
+      "source": "ppc.land",
+      "category": "OpenAI, Google, SEO",
+      "title": "ChatGPT с геолокацией — прямой удар по Google",
+      "timestamp": "2026-03-29T08:55:00Z"
+    },
+    {
+      "messageId": "635",
+      "expert": "Korea Times",
+      "source": "koreatimes.co.kr",
+      "category": "AGI, future of humanity",
+      "title": "AGI не станет «последним изобретением» человечества",
+      "timestamp": "2026-03-29T08:55:00Z"
+    }
+  ]
+}

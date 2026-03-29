@@ -1,1 +1,183 @@
-[{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI technology improves workplace efficiency","content":"Recent studies show that AI technology is enhancing workplace productivity in various sectors by automating routine tasks.","source":"TechCrunch"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI in Agriculture: A Game Changer","content":"Farmers are adopting AI solutions to predict crop yields and manage resources more efficiently, leading to sustainable farming practices.","source":"The Verge"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"Chatbots in Customer Service: Revolutionizing Interactions","content":"AI-powered chatbots are transforming customer service by providing immediate responses and assistance to users.","source":"Forbes"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI Ethics: The Need for Regulation","content":"With the rapid growth of AI technology, there is an increasing need for regulatory frameworks to address ethical concerns.","source":"Wired"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"Machine Learning in Healthcare","content":"Machine learning applications are being utilized to improve diagnostic accuracy and patient care in healthcare settings.","source":"HealthTech"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI and Cybersecurity: A Double-Edged Sword","content":"While AI can enhance security protocols, it also poses new cybersecurity risks and challenges.","source":"CIO"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"The Future of Work: AI at the Center","content":"As AI continues to evolve, its integration into the workplace will redefine job roles and employee expectations.","source":"The Guardian"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI in Entertainment: A New Era","content":"AI is transforming the entertainment industry by creating personalized content and experiences for users.","source":"Variety"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"AI Innovations in Transportation","content":"From autonomous vehicles to smart traffic systems, AI is reshaping transportation in urban areas.","source":"TechRadar"},{"type":"news","digest":"evening","date":"2026-03-27","headline":"Artificial Intelligence in Education","content":"AI tools are enhancing learning experiences by personalizing education and providing analytics for better outcomes.","source":"EdTech Magazine"},{"type":"news_meta","digest":"morning","date":"2026-03-28","kind":"header","ts":1774666803823,"messageId":"608"}]
+[
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "773", "title": "OpenAI закрывает приложение Sora", "url": "https://jamaica-gleaner.com/article/business/20260329/openai-shutting-down-sora" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "774", "title": "SoftBank взял кредит $40 млрд для инвестиций в OpenAI", "url": "https://www.thedailystar.net/tech-startup/news/softbank-obtains-40-billion-loan-openai-investment-4138286" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "775", "title": "Anthropic дал Claude Code режим автономии Auto Mode", "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "776", "title": "OpenAI строит суперапп: ChatGPT + Codex + браузер в одном", "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "777", "title": "Вайбкодинг захватывает стартапы: CEO прототипируют словами", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "778", "title": "Cursor под угрозой: Claude Code и агенты наступают", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "779", "title": "Aurora Flight Sciences коммерциализирует технологию X-Plane", "url": "https://aerospaceglobalnews.com/news/auroras-x-plane-tech-to-go-commercial/" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "780", "title": "Elektros: 5-минутная зарядка для eVTOL — реальность", "url": "https://www.ainvest.com/news/elektros-5-minute-charging-breakthrough-catalyst-ev-curve-exponential-takeoff-2603/" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "781", "title": "Anduril запускает серийное производство дрона-перехватчика Roadrunner", "url": "https://aviationoutlook.substack.com/p/anduril-company-analysis-outlook-report" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "782", "title": "Учёные York University: нейросети имеют фундаментальные изъяны", "url": "https://medicalxpress.com/news/2026-03-rethinking-brain-artificial-intelligence-reveals.html" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "783", "title": "Форум ИИ + Промышленность в Пекине: Китай ускоряет коммерциализацию", "url": "https://www.prnewswire.com/news-releases/the-artificial-intelligence--industry-forum-2026-ai-facilitates-industrial-transformation-302728015.html" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "784", "title": "Air Street Capital собрал $232 млн для AI-стартапов", "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html" },
+  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "785", "title": "Пузырь ИИ-акций лопнул — но один сектор продолжает расти", "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/" },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI technology improves workplace efficiency",
+    "content": "Recent studies show that AI technology is enhancing workplace productivity in various sectors by automating routine tasks.",
+    "source": "TechCrunch"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI in Agriculture: A Game Changer",
+    "content": "Farmers are adopting AI solutions to predict crop yields and manage resources more efficiently, leading to sustainable farming practices.",
+    "source": "The Verge"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "Chatbots in Customer Service: Revolutionizing Interactions",
+    "content": "AI-powered chatbots are transforming customer service by providing immediate responses and assistance to users.",
+    "source": "Forbes"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI Ethics: The Need for Regulation",
+    "content": "With the rapid growth of AI technology, there is an increasing need for regulatory frameworks to address ethical concerns.",
+    "source": "Wired"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "Machine Learning in Healthcare",
+    "content": "Machine learning applications are being utilized to improve diagnostic accuracy and patient care in healthcare settings.",
+    "source": "HealthTech"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI and Cybersecurity: A Double-Edged Sword",
+    "content": "While AI can enhance security protocols, it also poses new cybersecurity risks and challenges.",
+    "source": "CIO"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "The Future of Work: AI at the Center",
+    "content": "As AI continues to evolve, its integration into the workplace will redefine job roles and employee expectations.",
+    "source": "The Guardian"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI in Entertainment: A New Era",
+    "content": "AI is transforming the entertainment industry by creating personalized content and experiences for users.",
+    "source": "Variety"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "AI Innovations in Transportation",
+    "content": "From autonomous vehicles to smart traffic systems, AI is reshaping transportation in urban areas.",
+    "source": "TechRadar"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-29",
+    "headline": "Artificial Intelligence in Education",
+    "content": "AI tools are enhancing learning experiences by personalizing education and providing analytics for better outcomes.",
+    "source": "EdTech Magazine"
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "2026-03-29",
+    "kind": "header",
+    "ts": 1711721600000,
+    "messageId": "611"
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-03-29",
+    "kind": "audit",
+    "ts": 1711723200000,
+    "messageId": "616"
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "Хуанг: «AGI уже достигнут»",
+    "source": "blockchain-council.org",
+    "messageId": "628",
+    "ts": 1743239520000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "Исследователи: заявление Хуанга — переопределение, а не достижение",
+    "source": "blockchain-council.org",
+    "messageId": "629",
+    "ts": 1743239520000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "ИИ уничтожает джуниор-позиции быстрее, чем кажется",
+    "source": "youtube.com",
+    "messageId": "630",
+    "ts": 1743239580000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "Prediction markets: Anthropic опережает OpenAI и Google",
+    "source": "polymarket.com",
+    "messageId": "631",
+    "ts": 1743239580000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "Китайские модели отжимают долю у Anthropic",
+    "source": "theregister.com",
+    "messageId": "632",
+    "ts": 1743239640000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "Пользу и вред от ИИ нельзя разделить — Тристан Харрис",
+    "source": "foxnews.com",
+    "messageId": "633",
+    "ts": 1743239640000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "ChatGPT с геолокацией — прямой удар по Google",
+    "source": "ppc.land",
+    "messageId": "634",
+    "ts": 1743239700000
+  },
+  {
+    "type": "opinions",
+    "digest": "afternoon",
+    "date": "2026-03-29",
+    "headline": "AGI не станет «последним изобретением» человечества",
+    "source": "koreatimes.co.kr",
+    "messageId": "635",
+    "ts": 1743239700000
+  }
+]
