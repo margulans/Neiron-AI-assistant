@@ -1,17 +1,108 @@
 [
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "773", "title": "OpenAI закрывает приложение Sora", "url": "https://jamaica-gleaner.com/article/business/20260329/openai-shutting-down-sora" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "774", "title": "SoftBank взял кредит $40 млрд для инвестиций в OpenAI", "url": "https://www.thedailystar.net/tech-startup/news/softbank-obtains-40-billion-loan-openai-investment-4138286" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "775", "title": "Anthropic дал Claude Code режим автономии Auto Mode", "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "776", "title": "OpenAI строит суперапп: ChatGPT + Codex + браузер в одном", "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "777", "title": "Вайбкодинг захватывает стартапы: CEO прототипируют словами", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "778", "title": "Cursor под угрозой: Claude Code и агенты наступают", "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "779", "title": "Aurora Flight Sciences коммерциализирует технологию X-Plane", "url": "https://aerospaceglobalnews.com/news/auroras-x-plane-tech-to-go-commercial/" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "780", "title": "Elektros: 5-минутная зарядка для eVTOL — реальность", "url": "https://www.ainvest.com/news/elektros-5-minute-charging-breakthrough-catalyst-ev-curve-exponential-takeoff-2603/" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "781", "title": "Anduril запускает серийное производство дрона-перехватчика Roadrunner", "url": "https://aviationoutlook.substack.com/p/anduril-company-analysis-outlook-report" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "782", "title": "Учёные York University: нейросети имеют фундаментальные изъяны", "url": "https://medicalxpress.com/news/2026-03-rethinking-brain-artificial-intelligence-reveals.html" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "783", "title": "Форум ИИ + Промышленность в Пекине: Китай ускоряет коммерциализацию", "url": "https://www.prnewswire.com/news-releases/the-artificial-intelligence--industry-forum-2026-ai-facilitates-industrial-transformation-302728015.html" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "784", "title": "Air Street Capital собрал $232 млн для AI-стартапов", "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html" },
-  { "type": "news", "digest": "evening", "date": "2026-03-29", "messageId": "785", "title": "Пузырь ИИ-акций лопнул — но один сектор продолжает расти", "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/" },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "773",
+    "title": "OpenAI закрывает приложение Sora",
+    "url": "https://jamaica-gleaner.com/article/business/20260329/openai-shutting-down-sora"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "774",
+    "title": "SoftBank взял кредит $40 млрд для инвестиций в OpenAI",
+    "url": "https://www.thedailystar.net/tech-startup/news/softbank-obtains-40-billion-loan-openai-investment-4138286"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "775",
+    "title": "Anthropic дал Claude Code режим автономии Auto Mode",
+    "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "776",
+    "title": "OpenAI строит суперапп: ChatGPT + Codex + браузер в одном",
+    "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "777",
+    "title": "Вайбкодинг захватывает стартапы: CEO прототипируют словами",
+    "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "778",
+    "title": "Cursor под угрозой: Claude Code и агенты наступают",
+    "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "779",
+    "title": "Aurora Flight Sciences коммерциализирует технологию X-Plane",
+    "url": "https://aerospaceglobalnews.com/news/auroras-x-plane-tech-to-go-commercial/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "780",
+    "title": "Elektros: 5-минутная зарядка для eVTOL — реальность",
+    "url": "https://www.ainvest.com/news/elektros-5-minute-charging-breakthrough-catalyst-ev-curve-exponential-takeoff-2603/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "781",
+    "title": "Anduril запускает серийное производство дрона-перехватчика Roadrunner",
+    "url": "https://aviationoutlook.substack.com/p/anduril-company-analysis-outlook-report"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "782",
+    "title": "Учёные York University: нейросети имеют фундаментальные изъяны",
+    "url": "https://medicalxpress.com/news/2026-03-rethinking-brain-artificial-intelligence-reveals.html"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "783",
+    "title": "Форум ИИ + Промышленность в Пекине: Китай ускоряет коммерциализацию",
+    "url": "https://www.prnewswire.com/news-releases/the-artificial-intelligence--industry-forum-2026-ai-facilitates-industrial-transformation-302728015.html"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "784",
+    "title": "Air Street Capital собрал $232 млн для AI-стартапов",
+    "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "messageId": "785",
+    "title": "Пузырь ИИ-акций лопнул — но один сектор продолжает расти",
+    "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/"
+  },
   {
     "type": "news",
     "digest": "day",
@@ -179,5 +270,77 @@
     "source": "koreatimes.co.kr",
     "messageId": "635",
     "ts": 1743239700000
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "Грег Сателл: не становись «экспертом по ИИ»",
+    "source": "digitaltonto.com",
+    "messageId": "642",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "Авив Шамни: ИИ повторяет ошибки соцсетей",
+    "source": "fortune.com",
+    "messageId": "643",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "Кристофер Пенн: пустыня use case",
+    "source": "almosttimely.substack.com",
+    "messageId": "644",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "Джим Шимабукуро: профиль силы ИИ",
+    "source": "etcjournal.com",
+    "messageId": "645",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "Anthropic — противоядие от «табачной» OpenAI",
+    "source": "the-decoder.com",
+    "messageId": "646",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "OpenAI выигрывает гонку агентов — экосистема важнее качества",
+    "source": "ai.cc",
+    "messageId": "647",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "TechCrunch: Claude растёт в платных, теряет в доле рынка",
+    "source": "techcrunch.com",
+    "messageId": "648",
+    "ts": 1774792382750
+  },
+  {
+    "type": "opinions",
+    "digest": "evening",
+    "date": "2026-03-29",
+    "headline": "LessWrong: нужен трекер AI-прогнозов",
+    "source": "greaterwrong.com",
+    "messageId": "649",
+    "ts": 1774792382750
   }
 ]
