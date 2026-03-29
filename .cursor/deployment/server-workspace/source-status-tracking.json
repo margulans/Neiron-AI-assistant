@@ -486,17 +486,65 @@
         "business",
         "investing"
       ]
+    },
+    "https://datamachina.substack.com/feed": {
+      "status": "auto_discovered",
+      "category": "AI",
+      "total_reactions": 0,
+      "avg_rating": 0,
+      "first_added": "2026-03-29",
+      "priority_bonus": 10,
+      "exploration_status": "new",
+      "discovery_method": "weekly_exploration",
+      "discovery_date": "2026-03-29T05:01:30.000Z",
+      "topics": [
+        "AI",
+        "research",
+        "tools"
+      ]
+    },
+    "https://www.roboticstomorrow.com/rss/news/": {
+      "status": "auto_discovered",
+      "category": "robotics",
+      "total_reactions": 0,
+      "avg_rating": 0,
+      "first_added": "2026-03-29",
+      "priority_bonus": 10,
+      "exploration_status": "new",
+      "discovery_method": "weekly_exploration",
+      "discovery_date": "2026-03-29T05:01:30.000Z",
+      "topics": [
+        "robotics",
+        "industry",
+        "automation"
+      ]
+    },
+    "https://aviationweek.com/rss.xml": {
+      "status": "auto_discovered",
+      "category": "eVTOL",
+      "total_reactions": 0,
+      "avg_rating": 0,
+      "first_added": "2026-03-29",
+      "priority_bonus": 10,
+      "exploration_status": "new",
+      "discovery_method": "weekly_exploration",
+      "discovery_date": "2026-03-29T05:01:30.000Z",
+      "topics": [
+        "aviation",
+        "eVTOL",
+        "aerospace"
+      ]
     }
   },
   "exploration_stats": {
-    "total_sources": 21,
+    "total_sources": 24,
     "proven_sources": 1,
-    "exploration_sources": 20,
+    "exploration_sources": 23,
     "rejected_sources": 0,
-    "last_discovery": "2026-02-05",
+    "last_discovery": "2026-03-29",
     "discovery_rate_month": 0,
     "quality_growth_rate": 0,
-    "last_analysis": "2026-03-22T05:00:33.300Z"
+    "last_analysis": "2026-03-29T05:01:30.000Z"
   },
   "discovery_targets": {
     "weekly_new_sources": 3,
@@ -611,6 +659,48 @@
         ],
         "keyword_matches": [],
         "discovered_date": "2026-02-22T05:04:43.137Z",
+        "status": "queued"
+      },
+      {
+        "name": "https://datamachina.substack.com/feed",
+        "type": "rss_feed",
+        "discovery_method": "weekly_exploration",
+        "relevance_score": 7.2,
+        "topics": [
+          "AI",
+          "research",
+          "tools"
+        ],
+        "keyword_matches": [],
+        "discovered_date": "2026-03-29T05:01:30.000Z",
+        "status": "queued"
+      },
+      {
+        "name": "https://www.roboticstomorrow.com/rss/news/",
+        "type": "rss_feed",
+        "discovery_method": "weekly_exploration",
+        "relevance_score": 7.2,
+        "topics": [
+          "robotics",
+          "industry",
+          "automation"
+        ],
+        "keyword_matches": [],
+        "discovered_date": "2026-03-29T05:01:30.000Z",
+        "status": "queued"
+      },
+      {
+        "name": "https://aviationweek.com/rss.xml",
+        "type": "rss_feed",
+        "discovery_method": "weekly_exploration",
+        "relevance_score": 7.2,
+        "topics": [
+          "aviation",
+          "eVTOL",
+          "aerospace"
+        ],
+        "keyword_matches": [],
+        "discovered_date": "2026-03-29T05:01:30.000Z",
         "status": "queued"
       }
     ],
