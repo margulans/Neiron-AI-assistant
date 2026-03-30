@@ -417,6 +417,116 @@
       "date": "2026-03-30",
       "title": "Дайджест 30 марта 2026 (бэкап 13:05)",
       "timestamp": 1774858084770
+    },
+    {
+      "messageId": "664",
+      "expert": "Герман Греф",
+      "source": {
+        "name": "Forbes.ru",
+        "url": "https://www.forbes.ru/tekhnologii/558069-suverennyj-ii-germana-grefa-stanet-li-sber-russkim-huawei"
+      },
+      "category": "ИИ, Бизнес, Банки",
+      "title": "Герман Греф о будущем ИИ",
+      "timestamp": 1711804200000
+    },
+    {
+      "messageId": "665",
+      "expert": "Анастасия Бастрыкина",
+      "source": {
+        "name": "Science.Mail.ru",
+        "url": "https://science.mail.ru/news/46709-kak-ii-povliyaet-na-sferu-stroitelstva-mnenie-eksperta/"
+      },
+      "category": "ИИ, Строительство",
+      "title": "Анастасия Бастрыкина об ИИ в строительстве",
+      "timestamp": 1711804260000
+    },
+    {
+      "messageId": "666",
+      "expert": "Эксперты «РОССИЯ ЗОВЁТ»",
+      "source": {
+        "name": "MagadanMedia.ru",
+        "url": "https://magadanmedia.ru/news/amp/2445042/"
+      },
+      "category": "ИИ, ИТ, Рынок",
+      "title": "Мнения экспертов «РОССИЯ ЗОВЁТ» об ИИ",
+      "timestamp": 1711804320000
+    },
+    {
+      "messageId": "667",
+      "expert": "Томас Кирхнер и эксперты (Кембридж, Израиль)",
+      "source": {
+        "name": "InoSMI.ru",
+        "url": "https://inosmi.ru/amp/20260329/ii-277736566.html"
+      },
+      "category": "ИИ, Оборона, Риски",
+      "title": "Томас Кирхнер и эксперты о военном ИИ",
+      "timestamp": 1711804380000
+    },
+    {
+      "messageId": "668",
+      "expert": "Депутаты Госдумы",
+      "source": {
+        "name": "76.ru",
+        "url": "https://76.ru/text/world/2026/03/29/76337386/"
+      },
+      "category": "ИИ, Риски, Регуляция",
+      "title": "Госдума предупреждает о «мёртвом интернете» из-за ИИ",
+      "timestamp": 1711804440000
+    },
+    {
+      "messageId": "669",
+      "expert": "Эксперты ИТ-рынка",
+      "source": {
+        "name": "Startpack.ru",
+        "url": "https://startpack.ru/article/20260329-auvik"
+      },
+      "category": "ИИ, Технологии, Контроль",
+      "title": "Эксперты об ИИ: помощник, а не замена",
+      "timestamp": 1711804500000
+    },
+    {
+      "messageId": "670",
+      "expert": "Аналитики рынка ИИ",
+      "source": {
+        "name": "Habr.com",
+        "url": "https://habr.com/ru/amp/publications/1016588/"
+      },
+      "category": "ИИ, Инвестиции, Рынок",
+      "title": "Прогнозы о замедлении темпов роста ИИ",
+      "timestamp": 1711804560000
+    },
+    {
+      "messageId": "671",
+      "expert": "Эксперты в ИИ и разработке",
+      "source": {
+        "name": "Habr.com",
+        "url": "https://habr.com/ru/articles/1016554/"
+      },
+      "category": "Вайбкодинг, ИИ, Программирование",
+      "title": "Вайбкодинг: инструмент для прототипирования, но не замена программисту",
+      "timestamp": 1711804620000
+    },
+    {
+      "messageId": "672",
+      "expert": "Эксперты по разработке",
+      "source": {
+        "name": "Habr.com",
+        "url": "https://habr.com/ru/articles/1016554/"
+      },
+      "category": "Вайбкодинг, ИИ, Разработка",
+      "title": "Вайбкодинг для малых команд и сольных проектов",
+      "timestamp": 1711804680000
+    },
+    {
+      "messageId": "673",
+      "expert": "Эксперты в образовании",
+      "source": {
+        "name": "MSKRNEWS.ru",
+        "url": "https://mskrnews.ru/2026/03/30/ne-tolko-prompting-chto-izuchajut-moskovskie-pjatiklassniki-na-kurse-po-ii/"
+      },
+      "category": "Вайбкодинг, ИИ, Образование",
+      "title": "Вайбкодинг в образовании: московские школьники осваивают ИИ",
+      "timestamp": 1711804740000
     }
   ]
 }
