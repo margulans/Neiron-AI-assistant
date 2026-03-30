@@ -140,7 +140,7 @@
     "digest": "day",
     "date": "2026-03-29",
     "headline": "Machine Learning in Healthcare",
-    "content": "Machine learning applications are being utilized to improve diagnostic accuracy and patient care in healthcare settings.",
+    "content": "Machine Learning applications are being utilized to improve diagnostic accuracy and patient care in healthcare settings.",
     "source": "HealthTech"
   },
   {
@@ -342,5 +342,217 @@
     "source": "greaterwrong.com",
     "messageId": "649",
     "ts": 1774792382750
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "kind": "header",
+    "ts": 1774720800000,
+    "messageId": "787"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "788",
+    "title": "OpenAI закрывает приложение Sora",
+    "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "789",
+    "title": "Fujitsu запускает Fujitsu Application Transform на базе Fujitsu Kozuchi",
+    "url": "https://global.fujitsu/en-global/pr/news/2026/03/30-01"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "790",
+    "title": "Пузырь ИИ-акций лопнул",
+    "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "791",
+    "title": "Apple сталкивается с проблемами в сфере ИИ",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/30/2003854684"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "792",
+    "title": "Законы о конфиденциальности данных в США развиваются с учетом ИИ",
+    "url": "https://www.troutmanprivacy.com/2026/03/proposed-state-privacy-law-update-march-30-2026/"
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "messageId": "793",
+    "title": "Про-ИИ политическая группа, поддерживаемая союзниками Трампа",
+    "url": "https://wfin.com/fox-political-news/new-pro-ai-group-backed-by-trump-allies-plans-100m-midterm-spending-push/"
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "kind": "header",
+    "ts": 1774841431005,
+    "messageId": "651"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "AGI",
+    "title": "Дженсен Хуанг: AGI уже существует через агентные инструменты",
+    "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+    "keywords": [
+      "AGI",
+      "NVIDIA",
+      "агенты"
+    ],
+    "messageId": "652"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Экономика",
+    "title": "Эндрю Янг: AI бум придёт быстрее, чем ожидают",
+    "url": "https://www.benzinga.com/news/topics/26/03/51530062/andrew-yang-says-ai-boom-is-coming-faster-than-anyone-expects-what-well-see-in-six-months-outstrips-w",
+    "keywords": [
+      "автоматизация",
+      "рынок_труда",
+      "экономика"
+    ],
+    "messageId": "653"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Труд",
+    "title": "Дарио Амодей: до 50% белых воротничков могут потерять работу",
+    "url": "https://www.benzinga.com/news/topics/26/03/51530062/andrew-yang-says-ai-boom-is-coming-faster-than-anyone-expects-what-well-see-in-six-months-outstrips-w",
+    "keywords": [
+      "Anthropic",
+      "автоматизация",
+      "труд"
+    ],
+    "messageId": "654"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Геополитика",
+    "title": "Рэндольф Уиггинс о AI-гонке США vs Китай",
+    "url": "https://www.youtube.com/watch?v=8_ZLc0FZy3c",
+    "keywords": [
+      "Китай",
+      "США",
+      "геополитика"
+    ],
+    "messageId": "655"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Роботы",
+    "title": "ALTSS: воплощённый AI — главный ров конкурентоспособности к 2028",
+    "url": "https://altss.com/blog/altss-hot-30-ai-companies-q1-2026",
+    "keywords": [
+      "роботы",
+      "embodiedAI",
+      "инвестиции"
+    ],
+    "messageId": "656"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Бизнес",
+    "title": "Кристофер Пенн: индустрия в пустыне AI use-cases",
+    "url": "https://www.christopherspenn.com/2026/03/almost-timely-news-%F0%9F%97%9E%EF%B8%8F-terraforming-the-ai-use-case-desert-2026-03-29/",
+    "keywords": [
+      "AI_агенты",
+      "бизнес",
+      "продуктивность"
+    ],
+    "messageId": "657"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Общество",
+    "title": "Pew/YouGov: только 5% доверяют AI",
+    "url": "https://www.debevoisedatablog.com/2026/03/29/preparing-for-ai-whistleblowers-2026-update/",
+    "keywords": [
+      "доверие",
+      "общество",
+      "регулирование"
+    ],
+    "messageId": "658"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Инструменты",
+    "title": "Тим Дитрих: AI — усилитель, а не замена экспертизы",
+    "url": "https://timdietrich.me/blog/yeah-we-use-ai-so-what/",
+    "keywords": [
+      "инструменты",
+      "контент",
+      "разработка"
+    ],
+    "messageId": "659"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Медицина",
+    "title": "Сэм Олтман о персонализированном лечении рака с AI",
+    "url": "https://the-decoder.com/openais-sam-altman-and-science-vp-kevin-weil-hype-ai-assisted-dog-cancer-story-ignoring-theres-no-proof-the-vaccine-worked/",
+    "keywords": [
+      "OpenAI",
+      "медицина",
+      "персонализация"
+    ],
+    "messageId": "660"
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "category": "Регулирование",
+    "title": "Dong Le (BIGAI): Китай строит инклюзивную AI-повестку",
+    "url": "https://www.chinadaily.com.cn/a/202603/29/WS69c9048fa310d6866eb407b0.html",
+    "keywords": [
+      "Китай",
+      "стандарты",
+      "регулирование"
+    ],
+    "messageId": "661"
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-03-30",
+    "kind": "audit",
+    "ts": 1774841612909,
+    "messageId": "662"
   }
 ]
