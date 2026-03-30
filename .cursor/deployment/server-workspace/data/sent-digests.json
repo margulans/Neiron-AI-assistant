@@ -92,7 +92,7 @@
     "digest": "evening",
     "date": "2026-03-29",
     "messageId": "784",
-    "title": "Air Street Capital собрал $232 млн для AI-стартапов",
+    "title": "Air Street Capital собрал $232 млн для AI-стартапов на ранних стадиях",
     "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html"
   },
   {
@@ -554,5 +554,37 @@
     "kind": "audit",
     "ts": 1774841612909,
     "messageId": "662"
+  },
+  {
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-03-30",
+    "kind": "header",
+    "ts": 1774848000000,
+    "messageId": "795"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-30",
+    "messageId": "796",
+    "title": "ИИ выявил новые стабильные формы углерода, твёрже алмаза",
+    "url": "https://www.ixbt.com/news/2026/03/29/iskusstvennyj-intellekt-vyjavil-novye-stabilnye-formy-ugleroda-tvjorzhe-almaza.html"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-30",
+    "messageId": "800",
+    "title": "Дайджест 30 марта 2026 (бэкап 13:05)",
+    "timestamp": 1774858007764
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-03-30",
+    "messageId": "800",
+    "title": "Дайджест 30 марта 2026 (бэкап 13:05)",
+    "timestamp": 1774858019973
   }
 ]

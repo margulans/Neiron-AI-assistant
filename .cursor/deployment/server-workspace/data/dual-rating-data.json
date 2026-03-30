@@ -371,6 +371,52 @@
     },
     {
       "messageId": "788"
+    },
+    {
+      "messageId": "795",
+      "type": "news_meta",
+      "digest": "day",
+      "kind": "header",
+      "date": "2026-03-30",
+      "timestamp": 1774848000000
+    },
+    {
+      "messageId": "796",
+      "source": {
+        "name": "ixbt.com",
+        "url": "https://www.ixbt.com/news/2026/03/29/iskusstvennyj-intellekt-vyjavil-novye-stabilnye-formy-ugleroda-tvjorzhe-almaza.html"
+      },
+      "category": "ИИ, Технологии",
+      "title": "ИИ выявил новые стабильные формы углерода, твёрже алмаза",
+      "timestamp": 1774848000000
+    },
+    {
+      "messageId": "797",
+      "source": {
+        "name": "forbes.ru",
+        "url": "https://www.forbes.ru/tekhnologii/558069-suverennyj-ii-germana-grefa-stanet-li-sber-russkim-huawei"
+      },
+      "category": "ИИ, Бизнес, Инвестиции",
+      "title": "Сбер инвестирует 600 млрд рублей в генеративный ИИ до 2026 года",
+      "timestamp": 1774848000000
+    },
+    {
+      "messageId": "798",
+      "source": {
+        "name": "cybersport.ru",
+        "url": "https://www.cybersport.ru/tags/other/plany-vlozhit-146-mlrd-v-ii-ot-microsoft-ne-ubedili-investorov-aktsii"
+      },
+      "category": "ИИ, Инвестиции, Бизнес",
+      "title": "Инвесторы Microsoft сомневаются в окупаемости ИИ-вложений на $146 млрд",
+      "timestamp": 1774848000000
+    },
+    {
+      "messageId": "800",
+      "type": "news_digest",
+      "digest": "day",
+      "date": "2026-03-30",
+      "title": "Дайджест 30 марта 2026 (бэкап 13:05)",
+      "timestamp": 1774858084770
     }
   ]
 }
