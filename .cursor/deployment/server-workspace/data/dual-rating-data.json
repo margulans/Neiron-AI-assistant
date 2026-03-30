@@ -7,8 +7,8 @@
         "name": "Jamaica Gleaner",
         "url": "https://jamaica-gleaner.com/article/business/20260329/openai-shutting-down-sora"
       },
-      "category": "ИИ",
-      "title": "OpenAI закрывает приложение Sora",
+      "category": "ÐÐ",
+      "title": "OpenAI Ð·Ð°ÐºÑÑÐ²Ð°ÐµÑ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Sora",
       "timestamp": 1774789589740
     },
     {
@@ -16,9 +16,8 @@
       "source": {
         "name": "The Daily Star",
         "url": "https://www.thedailystar.net/tech-startup/news/softbank-obtains-40-billion-loan-openai-investment-4138286"
-      },
-      "category": "Инвестиции",
-      "title": "SoftBank взял кредит $40 млрд для инвестиций в OpenAI",
+      },      "category": "ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸",
+      "title": "SoftBank Ð²Ð·ÑÐ» ÐºÑÐµÐ´Ð¸Ñ $40 Ð¼Ð»ÑÐ´ Ð´Ð»Ñ Ð¸Ð½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¹ Ð² OpenAI",
       "timestamp": 1774789600000
     },
     {
@@ -26,9 +25,8 @@
       "source": {
         "name": "TechCrunch",
         "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/"
-      },
-      "category": "ИИ",
-      "title": "Anthropic дал Claude Code режим автономии Auto Mode",
+      },      "category": "ÐÐ",
+      "title": "Anthropic Ð´Ð°Ð» Claude Code ÑÐµÐ¶Ð¸Ð¼ Ð°Ð²ÑÐ¾Ð½Ð¾Ð¼Ð¸Ð¸ Auto Mode",
       "timestamp": 1774789620000
     },
     {
@@ -36,9 +34,8 @@
       "source": {
         "name": "Fortune",
         "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/"
-      },
-      "category": "ИИ",
-      "title": "OpenAI строит суперапп: ChatGPT + Codex + браузер в одном",
+      },      "category": "ÐÐ",
+      "title": "OpenAI ÑÑÑÐ¾Ð¸Ñ ÑÑÐ¿ÐµÑÐ°Ð¿Ð¿: ChatGPT + Codex + Ð±ÑÐ°ÑÐ·ÐµÑ Ð² Ð¾Ð´Ð½Ð¾Ð¼",
       "timestamp": 1774789630000
     },
     {
@@ -46,9 +43,8 @@
       "source": {
         "name": "Business Insider",
         "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3"
-      },
-      "category": "Вайбкодинг",
-      "title": "Вайбкодинг захватывает стартапы: CEO прототипируют словами",
+      },      "category": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³",
+      "title": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³ Ð·Ð°ÑÐ²Ð°ÑÑÐ²Ð°ÐµÑ ÑÑÐ°ÑÑÐ°Ð¿Ñ: CEO Ð¿ÑÐ¾ÑÐ¾ÑÐ¸Ð¿Ð¸ÑÑÑÑ ÑÐ»Ð¾Ð²Ð°Ð¼Ð¸",
       "timestamp": 1774789640000
     },
     {
@@ -56,9 +52,8 @@
       "source": {
         "name": "Business Insider",
         "url": "https://www.businessinsider.com/how-ai-startup-ceo-personally-use-ai-tools-2026-3"
-      },
-      "category": "Вайбкодинг",
-      "title": "Cursor под угрозой: Claude Code и агенты наступают",
+      },      "category": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³",
+      "title": "Cursor Ð¿Ð¾Ð´ ÑÐ³ÑÐ¾Ð·Ð¾Ð¹: Claude Code Ð¸ Ð°Ð³ÐµÐ½ÑÑ Ð½Ð°ÑÑÑÐ¿Ð°ÑÑ",
       "timestamp": 1774789650000
     },
     {
@@ -66,9 +61,8 @@
       "source": {
         "name": "Aerospace Global News",
         "url": "https://aerospaceglobalnews.com/news/auroras-x-plane-tech-to-go-commercial/"
-      },
-      "category": "eVTOL",
-      "title": "Aurora Flight Sciences коммерциализирует технологию X-Plane",
+      },      "category": "eVTOL",
+      "title": "Aurora Flight Sciences ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ¸Ð°Ð»Ð¸Ð·Ð¸ÑÑÐµÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ñ X-Plane",
       "timestamp": 1774789660000
     },
     {
@@ -76,9 +70,8 @@
       "source": {
         "name": "AInvest",
         "url": "https://www.ainvest.com/news/elektros-5-minute-charging-breakthrough-catalyst-ev-curve-exponential-takeoff-2603/"
-      },
-      "category": "eVTOL",
-      "title": "Elektros: 5-минутная зарядка для eVTOL — реальность",
+      },      "category": "eVTOL",
+      "title": "Elektros: 5-Ð¼Ð¸Ð½ÑÑÐ½Ð°Ñ Ð·Ð°ÑÑÐ´ÐºÐ° Ð´Ð»Ñ eVTOL â ÑÐµÐ°Ð»ÑÐ½Ð¾ÑÑÑ",
       "timestamp": 1774789670000
     },
     {
@@ -86,9 +79,8 @@
       "source": {
         "name": "Aviation Outlook",
         "url": "https://aviationoutlook.substack.com/p/anduril-company-analysis-outlook-report"
-      },
-      "category": "Робототехника",
-      "title": "Anduril запускает серийное производство дрона-перехватчика Roadrunner",
+      },      "category": "Ð Ð¾Ð±Ð¾ÑÐ¾ÑÐµÑÐ½Ð¸ÐºÐ°",
+      "title": "Anduril Ð·Ð°Ð¿ÑÑÐºÐ°ÐµÑ ÑÐµÑÐ¸Ð¹Ð½Ð¾Ðµ Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´ÑÑÐ²Ð¾ Ð´ÑÐ¾Ð½Ð°-Ð¿ÐµÑÐµÑÐ²Ð°ÑÑÐ¸ÐºÐ° Roadrunner",
       "timestamp": 1774789680000
     },
     {
@@ -96,9 +88,8 @@
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com/news/2026-03-rethinking-brain-artificial-intelligence-reveals.html"
-      },
-      "category": "ИИ",
-      "title": "Учёные York University: нейросети имеют фундаментальные изъяны",
+      },      "category": "ÐÐ",
+      "title": "Ð£ÑÑÐ½ÑÐµ York University: Ð½ÐµÐ¹ÑÐ¾ÑÐµÑÐ¸ Ð¸Ð¼ÐµÑÑ ÑÑÐ½Ð´Ð°Ð¼ÐµÐ½ÑÐ°Ð»ÑÐ½ÑÐµ Ð¸Ð·ÑÑÐ½Ñ",
       "timestamp": 1774789690000
     },
     {
@@ -106,9 +97,8 @@
       "source": {
         "name": "PR Newswire",
         "url": "https://www.prnewswire.com/news-releases/the-artificial-intelligence--industry-forum-2026-ai-facilitates-industrial-transformation-302728015.html"
-      },
-      "category": "Бизнес",
-      "title": "Форум ИИ + Промышленность в Пекине: Китай ускоряет коммерциализацию",
+      },      "category": "ÐÐ¸Ð·Ð½ÐµÑ",
+      "title": "Ð¤Ð¾ÑÑÐ¼ ÐÐ + ÐÑÐ¾Ð¼ÑÑÐ»ÐµÐ½Ð½Ð¾ÑÑÑ Ð² ÐÐµÐºÐ¸Ð½Ðµ: ÐÐ¸ÑÐ°Ð¹ ÑÑÐºÐ¾ÑÑÐµÑ ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ¸Ð°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ",
       "timestamp": 1774789700000
     },
     {
@@ -116,9 +106,8 @@
       "source": {
         "name": "Biz Journals",
         "url": "https://www.bizjournals.com/sanjose/news/2026/03/26/plug-and-play-113-ai-startups.html"
-      },
-      "category": "Инвестиции",
-      "title": "Air Street Capital собрал $232 млн для AI-стартапов на ранних стадиях",
+      },      "category": "ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸",
+      "title": "Air Street Capital ÑÐ¾Ð±ÑÐ°Ð» $232 Ð¼Ð»Ð½ Ð´Ð»Ñ AI-ÑÑÐ°ÑÑÐ°Ð¿Ð¾Ð² Ð½Ð° ÑÐ°Ð½Ð½Ð¸Ñ ÑÑÐ°Ð´Ð¸ÑÑ",
       "timestamp": 1774789710000
     },
     {
@@ -126,9 +115,8 @@
       "source": {
         "name": "Fortune",
         "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/"
-      },
-      "category": "Инвестиции",
-      "title": "Пузырь ИИ-акций лопнул — но один сектор продолжает расти",
+      },      "category": "ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸",
+      "title": "ÐÑÐ·ÑÑÑ ÐÐ-Ð°ÐºÑÐ¸Ð¹ Ð»Ð¾Ð¿Ð½ÑÐ» â Ð½Ð¾ Ð¾Ð´Ð¸Ð½ ÑÐµÐºÑÐ¾Ñ Ð¿ÑÐ¾Ð´Ð¾Ð»Ð¶Ð°ÐµÑ ÑÐ°ÑÑÐ¸",
       "timestamp": 1774789720000
     },
     {
@@ -136,7 +124,7 @@
       "expert": "AI experts",
       "source": "etcjournal.com",
       "category": "AI",
-      "title": "Эксперты об ИИ: сильные стороны и ограничения",
+      "title": "Ð­ÐºÑÐ¿ÐµÑÑÑ Ð¾Ð± ÐÐ: ÑÐ¸Ð»ÑÐ½ÑÐµ ÑÑÐ¾ÑÐ¾Ð½Ñ Ð¸ Ð¾Ð³ÑÐ°Ð½Ð¸ÑÐµÐ½Ð¸Ñ",
       "timestamp": "2026-03-29T08:30:00Z"
     },
     {
@@ -144,7 +132,7 @@
       "expert": "Loeb AI Summit",
       "source": "loeb.com",
       "category": "Agentic AI, Security",
-      "title": "Agentic AI: Угрозы безопасности и управление",
+      "title": "Agentic AI: Ð£Ð³ÑÐ¾Ð·Ñ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÐ¸ Ð¸ ÑÐ¿ÑÐ°Ð²Ð»ÐµÐ½Ð¸Ðµ",
       "timestamp": "2026-03-29T08:31:00Z"
     },
     {
@@ -152,7 +140,7 @@
       "expert": "The Canadian College",
       "source": "thecanadiancollege.ca",
       "category": "AI, Data Science, Future of Work",
-      "title": "ИИ не заменит специалистов по данным, но изменит их роль",
+      "title": "ÐÐ Ð½Ðµ Ð·Ð°Ð¼ÐµÐ½Ð¸Ñ ÑÐ¿ÐµÑÐ¸Ð°Ð»Ð¸ÑÑÐ¾Ð² Ð¿Ð¾ Ð´Ð°Ð½Ð½ÑÐ¼, Ð½Ð¾ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ Ð¸Ñ ÑÐ¾Ð»Ñ",
       "timestamp": "2026-03-29T08:32:00Z"
     },
     {
@@ -160,7 +148,7 @@
       "expert": "AI World Journal",
       "source": "aiworldjournal.substack.com",
       "category": "AI Agents, NVIDIA, GTC 2026",
-      "title": "NVIDIA: Прогресс в области ИИ-агентов на GTC 2026",
+      "title": "NVIDIA: ÐÑÐ¾Ð³ÑÐµÑÑ Ð² Ð¾Ð±Ð»Ð°ÑÑÐ¸ ÐÐ-Ð°Ð³ÐµÐ½ÑÐ¾Ð² Ð½Ð° GTC 2026",
       "timestamp": "2026-03-29T08:33:00Z"
     },
     {
@@ -168,7 +156,7 @@
       "expert": "Loeb AI Summit",
       "source": "loeb.com",
       "category": "AI, Data, Security, Privacy",
-      "title": "Важность качества, конфиденциальности и безопасности данных для ИИ",
+      "title": "ÐÐ°Ð¶Ð½Ð¾ÑÑÑ ÐºÐ°ÑÐµÑÑÐ²Ð°, ÐºÐ¾Ð½ÑÐ¸Ð´ÐµÐ½ÑÐ¸Ð°Ð»ÑÐ½Ð¾ÑÑÐ¸ Ð¸ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÐ¸ Ð´Ð°Ð½Ð½ÑÑ Ð´Ð»Ñ ÐÐ",
       "timestamp": "2026-03-29T08:34:00Z"
     },
     {
@@ -176,7 +164,7 @@
       "expert": "MarketBeat",
       "source": "marketbeat.com",
       "category": "Robotics, Investment, AI Market",
-      "title": "Рынок робототехники на подъеме благодаря ИИ",
+      "title": "Ð ÑÐ½Ð¾Ðº ÑÐ¾Ð±Ð¾ÑÐ¾ÑÐµÑÐ½Ð¸ÐºÐ¸ Ð½Ð° Ð¿Ð¾Ð´ÑÐµÐ¼Ðµ Ð±Ð»Ð°Ð³Ð¾Ð´Ð°ÑÑ ÐÐ",
       "timestamp": "2026-03-29T08:35:00Z"
     },
     {
@@ -184,7 +172,7 @@
       "expert": "The Robot Report",
       "source": "therobotreport.com",
       "category": "Robotics, Humanoid Robots, Amazon",
-      "title": "Amazon выходит на рынок гуманоидных роботов с приобретением Fauna Robotics",
+      "title": "Amazon Ð²ÑÑÐ¾Ð´Ð¸Ñ Ð½Ð° ÑÑÐ½Ð¾Ðº Ð³ÑÐ¼Ð°Ð½Ð¾Ð¸Ð´Ð½ÑÑ ÑÐ¾Ð±Ð¾ÑÐ¾Ð² Ñ Ð¿ÑÐ¸Ð¾Ð±ÑÐµÑÐµÐ½Ð¸ÐµÐ¼ Fauna Robotics",
       "timestamp": "2026-03-29T08:36:00Z"
     },
     {
@@ -192,31 +180,31 @@
       "expert": "The Robot Report",
       "source": "therobotreport.com",
       "category": "Autonomous Vehicles, NVIDIA, Uber, Robotics",
-      "title": "NVIDIA и Uber: масштабирование автономного автопарка",
+      "title": "NVIDIA Ð¸ Uber: Ð¼Ð°ÑÑÑÐ°Ð±Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ Ð°Ð²ÑÐ¾Ð½Ð¾Ð¼Ð½Ð¾Ð³Ð¾ Ð°Ð²ÑÐ¾Ð¿Ð°ÑÐºÐ°",
       "timestamp": "2026-03-29T08:37:00Z"
     },
     {
       "messageId": "628",
-      "expert": "Дженсен Хуанг (Nvidia)",
+      "expert": "ÐÐ¶ÐµÐ½ÑÐµÐ½ Ð¥ÑÐ°Ð½Ð³ (Nvidia)",
       "source": "blockchain-council.org",
       "category": "AGI, NVIDIA, GTC 2026",
-      "title": "Хуанг: «AGI уже достигнут»",
+      "title": "Ð¥ÑÐ°Ð½Ð³: Â«AGI ÑÐ¶Ðµ Ð´Ð¾ÑÑÐ¸Ð³Ð½ÑÑÂ»",
       "timestamp": "2026-03-29T08:52:00Z"
     },
     {
       "messageId": "629",
       "expert": "AI Researchers",
       "source": "blockchain-council.org",
-      "category": "AGI, критика",
-      "title": "Исследователи: заявление Хуанга — переопределение, а не достижение",
+      "category": "AGI, ÐºÑÐ¸ÑÐ¸ÐºÐ°",
+      "title": "ÐÑÑÐ»ÐµÐ´Ð¾Ð²Ð°ÑÐµÐ»Ð¸: Ð·Ð°ÑÐ²Ð»ÐµÐ½Ð¸Ðµ Ð¥ÑÐ°Ð½Ð³Ð° â Ð¿ÐµÑÐµÐ¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ðµ, Ð° Ð½Ðµ Ð´Ð¾ÑÑÐ¸Ð¶ÐµÐ½Ð¸Ðµ",
       "timestamp": "2026-03-29T08:52:00Z"
     },
     {
       "messageId": "630",
-      "expert": "Мэтт Бриттон",
+      "expert": "ÐÑÑÑ ÐÑÐ¸ÑÑÐ¾Ð½",
       "source": "youtube.com",
       "category": "AI, Future of Work",
-      "title": "ИИ уничтожает джуниор-позиции быстрее, чем кажется",
+      "title": "ÐÐ ÑÐ½Ð¸ÑÑÐ¾Ð¶Ð°ÐµÑ Ð´Ð¶ÑÐ½Ð¸Ð¾Ñ-Ð¿Ð¾Ð·Ð¸ÑÐ¸Ð¸ Ð±ÑÑÑÑÐµÐµ, ÑÐµÐ¼ ÐºÐ°Ð¶ÐµÑÑÑ",
       "timestamp": "2026-03-29T08:53:00Z"
     },
     {
@@ -224,7 +212,7 @@
       "expert": "Polymarket",
       "source": "polymarket.com",
       "category": "Anthropic, AI market",
-      "title": "Prediction markets: Anthropic опережает OpenAI и Google",
+      "title": "Prediction markets: Anthropic Ð¾Ð¿ÐµÑÐµÐ¶Ð°ÐµÑ OpenAI Ð¸ Google",
       "timestamp": "2026-03-29T08:53:00Z"
     },
     {
@@ -232,23 +220,23 @@
       "expert": "Indagari / OpenRouter analysts",
       "source": "theregister.com",
       "category": "Anthropic, Chinese AI, competition",
-      "title": "Китайские модели отжимают долю у Anthropic",
+      "title": "ÐÐ¸ÑÐ°Ð¹ÑÐºÐ¸Ðµ Ð¼Ð¾Ð´ÐµÐ»Ð¸ Ð¾ÑÐ¶Ð¸Ð¼Ð°ÑÑ Ð´Ð¾Ð»Ñ Ñ Anthropic",
       "timestamp": "2026-03-29T08:54:00Z"
     },
     {
       "messageId": "633",
-      "expert": "Тристан Харрис",
+      "expert": "Ð¢ÑÐ¸ÑÑÐ°Ð½ Ð¥Ð°ÑÑÐ¸Ñ",
       "source": "foxnews.com",
       "category": "AI safety, AGI risks",
-      "title": "Пользу и вред от ИИ нельзя разделить",
+      "title": "ÐÐ¾Ð»ÑÐ·Ñ Ð¸ Ð²ÑÐµÐ´ Ð¾Ñ ÐÐ Ð½ÐµÐ»ÑÐ·Ñ ÑÐ°Ð·Ð´ÐµÐ»Ð¸ÑÑ",
       "timestamp": "2026-03-29T08:54:00Z"
     },
     {
       "messageId": "634",
-      "expert": "Гленн Гейб",
+      "expert": "ÐÐ»ÐµÐ½Ð½ ÐÐµÐ¹Ð±",
       "source": "ppc.land",
       "category": "OpenAI, Google, SEO",
-      "title": "ChatGPT с геолокацией — прямой удар по Google",
+      "title": "ChatGPT Ñ Ð³ÐµÐ¾Ð»Ð¾ÐºÐ°ÑÐ¸ÐµÐ¹ â Ð¿ÑÑÐ¼Ð¾Ð¹ ÑÐ´Ð°Ñ Ð¿Ð¾ Google",
       "timestamp": "2026-03-29T08:55:00Z"
     },
     {
@@ -256,95 +244,87 @@
       "expert": "Korea Times",
       "source": "koreatimes.co.kr",
       "category": "AGI, future of humanity",
-      "title": "AGI не станет «последним изобретением» человечества",
+      "title": "AGI Ð½Ðµ ÑÑÐ°Ð½ÐµÑ Â«Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¼ Ð¸Ð·Ð¾Ð±ÑÐµÑÐµÐ½Ð¸ÐµÐ¼Â» ÑÐµÐ»Ð¾Ð²ÐµÑÐµÑÑÐ²Ð°",
       "timestamp": "2026-03-29T08:55:00Z"
     },
     {
       "messageId": "638",
-      "expert": "Александр Ведяхин",
+      "expert": "ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ ÐÐµÐ´ÑÑÐ¸Ð½",
       "source": {
-        "name": "Сбербанк / 1.ru",
+        "name": "Ð¡Ð±ÐµÑÐ±Ð°Ð½Ðº / 1.ru",
         "url": "https://www1.ru/news/2026/03/29/camyx-vostrebovannyx-specialistov-po-ii-nazvali-v-sberbanke.html"
-      },
-      "category": "ИИ, Бизнес",
-      "title": "Дефицит ИИ-специалистов в бизнесе",
+      },      "category": "ÐÐ, ÐÐ¸Ð·Ð½ÐµÑ",
+      "title": "ÐÐµÑÐ¸ÑÐ¸Ñ ÐÐ-ÑÐ¿ÐµÑÐ¸Ð°Ð»Ð¸ÑÑÐ¾Ð² Ð² Ð±Ð¸Ð·Ð½ÐµÑÐµ",
       "timestamp": 1774791000000
     },
     {
       "messageId": "639",
-      "expert": "Джефф Клун",
+      "expert": "ÐÐ¶ÐµÑÑ ÐÐ»ÑÐ½",
       "source": {
         "name": "Hightech.plus",
         "url": "https://hightech.plus/2026/03/29/ii-uchenii-samostoyatelno-generit-gipotezi-i-provodit-issledovaniya"
-      },
-      "category": "ИИ, Наука",
-      "title": "ИИ самостоятельно проходит научный цикл",
+      },      "category": "ÐÐ, ÐÐ°ÑÐºÐ°",
+      "title": "ÐÐ ÑÐ°Ð¼Ð¾ÑÑÐ¾ÑÑÐµÐ»ÑÐ½Ð¾ Ð¿ÑÐ¾ÑÐ¾Ð´Ð¸Ñ Ð½Ð°ÑÑÐ½ÑÐ¹ ÑÐ¸ÐºÐ»",
       "timestamp": 1774791000000
     },
     {
       "messageId": "642",
-      "expert": "Грег Сателл",
+      "expert": "ÐÑÐµÐ³ Ð¡Ð°ÑÐµÐ»Ð»",
       "source": {
         "name": "Digital Tonto",
         "url": "https://digitaltonto.com/2026/why-you-should-not-become-an-ai-expert/"
-      },
-      "category": "ИИ, Карьера",
-      "title": "Почему не стоит становиться «экспертом по ИИ»",
+      },      "category": "ÐÐ, ÐÐ°ÑÑÐµÑÐ°",
+      "title": "ÐÐ¾ÑÐµÐ¼Ñ Ð½Ðµ ÑÑÐ¾Ð¸Ñ ÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÑÑÑ Â«ÑÐºÑÐ¿ÐµÑÑÐ¾Ð¼ Ð¿Ð¾ ÐÐÂ»",
       "timestamp": 1774792382750
     },
     {
       "messageId": "643",
-      "expert": "Авив Шамни",
+      "expert": "ÐÐ²Ð¸Ð² Ð¨Ð°Ð¼Ð½Ð¸",
       "source": {
         "name": "Fortune",
         "url": "https://fortune.com/2026/03/29/regulation-ai-social-media-mistakes-of-facebook-social-media/"
-      },
-      "category": "ИИ, Регуляция",
-      "title": "ИИ повторяет ошибки соцсетей — нужен публичный надзор",
+      },      "category": "ÐÐ, Ð ÐµÐ³ÑÐ»ÑÑÐ¸Ñ",
+      "title": "ÐÐ Ð¿Ð¾Ð²ÑÐ¾ÑÑÐµÑ Ð¾ÑÐ¸Ð±ÐºÐ¸ ÑÐ¾ÑÑÐµÑÐµÐ¹ â Ð½ÑÐ¶ÐµÐ½ Ð¿ÑÐ±Ð»Ð¸ÑÐ½ÑÐ¹ Ð½Ð°Ð´Ð·Ð¾Ñ",
       "timestamp": 1774792382750
     },
     {
       "messageId": "644",
-      "expert": "Кристофер Пенн",
+      "expert": "ÐÑÐ¸ÑÑÐ¾ÑÐµÑ ÐÐµÐ½Ð½",
       "source": {
         "name": "Almost Timely",
         "url": "https://almosttimely.substack.com/p/almost-timely-news-terraforming-the"
-      },
-      "category": "ИИ, Бизнес",
-      "title": "«Пустыня use case» — главный барьер внедрения ИИ",
+      },      "category": "ÐÐ, ÐÐ¸Ð·Ð½ÐµÑ",
+      "title": "Â«ÐÑÑÑÑÐ½Ñ use caseÂ» â Ð³Ð»Ð°Ð²Ð½ÑÐ¹ Ð±Ð°ÑÑÐµÑ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ñ ÐÐ",
       "timestamp": 1774792382750
     },
     {
       "messageId": "645",
-      "expert": "Джим Шимабукуро",
+      "expert": "ÐÐ¶Ð¸Ð¼ Ð¨Ð¸Ð¼Ð°Ð±ÑÐºÑÑÐ¾",
       "source": {
         "name": "ETC Journal",
         "url": "https://etcjournal.com/2026/03/28/ais-power-profile-in-march-2026-its-not-just-speed/"
-      },
-      "category": "ИИ, Технологии",
-      "title": "Реальный профиль силы ИИ: скорость, масштаб, консистентность — и ограничения",
+      },      "category": "ÐÐ, Ð¢ÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸",
+      "title": "Ð ÐµÐ°Ð»ÑÐ½ÑÐ¹ Ð¿ÑÐ¾ÑÐ¸Ð»Ñ ÑÐ¸Ð»Ñ ÐÐ: ÑÐºÐ¾ÑÐ¾ÑÑÑ, Ð¼Ð°ÑÑÑÐ°Ð±, ÐºÐ¾Ð½ÑÐ¸ÑÑÐµÐ½ÑÐ½Ð¾ÑÑÑ â Ð¸ Ð¾Ð³ÑÐ°Ð½Ð¸ÑÐµÐ½Ð¸Ñ",
       "timestamp": 1774792382750
     },
     {
       "messageId": "646",
-      "expert": "Дарио Амодей / Кич Хэги",
+      "expert": "ÐÐ°ÑÐ¸Ð¾ ÐÐ¼Ð¾Ð´ÐµÐ¹ / ÐÐ¸Ñ Ð¥ÑÐ³Ð¸",
       "source": {
         "name": "The Decoder",
         "url": "https://the-decoder.com/anthropic-reportedly-views-itself-as-the-antidote-to-openais-tobacco-industry-approach-to-ai/"
-      },
-      "category": "ИИ, Anthropic, OpenAI",
-      "title": "Anthropic — противоядие от «табачной» OpenAI",
+      },      "category": "ÐÐ, Anthropic, OpenAI",
+      "title": "Anthropic â Ð¿ÑÐ¾ÑÐ¸Ð²Ð¾ÑÐ´Ð¸Ðµ Ð¾Ñ Â«ÑÐ°Ð±Ð°ÑÐ½Ð¾Ð¹Â» OpenAI",
       "timestamp": 1774792382750
     },
     {
       "messageId": "647",
-      "expert": "AI.cc аналитики",
+      "expert": "AI.cc Ð°Ð½Ð°Ð»Ð¸ÑÐ¸ÐºÐ¸",
       "source": {
         "name": "AI.cc",
         "url": "https://www.ai.cc/blogs/2026-ai-api-comparison-openai-claude-gemini-grok-pricing-performance/"
-      },
-      "category": "ИИ, Вайбкодинг",
-      "title": "OpenAI выигрывает гонку агентов за счёт экосистемы",
+      },      "category": "ÐÐ, ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³",
+      "title": "OpenAI Ð²ÑÐ¸Ð³ÑÑÐ²Ð°ÐµÑ Ð³Ð¾Ð½ÐºÑ Ð°Ð³ÐµÐ½ÑÐ¾Ð² Ð·Ð° ÑÑÑÑ ÑÐºÐ¾ÑÐ¸ÑÑÐµÐ¼Ñ",
       "timestamp": 1774792382750
     },
     {
@@ -353,9 +333,8 @@
       "source": {
         "name": "TechCrunch",
         "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/"
-      },
-      "category": "ИИ, Anthropic",
-      "title": "Платные подписчики Claude растут взрывными темпами при сжатии доли рынка",
+      },      "category": "ÐÐ, Anthropic",
+      "title": "ÐÐ»Ð°ÑÐ½ÑÐµ Ð¿Ð¾Ð´Ð¿Ð¸ÑÑÐ¸ÐºÐ¸ Claude ÑÐ°ÑÑÑÑ Ð²Ð·ÑÑÐ²Ð½ÑÐ¼Ð¸ ÑÐµÐ¼Ð¿Ð°Ð¼Ð¸ Ð¿ÑÐ¸ ÑÐ¶Ð°ÑÐ¸Ð¸ Ð´Ð¾Ð»Ð¸ ÑÑÐ½ÐºÐ°",
       "timestamp": 1774792382750
     },
     {
@@ -364,9 +343,8 @@
       "source": {
         "name": "GreaterWrong",
         "url": "https://www.greaterwrong.com/posts/oHSGHxhsbxN72BZ4C/tracking-expert-influential-predictions-about-ai"
-      },
-      "category": "ИИ, AGI",
-      "title": "Нужен публичный трекер AI-прогнозов экспертов",
+      },      "category": "ÐÐ, AGI",
+      "title": "ÐÑÐ¶ÐµÐ½ Ð¿ÑÐ±Ð»Ð¸ÑÐ½ÑÐ¹ ÑÑÐµÐºÐµÑ AI-Ð¿ÑÐ¾Ð³Ð½Ð¾Ð·Ð¾Ð² ÑÐºÑÐ¿ÐµÑÑÐ¾Ð²",
       "timestamp": 1774792382750
     },
     {
@@ -385,9 +363,8 @@
       "source": {
         "name": "ixbt.com",
         "url": "https://www.ixbt.com/news/2026/03/29/iskusstvennyj-intellekt-vyjavil-novye-stabilnye-formy-ugleroda-tvjorzhe-almaza.html"
-      },
-      "category": "ИИ, Технологии",
-      "title": "ИИ выявил новые стабильные формы углерода, твёрже алмаза",
+      },      "category": "ÐÐ, Ð¢ÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸",
+      "title": "ÐÐ Ð²ÑÑÐ²Ð¸Ð» Ð½Ð¾Ð²ÑÐµ ÑÑÐ°Ð±Ð¸Ð»ÑÐ½ÑÐµ ÑÐ¾ÑÐ¼Ñ ÑÐ³Ð»ÐµÑÐ¾Ð´Ð°, ÑÐ²ÑÑÐ¶Ðµ Ð°Ð»Ð¼Ð°Ð·Ð°",
       "timestamp": 1774848000000
     },
     {
@@ -395,9 +372,8 @@
       "source": {
         "name": "forbes.ru",
         "url": "https://www.forbes.ru/tekhnologii/558069-suverennyj-ii-germana-grefa-stanet-li-sber-russkim-huawei"
-      },
-      "category": "ИИ, Бизнес, Инвестиции",
-      "title": "Сбер инвестирует 600 млрд рублей в генеративный ИИ до 2026 года",
+      },      "category": "ÐÐ, ÐÐ¸Ð·Ð½ÐµÑ, ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸",
+      "title": "Ð¡Ð±ÐµÑ Ð¸Ð½Ð²ÐµÑÑÐ¸ÑÑÐµÑ 600 Ð¼Ð»ÑÐ´ ÑÑÐ±Ð»ÐµÐ¹ Ð² Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½ÑÐ¹ ÐÐ Ð´Ð¾ 2026 Ð³Ð¾Ð´Ð°",
       "timestamp": 1774848000000
     },
     {
@@ -405,9 +381,8 @@
       "source": {
         "name": "cybersport.ru",
         "url": "https://www.cybersport.ru/tags/other/plany-vlozhit-146-mlrd-v-ii-ot-microsoft-ne-ubedili-investorov-aktsii"
-      },
-      "category": "ИИ, Инвестиции, Бизнес",
-      "title": "Инвесторы Microsoft сомневаются в окупаемости ИИ-вложений на $146 млрд",
+      },      "category": "ÐÐ, ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸, ÐÐ¸Ð·Ð½ÐµÑ",
+      "title": "ÐÐ½Ð²ÐµÑÑÐ¾ÑÑ Microsoft ÑÐ¾Ð¼Ð½ÐµÐ²Ð°ÑÑÑÑ Ð² Ð¾ÐºÑÐ¿Ð°ÐµÐ¼Ð¾ÑÑÐ¸ ÐÐ-Ð²Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¹ Ð½Ð° $146 Ð¼Ð»ÑÐ´",
       "timestamp": 1774848000000
     },
     {
@@ -415,118 +390,128 @@
       "type": "news_digest",
       "digest": "day",
       "date": "2026-03-30",
-      "title": "Дайджест 30 марта 2026 (бэкап 13:05)",
+      "title": "ÐÐ°Ð¹Ð´Ð¶ÐµÑÑ 30 Ð¼Ð°ÑÑÐ° 2026 (Ð±ÑÐºÐ°Ð¿ 13:05)",
       "timestamp": 1774858084770
     },
     {
       "messageId": "664",
-      "expert": "Герман Греф",
+      "expert": "ÐÐµÑÐ¼Ð°Ð½ ÐÑÐµÑ",
       "source": {
         "name": "Forbes.ru",
         "url": "https://www.forbes.ru/tekhnologii/558069-suverennyj-ii-germana-grefa-stanet-li-sber-russkim-huawei"
-      },
-      "category": "ИИ, Бизнес, Банки",
-      "title": "Герман Греф о будущем ИИ",
+      },      "category": "ÐÐ, ÐÐ¸Ð·Ð½ÐµÑ, ÐÐ°Ð½ÐºÐ¸",
+      "title": "ÐÐµÑÐ¼Ð°Ð½ ÐÑÐµÑ Ð¾ Ð±ÑÐ´ÑÑÐµÐ¼ ÐÐ",
       "timestamp": 1711804200000
     },
     {
       "messageId": "665",
-      "expert": "Анастасия Бастрыкина",
+      "expert": "ÐÐ½Ð°ÑÑÐ°ÑÐ¸Ñ ÐÐ°ÑÑÑÑÐºÐ¸Ð½Ð°",
       "source": {
         "name": "Science.Mail.ru",
         "url": "https://science.mail.ru/news/46709-kak-ii-povliyaet-na-sferu-stroitelstva-mnenie-eksperta/"
-      },
-      "category": "ИИ, Строительство",
-      "title": "Анастасия Бастрыкина об ИИ в строительстве",
+      },      "category": "ÐÐ, Ð¡ÑÑÐ¾Ð¸ÑÐµÐ»ÑÑÑÐ²Ð¾",
+      "title": "ÐÐ½Ð°ÑÑÐ°ÑÐ¸Ñ ÐÐ°ÑÑÑÑÐºÐ¸Ð½Ð° Ð¾Ð± ÐÐ Ð² ÑÑÑÐ¾Ð¸ÑÐµÐ»ÑÑÑÐ²Ðµ",
       "timestamp": 1711804260000
     },
     {
       "messageId": "666",
-      "expert": "Эксперты «РОССИЯ ЗОВЁТ»",
+      "expert": "Ð­ÐºÑÐ¿ÐµÑÑÑ Â«Ð ÐÐ¡Ð¡ÐÐ¯ ÐÐÐÐÐ¢Â»",
       "source": {
         "name": "MagadanMedia.ru",
         "url": "https://magadanmedia.ru/news/amp/2445042/"
-      },
-      "category": "ИИ, ИТ, Рынок",
-      "title": "Мнения экспертов «РОССИЯ ЗОВЁТ» об ИИ",
+      },      "category": "ÐÐ, ÐÐ¢, Ð ÑÐ½Ð¾Ðº",
+      "title": "ÐÐ½ÐµÐ½Ð¸Ñ ÑÐºÑÐ¿ÐµÑÑÐ¾Ð² Â«Ð ÐÐ¡Ð¡ÐÐ¯ ÐÐÐÐÐ¢Â» Ð¾Ð± ÐÐ",
       "timestamp": 1711804320000
     },
     {
       "messageId": "667",
-      "expert": "Томас Кирхнер и эксперты (Кембридж, Израиль)",
+      "expert": "Ð¢Ð¾Ð¼Ð°Ñ ÐÐ¸ÑÑÐ½ÐµÑ Ð¸ ÑÐºÑÐ¿ÐµÑÑÑ (ÐÐµÐ¼Ð±ÑÐ¸Ð´Ð¶, ÐÐ·ÑÐ°Ð¸Ð»Ñ)",
       "source": {
         "name": "InoSMI.ru",
         "url": "https://inosmi.ru/amp/20260329/ii-277736566.html"
-      },
-      "category": "ИИ, Оборона, Риски",
-      "title": "Томас Кирхнер и эксперты о военном ИИ",
+      },      "category": "ÐÐ, ÐÐ±Ð¾ÑÐ¾Ð½Ð°, Ð Ð¸ÑÐºÐ¸",
+      "title": "Ð¢Ð¾Ð¼Ð°Ñ ÐÐ¸ÑÑÐ½ÐµÑ Ð¸ ÑÐºÑÐ¿ÐµÑÑÑ Ð¾ Ð²Ð¾ÐµÐ½Ð½Ð¾Ð¼ ÐÐ",
       "timestamp": 1711804380000
     },
     {
       "messageId": "668",
-      "expert": "Депутаты Госдумы",
+      "expert": "ÐÐµÐ¿ÑÑÐ°ÑÑ ÐÐ¾ÑÐ´ÑÐ¼Ñ",
       "source": {
         "name": "76.ru",
         "url": "https://76.ru/text/world/2026/03/29/76337386/"
-      },
-      "category": "ИИ, Риски, Регуляция",
-      "title": "Госдума предупреждает о «мёртвом интернете» из-за ИИ",
+      },      "category": "ÐÐ, Ð Ð¸ÑÐºÐ¸, Ð ÐµÐ³ÑÐ»ÑÑÐ¸Ñ",
+      "title": "ÐÐ¾ÑÐ´ÑÐ¼Ð° Ð¿ÑÐµÐ´ÑÐ¿ÑÐµÐ¶Ð´Ð°ÐµÑ Ð¾ Â«Ð¼ÑÑÑÐ²Ð¾Ð¼ Ð¸Ð½ÑÐµÑÐ½ÐµÑÐµÂ» Ð¸Ð·-Ð·Ð° ÐÐ",
       "timestamp": 1711804440000
     },
     {
       "messageId": "669",
-      "expert": "Эксперты ИТ-рынка",
+      "expert": "Ð­ÐºÑÐ¿ÐµÑÑÑ ÐÐ¢-ÑÑÐ½ÐºÐ°",
       "source": {
         "name": "Startpack.ru",
         "url": "https://startpack.ru/article/20260329-auvik"
-      },
-      "category": "ИИ, Технологии, Контроль",
-      "title": "Эксперты об ИИ: помощник, а не замена",
+      },      "category": "ÐÐ, Ð¢ÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸, ÐÐ¾Ð½ÑÑÐ¾Ð»Ñ",
+      "title": "Ð­ÐºÑÐ¿ÐµÑÑÑ Ð¾Ð± ÐÐ: Ð¿Ð¾Ð¼Ð¾ÑÐ½Ð¸Ðº, Ð° Ð½Ðµ Ð·Ð°Ð¼ÐµÐ½Ð°",
       "timestamp": 1711804500000
     },
     {
       "messageId": "670",
-      "expert": "Аналитики рынка ИИ",
+      "expert": "ÐÐ½Ð°Ð»Ð¸ÑÐ¸ÐºÐ¸ ÑÑÐ½ÐºÐ° ÐÐ",
       "source": {
         "name": "Habr.com",
         "url": "https://habr.com/ru/amp/publications/1016588/"
-      },
-      "category": "ИИ, Инвестиции, Рынок",
-      "title": "Прогнозы о замедлении темпов роста ИИ",
+      },      "category": "ÐÐ, ÐÐ½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸, Ð ÑÐ½Ð¾Ðº",
+      "title": "ÐÑÐ¾Ð³Ð½Ð¾Ð·Ñ Ð¾ Ð·Ð°Ð¼ÐµÐ´Ð»ÐµÐ½Ð¸Ð¸ ÑÐµÐ¼Ð¿Ð¾Ð² ÑÐ¾ÑÑÐ° ÐÐ",
       "timestamp": 1711804560000
     },
     {
       "messageId": "671",
-      "expert": "Эксперты в ИИ и разработке",
+      "expert": "Ð­ÐºÑÐ¿ÐµÑÑÑ Ð² ÐÐ Ð¸ ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÐºÐµ",
       "source": {
         "name": "Habr.com",
         "url": "https://habr.com/ru/articles/1016554/"
-      },
-      "category": "Вайбкодинг, ИИ, Программирование",
-      "title": "Вайбкодинг: инструмент для прототипирования, но не замена программисту",
+      },      "category": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³, ÐÐ, ÐÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ",
+      "title": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³: Ð¸Ð½ÑÑÑÑÐ¼ÐµÐ½Ñ Ð´Ð»Ñ Ð¿ÑÐ¾ÑÐ¾ÑÐ¸Ð¿Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ñ, Ð½Ð¾ Ð½Ðµ Ð·Ð°Ð¼ÐµÐ½Ð° Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ð¸ÑÑÑ",
       "timestamp": 1711804620000
     },
     {
       "messageId": "672",
-      "expert": "Эксперты по разработке",
+      "expert": "Ð­ÐºÑÐ¿ÐµÑÑÑ Ð¿Ð¾ ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÐºÐµ",
       "source": {
         "name": "Habr.com",
         "url": "https://habr.com/ru/articles/1016554/"
-      },
-      "category": "Вайбкодинг, ИИ, Разработка",
-      "title": "Вайбкодинг для малых команд и сольных проектов",
+      },      "category": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³, ÐÐ, Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÐºÐ°",
+      "title": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³ Ð´Ð»Ñ Ð¼Ð°Ð»ÑÑ ÐºÐ¾Ð¼Ð°Ð½Ð´ Ð¸ ÑÐ¾Ð»ÑÐ½ÑÑ Ð¿ÑÐ¾ÐµÐºÑÐ¾Ð²",
       "timestamp": 1711804680000
     },
     {
       "messageId": "673",
-      "expert": "Эксперты в образовании",
+      "expert": "Ð­ÐºÑÐ¿ÐµÑÑÑ Ð² Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ð¸",
       "source": {
         "name": "MSKRNEWS.ru",
         "url": "https://mskrnews.ru/2026/03/30/ne-tolko-prompting-chto-izuchajut-moskovskie-pjatiklassniki-na-kurse-po-ii/"
-      },
-      "category": "Вайбкодинг, ИИ, Образование",
-      "title": "Вайбкодинг в образовании: московские школьники осваивают ИИ",
+      },      "category": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³, ÐÐ, ÐÐ±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ",
+      "title": "ÐÐ°Ð¹Ð±ÐºÐ¾Ð´Ð¸Ð½Ð³ Ð² Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ð¸: Ð¼Ð¾ÑÐºÐ¾Ð²ÑÐºÐ¸Ðµ ÑÐºÐ¾Ð»ÑÐ½Ð¸ÐºÐ¸ Ð¾ÑÐ²Ð°Ð¸Ð²Ð°ÑÑ ÐÐ",
       "timestamp": 1711804740000
+    },
+    {
+      "messageId": "676",
+      "expert": "Ð¡Ð¿ÐµÑÐ¸Ð°Ð»Ð¸ÑÑÑ Ð¿Ð¾ ÐºÐ¸Ð±ÐµÑÐ±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÐ¸",
+      "source": {
+        "name": "ÐÐ°Ð·ÐµÑÐ°.ÑÑ",
+        "url": "https://www.gazeta.ru/amp/tech/news/2026/03/30/28160395.shtml"
+      },      "category": "ÐÐ¸Ð±ÐµÑÐ±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÑ ÐÐ",
+      "title": "ÐÐ¸Ð±ÐµÑÑÐ³ÑÐ¾Ð·Ñ Ð¾Ñ Ð½Ð¾Ð²ÑÑ Ð¼Ð¾Ð´ÐµÐ»ÐµÐ¹ ÐÐ",
+      "timestamp": 1774858200000
+    },
+    {
+      "messageId": "677",
+      "expert": "Google DeepMind, OpenAI, MIT Technology Review, ÑÐºÑÐ¿ÐµÑÑÑ Â«Ð ÐÐ¡Ð¡ÐÐ¯ ÐÐÐÐÐ¢Â»",
+      "source": {
+        "name": "Habr.com",
+        "url": "https://habr.com/ru/companies/mvideo/articles/1016804/"
+      },      "category": "ÐÐ, ÐÐ°ÑÐºÐ°, ÐÐµÐ´Ð¸ÑÐ¸Ð½Ð°",
+      "title": "ÐÑÐ¾Ð³ÑÐµÑÑ ÐÐ Ð² Ð½Ð°ÑÑÐ½ÑÑ Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸ÑÑ",
+      "timestamp": 1774858200000
     }
   ]
 }
