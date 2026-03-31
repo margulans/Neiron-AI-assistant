@@ -1,1 +1,90 @@
-{"backup_date":"2026-03-30","opinions_meta":[{"messageId":"805","type":"opinions_meta","digest":"morning","kind":"audit"}],"opinions":[{"messageId":"679"}]}
+[
+  {
+    "backup_date": "2026-03-30",
+    "opinions_meta": [
+      {
+        "messageId": "805",
+        "type": "opinions_meta",
+        "digest": "morning",
+        "kind": "audit"
+      }
+    ],
+    "opinions": [
+      {
+        "messageId": "679"
+      }
+    ]
+  },
+  {
+    "type": "news_meta",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "kind": "header",
+    "ts": 1774904400000,
+    "messageId": "3737"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3738",
+    "text": "Microsoft has revamped its Copilot AI with integration from Anthropic's Claude, introducing features like a Model Council for side-by-side model comparisons to address hallucinations and boost reliability amid competition from Google's Gemini.\nSource: https://fortune.com/2026/03/31/microsoft-revamps-copilot-with-anthropic/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3739",
+    "text": "California Governor Gavin Newsom signed an executive order on Monday requiring AI companies doing business with the state to follow guidelines preventing bias, civil rights violations, free speech issues, or distribution of illegal content like child sexual abuse material; this escalates tensions with President Donald Trump.\nSource: https://fortune.com/2026/03/31/microsoft-revamps-copilot-with-anthropic/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3740",
+    "text": "A federal judge ruled it illegal for the U.S. government to label Anthropic and its Claude AI as a supply-chain security risk.\nSource: https://defensecommunities.org/2026/03/anthropic-ai-ban-deemed-illegal-by-judge/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3741",
+    "text": "OpenAI abruptly discontinued its Sora AI video generator earlier this month, surprising partners like Disney (who learned just an hour before the announcement), per a Wall Street Journal report.\nSource: https://fortune.com/2026/03/31/microsoft-revamps-copilot-with-anthropic/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3742",
+    "text": "Nvidia CEO Jensen Huang claimed the company has \"achieved AGI,\" though definitions of artificial general intelligence remain disputed.\nSource: https://fortune.com/2026/03/31/microsoft-revamps-copilot-with-anthropic/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3743",
+    "text": "In marketing tech, agentic AI is shifting from demos to production infrastructure, with announcements like Optimove’s AI Decisioning Studio, CXApp’s CXAI platform, and Rezolve Ai raising 2026 revenue guidance to $360M after 543% H2 growth; governance challenges persist, as 53% of organizations lack comprehensive AI policies.\nSource: https://agilebrandguide.com/yesterdays-marketing-technology-news-march-31-2026/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3744",
+    "text": "Lucidya launched an Enterprise AI Agent platform post-$30M Series B, optimized for Arabic dialects with 92%+ accuracy.\nSource: https://agilebrandguide.com/yesterdays-marketing-technology-news-march-31-2026/"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-03-31",
+    "ts": 1774904400000,
+    "messageId": "3745",
+    "text": "PixVerse released V6 for advanced AI video generation.\nSource: https://agilebrandguide.com/yesterdays-marketing-technology-news-march-31-2026/"
+  }
+]
