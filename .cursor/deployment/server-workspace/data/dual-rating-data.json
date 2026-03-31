@@ -1,1 +1,72 @@
-{"backup_date":"2026-03-30","opinions_meta":[{"messageId":"805","type":"opinions_meta","digest":"morning","kind":"audit"}],"opinions":[{"messageId":"679"}] }
+
+{
+  "backup_date": "2026-03-30",
+  "opinions_meta": [{"messageId":"805","type":"opinions_meta","digest":"morning","kind":"audit"}],
+  "opinions": [{"messageId":"679"}],
+  "messageHistory": [
+    {
+      "messageId": "681",
+      "expert": "Кэлвин Чжан",
+      "source": "mentoday.ru",
+      "category": "ИИ, Прогресс, Тестирование",
+      "title": "Кэлвин Чжан о прогрессе ИИ и «Последнем экзамене человечества»",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "682",
+      "expert": "Специалисты по кибербезопасности",
+      "source": "selsup.ru",
+      "category": "ИИ, Кибербезопасность, Риски",
+      "title": "Эксперты Dark Reading о рисках ИИ-агентов в кибербезопасности",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "683",
+      "expert": "Эксперты CNews",
+      "source": "corp.cnews.ru",
+      "category": "ИИ, Бизнес, Профессии, Россия",
+      "title": "Влияние ИИ на бизнес-процессы в России и ограничения ИИ",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "684",
+      "expert": "Руководители компаний",
+      "source": "habr.com",
+      "category": "ИИ, Бизнес, Ожидания",
+      "title": "Ожидания от ИИ в бизнесе",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "685",
+      "expert": "Эксперты AiConf 2026",
+      "source": "habr.com",
+      "category": "ИИ, Применение, Конференции",
+      "title": "Практическое применение ИИ на конференциях",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "686",
+      "expert": "Эксперты (Perplexity AI)",
+      "source": "perplexity.ai",
+      "category": "ИИ, Риски, Ожидания, Подготовка",
+      "title": "К ИИ нужно подходить с реализмом и готовиться к рискам",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "687",
+      "expert": "ВЦИОМ",
+      "source": "wciom.ru",
+      "category": "ИИ, Общество, Доверие, ВЦИОМ",
+      "title": "Доверие россиян к ИИ стабилизировалось",
+      "timestamp": "1774945825741"
+    },
+    {
+      "messageId": "688",
+      "expert": "Эксперты Билайн Big Data & AI",
+      "source": "ria.ru",
+      "category": "ИИ, Агенты, Бизнес, Автономия",
+      "title": "Будущее ИИ-агентов: удешевление, помощь бизнесу, автономия",
+      "timestamp": "1774945825741"
+    }
+  ]
+}
