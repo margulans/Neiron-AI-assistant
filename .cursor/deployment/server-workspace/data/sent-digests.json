@@ -1,1 +1,1 @@
-[{"backup_date":"2026-04-01","opinions_meta":[{"messageId":"821","type":"opinions_meta","digest":"morning","kind":"audit"}],"opinions":[{"messageId":"818"},{"messageId":"819"},{"messageId":"820"}]}]
+{"type":"opinions_meta","digest":"morning","date":"2026-04-01","kind":"audit","ts":1775014212549,"messageId":"mid_audit"}
