@@ -1,0 +1,131 @@
+{
+  "messageHistory": [
+    {
+      "messageId": "726",
+      "expert": "Эксперты в медицине",
+      "source": "https://expert.ru/analitika/kak-ii-prevrashchaet-vrachebnuyu-intuitsiyu-в-prognoziruemuyu-pribyl/",
+      "category": "Медицина",
+      "title": "ИИ в медицине: повышение продуктивности",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "727",
+      "expert": "Эксперты по рынку труда",
+      "source": "https://ko.ru/articles/sotrudnik-novogo-vremeni-ii-menyaet-представления-о-рабочей-продуктивности/",
+      "category": "Рынок труда",
+      "title": "ИИ и ценность сотрудника на рынке труда",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "728",
+      "expert": "Эксперты по кибербезопасности",
+      "source": "https://www.kp.ru/online/news/6898827/",
+      "category": "Кибербезопасность",
+      "title": "ИИ и новые угрозы безопасности: дипфейки и фишинг",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "729",
+      "expert": "Психологи",
+      "source": "https://lite.mir24.tv/articles/16665459/my-stanovimsya-cifrovymi-narcissami.-psihologi-rasskazali-kak-nejroseti-menyayut-nashe-vospriyatie-realnosti",
+      "category": "Общество",
+      "title": "ИИ и социальные эффекты: снижение коммуникативных навыков",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "730",
+      "expert": "Эксперты по будущим технологиям/этике ИИ",
+      "source": "https://science.mail.ru/articles/46494-yazyk-i-obshchenie-budushhego/",
+      "category": "Будущее/Этика ИИ",
+      "title": "ИИ и риск чтения мыслей: угроза приватности",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "731",
+      "expert": "Эксперты по технологиям",
+      "source": "https://habr.com/ru/articles/1018226/",
+      "category": "Технологии",
+      "title": "Скепсис в отношении переоценки возможностей ИИ",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "732",
+      "expert": "Эксперт (CEO)",
+      "source": "https://devby.io/news/glavnaya-oshibka-ceo-в-работе-с-ii-mnenie-eksperta",
+      "category": "Бизнес/Менеджмент",
+      "title": "Главная ошибка CEO в работе с ИИ",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "733",
+      "expert": "Эксперты по рынку труда",
+      "source": "https://ko.ru/articles/sotrudnik-novogo-vremeni-ii-menyaet-predstavleniya-o-rabochey-produktivnosti/",
+      "category": "Рынок труда",
+      "title": "ИИ: трансформация задач, а не профессий",
+      "timestamp": 1775136607046
+    },
+    {
+      "messageId": "825",
+      "source": "https://www.artificialintelligence-news.com",
+      "category": "Технологии",
+      "title": "Google расширила доступ к инструментам Veo 3 AI для создания видео на Vertex AI",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "826",
+      "source": "https://www.artificialintelligence-news.com",
+      "category": "Технологии",
+      "title": "KiloClaw запустила инструмент для управления автономными агентами",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "827",
+      "source": "https://www.artificialintelligence-news.com",
+      "category": "Технологии",
+      "title": "Роботизированная автоматизация процессов (RPA) развивается за счет интеграции с ИИ",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "828",
+      "source": "https://www.youtube.com/watch?v=Bo19sXssYXI",
+      "category": "Технологии",
+      "title": "В подкасте Google DeepMind от 2 апреля обсуждалось рекурсивное самосовершенствование ИИ",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "829",
+      "source": "https://www.artificialintelligence-news.com",
+      "category": "Технологии",
+      "title": "IBM представила прорывной аналоговый чип ИИ",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "830",
+      "source": "https://www.artificialintelligence-news.com",
+      "category": "Технологии",
+      "title": "Партнерство ABB и NVIDIA в области физического ИИ",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "831",
+      "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+      "category": "Рынок труда",
+      "title": "Внедрение ИИ меняет рынок труда",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "832",
+      "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+      "category": "Технологии",
+      "title": "Мировые расходы на ИИ растут",
+      "timestamp": 1775136800000
+    },
+    {
+      "messageId": "833",
+      "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+      "category": "Общество",
+      "title": "Опасения по поводу ИИ: потеря рабочих мест, дипфейки и риски",
+      "timestamp": 1775136800000
+    }
+  ]
+}

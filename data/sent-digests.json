@@ -1,1 +1,124 @@
-[{"type":"opinions_meta","digest":"afternoon","date":"2026-03-30","kind":"audit","messageId":"mid_audit"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Обсуждение возможностей AI для улучшения бизнеса","url":"https://www.digitalapplied.com/blog/march-2026-ai-roundup-month-that-changed-everything","keywords":["AI","бизнес","инновации"],"messageId":"mid_1"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Перспективы развития автономных машин","url":"https://www.thehumansintheloop.ai/p/the-top-30-ai-stories-from-march","keywords":["AI","автономия","технологии"],"messageId":"mid_2"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Воздействие AI на рынок труда","url":"https://etcjournal.com/2026/03/28/ais-power-profile-in-march-2026-its-not-just-speed/","keywords":["AI","трудовая_сила","экономика"],"messageId":"mid_3"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Этика AI: важность прозрачности","url":"https://aievaluation.substack.com/p/2026-march-ai-evaluation-digest","keywords":["AI","этика","прозрачность"],"messageId":"mid_4"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Роль AI в совершении преступлений","url":"https://hai.stanford.edu/news/stanford-ai-experts-predict-what-will-happen-in-2026","keywords":["AI","безопасность","правоохранительные_органы"],"messageId":"mid_5"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Как AI меняет мир бизнеса","url":"https://www.universityofcalifornia.edu/news/11-things-ai-experts-are-watching-2026","keywords":["AI","бизнес","технологии"],"messageId":"mid_6"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"AI и будущее маркетинга","url":"https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/","keywords":["AI","маркетинг","технологии"],"messageId":"mid_7"},{"type":"opinions","digest":"afternoon","date":"2026-03-30","category":"AI","title":"Проблемы разработки AI и их решение","url":"https://radicaldatascience.wordpress.com/2026/03/26/ai-news-briefs-bulletin-board-for-march-2026/","keywords":["AI","разработка","проблемы"],"messageId":"mid_8"}]
+[
+  {
+    "type": "news",
+    "digest": "day",
+    "title": "Latest AI Developments",
+    "articles": [
+      {
+        "headline": "Mastercard Demonstrates AI-Powered Autonomous Payments",
+        "source": "Artificial Intelligence News",
+        "link": "https://www.artificialintelligence-news.com"
+      },
+      {
+        "headline": "KPMG: Growth in AI Spending vs. Business Value",
+        "source": "Brown University",
+        "link": "https://www.brown.edu/news/2026-04-01"
+      },
+      {
+        "headline": "Yann LeCun Challenges Focus on Large Language Models",
+        "source": "Brown University",
+        "link": "https://www.brown.edu/news/2026-04-01"
+      },
+      {
+        "headline": "82% of Experts Believe AI Will Significantly Shape Society",
+        "source": "Elon University",
+        "link": "https://www.elon.edu/u/news/2026-04-01"
+      }
+    ]
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "825",
+    "title": "Google расширила доступ к инструментам Veo 3 AI для создания видео на Vertex AI",
+    "source": "https://www.artificialintelligence-news.com",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "826",
+    "title": "KiloClaw запустила инструмент для управления автономными агентами",
+    "source": "https://www.artificialintelligence-news.com",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "827",
+    "title": "Роботизированная автоматизация процессов (RPA) развивается за счет интеграции с ИИ",
+    "source": "https://www.artificialintelligence-news.com",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "828",
+    "title": "В подкасте Google DeepMind от 2 апреля обсуждалось рекурсивное самосовершенствование ИИ",
+    "source": "https://www.youtube.com/watch?v=Bo19sXssYXI",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "829",
+    "title": "IBM представила прорывной аналоговый чип ИИ",
+    "source": "https://www.artificialintelligence-news.com",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "830",
+    "title": "Партнерство ABB и NVIDIA в области физического ИИ",
+    "source": "https://www.artificialintelligence-news.com",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "831",
+    "title": "Внедрение ИИ меняет рынок труда",
+    "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "832",
+    "title": "Мировые расходы на ИИ растут",
+    "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "messageId": "833",
+    "title": "Опасения по поводу ИИ: потеря рабочих мест, дипфейки и риски",
+    "source": "https://www.montanarightnow.com/news/state/new-ai-world-fear-of-the-unknown-meets-fear-of-missing-out/article_085608d3-3bdf-57f2-b5ba-480962a46c26.html",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "kind": "header",
+    "ts": 1775136800000
+  },
+  {
+    "type": "news_meta",
+    "digest": "morning",
+    "date": "03.04.2026",
+    "kind": "audit",
+    "ts": 1775136800000
+  }
+]
