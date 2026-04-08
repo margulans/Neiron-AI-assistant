@@ -1,1 +1,20 @@
-[{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"803"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"804"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"805"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"806"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"807"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"808"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"809"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"810"},{"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"811"},{"type":"news_meta","digest":"evening","date":"2026-04-07","kind":"header","ts":1775566811480,"messageId":"3810"}]
+[
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"803"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"804"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"805"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"806"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"807"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"808"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"809"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"810"},
+  {"type":"opinions","digest":"morning","date":"2026-04-07","messageId":"811"},
+  {"type":"news_meta","digest":"evening","date":"2026-04-07","kind":"header","ts":1775566811480,"messageId":"3810"},
+  {"type":"news_meta","digest":"morning","date":"2026-04-08","kind":"header","ts":1775702400000,"messageId":"904"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"905"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"906"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"907"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"908"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"909"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"910"},
+  {"type":"news","digest":"morning","date":"2026-04-08","messageId":"911"}
+]
