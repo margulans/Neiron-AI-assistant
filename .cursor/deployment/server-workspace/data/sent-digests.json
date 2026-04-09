@@ -1,7 +1,7 @@
 [
   {
     "type": "news_meta",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "kind": "header",
     "ts": 1775722111545,
@@ -9,7 +9,7 @@
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "category": "Технологии/Бизнес",
     "title": "Uber переносит real-time матчинг на AWS Graviton4 и пилотирует обучение моделей на Trainium3",
@@ -25,7 +25,7 @@
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "category": "Технологии/Бизнес/Инвестиции",
     "title": "Canva купила Simtheory и Ortto для усиления agentic AI и маркетинг-автоматизации",
@@ -42,7 +42,7 @@
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "category": "eVTOL/Инвестиции/Технологии",
     "title": "Vertical Aerospace: пилотируемый переход eVTOL из hover в wingborne flight (thrustborne transition)",
@@ -57,7 +57,7 @@
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "category": "ИИ/Технологии/Бизнес",
     "title": "Cerence xUI (LLM) для BYD: расширение партнерства и запуск в новых моделях весной",
@@ -73,7 +73,7 @@
   },
   {
     "type": "news",
-    "digest": "day",
+    "digest": "evening",
     "date": "2026-04-09",
     "category": "ИИ/Бизнес/Технологии",
     "title": "Taboola: DeeperDive вырос до ~7 млн MAU и расширился на 6 языков",
@@ -86,5 +86,36 @@
       "MAU"
     ],
     "messageId": "926"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-09",
+    "category": "Кибербезопасность",
+    "title": "Project Glasswing: сотрудничество Anthropic с AWS, Apple, Google для обеспечения безопасности программного обеспечения",
+    "url": "https://www.anthropic.com/glasswing",
+    "keywords": [
+      "Anthropic",
+      "AWS",
+      "Apple",
+      "Google",
+      "AI",
+      "cybersecurity"
+    ],
+    "messageId": "927"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-09",
+    "category": "ИИ/Технологии",
+    "title": "Обновления от Meta AI по Advanced AI Scaling Framework и Muse Spark",
+    "url": "https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/",
+    "keywords": [
+      "Meta",
+      "AI",
+      "scaling"
+    ],
+    "messageId": "928"
   }
 ]
