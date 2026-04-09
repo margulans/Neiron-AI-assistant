@@ -1,1 +1,90 @@
-[{"type":"opinions","digest":"afternoon","date":"2026-03-15","backup":"done"}]
+[
+  {
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-09",
+    "kind": "header",
+    "ts": 1775722111545,
+    "messageId": "921"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "Технологии/Бизнес",
+    "title": "Uber переносит real-time матчинг на AWS Graviton4 и пилотирует обучение моделей на Trainium3",
+    "url": "https://www.aboutamazon.com/news/aws/aws-uber-ai-trainium-graviton",
+    "keywords": [
+      "AWS",
+      "Uber",
+      "Graviton4",
+      "Trainium3",
+      "AI"
+    ],
+    "messageId": "922"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "Технологии/Бизнес/Инвестиции",
+    "title": "Canva купила Simtheory и Ortto для усиления agentic AI и маркетинг-автоматизации",
+    "url": "https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/",
+    "keywords": [
+      "Canva",
+      "Simtheory",
+      "Ortto",
+      "agentic AI",
+      "marketing automation",
+      "M&A"
+    ],
+    "messageId": "923"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "eVTOL/Инвестиции/Технологии",
+    "title": "Vertical Aerospace: пилотируемый переход eVTOL из hover в wingborne flight (thrustborne transition)",
+    "url": "https://www.aaminternational.com/2026/04/vertical-aerospace-completes-first-piloted-evtol-thrustborne-transition/",
+    "keywords": [
+      "eVTOL",
+      "Vertical Aerospace",
+      "certification",
+      "transition flight"
+    ],
+    "messageId": "924"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "ИИ/Технологии/Бизнес",
+    "title": "Cerence xUI (LLM) для BYD: расширение партнерства и запуск в новых моделях весной",
+    "url": "https://investors.cerence.com/news-events/press-releases/detail/374/cerence-ai-to-power-intelligent-llm-powered-in-car-experiences-for-byd",
+    "keywords": [
+      "BYD",
+      "Cerence",
+      "LLM",
+      "in-car assistant",
+      "CaLLM"
+    ],
+    "messageId": "925"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "ИИ/Бизнес/Технологии",
+    "title": "Taboola: DeeperDive вырос до ~7 млн MAU и расширился на 6 языков",
+    "url": "https://www.prnewswire.com/apac/news-releases/deeperdive-taboolas-genai-answer-engine-for-the-open-web-reaches-nearly-7-million-monthly-active-users-eight-months-after-launch-emerging-as-one-of-the-largest-ai-answer-engines-302737617.html",
+    "keywords": [
+      "Taboola",
+      "DeeperDive",
+      "GenAI",
+      "publishers",
+      "MAU"
+    ],
+    "messageId": "926"
+  }
+]

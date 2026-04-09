@@ -1,1 +1,90 @@
-[{"type":"opinions_meta","digest":"morning","date":"2026-04-09","kind":"audit","ts":1681036238402,"messageId":"835"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"AI in 2026","title":"AI shows commitment and capabilities, yet faces challenges.","url":"https://hbr.org/2026/04/managers-and-executives-disagree-on-ai-and-its-costing-companies","keywords":["AI","HealthCare","AI Integration"],"messageId":"825"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"AI's Generative Impact","title":"Generative AI raises reliability concerns.","url":"https://ldi.upenn.edu/our-work/research-updates/u-s-ai-boom-could-cause-health-care-costs-to-soar-without-changes-to-payment-policy/","keywords":["GenerativeAI","Challenges"],"messageId":"826"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"Challenges Across AI","title":"Organizations shift to major AI investments post-ChatGPT.","url":"","keywords":["AI Integration","Business"],"messageId":"827"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"Outcomes Over Inputs","title":"Current U.S. system may not support AI productivity gains.","url":"","keywords":["AI","Economic Impact"],"messageId":"828"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"AI and the Future of Work","title":"AI may increase healthcare costs without payment reform.","url":"","keywords":["AI","FutureWork"],"messageId":"829"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"Balancing AI Benefits","title":"AI exceeds professionals in echocardiograms but requires policy reform.","url":"","keywords":["AI","Innovation"],"messageId":"830"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"The Evolving Workforce","title":"New jobs may emerge from AI advancements.","url":"","keywords":["AI","JobMarket"],"messageId":"831"},{"type":"opinions","digest":"morning","date":"2026-04-09","category":"Future Readiness with AI","title":"AI will change job markets, policies needed for fair transitions.","url":"","keywords":["AI","Adaptation"],"messageId":"832"}]}
+[
+  {
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-09",
+    "kind": "header",
+    "ts": 1775722111545,
+    "messageId": "921"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "Технологии/Бизнес",
+    "title": "Uber переносит real-time матчинг на AWS Graviton4 и пилотирует обучение моделей на Trainium3",
+    "url": "https://www.aboutamazon.com/news/aws/aws-uber-ai-trainium-graviton",
+    "keywords": [
+      "AWS",
+      "Uber",
+      "Graviton4",
+      "Trainium3",
+      "AI"
+    ],
+    "messageId": "922"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "Технологии/Бизнес/Инвестиции",
+    "title": "Canva купила Simtheory и Ortto для усиления agentic AI и маркетинг-автоматизации",
+    "url": "https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/",
+    "keywords": [
+      "Canva",
+      "Simtheory",
+      "Ortto",
+      "agentic AI",
+      "marketing automation",
+      "M&A"
+    ],
+    "messageId": "923"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "eVTOL/Инвестиции/Технологии",
+    "title": "Vertical Aerospace: пилотируемый переход eVTOL из hover в wingborne flight (thrustborne transition)",
+    "url": "https://www.aaminternational.com/2026/04/vertical-aerospace-completes-first-piloted-evtol-thrustborne-transition/",
+    "keywords": [
+      "eVTOL",
+      "Vertical Aerospace",
+      "certification",
+      "transition flight"
+    ],
+    "messageId": "924"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "ИИ/Технологии/Бизнес",
+    "title": "Cerence xUI (LLM) для BYD: расширение партнерства и запуск в новых моделях весной",
+    "url": "https://investors.cerence.com/news-events/press-releases/detail/374/cerence-ai-to-power-intelligent-llm-powered-in-car-experiences-for-byd",
+    "keywords": [
+      "BYD",
+      "Cerence",
+      "LLM",
+      "in-car assistant",
+      "CaLLM"
+    ],
+    "messageId": "925"
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-09",
+    "category": "ИИ/Бизнес/Технологии",
+    "title": "Taboola: DeeperDive вырос до ~7 млн MAU и расширился на 6 языков",
+    "url": "https://www.prnewswire.com/apac/news-releases/deeperdive-taboolas-genai-answer-engine-for-the-open-web-reaches-nearly-7-million-monthly-active-users-eight-months-after-launch-emerging-as-one-of-the-largest-ai-answer-engines-302737617.html",
+    "keywords": [
+      "Taboola",
+      "DeeperDive",
+      "GenAI",
+      "publishers",
+      "MAU"
+    ],
+    "messageId": "926"
+  }
+]
