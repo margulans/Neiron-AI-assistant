@@ -1,1 +1,165 @@
-[{"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 1","ts":1691817600000} ,{"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 2","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 3","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 4","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 5","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 6","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 7","ts":1691817600000}, {"type":"opinions","digest":"morning","date":"2026-04-10","opinion":"Opinion 8","ts":1691817600000} ,{"type":"opinions_meta","digest":"morning","date":"2026-04-10","kind":"audit","ts":1691817600000}]}
+[
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 1",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 2",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 3",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 4",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 5",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 6",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 7",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "opinion": "Opinion 8",
+    "ts": 1691817600000
+  },
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "ts": 1691817600000
+  },
+  {
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-10",
+    "kind": "header",
+    "messageId": "944",
+    "ts": 1775808232516
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "945",
+    "ts": 1775808254617
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "946",
+    "ts": 1775808275824
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "947",
+    "ts": 1775808285930
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "948",
+    "ts": 1775808295295
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "949",
+    "ts": 1775808306878
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "950",
+    "ts": 1775808316004
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "951",
+    "ts": 1775808324182
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "952",
+    "ts": 1775808345290
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "953",
+    "ts": 1775808376619
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "954",
+    "ts": 1775808385030
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "955",
+    "ts": 1775808396959
+  },
+  {
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "messageId": "956",
+    "ts": 1775808422571
+  },
+  {
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "messageId": "957",
+    "ts": 1775808430686
+  }
+]

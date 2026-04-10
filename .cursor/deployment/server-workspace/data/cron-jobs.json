@@ -179,9 +179,9 @@
       "id": "a0ed4696-8c15-4ab2-b21d-e3e2e9a0b6b6",
       "agentId": "main",
       "name": "Дневной дайджест @newsneiron",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770543655002,
-      "updatedAtMs": 1772778362264,
+      "updatedAtMs": 1775722200108,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -197,13 +197,14 @@
         "timeoutSeconds": 600
       },
       "state": {
-        "lastRunAtMs": 1772265633166,
-        "lastStatus": "ok",
-        "lastDurationMs": 62163,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastRunAtMs": 1775721600060,
+        "lastStatus": "error",
+        "lastDurationMs": 600048,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "not-requested",
+        "nextRunAtMs": 1775808000000,
+        "runningAtMs": 1775808000052
       },
       "delivery": {
         "mode": "none"
@@ -214,9 +215,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🚨 BACKUP: Дневной дайджест (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644839690,
-      "updatedAtMs": 1772778326177,
+      "updatedAtMs": 1775722292313,
       "schedule": {
         "kind": "cron",
         "expr": "5 13 * * *",
@@ -235,22 +236,25 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772265900055,
-        "lastStatus": "ok",
-        "lastDurationMs": 67928,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
+        "lastRunAtMs": 1775722200220,
+        "lastStatus": "error",
+        "lastDurationMs": 92093,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775808300000,
+        "lastError": "⚠️ ✍️ Write: `to ~/data/sent-digests.json (2680 chars)` failed",
+        "lastDeliveryError": "⚠️ ✍️ Write: `to ~/data/sent-digests.json (2680 chars)` failed"
       }
     },
     {
       "id": "ba31c42d-be5d-486e-9897-6fb4fa6ae2ed",
       "agentId": "main",
       "name": "Дневные мнения",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770522310056,
-      "updatedAtMs": 1772778377919,
+      "updatedAtMs": 1775723417407,
       "schedule": {
         "kind": "cron",
         "expr": "30 13 * * *",
@@ -266,13 +270,14 @@
         "timeoutSeconds": 900
       },
       "state": {
-        "lastRunAtMs": 1772267400061,
+        "lastRunAtMs": 1775723400057,
         "lastStatus": "ok",
-        "lastDurationMs": 166848,
+        "lastDurationMs": 17350,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
-        "lastDelivered": false
+        "lastDelivered": false,
+        "nextRunAtMs": 1775809800000
       },
       "delivery": {
         "mode": "none"
@@ -283,9 +288,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🚨 BACKUP: Дневные мнения (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644988124,
-      "updatedAtMs": 1772778393225,
+      "updatedAtMs": 1775724737803,
       "schedule": {
         "kind": "cron",
         "expr": "50 13 * * *",
@@ -304,15 +309,16 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772268600022,
+        "lastRunAtMs": 1775724600057,
         "lastStatus": "error",
-        "lastDurationMs": 56936,
-        "consecutiveErrors": 1,
+        "lastDurationMs": 137746,
+        "consecutiveErrors": 11,
         "lastRunStatus": "error",
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
-        "lastError": "⚠️ ✉️ Message failed",
-        "lastDeliveryError": "⚠️ ✉️ Message failed"
+        "nextRunAtMs": 1775811000000,
+        "lastDeliveryError": "⚠️ 📝 Edit: `in ~/Clowdbot/data/sent-digests.json (2193 chars)` failed",
+        "lastError": "⚠️ 📝 Edit: `in ~/Clowdbot/data/sent-digests.json (2193 chars)` failed"
       }
     },
     {
@@ -353,9 +359,9 @@
       "id": "582cc3f0-9941-4e74-ae77-0afac52c6258",
       "agentId": "main",
       "name": "Вечерний дайджест @newsneiron",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770275698751,
-      "updatedAtMs": 1772778318786,
+      "updatedAtMs": 1775739647741,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -371,12 +377,13 @@
         "timeoutSeconds": 1200
       },
       "state": {
-        "lastRunAtMs": 1772197200047,
+        "lastRunAtMs": 1775739600053,
         "lastStatus": "ok",
-        "lastDurationMs": 215656,
+        "lastDurationMs": 47688,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775826000000,
         "lastDelivered": false
       },
       "delivery": {
@@ -388,9 +395,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🚨 BACKUP: Вечерний дайджест (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644839715,
-      "updatedAtMs": 1772778399028,
+      "updatedAtMs": 1775740013084,
       "schedule": {
         "kind": "cron",
         "expr": "5 18 * * *",
@@ -409,13 +416,14 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772197577389,
+        "lastRunAtMs": 1775739900032,
         "lastStatus": "ok",
-        "lastDurationMs": 97330,
+        "lastDurationMs": 113052,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775826300000
       }
     },
     {
@@ -423,9 +431,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🚨 BACKUP: Вечерние мнения (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644988152,
-      "updatedAtMs": 1772778345142,
+      "updatedAtMs": 1775742802213,
       "schedule": {
         "kind": "cron",
         "expr": "50 18 * * *",
@@ -444,13 +452,16 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772200425658,
-        "lastStatus": "ok",
-        "lastDurationMs": 98155,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
+        "lastRunAtMs": 1775742600043,
+        "lastStatus": "error",
+        "lastDurationMs": 202170,
+        "consecutiveErrors": 11,
+        "lastRunStatus": "error",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775829000000,
+        "lastDeliveryError": "⚠️ ✍️ Write: `to ~/Clowdbot/data/sent-digests.json (2257 chars)` failed",
+        "lastError": "⚠️ ✍️ Write: `to ~/Clowdbot/data/sent-digests.json (2257 chars)` failed"
       }
     },
     {
@@ -597,9 +608,9 @@
       "id": "1c292387-c997-46f1-b8a1-e5fd40059713",
       "agentId": "main",
       "name": "Утренний дайджест @newsneiron",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770275670265,
-      "updatedAtMs": 1772778294551,
+      "updatedAtMs": 1775790230200,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -615,15 +626,14 @@
         "timeoutSeconds": 900
       },
       "state": {
-        "lastRunAtMs": 1772265154828,
-        "lastStatus": "error",
-        "lastDurationMs": 400723,
-        "consecutiveErrors": 3,
-        "lastRunStatus": "error",
+        "lastRunAtMs": 1775790000059,
+        "lastStatus": "ok",
+        "lastDurationMs": 230141,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
         "lastDelivered": false,
-        "lastDeliveryError": "An unknown error occurred",
-        "lastError": "An unknown error occurred"
+        "nextRunAtMs": 1775876400000
       },
       "delivery": {
         "mode": "none"
@@ -634,9 +644,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "🚨 BACKUP: Утренний дайджест (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644839665,
-      "updatedAtMs": 1772778385244,
+      "updatedAtMs": 1775790450992,
       "schedule": {
         "kind": "cron",
         "expr": "5 8 * * *",
@@ -655,24 +665,25 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772247905335,
+        "lastRunAtMs": 1775790300034,
         "lastStatus": "error",
-        "lastDurationMs": 66065,
-        "consecutiveErrors": 1,
+        "lastDurationMs": 150958,
+        "consecutiveErrors": 3,
         "lastRunStatus": "error",
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
-        "lastError": "⚠️ ✉️ Message: `@newsneiron` failed",
-        "lastDeliveryError": "⚠️ ✉️ Message: `@newsneiron` failed"
+        "nextRunAtMs": 1775876700000,
+        "lastDeliveryError": "⚠️ 📝 Edit: `in ~/.openclaw/workspace/data/sent-digests.json (273 chars)` failed",
+        "lastError": "⚠️ 📝 Edit: `in ~/.openclaw/workspace/data/sent-digests.json (273 chars)` failed"
       }
     },
     {
       "id": "6d4944f0-7679-4c5f-b22d-49afc05158b2",
       "agentId": "main",
       "name": "Утренние мнения",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770522295821,
-      "updatedAtMs": 1772778331829,
+      "updatedAtMs": 1775791901670,
       "schedule": {
         "kind": "cron",
         "expr": "30 8 * * *",
@@ -688,13 +699,14 @@
         "timeoutSeconds": 1200
       },
       "state": {
-        "lastRunAtMs": 1772249437321,
+        "lastRunAtMs": 1775791800052,
         "lastStatus": "ok",
-        "lastDurationMs": 105172,
+        "lastDurationMs": 101618,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775878200000
       },
       "delivery": {
         "mode": "none"
@@ -705,9 +717,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:main",
       "name": "BACKUP: Утренние мнения (Gemini)",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1771644988095,
-      "updatedAtMs": 1772778286929,
+      "updatedAtMs": 1775793069262,
       "schedule": {
         "kind": "cron",
         "expr": "50 8 * * *",
@@ -726,13 +738,14 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772250897618,
+        "lastRunAtMs": 1775793000057,
         "lastStatus": "ok",
-        "lastDurationMs": 151635,
+        "lastDurationMs": 69205,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "nextRunAtMs": 1775879400000
       }
     },
     {
@@ -831,9 +844,9 @@
       "id": "7e21383e-9595-4cae-ac86-498615a41c05",
       "agentId": "main",
       "name": "Еженедельный анализ источников exploration",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770278976216,
-      "updatedAtMs": 1772581830358,
+      "updatedAtMs": 1775365319105,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0",
@@ -848,12 +861,13 @@
         "text": "📊 Еженедельный анализ системы exploration источников! Запусти скрипт анализа и отправь отчет Маргулану:\\n\\n1. Выполни: node weekly-exploration-analysis.js\\n2. Проанализируй результаты по правилу 33%\\n3. Отправь отчет с рекомендациями по новым источникам\\n4. Обнови приоритеты источников в системе\\n\\nФокус на поиске качественных новых источников по ИИ, робототехнике, eVTOL, бизнесу и инвестициям для улучшения дайджестов."
       },
       "state": {
-        "lastRunAtMs": 1772341200046,
+        "lastRunAtMs": 1775365200055,
         "lastStatus": "ok",
-        "lastDurationMs": 254193,
+        "lastDurationMs": 119050,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDeliveryStatus": "not-requested"
+        "lastDeliveryStatus": "not-requested",
+        "nextRunAtMs": 1775970000000
       }
     },
     {
@@ -1608,9 +1622,9 @@
     {
       "id": "1ebe95ac-91c9-45e5-a758-a1ff5be367e4",
       "name": "Вечерние мнения",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1772026267738,
-      "updatedAtMs": 1772778296351,
+      "updatedAtMs": 1775741412161,
       "schedule": {
         "kind": "cron",
         "expr": "30 18 * * *",
@@ -1629,14 +1643,14 @@
         "channel": "last"
       },
       "state": {
-        "lastRunAtMs": 1772199000048,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 152532,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 1,
-        "lastError": "An unknown error occurred"
+        "lastRunAtMs": 1775741400069,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 12092,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "nextRunAtMs": 1775827800000
       }
     },
     {
@@ -1644,9 +1658,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "Digest Weekly Improvement",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1772036532444,
-      "updatedAtMs": 1772778288891,
+      "updatedAtMs": 1775363428187,
       "schedule": {
         "kind": "cron",
         "expr": "30 4 * * 0",
@@ -1665,13 +1679,14 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1772339400047,
+        "lastRunAtMs": 1775363400028,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 54300,
+        "lastDurationMs": 28159,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "nextRunAtMs": 1775968200000
       }
     },
     {
@@ -2285,9 +2300,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:telegram:direct:685668909",
       "name": "🦞 Lobster: Git sync (REAL controlled cutover)",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772201614692,
-      "updatedAtMs": 1773227629823,
+      "updatedAtMs": 1773231589999,
       "schedule": {
         "kind": "every",
         "everyMs": 3600000,
@@ -2306,15 +2321,13 @@
         "mode": "none"
       },
       "state": {
-        "lastRunAtMs": 1773227621167,
+        "lastRunAtMs": 1773231221215,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 8656,
+        "lastDurationMs": 15862,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "nextRunAtMs": 1773231221167,
-        "runningAtMs": 1773231221210
+        "consecutiveErrors": 0
       }
     },
     {
@@ -2467,6 +2480,41 @@
         "lastDurationMs": 15306,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "17265417-e1ac-48d7-993e-c4bf33a08258",
+      "name": "🎯 Дайджест интересов (еженедельный)",
+      "enabled": true,
+      "createdAtMs": 1773231301502,
+      "updatedAtMs": 1775368809950,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * 0",
+        "tz": "Asia/Almaty"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Запусти скилл interests-digest. Прочитай /home/openclaw/.openclaw/workspace/skills/interests-digest/SKILL.md и строго следуй алгоритму. Отправь дайджест Маргулану в личку (685668909) через message(action=send, channel=telegram, to=685668909, message=\"...\").",
+        "model": "google/gemini-2.5-flash",
+        "thinking": "low",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775973600000,
+        "lastRunAtMs": 1775368800069,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 9881,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0
       }
     }

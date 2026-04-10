@@ -1,1 +1,205 @@
-[{"type":"opinions_meta","digest":"morning","date":"2026-04-10","kind":"audit","ts":1691817600000},{"messageIds":["846","847","848","849","850","851","852","853"]}]
+[
+  {
+    "type": "opinions_meta",
+    "digest": "morning",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "ts": 1691817600000
+  },
+  {
+    "messageIds": [
+      "846",
+      "847",
+      "848",
+      "849",
+      "850",
+      "851",
+      "852",
+      "853"
+    ]
+  },
+  {
+    "messageId": "944",
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-10",
+    "kind": "header",
+    "title": "ДНЕВНОЙ ДАЙДЖЕСТ 13:00",
+    "category": "meta",
+    "source": {
+      "name": "system",
+      "url": ""
+    },
+    "timestamp": 1775808232516
+  },
+  {
+    "messageId": "945",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "AI",
+    "title": "Anthropic: модель слишком опасна для публичного релиза",
+    "source": {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/video/anthropic-claims-newest-ai-model-too-powerful-public-release/"
+    },
+    "timestamp": 1775808254617
+  },
+  {
+    "messageId": "946",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "AI",
+    "title": "Toolpath: AI-CAM ускоряет CNC/CAM программирование",
+    "source": {
+      "name": "Toolpath",
+      "url": "https://toolpath.com/webinars"
+    },
+    "timestamp": 1775808275824
+  },
+  {
+    "messageId": "947",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "VibeCoding",
+    "title": "Vibe coding: AI-код уязвим — предупреждение исследователей",
+    "source": {
+      "name": "Georgia Tech",
+      "url": "https://www.cc.gatech.edu/news/bad-vibes-ai-generated-code-vulnerable-researchers-warn"
+    },
+    "timestamp": 1775808285930
+  },
+  {
+    "messageId": "948",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Robotics",
+    "title": "Exol: роботизированный фулфилмент «как сервис» в США",
+    "source": {
+      "name": "Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/04/09/exol-launches-us-robotic-fulfillment-network-with-fulfillment-as-a-service-model/100462/"
+    },
+    "timestamp": 1775808295295
+  },
+  {
+    "messageId": "949",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "eVTOL",
+    "title": "Eve Air Mobility: 50 успешных тест-полётов прототипа eVTOL",
+    "source": {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/eve-air-mobility-builds-flight-test-momentum-with-50-successful-flights-302738432.html"
+    },
+    "timestamp": 1775808306878
+  },
+  {
+    "messageId": "950",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "eVTOL",
+    "title": "Vertical Aerospace: пилотируемый переходный полёт eVTOL (hover→cruise)",
+    "source": {
+      "name": "AIN Online",
+      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-04-06/vertical-achieves-piloted-evtol-transition-flight"
+    },
+    "timestamp": 1775808316004
+  },
+  {
+    "messageId": "951",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Business",
+    "title": "Accenture инвестирует в Replit для AI-driven разработки в enterprise",
+    "source": {
+      "name": "Accenture Newsroom",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-invests-in-replit-to-advance-ai-driven-software-development-for-enterprises"
+    },
+    "timestamp": 1775808324182
+  },
+  {
+    "messageId": "952",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Investing",
+    "title": "Applied Digital: сильный рост выручки и внимание к AI-инфраструктуре",
+    "source": {
+      "name": "AInvest",
+      "url": "https://www.ainvest.com/news/applied-digital-massive-q3-revenue-beat-surprise-priced-2604/"
+    },
+    "timestamp": 1775808345290
+  },
+  {
+    "messageId": "953",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Tech",
+    "title": "Trane Technologies: анонс колла по результатам 1Q 2026",
+    "source": {
+      "name": "Trane Technologies IR",
+      "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Schedules-First-Quarter-2026-Earnings-Conference-Call/default.aspx"
+    },
+    "timestamp": 1775808376619
+  },
+  {
+    "messageId": "954",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Investing",
+    "title": "BK Technologies: «undiscovered gem» в обзоре рынка",
+    "source": {
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/tech/nysemkt-bkti/bk-technologies/news/discovering-us-undiscovered-gems-in-april-2026-1"
+    },
+    "timestamp": 1775808385030
+  },
+  {
+    "messageId": "955",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Tech",
+    "title": "Mastercam 2026 R2: GPU симуляция и Copilot",
+    "source": {
+      "name": "Mastercam",
+      "url": "https://www.mastercam.com/about/media/mastercam-releases-2026-r2/"
+    },
+    "timestamp": 1775808396959
+  },
+  {
+    "messageId": "956",
+    "type": "news",
+    "digest": "day",
+    "date": "2026-04-10",
+    "category": "Robotics",
+    "title": "Rapyuta Robotics: обновления ASRS и pick-assist AMR перед MODEX 2026",
+    "source": {
+      "name": "Rapyuta Robotics",
+      "url": "https://www.rapyuta-robotics.com/2026/04/09/modex-2026-lineup-asrs-and-upgraded-pa-amr/"
+    },
+    "timestamp": 1775808422571
+  },
+  {
+    "messageId": "957",
+    "type": "news_meta",
+    "digest": "day",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "category": "meta",
+    "title": "Аудит дайджеста",
+    "source": {
+      "name": "system",
+      "url": ""
+    },
+    "timestamp": 1775808430686
+  }
+]
