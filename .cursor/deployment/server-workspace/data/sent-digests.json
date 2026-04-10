@@ -161,5 +161,91 @@
     "kind": "audit",
     "messageId": "957",
     "ts": 1775808430686
+  },
+  {
+    "type": "news_meta",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "kind": "header",
+    "ts": 1775826056656,
+    "messageId": "958"
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "959",
+    "ts": 1775826219630
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "960",
+    "ts": 1775826228842
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "961",
+    "ts": 1775826247686
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "962",
+    "ts": 1775826268604
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "963",
+    "ts": 1775826277177
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "964",
+    "ts": 1775826285181
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "965",
+    "ts": 1775826294454
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "966",
+    "ts": 1775826333982
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "967",
+    "ts": 1775826343162
+  },
+  {
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "messageId": "968",
+    "ts": 1775826352970
+  },
+  {
+    "type": "news_meta",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "ts": 1775826056656,
+    "messageId": "969"
   }
 ]

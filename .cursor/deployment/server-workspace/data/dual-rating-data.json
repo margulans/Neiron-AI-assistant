@@ -201,5 +201,163 @@
       "url": ""
     },
     "timestamp": 1775808430686
+  },
+  {
+    "messageId": "958",
+    "type": "news_meta",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "kind": "header",
+    "title": "ВЕЧЕРНИЙ ДАЙДЖЕСТ 18:00",
+    "category": "meta",
+    "source": {
+      "name": "system",
+      "url": ""
+    },
+    "timestamp": 1775826056656
+  },
+  {
+    "messageId": "959",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "AI",
+    "title": "Meta: Muse Spark — апгрейд после Llama 4",
+    "source": {
+      "name": "whatllm.org",
+      "url": "https://whatllm.org/blog/meta-is-back-muse-spark"
+    },
+    "timestamp": 1775826219630
+  },
+  {
+    "messageId": "960",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "AI",
+    "title": "Alibaba: инвестиция в Shengshu (Vidu) и world models",
+    "source": {
+      "name": "techbuzz.ai",
+      "url": "https://www.techbuzz.ai/articles/alibaba-bets-290m-on-world-models-as-llm-era-hits-limits"
+    },
+    "timestamp": 1775826228842
+  },
+  {
+    "messageId": "961",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Research",
+    "title": "arXiv: LLM-native artifacts для научной коммуникации",
+    "source": {
+      "name": "arXiv",
+      "url": "https://arxiv.org/html/2604.08491v1"
+    },
+    "timestamp": 1775826247686
+  },
+  {
+    "messageId": "962",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Robotics",
+    "title": "NVIDIA: National Robotics Week — physical AI и foundation models",
+    "source": {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/"
+    },
+    "timestamp": 1775826268604
+  },
+  {
+    "messageId": "963",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Robotics",
+    "title": "EBV Elektronik: MOVE platform для ускорения robotics development",
+    "source": {
+      "name": "EBV/Avnet",
+      "url": "https://my.avnet.com/ebv/about-us/about-ebv-elektronik/newsroom/press-releases/ebv-elektronik-unveils-move-platform-to-accelerate-next-generation-robotics-development/"
+    },
+    "timestamp": 1775826277177
+  },
+  {
+    "messageId": "964",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Robotics",
+    "title": "NAVSEA Carderock: продвижение robotic & autonomous systems",
+    "source": {
+      "name": "NAVSEA",
+      "url": "https://www.navsea.navy.mil/Media/News/Article/4455633/nswc-carderock-team-advances-robotic-and-autonomous-systems/"
+    },
+    "timestamp": 1775826285181
+  },
+  {
+    "messageId": "965",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Tech",
+    "title": "Amazon: conversational entertainment ads на Alexa+",
+    "source": {
+      "name": "Amazon Advertising",
+      "url": "https://advertising.amazon.com/en-us/resources/whats-new/conversational-entertainment-ads-on-alexa-plus/"
+    },
+    "timestamp": 1775826294454
+  },
+  {
+    "messageId": "966",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Security",
+    "title": "Cyberhaven: Enterprise AI Security Use Cases",
+    "source": {
+      "name": "Cyberhaven",
+      "url": "https://www.cyberhaven.com/blog/ai-security-use-cases"
+    },
+    "timestamp": 1775826333982
+  },
+  {
+    "messageId": "967",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "Business",
+    "title": "Flexera: 2026 AI Pulse Report — visibility gap и shadow AI",
+    "source": {
+      "name": "Flexera",
+      "url": "https://www.flexera.com/blog/perspectives/flexera-2026-ai-pulse-report-what-leaders-need-to-know-about-ais-accelerating-impact/"
+    },
+    "timestamp": 1775826343162
+  },
+  {
+    "messageId": "968",
+    "type": "news",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "category": "eVTOL",
+    "title": "IIT Madras: electric air taxi (eVTOL) E200 X — прототип",
+    "source": {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/watch?v=eX5xBNE9jBU"
+    },
+    "timestamp": 1775826352970
+  },
+  {
+    "messageId": "969",
+    "type": "news_meta",
+    "digest": "evening",
+    "date": "2026-04-10",
+    "kind": "audit",
+    "title": "Аудит дайджеста",
+    "category": "meta",
+    "source": {
+      "name": "system",
+      "url": ""
+    },
+    "timestamp": 1775826364003
   }
 ]
