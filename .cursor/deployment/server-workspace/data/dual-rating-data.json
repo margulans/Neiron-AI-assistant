@@ -1,363 +1,82 @@
-[
-  {
-    "type": "opinions_meta",
-    "digest": "morning",
-    "date": "2026-04-10",
-    "kind": "audit",
-    "ts": 1691817600000
-  },
-  {
-    "messageIds": [
-      "846",
-      "847",
-      "848",
-      "849",
-      "850",
-      "851",
-      "852",
-      "853"
-    ]
-  },
-  {
-    "messageId": "944",
-    "type": "news_meta",
-    "digest": "day",
-    "date": "2026-04-10",
-    "kind": "header",
-    "title": "ДНЕВНОЙ ДАЙДЖЕСТ 13:00",
-    "category": "meta",
-    "source": {
-      "name": "system",
-      "url": ""
+{
+  "type": "news",
+  "digest": "morning",
+  "date": "2026-04-12",
+  "items": [
+    {
+      "headline": "OpenAI's Codex into a Super App",
+      "content": "OpenAI is reportedly transforming its Codex coding tool into an all-in-one super app that combines chat, coding, and personal agents, with code leaks suggesting a potential launch as early as next week.",
+      "messageId": "977"
     },
-    "timestamp": 1775808232516
-  },
-  {
-    "messageId": "945",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "AI",
-    "title": "Anthropic: модель слишком опасна для публичного релиза",
-    "source": {
-      "name": "CBS News",
-      "url": "https://www.cbsnews.com/video/anthropic-claims-newest-ai-model-too-powerful-public-release/"
+    {
+      "headline": "OpenAI acquired Multibook, rebranded as OpenClaw",
+      "content": "OpenAI acquired Multibook and rebranded it as OpenClaw, an example of agentic AI that goes beyond content generation to autonomously build workflows or entire websites in minutes.",
+      "messageId": "978"
     },
-    "timestamp": 1775808254617
-  },
-  {
-    "messageId": "946",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "AI",
-    "title": "Toolpath: AI-CAM ускоряет CNC/CAM программирование",
-    "source": {
-      "name": "Toolpath",
-      "url": "https://toolpath.com/webinars"
+    {
+      "headline": "Anthropic launched Claude Managed Agents",
+      "content": "Anthropic launched Claude Managed Agents, enabling no-code creation of custom AI agents that run on their infrastructure, featuring components like harness, session, and orchestrator; this differs from tools like OpenClaw and includes beta integration with Microsoft Office apps like Word.",
+      "messageId": "979"
     },
-    "timestamp": 1775808275824
-  },
-  {
-    "messageId": "947",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "VibeCoding",
-    "title": "Vibe coding: AI-код уязвим — предупреждение исследователей",
-    "source": {
-      "name": "Georgia Tech",
-      "url": "https://www.cc.gatech.edu/news/bad-vibes-ai-generated-code-vulnerable-researchers-warn"
+    {
+      "headline": "Claude could help businesses achieve 10x productivity gains",
+      "content": "Anthropic's director also discussed in an interview how Claude could help businesses achieve 10x productivity gains.",
+      "messageId": "980"
     },
-    "timestamp": 1775808285930
-  },
-  {
-    "messageId": "948",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Robotics",
-    "title": "Exol: роботизированный фулфилмент «как сервис» в США",
-    "source": {
-      "name": "Robotics & Automation News",
-      "url": "https://roboticsandautomationnews.com/2026/04/09/exol-launches-us-robotic-fulfillment-network-with-fulfillment-as-a-service-model/100462/"
+    {
+      "headline": "Google unveiled TurboQuant",
+      "content": "Google unveiled TurboQuant, a lossless KV cache compression method achieving 6x memory reduction without data loss, addressing structural memory bottlenecks in large language model (LLM) deployments and potentially easing hardware constraints.",
+      "messageId": "981"
     },
-    "timestamp": 1775808295295
-  },
-  {
-    "messageId": "949",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "eVTOL",
-    "title": "Eve Air Mobility: 50 успешных тест-полётов прототипа eVTOL",
-    "source": {
-      "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/eve-air-mobility-builds-flight-test-momentum-with-50-successful-flights-302738432.html"
+    {
+      "headline": "Sam Altman's blog post",
+      "content": "Sam Altman published a candid blog post after a Molotov cocktail incident at his home.",
+      "messageId": "982"
     },
-    "timestamp": 1775808306878
-  },
-  {
-    "messageId": "950",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "eVTOL",
-    "title": "Vertical Aerospace: пилотируемый переходный полёт eVTOL (hover→cruise)",
-    "source": {
-      "name": "AIN Online",
-      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-04-06/vertical-achieves-piloted-evtol-transition-flight"
+    {
+      "headline": "Mo Gawdat on AI replacing legacy software",
+      "content": "Mo Gawdat's keynote emphasized AI's potential to replace legacy software systems like Oracle or Microsoft SaaS without needing AGI.",
+      "messageId": "983"
     },
-    "timestamp": 1775808316004
-  },
-  {
-    "messageId": "951",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Business",
-    "title": "Accenture инвестирует в Replit для AI-driven разработки в enterprise",
-    "source": {
-      "name": "Accenture Newsroom",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-invests-in-replit-to-advance-ai-driven-software-development-for-enterprises"
+    {
+      "headline": "Neuroscientist Sarah Baldeo on agentic AI's brain impacts",
+      "content": "Neuroscientist Sarah Baldeo noted agentic AI's brain impacts, such as simplifying content creation and data workflows.",
+      "messageId": "984"
     },
-    "timestamp": 1775808324182
-  },
-  {
-    "messageId": "952",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Investing",
-    "title": "Applied Digital: сильный рост выручки и внимание к AI-инфраструктуре",
-    "source": {
-      "name": "AInvest",
-      "url": "https://www.ainvest.com/news/applied-digital-massive-q3-revenue-beat-surprise-priced-2604/"
+    {
+      "headline": "Google updated Gemini with NotebookLM integration",
+      "content": "Google recently updated Gemini with NotebookLM integration, visualizations, and a new free app called Google AI Edge Eloquent.",
+      "messageId": "985"
     },
-    "timestamp": 1775808345290
-  },
-  {
-    "messageId": "953",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Tech",
-    "title": "Trane Technologies: анонс колла по результатам 1Q 2026",
-    "source": {
-      "name": "Trane Technologies IR",
-      "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Schedules-First-Quarter-2026-Earnings-Conference-Call/default.aspx"
+    {
+      "headline": "Anthropic announced a powerful new Claude model described as \"terrifying.\"",
+      "content": "Anthropic announced a powerful new Claude model described as \"terrifying.\"",
+      "messageId": "986"
     },
-    "timestamp": 1775808376619
-  },
-  {
-    "messageId": "954",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Investing",
-    "title": "BK Technologies: «undiscovered gem» в обзоре рынка",
-    "source": {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/tech/nysemkt-bkti/bk-technologies/news/discovering-us-undiscovered-gems-in-april-2026-1"
+    {
+      "headline": "Renesas unveiled a bidirectional 650V-class GaN switch",
+      "content": "Renesas unveiled a bidirectional 650V-class GaN switch for solar inverters and AI data centers (27 March 2026).",
+      "messageId": "987"
     },
-    "timestamp": 1775808385030
-  },
-  {
-    "messageId": "955",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Tech",
-    "title": "Mastercam 2026 R2: GPU симуляция и Copilot",
-    "source": {
-      "name": "Mastercam",
-      "url": "https://www.mastercam.com/about/media/mastercam-releases-2026-r2/"
+    {
+      "headline": "Advantech and Qualcomm launched the SKY-641E3 server",
+      "content": "Advantech and Qualcomm launched the SKY-641E3 server (27 March 2026).",
+      "messageId": "988"
     },
-    "timestamp": 1775808396959
-  },
-  {
-    "messageId": "956",
-    "type": "news",
-    "digest": "day",
-    "date": "2026-04-10",
-    "category": "Robotics",
-    "title": "Rapyuta Robotics: обновления ASRS и pick-assist AMR перед MODEX 2026",
-    "source": {
-      "name": "Rapyuta Robotics",
-      "url": "https://www.rapyuta-robotics.com/2026/04/09/modex-2026-lineup-asrs-and-upgraded-pa-amr/"
+    {
+      "headline": "Arm released its first silicon targeting agentic AI",
+      "content": "Arm released its first silicon targeting agentic AI (25 March 2026).",
+      "messageId": "989"
     },
-    "timestamp": 1775808422571
-  },
-  {
-    "messageId": "957",
-    "type": "news_meta",
-    "digest": "day",
-    "date": "2026-04-10",
-    "kind": "audit",
-    "category": "meta",
-    "title": "Аудит дайджеста",
-    "source": {
-      "name": "system",
-      "url": ""
+    {
+      "headline": "GenSpark received a significant update",
+      "content": "GenSpark received a significant update, gaining traction among users switching from OpenClaw.",
+      "messageId": "990"
     },
-    "timestamp": 1775808430686
-  },
-  {
-    "messageId": "958",
-    "type": "news_meta",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "kind": "header",
-    "title": "ВЕЧЕРНИЙ ДАЙДЖЕСТ 18:00",
-    "category": "meta",
-    "source": {
-      "name": "system",
-      "url": ""
-    },
-    "timestamp": 1775826056656
-  },
-  {
-    "messageId": "959",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "AI",
-    "title": "Meta: Muse Spark — апгрейд после Llama 4",
-    "source": {
-      "name": "whatllm.org",
-      "url": "https://whatllm.org/blog/meta-is-back-muse-spark"
-    },
-    "timestamp": 1775826219630
-  },
-  {
-    "messageId": "960",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "AI",
-    "title": "Alibaba: инвестиция в Shengshu (Vidu) и world models",
-    "source": {
-      "name": "techbuzz.ai",
-      "url": "https://www.techbuzz.ai/articles/alibaba-bets-290m-on-world-models-as-llm-era-hits-limits"
-    },
-    "timestamp": 1775826228842
-  },
-  {
-    "messageId": "961",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Research",
-    "title": "arXiv: LLM-native artifacts для научной коммуникации",
-    "source": {
-      "name": "arXiv",
-      "url": "https://arxiv.org/html/2604.08491v1"
-    },
-    "timestamp": 1775826247686
-  },
-  {
-    "messageId": "962",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Robotics",
-    "title": "NVIDIA: National Robotics Week — physical AI и foundation models",
-    "source": {
-      "name": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/"
-    },
-    "timestamp": 1775826268604
-  },
-  {
-    "messageId": "963",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Robotics",
-    "title": "EBV Elektronik: MOVE platform для ускорения robotics development",
-    "source": {
-      "name": "EBV/Avnet",
-      "url": "https://my.avnet.com/ebv/about-us/about-ebv-elektronik/newsroom/press-releases/ebv-elektronik-unveils-move-platform-to-accelerate-next-generation-robotics-development/"
-    },
-    "timestamp": 1775826277177
-  },
-  {
-    "messageId": "964",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Robotics",
-    "title": "NAVSEA Carderock: продвижение robotic & autonomous systems",
-    "source": {
-      "name": "NAVSEA",
-      "url": "https://www.navsea.navy.mil/Media/News/Article/4455633/nswc-carderock-team-advances-robotic-and-autonomous-systems/"
-    },
-    "timestamp": 1775826285181
-  },
-  {
-    "messageId": "965",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Tech",
-    "title": "Amazon: conversational entertainment ads на Alexa+",
-    "source": {
-      "name": "Amazon Advertising",
-      "url": "https://advertising.amazon.com/en-us/resources/whats-new/conversational-entertainment-ads-on-alexa-plus/"
-    },
-    "timestamp": 1775826294454
-  },
-  {
-    "messageId": "966",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Security",
-    "title": "Cyberhaven: Enterprise AI Security Use Cases",
-    "source": {
-      "name": "Cyberhaven",
-      "url": "https://www.cyberhaven.com/blog/ai-security-use-cases"
-    },
-    "timestamp": 1775826333982
-  },
-  {
-    "messageId": "967",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "Business",
-    "title": "Flexera: 2026 AI Pulse Report — visibility gap и shadow AI",
-    "source": {
-      "name": "Flexera",
-      "url": "https://www.flexera.com/blog/perspectives/flexera-2026-ai-pulse-report-what-leaders-need-to-know-about-ais-accelerating-impact/"
-    },
-    "timestamp": 1775826343162
-  },
-  {
-    "messageId": "968",
-    "type": "news",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "category": "eVTOL",
-    "title": "IIT Madras: electric air taxi (eVTOL) E200 X — прототип",
-    "source": {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/watch?v=eX5xBNE9jBU"
-    },
-    "timestamp": 1775826352970
-  },
-  {
-    "messageId": "969",
-    "type": "news_meta",
-    "digest": "evening",
-    "date": "2026-04-10",
-    "kind": "audit",
-    "title": "Аудит дайджеста",
-    "category": "meta",
-    "source": {
-      "name": "system",
-      "url": ""
-    },
-    "timestamp": 1775826364003
-  }
-]
+    {
+      "headline": "AI is creating new jobs",
+      "content": "Experts note AI is creating jobs like AI training and ethics roles (around 280,000 in the past year) despite disruptions.",
+      "messageId": "991"
+    }
+  ]
+}
